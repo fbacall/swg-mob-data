@@ -140,11 +140,24 @@ end
 
 parser = Parser.new(ARGV[0])
 data = parser.mob_data
-npcs = {}
-creatures = {}
+TYPES = {
+  'MOB_HERBIVORE' => 'creatures',
+  'MOB_CARNIVORE' => 'creatures',
+  'MOB_NPC' => 'npcs',
+  'MOB_DROID' => 'npcs',
+  'MOB_ANDROID' => 'npcs'
+}
+
+categorized = {}
 data.each do |planet, mobs|
-  npcs[planet], creatures[planet] = mobs.partition { |m| m[:type] == 'MOB_NPC' }
+  mobs.each do |mob|
+    category = TYPES[mob[:type]]
+    categorized[category] ||= {}
+    categorized[category][planet] ||= []
+    categorized[category][planet] << mob
+  end
 end
 FileUtils.mkdir_p('data')
-File.write(File.join('data', 'creatures.json'), JSON.pretty_generate(creatures))
-File.write(File.join('data', 'npcs.json'), JSON.pretty_generate(npcs))
+categorized.each do |category, mobs|
+  File.write(File.join('data', "#{category}.json"), JSON.pretty_generate(mobs))
+end

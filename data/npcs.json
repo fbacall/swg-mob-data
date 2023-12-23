@@ -1592,6 +1592,19 @@
       "energy_resist": 0
     },
     {
+      "name": "ta_667",
+      "type": "MOB_ANDROID",
+      "level": 100,
+      "attacks": [
+
+      ],
+      "ham": 27000,
+      "xp": 9429,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 0
+    },
+    {
       "name": "visionary_of_lord_nyax",
       "type": "MOB_NPC",
       "level": 31,
@@ -1700,6 +1713,21 @@
       "armor": 0,
       "kinetic_resist": 0,
       "energy_resist": 0
+    },
+    {
+      "name": "dantari_battlelord",
+      "type": "MOB_ANDROID",
+      "level": 36,
+      "attacks": [
+        "pikemanmaster",
+        "fencermaster",
+        "brawlermaster"
+      ],
+      "ham": 9800,
+      "xp": 3642,
+      "armor": 0,
+      "kinetic_resist": 25,
+      "energy_resist": 40
     },
     {
       "name": "dantari_chief",
@@ -5813,6 +5841,19 @@
       "energy_resist": 0
     },
     {
+      "name": "droideka",
+      "type": "MOB_DROID",
+      "level": 39,
+      "attacks": [
+
+      ],
+      "ham": 10300,
+      "xp": 3824,
+      "armor": 0,
+      "kinetic_resist": 30,
+      "energy_resist": 30
+    },
+    {
       "name": "elite_canyon_corsair",
       "type": "MOB_NPC",
       "level": 45,
@@ -5881,6 +5922,19 @@
       "armor": 0,
       "kinetic_resist": 0,
       "energy_resist": 0
+    },
+    {
+      "name": "ig_assassin_droid",
+      "type": "MOB_ANDROID",
+      "level": 21,
+      "attacks": [
+
+      ],
+      "ham": 2700,
+      "xp": 1803,
+      "armor": 0,
+      "kinetic_resist": 25,
+      "energy_resist": 25
     },
     {
       "name": "imperial_deserter",
@@ -6098,6 +6152,19 @@
       "armor": 1,
       "kinetic_resist": 15,
       "energy_resist": 15
+    },
+    {
+      "name": "nym_droideka",
+      "type": "MOB_DROID",
+      "level": 45,
+      "attacks": [
+
+      ],
+      "ham": 11000,
+      "xp": 4461,
+      "armor": 1,
+      "kinetic_resist": 35,
+      "energy_resist": 35
     },
     {
       "name": "nym_guard",
@@ -6871,6 +6938,19 @@
       "armor": 0,
       "kinetic_resist": 0,
       "energy_resist": 0
+    },
+    {
+      "name": "j1_po",
+      "type": "MOB_DROID",
+      "level": 30,
+      "attacks": [
+
+      ],
+      "ham": 9300,
+      "xp": 2914,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 45
     },
     {
       "name": "junelle_astor",
@@ -10110,6 +10190,19 @@
       "energy_resist": 45
     },
     {
+      "name": "bomarr_monk",
+      "type": "MOB_DROID",
+      "level": 3,
+      "attacks": [
+
+      ],
+      "ham": 100,
+      "xp": 62,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 0
+    },
+    {
       "name": "borra_setas",
       "type": "MOB_NPC",
       "level": 10,
@@ -10644,6 +10737,19 @@
       "armor": 2,
       "kinetic_resist": 5,
       "energy_resist": 5
+    },
+    {
+      "name": "ev_9d9",
+      "type": "MOB_DROID",
+      "level": 100,
+      "attacks": [
+
+      ],
+      "ham": 27000,
+      "xp": 9429,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 0
     },
     {
       "name": "evil_hermit",
@@ -11205,6 +11311,19 @@
       "energy_resist": 40
     },
     {
+      "name": "le_repair_droid",
+      "type": "MOB_DROID",
+      "level": 100,
+      "attacks": [
+
+      ],
+      "ham": 27000,
+      "xp": 9429,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 0
+    },
+    {
       "name": "liar_one",
       "type": "MOB_NPC",
       "level": 4,
@@ -11622,6 +11741,32 @@
       ],
       "ham": 900,
       "xp": 356,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 0
+    },
+    {
+      "name": "protocol_droid_3po_red",
+      "type": "MOB_DROID",
+      "level": 100,
+      "attacks": [
+
+      ],
+      "ham": 27000,
+      "xp": 9429,
+      "armor": 0,
+      "kinetic_resist": 0,
+      "energy_resist": 0
+    },
+    {
+      "name": "ra7_bug_droid",
+      "type": "MOB_DROID",
+      "level": 20,
+      "attacks": [
+
+      ],
+      "ham": 5550,
+      "xp": 1426,
       "armor": 0,
       "kinetic_resist": 0,
       "energy_resist": 0
