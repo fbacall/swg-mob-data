@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SWG Mob Data</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="fbacall">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        .creature-resource {
+            padding: 0 0.5em;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .creature-resource .type {
+
+        }
+
+        .creature-resource .yield {
+            float: right;
+            margin-left: 1em;
+        }
+
+        .bone_avian { background-color: #80c4d7; }
+        .bone_mammal { background-color: #a9a9a9; }
+        .hide_bristley { background-color: #f89757; }
+        .hide_leathery { background-color: #ffd516; }
+        .hide_scaley { background-color: #7ed52c; }
+        .hide_wooly { background-color: #b08056; }
+        .meat_avian { background-color: #80c4d7; }
+        .meat_carnivore { background-color: #ff9d93; }
+        .meat_domesticated { background-color: #a9a20a; }
+        .meat_herbivore { background-color: #aae798; }
+        .meat_insect { background-color: #cd9ced; }
+        .meat_wild { background-color: #d27320; }
+        .milk_wild { background-color: #cafffe; }
+        .milk_domesticated { background-color: #a9a20a; }
+
+        td.planet {
+            text-align: center;
+            font-weight: bold;
+            padding: 0.5em;
+        }
+        .corellia{ background-color: #b7e9e7; }
+        .dantooine{ background-color: #ff00ff; }
+        .dathomir{ background-color: #8634ea; }
+        .endor{ background-color: #358216; }
+        .lok{ background-color: #e9c43b; }
+        .naboo{ background-color: #84c267; }
+        .rori{ background-color: #ea8050; }
+        .talus{ background-color: #4aeecb; }
+        .tatooine{ background-color: #ffe100; }
+        .yavin4{ background-color: #6aff00; }
+
+        [data-sort] {
+            user-select: none;
+            cursor: pointer;
+        }
+
+        [data-sort]:hover {
+            background: #ccccff;
+        }
+
+        .sort-desc:after {
+            content: '↑';
+        }
+
+        .sort-asc:after {
+            content: '↓';
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <table id="mobs">
+        <thead>
+            <tr>
+                <th data-sort="name">Creature</th>
+                <th data-sort="level" class="sort-asc">CL</th>
+                <th data-sort="meat">Meat</th>
+                <th data-sort="hide">Hide</th>
+                <th data-sort="bone">Bone</th>
+                <th data-sort="milk">Milk</th>
+                <th>Info</th>
+                <th data-sort="kinetic_resist">Kin</th>
+                <th data-sort="energy_resist">Ene</th>
+                <th data-sort="ham">HAM</th>
+                <th data-sort="xp">XP</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>Loading</td></tr>
+        </tbody>
+    </table>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", init);
+    let planetData = {};
+    let sort = 'level';
+    let sortDir = 1;
+    function init() {
+        fetch('data/creatures.json')
+            .then((response) => response.json())
+            .then((data) => {
+                planetData = data;
+                draw();
+            });
+    }
+
+    function draw() {
+        const tbody = document.getElementById('mobs').getElementsByTagName('tbody')[0];
+        const rows = tbody.rows.length;
+        for (let i = 0; i < rows; i++) {
+            tbody.deleteRow(0);
+        }
+        for (const [planet, mobs] of Object.entries(planetData)) {
+            const planetRow = tbody.insertRow();
+            const planetCell = planetRow.insertCell();
+            planetCell.innerText = capitalize(planet);
+            planetCell.colSpan = 11;
+            planetCell.classList.add('planet');
+            planetCell.classList.add(planet);
+            applySort(mobs);
+            mobs.forEach(function (mob) {
+                const row = tbody.insertRow();
+                // Name
+                let mobName;
+                if (mob.type === 'MOB_DROID' || mob.type === 'MOB_ANDROID') {
+                    mobName = mob.name.split('_').map(s => s.toUpperCase()).join('-');
+                } else {
+                    mobName = mob.name.split('_').map(s => capitalize(s)).join(' ');
+                }
+                row.insertCell().appendChild(document.createTextNode(mobName));
+                // CL
+                const cl = row.insertCell();
+                cl.classList.add('center');
+                cl.appendChild(document.createTextNode('' + (mob.level - 2) + ' - ' + (mob.level + 2)));
+                // Meat
+                addResource(row.insertCell(), mob.meat_type, mob.meat);
+                // Hide
+                addResource(row.insertCell(), mob.hide_type, mob.hide);
+                // Bone
+                addResource(row.insertCell(), mob.bone_type, mob.bone);
+                // Milk
+                addResource(row.insertCell(), mob.milk_type, mob.milk);
+                // Info
+                row.insertCell().appendChild(document.createTextNode(mob.attacks.join(', ')));
+                // Kinetic
+                row.insertCell().appendChild(document.createTextNode(mob.kinetic_resist));
+                // Energy
+                row.insertCell().appendChild(document.createTextNode(mob.energy_resist));
+                // HAM
+                row.insertCell().appendChild(document.createTextNode(mob.ham));
+                // XP
+                row.insertCell().appendChild(document.createTextNode(mob.xp));
+            });
+        }
+    }
+
+    function applySort(mobs) {
+        let f;
+        if (sort === 'name') {
+            f = (a, b) => {
+                if (a.name.toUpperCase() > b.name.toUpperCase()) {
+                    return sortDir;
+                }
+                if (a.name.toUpperCase() < b.name.toUpperCase()) {
+                    return -sortDir;
+                }
+                return 0;
+            }
+        } else if (sort === 'meat' || sort === 'bone' || sort === 'hide' || sort === 'milk') {
+            const typeVar = sort + '_type';
+            f = (a, b) => {
+                const aType = a[typeVar] || 'ZZZ';
+                const bType = b[typeVar] || 'ZZZ';
+                if (aType.toUpperCase() > bType.toUpperCase()) {
+                    return sortDir;
+                }
+                if (aType.toUpperCase() < bType.toUpperCase()) {
+                    return -sortDir;
+                }
+                return (a[sort] - b[sort]) * sortDir;
+            }
+        } else {
+            f = (a, b) => (a[sort] - b[sort]) * sortDir;
+        }
+        mobs.sort(f);
+    }
+
+    function addResource(cell, type, qty) {
+        cell.classList.add('creature-resource');
+        if (type) {
+            cell.classList.add(type);
+            const name = type.split('_')[1];
+            cell.innerHTML = '<span class="type">' + capitalize(name) + '</span>' +
+                '<span class="yield">' + qty +'</span>';
+        }
+    }
+
+    function capitalize(string) {
+        return string[0].toUpperCase() + string.slice(1)
+    }
+
+    document.getElementById('mobs').addEventListener('click', function (e) {
+        if (e.target.dataset.sort) {
+            document.querySelectorAll('.sort-desc').forEach(n => n.classList.remove('sort-desc'));
+            document.querySelectorAll('.sort-asc').forEach(n => n.classList.remove('sort-asc'));
+            if (sort === e.target.dataset.sort) {
+                sortDir = sortDir * -1;
+            } else {
+                sortDir = 1;
+                sort = e.target.dataset.sort;
+            }
+            e.target.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+            draw();
+        }
+    });
+</script>
+</body>
+</html>
