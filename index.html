@@ -256,8 +256,8 @@
         } else if (sort === 'meat' || sort === 'bone' || sort === 'hide' || sort === 'milk') {
             const typeVar = sort + '_type';
             f = (a, b) => {
-                const aType = a[typeVar] || 'ZZZ';
-                const bType = b[typeVar] || 'ZZZ';
+                const aType = a[typeVar] || '0';
+                const bType = b[typeVar] || '0';
                 if (aType.toUpperCase() > bType.toUpperCase()) {
                     return sortDir;
                 }
