@@ -82,6 +82,7 @@ class Parser
       output[:milk] = mob[:milk] unless mob[:milk] == 0
       output[:milk_type] = mob[:milkType] unless mob[:milkType].nil?
       output[:attacks] = ((mob[:primaryAttacks] || []).to_ary.flatten | (mob[:secondaryAttacks] || []).to_ary.flatten).reject { |i| i.nil? || i == '' }
+      output[:attacks] << 'ranged' if mob[:primaryWeapon]&.include?('object/weapon/ranged') || mob[:secondaryWeapon]&.include?('object/weapon/ranged')
       output[:ham] = (mob[:baseHAM] + mob[:baseHAMmax]) / 2
       output[:xp] = mob[:baseXp]
       output[:armor] = mob[:armor]

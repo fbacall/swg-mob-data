@@ -49,7 +49,8 @@
       "milk": 110,
       "milk_type": "milk_wild",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 900,
       "xp": 292,
@@ -68,7 +69,8 @@
       "bone": 80,
       "bone_type": "bone_mammal",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 1300,
       "xp": 514,
@@ -251,7 +253,8 @@
       "hide": 16,
       "hide_type": "hide_scaley",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 1257,
@@ -303,7 +306,8 @@
       "hide": 12,
       "hide_type": "hide_scaley",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 1300,
       "xp": 714,
@@ -411,7 +415,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mildpoison",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1257,
@@ -448,7 +453,8 @@
       "bone": 35,
       "bone_type": "bone_avian",
       "attacks": [
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 1426,
@@ -506,7 +512,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "milddisease",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 900,
       "xp": 514,
@@ -932,7 +939,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "dizzyattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 5550,
       "xp": 1803,
@@ -1218,7 +1226,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "stunattack",
-        "milddisease"
+        "milddisease",
+        "ranged"
       ],
       "ham": 900,
       "xp": 356,
@@ -1336,7 +1345,8 @@
       "milk": 110,
       "milk_type": "milk_wild",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 1300,
       "xp": 609,
@@ -1357,7 +1367,8 @@
       "milk": 130,
       "milk_type": "milk_wild",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 7550,
       "xp": 2443,
@@ -1651,7 +1662,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "knockdownattack",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 1700,
       "xp": 714,
@@ -1789,7 +1801,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "dizzyattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 9700,
       "xp": 3370,
@@ -2421,7 +2434,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "intimidationattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 7550,
       "xp": 2822,
@@ -2519,7 +2533,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "intimidationattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 9100,
       "xp": 3005,
@@ -2614,7 +2629,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "dizzyattack",
-        "creatureareapoison"
+        "creatureareapoison",
+        "ranged"
       ],
       "ham": 10300,
       "xp": 3005,
@@ -2633,7 +2649,8 @@
       "bone": 30,
       "bone_type": "bone_avian",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2006,
@@ -2712,7 +2729,8 @@
       "bone": 2,
       "bone_type": "bone_mammal",
       "attacks": [
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 5550,
       "xp": 2543,
@@ -3002,7 +3020,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 10550,
       "xp": 4552,
@@ -3173,7 +3192,8 @@
       "bone": 76,
       "bone_type": "bone_mammal",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 450,
       "xp": 430,
@@ -3262,7 +3282,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 10550,
       "xp": 4370,
@@ -3278,7 +3299,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "knockdownattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 11000,
       "xp": 4643,
@@ -3294,7 +3316,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "creatureareapoison",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 10550,
       "xp": 4370,
@@ -3310,7 +3333,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "creatureareapoison",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 12500,
       "xp": 6563,
@@ -3361,7 +3385,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "creatureareapoison",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 33500,
       "xp": 10921,
@@ -3532,7 +3557,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "creatureareapoison",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 45500,
       "xp": 11953,
@@ -3626,7 +3652,8 @@
       "meat": 15,
       "meat_type": "meat_insect",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 2900,
       "xp": 831,
@@ -4055,7 +4082,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "creatureareaattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 11500,
       "xp": 4552,
@@ -4071,7 +4099,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "creatureareapoison",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 12500,
       "xp": 6747,
@@ -4088,7 +4117,8 @@
       "hide": 12,
       "hide_type": "hide_scaley",
       "attacks": [
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 6000,
       "xp": 2637,
@@ -4167,7 +4197,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "stunattack",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 9300,
       "xp": 3551,
@@ -4187,7 +4218,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "posturedownattack",
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 11000,
       "xp": 4461,
@@ -4297,7 +4329,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "dizzyattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 10000,
       "xp": 3824,
@@ -4315,7 +4348,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mildpoison",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 5250,
       "xp": 1803,
@@ -4526,7 +4560,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "strongpoison",
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2730,
@@ -4542,7 +4577,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "strongpoison",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 8550,
       "xp": 3097,
@@ -4589,7 +4625,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "blindattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 10050,
       "xp": 4097,
@@ -4684,7 +4721,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "strongdisease"
+        "strongdisease",
+        "ranged"
       ],
       "ham": 12000,
       "xp": 5830,
@@ -4715,7 +4753,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "mediumdisease"
+        "mediumdisease",
+        "ranged"
       ],
       "ham": 10300,
       "xp": 4370,
@@ -4768,7 +4807,8 @@
       "hide": 45,
       "hide_type": "hide_leathery",
       "attacks": [
-        "knockdownattack"
+        "knockdownattack",
+        "ranged"
       ],
       "ham": 9550,
       "xp": 3279,
@@ -4784,7 +4824,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "dizzyattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 8550,
       "xp": 3097,
@@ -4815,7 +4856,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "strongdisease"
+        "strongdisease",
+        "ranged"
       ],
       "ham": 9300,
       "xp": 3733,
@@ -4831,7 +4873,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "dizzyattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 3097,
@@ -4887,7 +4930,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "stunattack",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 11000,
       "xp": 4825,
@@ -4907,7 +4951,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "posturedownattack",
-        "knockdownattack"
+        "knockdownattack",
+        "ranged"
       ],
       "ham": 3900,
       "xp": 1609,
@@ -4946,7 +4991,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "stunattack",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 68500,
       "xp": 13367,
@@ -4966,7 +5012,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "stunattack",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 10300,
       "xp": 4188,
@@ -4986,7 +5033,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "posturedownattack",
-        "knockdownattack"
+        "knockdownattack",
+        "ranged"
       ],
       "ham": 8550,
       "xp": 2822,
@@ -5305,7 +5353,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "posturedownattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 7000,
       "xp": 2637,
@@ -5379,7 +5428,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "posturedownattack",
-        "knockdownattack"
+        "knockdownattack",
+        "ranged"
       ],
       "ham": 9800,
       "xp": 3460,
@@ -5397,7 +5447,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "intimidationattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 10700,
       "xp": 3915,
@@ -5544,7 +5595,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "posturedownattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 11000,
       "xp": 4734,
@@ -5770,7 +5822,8 @@
       "hide_type": "hide_bristley",
       "attacks": [
         "dizzyattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 8000,
       "xp": 2637,
@@ -5846,7 +5899,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "creatureareapoison",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 11500,
       "xp": 4916,
@@ -5883,7 +5937,8 @@
       "hide_type": "hide_bristley",
       "attacks": [
         "knockdownattack",
-        "mediumdisease"
+        "mediumdisease",
+        "ranged"
       ],
       "ham": 9800,
       "xp": 3642,
@@ -5921,7 +5976,8 @@
       "bone": 45,
       "bone_type": "bone_avian",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 8000,
       "xp": 2914,
@@ -5938,7 +5994,8 @@
       "hide": 95,
       "hide_type": "hide_wooly",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 10800,
       "xp": 4825,
@@ -6034,7 +6091,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "blindattack",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 10300,
       "xp": 3915,
@@ -6230,7 +6288,8 @@
       "hide_type": "hide_bristley",
       "attacks": [
         "stunattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 9300,
       "xp": 3279,
@@ -6287,7 +6346,8 @@
       "hide_type": "hide_bristley",
       "attacks": [
         "posturedownattack",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2443,
@@ -6305,7 +6365,8 @@
       "hide_type": "hide_bristley",
       "attacks": [
         "posturedownattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 5000,
       "xp": 1609,
@@ -6596,7 +6657,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "strongpoison",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 10800,
       "xp": 4461,
@@ -6612,7 +6674,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 9400,
       "xp": 3642,
@@ -6748,7 +6811,8 @@
       "milk": 200,
       "milk_type": "milk_domesticated",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 514,
@@ -7123,7 +7187,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "blindattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 9400,
       "xp": 2730,
@@ -7316,7 +7381,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "dizzyattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 2006,
@@ -7665,7 +7731,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "blindattack",
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 7550,
       "xp": 2443,
@@ -7718,7 +7785,8 @@
       "bone": 175,
       "bone_type": "bone_avian",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 1700,
       "xp": 714,
@@ -7738,7 +7806,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "dizzyattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 2700,
       "xp": 1426,
@@ -7757,7 +7826,8 @@
       "bone": 185,
       "bone_type": "bone_avian",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 2700,
       "xp": 831,
@@ -7873,7 +7943,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "stunattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 1300,
       "xp": 714,
@@ -7973,7 +8044,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "mediumpoison",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 3900,
       "xp": 1257,
@@ -7991,7 +8063,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "stunattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 1100,
       "xp": 609,
@@ -8067,7 +8140,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "blindattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 5550,
       "xp": 2543,
@@ -8085,7 +8159,8 @@
       "hide_type": "hide_leathery",
       "attacks": [
         "intimidationattack",
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 9000,
       "xp": 2914,
@@ -8699,7 +8774,8 @@
       "meat": 10,
       "meat_type": "meat_insect",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 900,
       "xp": 430,
@@ -8755,7 +8831,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "milddisease"
+        "milddisease",
+        "ranged"
       ],
       "ham": 5000,
       "xp": 1257,
@@ -8809,7 +8886,8 @@
       "meat": 10,
       "meat_type": "meat_insect",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 1700,
       "xp": 714,
@@ -8870,7 +8948,8 @@
       "milk": 125,
       "milk_type": "milk_domesticated",
       "attacks": [
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 8550,
       "xp": 2637,
@@ -8977,7 +9056,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "mildpoison",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 750,
       "xp": 514,
@@ -9151,7 +9231,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "mediumpoison",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 1700,
       "xp": 831,
@@ -9429,7 +9510,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "stunattack",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 900,
       "xp": 356,
@@ -9576,7 +9658,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "mildpoison"
+        "mildpoison",
+        "ranged"
       ],
       "ham": 900,
       "xp": 430,
@@ -9675,7 +9758,8 @@
       "milk": 125,
       "milk_type": "milk_domesticated",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 1300,
       "xp": 292,
@@ -9691,7 +9775,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "blindattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 1700,
       "xp": 960,
@@ -9732,7 +9817,8 @@
       "milk": 100,
       "milk_type": "milk_wild",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 3900,
       "xp": 1102,
@@ -9886,7 +9972,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "blindattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1257,
@@ -9905,7 +9992,8 @@
       "bone": 3,
       "bone_type": "bone_avian",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 2700,
       "xp": 831,
@@ -9944,7 +10032,8 @@
       "bone": 3,
       "bone_type": "bone_avian",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 714,
@@ -9964,7 +10053,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "blindattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2543,
@@ -10370,7 +10460,8 @@
       "hide": 15,
       "hide_type": "hide_scaley",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 2700,
       "xp": 831,
@@ -10437,7 +10528,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 1102,
@@ -10548,7 +10640,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "knockdownattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1803,
@@ -10567,7 +10660,8 @@
       "bone": 46,
       "bone_type": "bone_avian",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 1300,
       "xp": 609,
@@ -10602,7 +10696,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "blindattack",
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 7550,
       "xp": 2822,
@@ -10619,7 +10714,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 714,
@@ -10788,7 +10884,8 @@
       "bone": 46,
       "bone_type": "bone_avian",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 1700,
       "xp": 714,
@@ -10957,7 +11054,8 @@
       "hide": 20,
       "hide_type": "hide_scaley",
       "attacks": [
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2543,
@@ -11124,7 +11222,8 @@
       "meat": 15,
       "meat_type": "meat_insect",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 5000,
       "xp": 1609,
@@ -11179,7 +11278,8 @@
       "bone": 46,
       "bone_type": "bone_avian",
       "attacks": [
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 1803,
@@ -11534,7 +11634,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "knockdownattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 2700,
       "xp": 1426,
@@ -11628,7 +11729,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "mediumdisease",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 960,
@@ -11753,7 +11855,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "stunattack",
-        "mediumdisease"
+        "mediumdisease",
+        "ranged"
       ],
       "ham": 2700,
       "xp": 831,
@@ -12098,7 +12201,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "knockdownattack",
-        "mediumdisease"
+        "mediumdisease",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 1257,
@@ -12135,7 +12239,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "intimidationattack",
-        "creatureareaknockdown"
+        "creatureareaknockdown",
+        "ranged"
       ],
       "ham": 11000,
       "xp": 4188,
@@ -12477,7 +12582,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "mediumdisease",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1257,
@@ -12510,7 +12616,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "blindattack",
-        "milddisease"
+        "milddisease",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 831,
@@ -12648,7 +12755,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "blindattack",
-        "mediumdisease"
+        "mediumdisease",
+        "ranged"
       ],
       "ham": 3900,
       "xp": 1609,
@@ -12841,7 +12949,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "dizzyattack",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 9550,
       "xp": 3370,
@@ -12941,7 +13050,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "posturedownattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 7000,
       "xp": 2006,
@@ -13058,7 +13168,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mediumpoison",
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 960,
@@ -13079,7 +13190,8 @@
       "milk": 100,
       "milk_type": "milk_wild",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 1100,
       "xp": 356,
@@ -13255,7 +13367,8 @@
       "bone": 68,
       "bone_type": "bone_mammal",
       "attacks": [
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 9100,
       "xp": 2914,
@@ -13312,7 +13425,7 @@
       "hide": 8,
       "hide_type": "hide_scaley",
       "attacks": [
-
+        "ranged"
       ],
       "ham": 1300,
       "xp": 714,
@@ -13331,7 +13444,8 @@
       "bone": 35,
       "bone_type": "bone_mammal",
       "attacks": [
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1257,
@@ -13530,7 +13644,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "blindattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 9550,
       "xp": 3097,
@@ -13626,7 +13741,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "blindattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2006,
@@ -13814,7 +13930,8 @@
       "hide": 14,
       "hide_type": "hide_scaley",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2443,
@@ -14062,7 +14179,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "knockdownattack",
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 5000,
       "xp": 1803,
@@ -14173,7 +14291,8 @@
       "hide": 6,
       "hide_type": "hide_scaley",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 514,
@@ -14384,7 +14503,8 @@
       "bone": 35,
       "bone_type": "bone_mammal",
       "attacks": [
-        "dizzyattack"
+        "dizzyattack",
+        "ranged"
       ],
       "ham": 5550,
       "xp": 1803,
@@ -14461,7 +14581,8 @@
       "bone_type": "bone_mammal",
       "attacks": [
         "posturedownattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 9000,
       "xp": 2637,
@@ -14539,7 +14660,8 @@
       "bone": 115,
       "bone_type": "bone_mammal",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1426,
@@ -14599,7 +14721,8 @@
       "milk": 105,
       "milk_type": "milk_wild",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 2200,
       "xp": 714,
@@ -14712,7 +14835,8 @@
       "meat_type": "meat_insect",
       "attacks": [
         "strongpoison",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2006,
@@ -14900,7 +15024,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mediumpoison",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 8000,
       "xp": 2543,
@@ -15129,7 +15254,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "strongpoison",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 9800,
       "xp": 3460,
@@ -15147,7 +15273,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "posturedownattack",
-        "strongpoison"
+        "strongpoison",
+        "ranged"
       ],
       "ham": 9200,
       "xp": 3097,
@@ -15221,7 +15348,8 @@
       "bone": 6,
       "bone_type": "bone_mammal",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 6000,
       "xp": 2006,
@@ -15236,7 +15364,8 @@
       "meat": 6,
       "meat_type": "meat_insect",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 714,
@@ -15275,7 +15404,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mediumpoison",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 8000,
       "xp": 2637,
@@ -15315,7 +15445,8 @@
       "bone_type": "bone_avian",
       "attacks": [
         "posturedownattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 9000,
       "xp": 2637,
@@ -15354,7 +15485,8 @@
       "bone": 46,
       "bone_type": "bone_avian",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 9100,
       "xp": 3551,
@@ -15371,7 +15503,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 4550,
       "xp": 1257,
@@ -15389,7 +15522,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mildpoison",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 10000,
       "xp": 4097,
@@ -15407,7 +15541,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "strongpoison",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 9800,
       "xp": 3824,
@@ -15425,7 +15560,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "dizzyattack",
-        "mediumpoison"
+        "mediumpoison",
+        "ranged"
       ],
       "ham": 10300,
       "xp": 3915,
@@ -15443,7 +15579,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "stunattack",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 10200,
       "xp": 4006,
@@ -15477,7 +15614,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 7550,
       "xp": 2730,
@@ -15511,7 +15649,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 9400,
       "xp": 3279,
@@ -15528,7 +15667,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 6550,
       "xp": 2006,
@@ -15546,7 +15686,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "dizzyattack",
-        "mildpoison"
+        "mildpoison",
+        "ranged"
       ],
       "ham": 9800,
       "xp": 3642,
@@ -15564,7 +15705,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "posturedownattack",
-        "mildpoison"
+        "mildpoison",
+        "ranged"
       ],
       "ham": 9100,
       "xp": 3005,
@@ -15582,7 +15724,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "intimidationattack",
-        "mildpoison"
+        "mildpoison",
+        "ranged"
       ],
       "ham": 8000,
       "xp": 2730,
@@ -15600,7 +15743,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "knockdownattack",
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 9000,
       "xp": 3097,
@@ -15617,7 +15761,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 6000,
       "xp": 2443,
@@ -15652,7 +15797,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "mediumpoison",
-        "intimidationattack"
+        "intimidationattack",
+        "ranged"
       ],
       "ham": 9300,
       "xp": 3005,
@@ -15670,7 +15816,8 @@
       "hide_type": "hide_scaley",
       "attacks": [
         "strongpoison",
-        "blindattack"
+        "blindattack",
+        "ranged"
       ],
       "ham": 14500,
       "xp": 9057,
@@ -16199,7 +16346,8 @@
       "bone": 6,
       "bone_type": "bone_mammal",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 13500,
       "xp": 7945,
@@ -16274,7 +16422,8 @@
       "hide": 4,
       "hide_type": "hide_scaley",
       "attacks": [
-        "posturedownattack"
+        "posturedownattack",
+        "ranged"
       ],
       "ham": 750,
       "xp": 356,
@@ -16304,7 +16453,8 @@
       "meat": 3,
       "meat_type": "meat_insect",
       "attacks": [
-        "stunattack"
+        "stunattack",
+        "ranged"
       ],
       "ham": 3200,
       "xp": 1102,
