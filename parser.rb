@@ -19,6 +19,7 @@ class Parser
         mob_data[planet] << convert(parse_lua(file))
         print '.'
       end
+      mob_data[planet].sort! { |a, b| a[:name] <=> b[:name] }
       puts
     end
     mob_data
@@ -86,7 +87,10 @@ class Parser
       output[:armor] = mob[:armor]
       output[:kinetic_resist] = parse_resist(mob[:resists][0])
       output[:energy_resist] = parse_resist(mob[:resists][1])
-      output.each { |k, v| output[k] = v.to_s if v.is_a?(SwgConstant) }
+      output.each do |k, v|
+        output[k] = v.to_s if v.is_a?(SwgConstant)
+        output[k] = output[k].strip if output[k].is_a?(String)
+      end
       output
     rescue Exception => e
       STDERR.puts "!!! ERROR converting"

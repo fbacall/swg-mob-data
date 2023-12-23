@@ -4397,7 +4397,7 @@
       "meat": 125,
       "meat_type": "meat_herbivore",
       "hide": 90,
-      "hide_type": "hide_leathery ",
+      "hide_type": "hide_leathery",
       "bone": 80,
       "bone_type": "bone_mammal",
       "attacks": [
