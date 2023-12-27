@@ -56,7 +56,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "bageraset_bruiser",
@@ -152,7 +154,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "canoid_hunter",
@@ -207,7 +211,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "carrion_spat_corpsereaver",
@@ -330,7 +336,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "crazed_durni",
@@ -386,7 +394,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "dalyrake_harvester",
@@ -442,7 +452,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "devil_gulginaw",
@@ -460,7 +472,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "dire_cat",
@@ -479,7 +493,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "diseased_vrelt",
@@ -498,7 +514,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "diseased_vrelt_matriarch",
@@ -601,7 +619,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "dwarf_gronda",
@@ -620,7 +640,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 13,
+      "mission_max": 19
     },
     {
       "name": "elder_gronda",
@@ -735,7 +757,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "female_slice_hound",
@@ -754,7 +778,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "feral_orphan",
@@ -831,7 +857,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": "Vul",
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "giant_dalyrake",
@@ -868,7 +896,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "grand_wrix",
@@ -888,7 +918,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "grassland_slice_hound",
@@ -965,7 +997,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 13,
+      "mission_max": 19
     },
     {
       "name": "gronda_juggernaut",
@@ -1023,7 +1057,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "gulginaw",
@@ -1040,7 +1076,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "gurrcat",
@@ -1059,7 +1097,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "howling_plumed_rasp",
@@ -1097,7 +1137,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "krahbu",
@@ -1116,7 +1158,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "majestic_plumed_rasp",
@@ -1212,7 +1256,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "noxious_vrelt_scavenger",
@@ -1254,7 +1300,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "plumed_rasp",
@@ -1271,7 +1319,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "razor_cat",
@@ -1291,7 +1341,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "razor_cat_cub",
@@ -1374,7 +1426,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "scavenger_rat",
@@ -1393,7 +1447,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "sharnaff",
@@ -1415,7 +1471,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "sharnaff_bull",
@@ -1435,7 +1493,9 @@
       "xp": 3733,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "sharnaff_reckless_ravager",
@@ -1474,7 +1534,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "swamp_gurrcat",
@@ -1533,7 +1595,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "tabage_protector",
@@ -1688,7 +1752,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "war_gronda",
@@ -1708,7 +1774,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 30,
+      "mission_max": 34
     },
     {
       "name": "wooded_paralope",
@@ -1746,7 +1814,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     }
   ],
   "dantooine": [
@@ -1808,7 +1878,9 @@
       "xp": 3370,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "bol",
@@ -1828,7 +1900,9 @@
       "xp": 2914,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 26,
+      "mission_max": 30
     },
     {
       "name": "bol_pack_runner",
@@ -1848,7 +1922,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 26,
+      "mission_max": 30
     },
     {
       "name": "domestic_bol_mount",
@@ -1868,7 +1944,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 29,
+      "mission_max": 36
     },
     {
       "name": "enraged_defender",
@@ -1948,7 +2026,9 @@
       "xp": 4370,
       "armor": 0,
       "kinetic_resist": 65,
-      "energy_resist": 65
+      "energy_resist": 65,
+      "mission_min": 43,
+      "mission_max": 47
     },
     {
       "name": "graul",
@@ -1968,7 +2048,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 50,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 28,
+      "mission_max": 32
     },
     {
       "name": "graul_mangler",
@@ -2028,7 +2110,9 @@
       "xp": 3551,
       "armor": 0,
       "kinetic_resist": 45,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "horned_voritor_lizard",
@@ -2048,7 +2132,9 @@
       "xp": 5099,
       "armor": 1,
       "kinetic_resist": 40,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 51,
+      "mission_max": 55
     },
     {
       "name": "hostile_thune_mother",
@@ -2126,7 +2212,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "huurton_huntress",
@@ -2166,7 +2254,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 24,
+      "mission_max": 28
     },
     {
       "name": "huurton_pup",
@@ -2266,7 +2356,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "mammoth_thune",
@@ -2325,7 +2417,9 @@
       "xp": 3642,
       "armor": 0,
       "kinetic_resist": 45,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 30,
+      "mission_max": 37
     },
     {
       "name": "piket_longhorn_female",
@@ -2347,7 +2441,9 @@
       "xp": 2914,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 30,
+      "mission_max": 37
     },
     {
       "name": "piket_plains_walker",
@@ -2386,7 +2482,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "quenker_ravager",
@@ -2404,7 +2502,9 @@
       "xp": 3824,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 36,
+      "mission_max": 40
     },
     {
       "name": "quenker_relic_reaper",
@@ -2422,7 +2522,9 @@
       "xp": 4370,
       "armor": 0,
       "kinetic_resist": 55,
-      "energy_resist": 55
+      "energy_resist": 55,
+      "mission_min": 43,
+      "mission_max": 47
     },
     {
       "name": "savage_quenker",
@@ -2441,7 +2543,9 @@
       "xp": 2822,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 26,
+      "mission_max": 30
     },
     {
       "name": "seething_bol_crusher",
@@ -2461,7 +2565,9 @@
       "xp": 4279,
       "armor": 0,
       "kinetic_resist": 65,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 42,
+      "mission_max": 46
     },
     {
       "name": "slinking_voritor_hunter",
@@ -2481,7 +2587,9 @@
       "xp": 5555,
       "armor": 1,
       "kinetic_resist": 45,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 55,
+      "mission_max": 59
     },
     {
       "name": "spiked_slasher",
@@ -2557,7 +2665,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 24,
+      "mission_max": 28
     },
     {
       "name": "thune_grassland_guardian",
@@ -2656,7 +2766,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     }
   ],
   "dathomir": [
@@ -2677,7 +2789,9 @@
       "xp": 3279,
       "armor": 0,
       "kinetic_resist": 45,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 27,
+      "mission_max": 33
     },
     {
       "name": "ancient_bull_rancor",
@@ -2716,7 +2830,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "angry_baz_nitch_avenger",
@@ -2755,7 +2871,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "bolma",
@@ -2798,7 +2916,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 19,
+      "mission_max": 27
     },
     {
       "name": "bolma_female",
@@ -2819,7 +2939,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 19,
+      "mission_max": 27
     },
     {
       "name": "bolma_male",
@@ -2838,7 +2960,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 19,
+      "mission_max": 27
     },
     {
       "name": "bolma_pack_master",
@@ -2919,7 +3043,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 24,
+      "mission_max": 28
     },
     {
       "name": "brackaset_female",
@@ -2979,7 +3105,9 @@
       "xp": 6288,
       "armor": 1,
       "kinetic_resist": 35,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 63,
+      "mission_max": 67
     },
     {
       "name": "cavern_spider",
@@ -3078,7 +3206,9 @@
       "xp": 4643,
       "armor": 1,
       "kinetic_resist": 25,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 45,
+      "mission_max": 49
     },
     {
       "name": "disturbed_bolma",
@@ -3139,7 +3269,9 @@
       "xp": 8500,
       "armor": 1,
       "kinetic_resist": 40,
-      "energy_resist": 70
+      "energy_resist": 70,
+      "mission_min": 87,
+      "mission_max": 91
     },
     {
       "name": "enraged_rancor",
@@ -3159,7 +3291,9 @@
       "xp": 7668,
       "armor": 1,
       "kinetic_resist": 30,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 78,
+      "mission_max": 82
     },
     {
       "name": "enraged_reptilian_flier",
@@ -3257,7 +3391,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 24,
+      "mission_max": 28
     },
     {
       "name": "gaping_spider_broodling",
@@ -3323,7 +3459,9 @@
       "xp": 4370,
       "armor": 1,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 42,
+      "mission_max": 46
     },
     {
       "name": "gaping_spider_recluse_queen",
@@ -3359,7 +3497,9 @@
       "xp": 3551,
       "armor": 0,
       "kinetic_resist": 45,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "giant_cavern_spider_recluse",
@@ -3527,7 +3667,9 @@
       "xp": 4916,
       "armor": 1,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 48,
+      "mission_max": 52
     },
     {
       "name": "kamurith_snapper",
@@ -3547,7 +3689,9 @@
       "xp": 4370,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 42,
+      "mission_max": 46
     },
     {
       "name": "kiin_dray",
@@ -3602,7 +3746,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "lowland_brackaset",
@@ -3623,7 +3769,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "lumbering_bolma",
@@ -3643,7 +3791,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 19,
+      "mission_max": 27
     },
     {
       "name": "lurking_shear_mite",
@@ -3678,7 +3828,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "malkloc_bull",
@@ -3697,7 +3849,9 @@
       "xp": 2822,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 22,
+      "mission_max": 28
     },
     {
       "name": "malkloc_plainswalker",
@@ -3736,7 +3890,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "monstrous_brute",
@@ -3775,7 +3931,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 28,
+      "mission_max": 32
     },
     {
       "name": "mutant_rancor",
@@ -3895,7 +4053,9 @@
       "xp": 4552,
       "armor": 1,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 44,
+      "mission_max": 48
     },
     {
       "name": "purbole",
@@ -3914,7 +4074,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "purbole_elder",
@@ -4012,7 +4174,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "rancor",
@@ -4032,7 +4196,9 @@
       "xp": 4916,
       "armor": 1,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 48,
+      "mission_max": 52
     },
     {
       "name": "rancor_pygmy",
@@ -4204,7 +4370,9 @@
       "xp": 3551,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "rhoa_kwi_guardian",
@@ -4394,7 +4562,9 @@
       "xp": 4461,
       "armor": 0,
       "kinetic_resist": 60,
-      "energy_resist": 55
+      "energy_resist": 55,
+      "mission_min": 44,
+      "mission_max": 48
     },
     {
       "name": "verne",
@@ -4434,7 +4604,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 19
     },
     {
       "name": "verne_calf",
@@ -4453,7 +4625,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 19
     },
     {
       "name": "young_baz_nitch",
@@ -4472,7 +4646,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "young_malkloc",
@@ -4491,7 +4667,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "young_malkloc_plainswalker",
@@ -4567,7 +4745,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "arachne_fleshripper",
@@ -4599,7 +4779,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "arachne_queen",
@@ -4632,7 +4814,9 @@
       "xp": 4097,
       "armor": 1,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 40,
+      "mission_max": 44
     },
     {
       "name": "arachne_webmaster",
@@ -4711,7 +4895,9 @@
       "xp": 2914,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 27,
+      "mission_max": 31
     },
     {
       "name": "bark_mite_burrower_queen",
@@ -4743,7 +4929,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "bark_mite_burrower_worker",
@@ -4814,7 +5002,9 @@
       "xp": 3279,
       "armor": 0,
       "kinetic_resist": "Vul",
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 30,
+      "mission_max": 34
     },
     {
       "name": "bloodseeker_mite",
@@ -4846,7 +5036,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": "Vul",
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "bloodseeker_mite_guardian",
@@ -4916,7 +5108,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "blurrg",
@@ -4937,7 +5131,9 @@
       "xp": 4825,
       "armor": 1,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 48,
+      "mission_max": 52
     },
     {
       "name": "blurrg_hunter",
@@ -5060,7 +5256,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "boar_wolf",
@@ -5077,7 +5275,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 50,
-      "energy_resist": "Vul"
+      "energy_resist": "Vul",
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "boar_wolf_cub",
@@ -5094,7 +5294,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "boar_wolf_ravager",
@@ -5172,7 +5374,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "bolle_bol_female",
@@ -5254,7 +5458,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "bordok_ancient",
@@ -5339,7 +5545,9 @@
       "xp": 3460,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": "Vul"
+      "energy_resist": "Vul",
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "borgle_life_sapper",
@@ -5360,7 +5568,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "bounding_jax",
@@ -5396,7 +5606,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "crazed_gurreck",
@@ -5414,7 +5626,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "crimson_blurrg",
@@ -5435,7 +5649,9 @@
       "xp": 3460,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "delirious_merek_avenger",
@@ -5472,7 +5688,9 @@
       "xp": 4279,
       "armor": 0,
       "kinetic_resist": 50,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 43,
+      "mission_max": 47
     },
     {
       "name": "deranged_ravisher",
@@ -5700,7 +5918,9 @@
       "xp": 3279,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 30,
+      "mission_max": 34
     },
     {
       "name": "gleaming_lantern_bird",
@@ -5849,7 +6069,9 @@
       "xp": 4006,
       "armor": 0,
       "kinetic_resist": 50,
-      "energy_resist": 65
+      "energy_resist": 65,
+      "mission_min": 39,
+      "mission_max": 43
     },
     {
       "name": "infuriated_roba_protector",
@@ -5925,7 +6147,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "lice_ridden_remmer_queen",
@@ -5983,7 +6207,9 @@
       "xp": 2914,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 26,
+      "mission_max": 30
     },
     {
       "name": "mantigrue_reaper",
@@ -6001,7 +6227,9 @@
       "xp": 4825,
       "armor": 1,
       "kinetic_resist": 40,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 48,
+      "mission_max": 52
     },
     {
       "name": "mantigrue_screecher",
@@ -6021,7 +6249,9 @@
       "xp": 5281,
       "armor": 1,
       "kinetic_resist": 35,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 53,
+      "mission_max": 57
     },
     {
       "name": "mature_hanadak",
@@ -6041,7 +6271,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "mature_hanadak_rock_smasher",
@@ -6061,7 +6293,9 @@
       "xp": 3460,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "merek_assassin",
@@ -6163,7 +6397,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "pouncing_jax",
@@ -6182,7 +6418,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "prowling_gurreck",
@@ -6220,7 +6458,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "queen_merek_harvester",
@@ -6257,7 +6497,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "radiant_lantern_bird",
@@ -6372,7 +6614,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "roaming_bordok_stud",
@@ -6392,7 +6636,9 @@
       "xp": 3370,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": "Vul"
+      "energy_resist": "Vul",
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "roaming_desert_borgle",
@@ -6431,7 +6677,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 24,
+      "mission_max": 28
     },
     {
       "name": "roba_boar",
@@ -6605,7 +6853,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "swirl_prong_impaler",
@@ -6624,7 +6874,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 28,
+      "mission_max": 32
     },
     {
       "name": "swirl_prong_pack_leader",
@@ -6664,7 +6916,9 @@
       "xp": 4461,
       "armor": 1,
       "kinetic_resist": 40,
-      "energy_resist": "Vul"
+      "energy_resist": "Vul",
+      "mission_min": 43,
+      "mission_max": 47
     },
     {
       "name": "venom_filled_arachne",
@@ -6681,7 +6935,9 @@
       "xp": 3642,
       "armor": 0,
       "kinetic_resist": 45,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 34,
+      "mission_max": 38
     },
     {
       "name": "young_hanadak_rock_crusher",
@@ -6700,7 +6956,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 20,
+      "mission_max": 24
     }
   ],
   "lok": [
@@ -6740,7 +6998,9 @@
       "xp": 4279,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 41,
+      "mission_max": 45
     },
     {
       "name": "deadly_vesp",
@@ -7034,7 +7294,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "flit_bloodsucker",
@@ -7085,7 +7347,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "giant_dune_kimogila",
@@ -7120,7 +7384,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "giant_kimogila",
@@ -7157,7 +7423,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "giant_spined_snake",
@@ -7214,7 +7482,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 28,
+      "mission_max": 32
     },
     {
       "name": "gurk_gatherer",
@@ -7295,7 +7565,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "gurnaset_hatchling",
@@ -7407,7 +7679,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "kusak_hunter",
@@ -7561,7 +7835,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "langlatch_marauder",
@@ -7638,7 +7914,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "male_langlatch",
@@ -7738,7 +8016,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "nym_domesticated_gurk",
@@ -7792,7 +8072,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "perlek_ravager",
@@ -7852,7 +8134,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "reclusive_gurk_king",
@@ -7931,7 +8215,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "sandy_spined_snake",
@@ -8010,7 +8296,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 28,
+      "mission_max": 32
     },
     {
       "name": "snorbal_matriarch",
@@ -8128,7 +8416,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "vesp_hunter",
@@ -8244,7 +8534,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "bark_mite",
@@ -8300,7 +8592,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "capper_spineflap",
@@ -8319,7 +8613,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "capper_spineflap_drone",
@@ -8374,7 +8670,9 @@
       "xp": 85,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 3,
+      "mission_max": 7
     },
     {
       "name": "dappled_gualama",
@@ -8434,7 +8732,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "domestic_tusk_cat",
@@ -8532,7 +8832,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "fambaa",
@@ -8554,7 +8856,9 @@
       "xp": 3370,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "fanned_rawl",
@@ -8574,7 +8878,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "female_narglatch",
@@ -8613,7 +8919,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "female_swamp_tusk_cat",
@@ -8632,7 +8940,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "flesh_eating_chuba",
@@ -8649,7 +8959,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "flewt",
@@ -8668,7 +8980,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "flewt_leviathan",
@@ -8857,7 +9171,9 @@
       "xp": 62,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 2,
+      "mission_max": 6
     },
     {
       "name": "greater_shaupaut",
@@ -8955,7 +9271,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "gungan_fambaa",
@@ -8996,7 +9314,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "gungan_veermok",
@@ -9030,7 +9350,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "hermit_spider_guard",
@@ -9103,7 +9425,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "ikopi_stag",
@@ -9181,7 +9505,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "kaadu_female",
@@ -9293,7 +9619,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "male_swamp_tusk_cat",
@@ -9312,7 +9640,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "massive_gnort",
@@ -9370,7 +9700,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "motley_kaadu",
@@ -9408,7 +9740,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "mott_bull",
@@ -9537,7 +9871,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "narglatch_cub",
@@ -9632,7 +9968,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "nightspider_aggressor",
@@ -9684,7 +10022,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "peko_peko",
@@ -9703,7 +10043,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "peko_peko_albatross",
@@ -9802,7 +10144,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "rogue_falumpaset",
@@ -9920,7 +10264,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "spiked_krevol",
@@ -9939,7 +10285,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "spineflap_gatherer",
@@ -10119,7 +10467,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "veermok_cannibal",
@@ -10273,7 +10623,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "vine_rawl",
@@ -10392,7 +10744,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "borgle_harvester",
@@ -10467,7 +10821,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "confused_wood_mite_hatchling",
@@ -10518,7 +10874,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "deadly_forest_mite_guardian",
@@ -10630,7 +10988,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "enraged_wood_mite_king",
@@ -10686,7 +11046,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "feral_forest_mite_king",
@@ -10721,7 +11083,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "frail_squall",
@@ -10778,7 +11142,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "giant_mutant_bark_mite",
@@ -10871,7 +11237,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "male_kai_tok",
@@ -10910,7 +11278,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "mammoth_bearded_jax",
@@ -11097,7 +11467,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "pigmy_pugoriss",
@@ -11213,7 +11585,9 @@
       "xp": 3370,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "sap_covered_forest_mite_queen",
@@ -11248,7 +11622,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "scorched_krevol",
@@ -11285,7 +11661,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "shallow_torton",
@@ -11322,7 +11700,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "tattered_torton",
@@ -11342,7 +11722,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "timid_vir_vur",
@@ -11381,7 +11763,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "torton_pygmy_matriarch",
@@ -11535,7 +11919,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "vrobal_bull",
@@ -11679,7 +12065,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "young_borgle_gruntling",
@@ -11807,7 +12195,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "docile_kahmurra",
@@ -11845,7 +12235,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "dung_mite_worker",
@@ -11915,7 +12307,9 @@
       "xp": 85,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 3,
+      "mission_max": 7
     },
     {
       "name": "feeble_kima",
@@ -11953,7 +12347,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "ferine_razorfang",
@@ -12081,7 +12477,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "genetically_enchanced_kahmurra",
@@ -12301,7 +12699,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "guf_drolg",
@@ -12320,7 +12720,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "guf_drolg_female",
@@ -12378,7 +12780,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "huf_dun_bull",
@@ -12398,7 +12802,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "jungle_fynock",
@@ -12438,7 +12844,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "kima",
@@ -12457,7 +12865,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "male_roba",
@@ -12476,7 +12886,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "meager_tortur",
@@ -12495,7 +12907,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "minor_guf_drolg",
@@ -12572,7 +12986,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 24,
+      "mission_max": 28
     },
     {
       "name": "oozing_dung_mite_guardian",
@@ -12606,7 +13022,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "puss_covered_decay_mite_soldier",
@@ -12710,7 +13128,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "rotting_decay_mite_guard",
@@ -12745,7 +13165,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "sickly_decay_mite_queen",
@@ -12781,7 +13203,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "song_rasp",
@@ -12798,7 +13222,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "stunted_huf_dun",
@@ -12876,7 +13302,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "voracious_rasp",
@@ -12914,7 +13342,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "woodland_kima",
@@ -12933,7 +13363,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 16,
+      "mission_max": 20
     }
   ],
   "tatooine": [
@@ -13017,7 +13449,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "blight_boar",
@@ -13057,7 +13491,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "bonecracker_bantha",
@@ -13096,7 +13532,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "bull_ronto",
@@ -13135,7 +13573,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "canyon_krayt_dragon",
@@ -13197,7 +13637,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "death_kreetle",
@@ -13235,7 +13677,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "desert_razorback",
@@ -13273,7 +13717,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "dewback",
@@ -13292,7 +13738,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "dim_u_bantha",
@@ -13333,7 +13781,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "domestic_eopie",
@@ -13374,7 +13824,9 @@
       "xp": 2914,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 27,
+      "mission_max": 31
     },
     {
       "name": "drooling_nuna",
@@ -13414,7 +13866,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "dune_beetle",
@@ -13451,7 +13905,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "dwarf_bantha",
@@ -13512,7 +13968,9 @@
       "xp": 85,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 3,
+      "mission_max": 7
     },
     {
       "name": "eopie",
@@ -13533,7 +13991,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "eopie_herdmaster",
@@ -13572,7 +14032,9 @@
       "xp": 3370,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "feral_bantha",
@@ -13651,7 +14113,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 28,
+      "mission_max": 32
     },
     {
       "name": "giant_worrt",
@@ -13670,7 +14134,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "gorg",
@@ -13689,7 +14155,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "gorg_glutton",
@@ -13748,7 +14216,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "grizzled_dewback",
@@ -13768,7 +14238,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "jabba_rancor",
@@ -13803,7 +14275,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "juvenile_canyon_krayt_dragon",
@@ -13902,7 +14376,9 @@
       "xp": 45,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 1,
+      "mission_max": 5
     },
     {
       "name": "kreetle_swarmling",
@@ -14106,7 +14582,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 18,
+      "mission_max": 22
     },
     {
       "name": "mountain_squill",
@@ -14126,7 +14604,9 @@
       "xp": 3279,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 32,
+      "mission_max": 36
     },
     {
       "name": "mountain_squill_guardian",
@@ -14186,7 +14666,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "mutant_womp_rat",
@@ -14205,7 +14687,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "overkreetle",
@@ -14298,7 +14782,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "rockmite",
@@ -14315,7 +14801,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "rogue_bantha",
@@ -14358,7 +14846,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "sand_beetle",
@@ -14413,7 +14903,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "sevorrt",
@@ -14432,7 +14924,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "slum_rat",
@@ -14470,7 +14964,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "stormtrooper_dewback",
@@ -14529,7 +15025,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "tatooine_mynock",
@@ -14548,7 +15046,9 @@
       "xp": 45,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 1,
+      "mission_max": 5
     },
     {
       "name": "tempest_rill",
@@ -14628,7 +15128,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "volatile_scyk",
@@ -14706,7 +15208,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 1,
+      "mission_max": 5
     },
     {
       "name": "wonderous_cu_pa",
@@ -14804,7 +15308,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     }
   ],
   "yavin4": [
@@ -14842,7 +15348,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "angler_hatchling",
@@ -14927,7 +15435,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "choku_female",
@@ -15031,7 +15541,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "deadly_tanc_mite",
@@ -15106,7 +15618,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "female_mawgax",
@@ -15125,7 +15639,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "female_tybis",
@@ -15203,7 +15719,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "gackle_bat_hunter",
@@ -15261,7 +15779,9 @@
       "xp": 3460,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "giant_crystal_snake",
@@ -15280,7 +15800,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "giant_gackle_bat",
@@ -15318,7 +15840,9 @@
       "xp": 3188,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 30,
+      "mission_max": 34
     },
     {
       "name": "giant_spined_puc",
@@ -15510,7 +16034,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "kliknik_dark_defender",
@@ -15859,7 +16385,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "male_mawgax",
@@ -15878,7 +16406,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "male_tybis",
@@ -16181,7 +16711,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "skreeg_infant",
@@ -16219,7 +16751,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 20,
+      "mission_max": 24
     },
     {
       "name": "skreeg_scout",
@@ -16295,7 +16829,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "stintaril",
@@ -16314,7 +16850,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "stintaril_fleshripper",
@@ -16444,7 +16982,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "tanc_mite_warrior",
@@ -16481,7 +17021,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "tybis_youth",
@@ -16570,7 +17112,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "woolamander",

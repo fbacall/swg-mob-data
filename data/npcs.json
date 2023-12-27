@@ -131,7 +131,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "beldonnas_league_marshal",
@@ -145,7 +147,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "beldonnas_league_scout",
@@ -241,7 +245,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "corsec_chief",
@@ -255,7 +261,9 @@
       "xp": 2822,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 27,
+      "mission_max": 31
     },
     {
       "name": "corsec_commissioner",
@@ -269,7 +277,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 27,
+      "mission_max": 31
     },
     {
       "name": "corsec_deserter",
@@ -339,7 +349,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "corsec_major",
@@ -353,7 +365,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "corsec_master_sergeant",
@@ -367,7 +381,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "corsec_sergeant",
@@ -395,7 +411,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "corsec_trooper",
@@ -448,7 +466,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "drall_abbot",
@@ -462,7 +482,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 22
     },
     {
       "name": "drall_chieftain",
@@ -476,7 +498,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 13,
+      "mission_max": 22
     },
     {
       "name": "drall_guard",
@@ -490,7 +514,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "drall_master",
@@ -504,7 +530,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 13,
+      "mission_max": 22
     },
     {
       "name": "drall_monk",
@@ -518,7 +546,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 22
     },
     {
       "name": "drall_patriot",
@@ -532,7 +562,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "drall_patriot_conqueror",
@@ -546,7 +578,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 13,
+      "mission_max": 19
     },
     {
       "name": "drall_patriot_foot_soldier",
@@ -560,7 +594,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 19
     },
     {
       "name": "drall_patriot_legionnaire",
@@ -574,7 +610,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 19
     },
     {
       "name": "drall_sentry",
@@ -588,7 +626,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "eryk_chinn",
@@ -628,7 +668,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "feral_selonian",
@@ -656,7 +698,9 @@
       "xp": 3005,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 25,
+      "mission_max": 31
     },
     {
       "name": "flail_boss",
@@ -670,7 +714,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "flail_butcher",
@@ -684,7 +730,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "flail_cutthroat",
@@ -726,7 +774,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "flail_killer",
@@ -795,7 +845,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "grecks_henchman",
@@ -823,7 +875,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "grecks_smuggler",
@@ -865,7 +919,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "hidden_daggers_dissident",
@@ -879,7 +935,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "hidden_daggers_extremist",
@@ -893,7 +951,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 18
     },
     {
       "name": "hidden_daggers_leader",
@@ -907,7 +967,9 @@
       "xp": 1426,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 13,
+      "mission_max": 18
     },
     {
       "name": "hidden_daggers_lieutenant",
@@ -921,7 +983,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 13,
+      "mission_max": 18
     },
     {
       "name": "jom_irimore",
@@ -989,7 +1053,9 @@
       "xp": 85,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "meatlump_clod",
@@ -1003,7 +1069,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "meatlump_cretin",
@@ -1017,7 +1085,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "meatlump_fool",
@@ -1031,7 +1101,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "meatlump_loon",
@@ -1045,7 +1117,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "meatlump_oaf",
@@ -1059,7 +1133,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "meatlump_stooge",
@@ -1073,7 +1149,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "mind_of_solitude",
@@ -1101,7 +1179,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "monumenter_bandit",
@@ -1115,7 +1195,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "monumenter_marauder",
@@ -1129,7 +1211,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "monumenter_smuggler",
@@ -1143,7 +1227,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "quest_crowd_pleaser_theater_manager",
@@ -1296,7 +1382,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "selonian_champion",
@@ -1310,7 +1398,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "selonian_healer",
@@ -1352,7 +1442,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "selonian_scout",
@@ -1478,7 +1570,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "selonian_warrior",
@@ -1492,7 +1586,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "servant_of_lord_nyax",
@@ -1505,7 +1601,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "smashball_bully",
@@ -1561,7 +1659,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "swooper_gangmember",
@@ -1575,7 +1675,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "swooper_leader",
@@ -1589,7 +1691,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "ta_667",
@@ -1616,7 +1720,9 @@
       "xp": 3188,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 25,
+      "mission_max": 31
     },
     {
       "name": "will_of_solitude",
@@ -1657,7 +1763,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 50
+      "energy_resist": 50,
+      "mission_min": 25,
+      "mission_max": 31
     },
     {
       "name": "zo_ssa",
@@ -1727,7 +1835,9 @@
       "xp": 3642,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 29,
+      "mission_max": 36
     },
     {
       "name": "dantari_chief",
@@ -1742,7 +1852,9 @@
       "xp": 4188,
       "armor": 0,
       "kinetic_resist": 35,
-      "energy_resist": 50
+      "energy_resist": 50,
+      "mission_min": 40,
+      "mission_max": 44
     },
     {
       "name": "dantari_raider",
@@ -1757,7 +1869,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "dantari_strategist",
@@ -1772,7 +1886,9 @@
       "xp": 2914,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 29,
+      "mission_max": 36
     },
     {
       "name": "dark_side_savage",
@@ -1973,7 +2089,9 @@
       "xp": 4916,
       "armor": 1,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 48,
+      "mission_max": 52
     },
     {
       "name": "janta_loreweaver",
@@ -1988,7 +2106,9 @@
       "xp": 5373,
       "armor": 0,
       "kinetic_resist": "Vul",
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 55,
+      "mission_max": 60
     },
     {
       "name": "janta_primalist",
@@ -2033,7 +2153,9 @@
       "xp": 5007,
       "armor": 1,
       "kinetic_resist": "Vul",
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 49,
+      "mission_max": 53
     },
     {
       "name": "janta_shaman",
@@ -2048,7 +2170,9 @@
       "xp": 5830,
       "armor": 1,
       "kinetic_resist": "Vul",
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 55,
+      "mission_max": 60
     },
     {
       "name": "janta_soothsayer",
@@ -2192,7 +2316,9 @@
       "xp": 3733,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 35,
+      "mission_max": 39
     },
     {
       "name": "kunga_loreweaver",
@@ -2237,7 +2363,9 @@
       "xp": 4734,
       "armor": 1,
       "kinetic_resist": 15,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 46,
+      "mission_max": 50
     },
     {
       "name": "kunga_shaman",
@@ -2370,7 +2498,9 @@
       "xp": 4188,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 40,
+      "mission_max": 44
     },
     {
       "name": "mokk_loreweaver",
@@ -2415,7 +2545,9 @@
       "xp": 4643,
       "armor": 1,
       "kinetic_resist": 15,
-      "energy_resist": 50
+      "energy_resist": 50,
+      "mission_min": 45,
+      "mission_max": 49
     },
     {
       "name": "mokk_shaman",
@@ -2430,7 +2562,9 @@
       "xp": 5830,
       "armor": 1,
       "kinetic_resist": 15,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 58,
+      "mission_max": 62
     },
     {
       "name": "mokk_soothsayer",
@@ -2445,7 +2579,9 @@
       "xp": 4188,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 41,
+      "mission_max": 45
     },
     {
       "name": "mokk_tribesman",
@@ -3345,7 +3481,9 @@
       "xp": 5373,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 54,
+      "mission_max": 58
     },
     {
       "name": "bewitching_donkuwah_shaman",
@@ -3400,7 +3538,9 @@
       "xp": 5464,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 54,
+      "mission_max": 58
     },
     {
       "name": "competent_gondula_ritualist",
@@ -3743,7 +3883,9 @@
       "xp": 4370,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 44,
+      "mission_max": 50
     },
     {
       "name": "foul_donkuwah_laborer",
@@ -3825,7 +3967,9 @@
       "xp": 4916,
       "armor": 1,
       "kinetic_resist": 40,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 44,
+      "mission_max": 50
     },
     {
       "name": "frenzied_pubam",
@@ -4573,7 +4717,9 @@
       "xp": 4370,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 44,
+      "mission_max": 50
     },
     {
       "name": "masterful_ewok_warrior",
@@ -5540,7 +5686,9 @@
       "xp": 4188,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 70
+      "energy_resist": 70,
+      "mission_min": 39,
+      "mission_max": 43
     },
     {
       "name": "blood_razor_cutthroat",
@@ -5608,7 +5756,9 @@
       "xp": 3915,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 39,
+      "mission_max": 43
     },
     {
       "name": "blood_razor_officer",
@@ -5625,7 +5775,9 @@
       "xp": 4006,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 39,
+      "mission_max": 43
     },
     {
       "name": "blood_razor_scout",
@@ -5673,7 +5825,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "canyon_corsair_captain",
@@ -5690,7 +5844,9 @@
       "xp": 4916,
       "armor": 1,
       "kinetic_resist": 20,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 45,
+      "mission_max": 50
     },
     {
       "name": "canyon_corsair_cutthroat",
@@ -5707,7 +5863,9 @@
       "xp": 3551,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 34,
+      "mission_max": 38
     },
     {
       "name": "canyon_corsair_destroyer",
@@ -5758,7 +5916,9 @@
       "xp": 3642,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 34,
+      "mission_max": 38
     },
     {
       "name": "canyon_corsair_scout",
@@ -5792,7 +5952,9 @@
       "xp": 3642,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 60
+      "energy_resist": 60,
+      "mission_min": 34,
+      "mission_max": 38
     },
     {
       "name": "canyon_corsair_weak_pirate",
@@ -5868,7 +6030,9 @@
       "xp": 4461,
       "armor": 1,
       "kinetic_resist": 20,
-      "energy_resist": 45
+      "energy_resist": 45,
+      "mission_min": 45,
+      "mission_max": 50
     },
     {
       "name": "enraged_miner",
@@ -5978,7 +6142,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "marooned_pirate_captain",
@@ -6063,7 +6229,9 @@
       "xp": 4006,
       "armor": 0,
       "kinetic_resist": 60,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 40,
+      "mission_max": 44
     },
     {
       "name": "mercenary_elite",
@@ -6107,7 +6275,9 @@
       "xp": 4370,
       "armor": 1,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 40,
+      "mission_max": 44
     },
     {
       "name": "nym_bodyguard",
@@ -6122,7 +6292,9 @@
       "xp": 2914,
       "armor": 1,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "nym_brawler",
@@ -6136,7 +6308,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 45,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "nym_destroyer",
@@ -6151,7 +6325,9 @@
       "xp": 4006,
       "armor": 1,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 36,
+      "mission_max": 40
     },
     {
       "name": "nym_droideka",
@@ -6193,7 +6369,9 @@
       "xp": 3824,
       "armor": 1,
       "kinetic_resist": 50,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 36,
+      "mission_max": 40
     },
     {
       "name": "nym_guard_strong",
@@ -6207,7 +6385,9 @@
       "xp": 3642,
       "armor": 1,
       "kinetic_resist": 35,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 36,
+      "mission_max": 40
     },
     {
       "name": "nym_guard_weak",
@@ -6222,7 +6402,9 @@
       "xp": 3188,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "nym_patrol_elite",
@@ -6282,7 +6464,9 @@
       "xp": 3188,
       "armor": 1,
       "kinetic_resist": 15,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "nym_pirate_strong",
@@ -6297,7 +6481,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "nym_pirate_weak",
@@ -6312,7 +6498,9 @@
       "xp": 2243,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "nym_surveyor",
@@ -6326,7 +6514,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "rifea_eicik",
@@ -6367,7 +6557,9 @@
       "xp": 3642,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 35
+      "energy_resist": 35,
+      "mission_min": 33,
+      "mission_max": 37
     },
     {
       "name": "sulfur_lake_pirate",
@@ -6409,7 +6601,9 @@
       "xp": 3460,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 33,
+      "mission_max": 37
     }
   ],
   "naboo": [
@@ -6425,7 +6619,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "ayn_eckener",
@@ -6452,7 +6648,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "borvos_champion",
@@ -6466,7 +6664,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "borvos_mercenary",
@@ -6480,7 +6680,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "borvos_soldier",
@@ -6494,7 +6696,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "borvos_thief",
@@ -6508,7 +6712,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "borvos_thug",
@@ -6522,7 +6728,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "captain_tish",
@@ -6709,7 +6917,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "gungan_grand_army_soldier",
@@ -6779,7 +6989,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "gungan_leader",
@@ -6793,7 +7005,9 @@
       "xp": 2500,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "gungan_mercenary",
@@ -6807,7 +7021,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "gungan_outcast",
@@ -7110,7 +7326,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "mauler_lord",
@@ -7528,7 +7746,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "outcast_gungan",
@@ -7598,7 +7818,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "plasma_thief",
@@ -7612,7 +7834,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "plasma_thief_leader",
@@ -7626,7 +7850,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "plasma_thieving_swamp_trooper",
@@ -7720,7 +7946,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "rsf_commando",
@@ -7733,7 +7961,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "rsf_palace_guard",
@@ -7789,7 +8019,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "sayama_edosun",
@@ -7968,7 +8200,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "trade_federation_pirate",
@@ -7982,7 +8216,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "trade_federation_zealot",
@@ -8125,7 +8361,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "cobral_mugger",
@@ -8139,7 +8377,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "first_brigade_captain",
@@ -8153,7 +8393,9 @@
       "xp": 2443,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "first_brigade_general",
@@ -8167,7 +8409,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 23,
+      "mission_max": 27
     },
     {
       "name": "first_brigade_gunner",
@@ -8209,7 +8453,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "first_brigade_officer",
@@ -8223,7 +8469,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "first_brigade_scout",
@@ -8237,7 +8485,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "first_brigade_sergeant",
@@ -8279,7 +8529,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "garyns_dragoon",
@@ -8293,7 +8545,9 @@
       "xp": 2730,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 26,
+      "mission_max": 32
     },
     {
       "name": "garyns_lieutenant",
@@ -8307,7 +8561,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 26,
+      "mission_max": 32
     },
     {
       "name": "garyns_marauder",
@@ -8363,7 +8619,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "garyns_raider",
@@ -8405,7 +8663,9 @@
       "xp": 3279,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 26,
+      "mission_max": 32
     },
     {
       "name": "gundark_crook",
@@ -8419,7 +8679,9 @@
       "xp": 85,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "gundark_desperado",
@@ -8433,7 +8695,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "gundark_hooligan",
@@ -8447,7 +8711,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "gundark_raider",
@@ -8461,7 +8727,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "gundark_rogue",
@@ -8475,7 +8743,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "gundark_ruffian",
@@ -8489,7 +8759,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "insane_miner",
@@ -8559,7 +8831,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "kobola_pitboss",
@@ -8601,7 +8875,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "kobola_underboss",
@@ -8676,7 +8952,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "narmle_militia_commander",
@@ -8690,7 +8968,9 @@
       "xp": 2543,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 21,
+      "mission_max": 25
     },
     {
       "name": "narmle_militia_commando",
@@ -8732,7 +9012,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "narmle_militia_guard",
@@ -8760,7 +9042,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "narmle_militia_major",
@@ -8816,7 +9100,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 10
+      "energy_resist": 10,
+      "mission_min": 20,
+      "mission_max": 30
     },
     {
       "name": "neo_cobral_boss",
@@ -8830,7 +9116,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 20,
+      "mission_max": 30
     },
     {
       "name": "neo_cobral_hitman",
@@ -8844,7 +9132,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 21,
+      "mission_max": 33
     },
     {
       "name": "neo_cobral_overlord",
@@ -8858,7 +9148,9 @@
       "xp": 3370,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 21,
+      "mission_max": 33
     },
     {
       "name": "neo_cobral_runner",
@@ -8956,7 +9248,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "rorgungan_warrior",
@@ -8970,7 +9264,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 16,
+      "mission_max": 20
     },
     {
       "name": "spice_collective_courier",
@@ -8998,7 +9294,9 @@
       "xp": 2637,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "spice_collective_foreman",
@@ -9026,7 +9324,9 @@
       "xp": 2219,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 22,
+      "mission_max": 26
     },
     {
       "name": "spice_collective_miner",
@@ -9084,7 +9384,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "aakuan_assassin",
@@ -9098,7 +9400,9 @@
       "xp": 3188,
       "armor": 0,
       "kinetic_resist": 40,
-      "energy_resist": 40
+      "energy_resist": 40,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "aakuan_champion",
@@ -9112,7 +9416,9 @@
       "xp": 3097,
       "armor": 0,
       "kinetic_resist": 30,
-      "energy_resist": 30
+      "energy_resist": 30,
+      "mission_min": 29,
+      "mission_max": 33
     },
     {
       "name": "aakuan_defender",
@@ -9138,7 +9444,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "aakuan_guardian",
@@ -9165,7 +9473,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "aakuan_sentinel",
@@ -9205,7 +9515,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 11,
+      "mission_max": 15
     },
     {
       "name": "aakuan_warder",
@@ -9233,7 +9545,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 25,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "binayre_hooligan",
@@ -9261,7 +9575,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "binayre_ruffian",
@@ -9317,7 +9633,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "bothan_diplomat",
@@ -9373,7 +9691,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "chunker_bruiser",
@@ -9387,7 +9707,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "chunker_bully",
@@ -9401,7 +9723,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "chunker_creep",
@@ -9415,7 +9739,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "chunker_goon",
@@ -9429,7 +9755,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "chunker_mooch",
@@ -9443,7 +9771,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "chunker_nitwit",
@@ -9457,7 +9787,9 @@
       "xp": 85,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "chunker_pest",
@@ -9471,7 +9803,9 @@
       "xp": 147,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "chunker_punk",
@@ -9485,7 +9819,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "chunker_swindler",
@@ -9499,7 +9835,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "doak_sif",
@@ -9571,7 +9909,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "fed_dub_investigator",
@@ -9642,7 +9982,9 @@
       "xp": 831,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 15,
+      "mission_max": 20
     },
     {
       "name": "lost_aqualish_captain",
@@ -9656,7 +9998,9 @@
       "xp": 1609,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 15,
+      "mission_max": 20
     },
     {
       "name": "lost_aqualish_commando",
@@ -9782,7 +10126,9 @@
       "xp": 2822,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 25,
+      "mission_max": 29
     },
     {
       "name": "lost_aqualish_warrior",
@@ -9869,7 +10215,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "sleemo_hoodlum",
@@ -9883,7 +10231,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "sleemo_punk",
@@ -9897,7 +10247,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 5,
+      "mission_max": 9
     },
     {
       "name": "sleemo_scamp",
@@ -9911,7 +10263,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "sleemo_vandal",
@@ -9925,7 +10279,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "talus_liberation_party_activist",
@@ -9939,7 +10295,9 @@
       "xp": 1803,
       "armor": 0,
       "kinetic_resist": 10,
-      "energy_resist": 25
+      "energy_resist": 25,
+      "mission_min": 19,
+      "mission_max": 23
     },
     {
       "name": "talus_liberation_party_fanatic",
@@ -9967,7 +10325,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "talus_liberation_party_partisan",
@@ -9995,7 +10355,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 12,
+      "mission_max": 16
     },
     {
       "name": "talus_liberation_party_reactionist",
@@ -10023,7 +10385,9 @@
       "xp": 235,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 7,
+      "mission_max": 11
     },
     {
       "name": "trandoshan_sif_02",
@@ -10054,7 +10418,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "alkhara_bandit_king",
@@ -10096,7 +10462,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 13,
+      "mission_max": 17
     },
     {
       "name": "anim_kahn",
@@ -11007,7 +11375,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 15,
+      "mission_max": 19
     },
     {
       "name": "jabba_compound_guard",
@@ -11035,7 +11405,9 @@
       "xp": 960,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "jabba_henchman",
@@ -11181,7 +11553,9 @@
       "xp": 292,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "jawa_healer",
@@ -11223,7 +11597,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 8,
+      "mission_max": 12
     },
     {
       "name": "jawa_protector",
@@ -11811,7 +12187,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "rodian_clan_medic",
@@ -11839,7 +12217,9 @@
       "xp": 714,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "rodian_gladiator",
@@ -12084,7 +12464,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 6,
+      "mission_max": 10
     },
     {
       "name": "squatter",
@@ -12245,7 +12627,9 @@
       "xp": 187,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "trandosian_slaver",
@@ -12259,7 +12643,9 @@
       "xp": 113,
       "armor": 0,
       "kinetic_resist": 20,
-      "energy_resist": 20
+      "energy_resist": 20,
+      "mission_min": 4,
+      "mission_max": 8
     },
     {
       "name": "tusken_avenger",
@@ -12764,7 +13150,9 @@
       "xp": 1102,
       "armor": 0,
       "kinetic_resist": 5,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 14,
+      "mission_max": 18
     },
     {
       "name": "valarian_compound_guard",
@@ -12834,7 +13222,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "valarian_swooper_leader",
@@ -12848,7 +13238,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 10,
+      "mission_max": 14
     },
     {
       "name": "valarian_thief",
@@ -12944,7 +13336,9 @@
       "xp": 609,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "weequay_soldier",
@@ -12958,7 +13352,9 @@
       "xp": 430,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "weequay_thug",
@@ -12973,7 +13369,9 @@
       "xp": 356,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "weequay_zealot",
@@ -12987,7 +13385,9 @@
       "xp": 514,
       "armor": 0,
       "kinetic_resist": 0,
-      "energy_resist": 0
+      "energy_resist": 0,
+      "mission_min": 9,
+      "mission_max": 13
     },
     {
       "name": "windom_starkiller",
@@ -13070,7 +13470,9 @@
       "xp": 2006,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 15
+      "energy_resist": 15,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "hutt_expeditonary_force_member",
@@ -13084,7 +13486,9 @@
       "xp": 1257,
       "armor": 0,
       "kinetic_resist": 15,
-      "energy_resist": 5
+      "energy_resist": 5,
+      "mission_min": 17,
+      "mission_max": 21
     },
     {
       "name": "stranded_imperial_officer",
