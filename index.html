@@ -15,6 +15,27 @@
             text-align: center;
         }
 
+        td.left {
+            text-align: left;
+        }
+
+        [data-sort] {
+            user-select: none;
+            cursor: pointer;
+        }
+
+        [data-sort]:hover {
+            background: #ccccff;
+        }
+
+        .sort-desc:after {
+            content: '↑';
+        }
+
+        .sort-asc:after {
+            content: '↓';
+        }
+
         .creature-resource {
             padding: 0 0.5em;
             white-space: nowrap;
@@ -29,10 +50,6 @@
             margin-left: 1em;
         }
 
-        td.left {
-            text-align: left;
-        }
-
         .tag {
             border-radius: 2px;
             background: #eee;
@@ -42,45 +59,17 @@
             display: inline-block;
         }
 
-        .armor {
-            background: #ccc;
-        }
+        .armor { background: #ccc; }
+        .mediumdisease, .mediumpoison { color: #e8af27; }
+        .strongdisease, .strongpoison { color: #a90a0a; }
+        .ranged { background: #a5edff; }
+        .no-resist { color: #bbb; }
+        .vulnerable { color: #55a632; }
 
-        .mediumdisease, .mediumpoison {
-            color: #b1a818;
-        }
-
-        .strongdisease, .strongpoison {
-            color: #a90a0a;
-        }
-
-        .ranged {
-            background: #a5edff;
-        }
-
-        .no-resist {
-            color: #bbb;
-        }
-
-        .vulnerable {
-            color: #55a632;
-        }
-
-        .bronze {
-            color: #8d5213;
-        }
-
-        .silver {
-            color: #778;
-        }
-
-        .gold {
-            color: #907a33;
-        }
-
-        .omg {
-            color: #c91414;
-        }
+        .bronze { color: #8d5213; }
+        .silver { color: #778; }
+        .gold { color: #907a33; }
+        .omg { color: #c91414; }
 
         .bone_avian { background-color: #80c4d7; }
         .bone_mammal { background-color: #a9a9a9; }
@@ -103,33 +92,16 @@
             font-weight: bold;
             padding: 0.5em;
         }
-        .corellia{ background-color: #b7e9e7; }
-        .dantooine{ background-color: #ff00ff; }
-        .dathomir{ background-color: #8634ea; }
-        .endor{ background-color: #358216; }
-        .lok{ background-color: #e9c43b; }
-        .naboo{ background-color: #84c267; }
-        .rori{ background-color: #ea8050; }
-        .talus{ background-color: #4aeecb; }
-        .tatooine{ background-color: #ffe100; }
-        .yavin4{ background-color: #6aff00; }
-
-        [data-sort] {
-            user-select: none;
-            cursor: pointer;
-        }
-
-        [data-sort]:hover {
-            background: #ccccff;
-        }
-
-        .sort-desc:after {
-            content: '↑';
-        }
-
-        .sort-asc:after {
-            content: '↓';
-        }
+        .corellia { background-color: #b7e9e7; }
+        .dantooine { background-color: #ff00ff; }
+        .dathomir { background-color: #8634ea; }
+        .endor { background-color: #358216; }
+        .lok { background-color: #e9c43b; }
+        .naboo { background-color: #84c267; }
+        .rori { background-color: #ea8050; }
+        .talus { background-color: #4aeecb; }
+        .tatooine { background-color: #ffe100; }
+        .yavin4 { background-color: #6aff00; }
     </style>
 </head>
 <body>
