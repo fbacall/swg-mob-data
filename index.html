@@ -17,19 +17,21 @@
             border-collapse: collapse;
         }
 
+        tr {
+            height: 2em;
+        }
+
         th {
             position: sticky;
             top: 0;
             background-color: #eee;
-        }
-
-        tr {
-            height: 2em;
+            border: 1px solid #888;
         }
 
         td {
             text-align: center;
             padding: 0 0.5em;
+            border: 1px solid #888;
         }
 
         td.left {
@@ -128,10 +130,10 @@
             <tr>
                 <th data-sort="name">Creature</th>
                 <th data-sort="level" class="sort-asc">CL</th>
-                <th data-sort="meat">Meat</th>
-                <th data-sort="hide">Hide</th>
-                <th data-sort="bone">Bone</th>
-                <th data-sort="milk">Milk</th>
+                <th style="width: 10em;" data-sort="meat">Meat</th>
+                <th style="width: 10em;" data-sort="hide">Hide</th>
+                <th style="width: 10em;" data-sort="bone">Bone</th>
+                <th style="width: 10em;" data-sort="milk">Milk</th>
                 <th>Info</th>
                 <th data-sort="kinetic_resist">Kin</th>
                 <th data-sort="energy_resist">Ene</th>
@@ -186,7 +188,7 @@
                 name.appendChild(document.createTextNode(mobName));
                 // CL
                 const cl = row.insertCell();
-                cl.appendChild(document.createTextNode('' + (mob.level - 2) + ' - ' + (mob.level + 2)));
+                cl.appendChild(document.createTextNode('' + (mob.level - 2) + '-' + (mob.level + 2)));
                 // Meat
                 drawResource(row.insertCell(), mob.meat_type, mob.meat);
                 // Hide
