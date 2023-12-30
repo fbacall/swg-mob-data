@@ -137,38 +137,68 @@
 <div class="container">
     <table id="mobs">
         <thead>
-            <tr>
-                <th data-sort="name">Creature</th>
-                <th data-sort="level" class="sort-asc">CL</th>
-                <th data-sort="meat">Meat</th>
-                <th data-sort="hide">Hide</th>
-                <th data-sort="bone">Bone</th>
-                <th data-sort="milk">Milk</th>
-                <th>Info</th>
-                <th data-sort="kinetic_resist">Kin</th>
-                <th data-sort="energy_resist">Ene</th>
-                <th data-sort="ham">HAM</th>
-                <th data-sort="xp">XP</th>
-            </tr>
+        <tr>
+            <th data-sort="name">Creature</th>
+            <th data-sort="min_cl" class="sort-asc">CL</th>
+            <th data-sort="meat">Meat</th>
+            <th data-sort="hide">Hide</th>
+            <th data-sort="bone">Bone</th>
+            <th data-sort="milk">Milk</th>
+            <th>Info</th>
+            <th data-sort="kinetic_resist">Kin</th>
+            <th data-sort="energy_resist">Ene</th>
+            <th data-sort="ham">HAM</th>
+            <th data-sort="xp">XP</th>
+        </tr>
         </thead>
         <tbody>
-            <tr><td>Loading</td></tr>
+        <tr><td>Loading</td></tr>
         </tbody>
     </table>
 </div>
 
 <script>
     document.addEventListener("DOMContentLoaded", init);
+    let mobData = null;
+    let missionData = null;
     let planetData = {};
-    let sort = 'level';
+    let sort = 'min_cl';
     let sortDir = 1;
     function init() {
         fetch('data/creatures.json')
             .then((response) => response.json())
             .then((data) => {
-                planetData = data;
-                draw();
+                mobData = data;
+                combine();
             });
+        fetch('data/missions.json')
+            .then((response) => response.json())
+            .then((data) => {
+                missionData = data;
+                combine();
+            });
+    }
+
+    function combine() {
+        if (!mobData || !missionData) {
+            return;
+        }
+
+        for (const [planet, missions] of Object.entries(missionData)) {
+            planetData[planet] = [];
+            missions.forEach(mission => {
+                mission.mobs.forEach(mobName => {
+                    if (mobData[mobName]) {
+                        const planetMob = { ...mobData[mobName] };
+                        planetMob.min_cl = mission.min_cl;
+                        planetMob.max_cl = mission.max_cl;
+                        planetData[planet].push(planetMob);
+                    }
+                })
+            });
+        }
+
+        draw();
     }
 
     function draw() {
@@ -198,7 +228,7 @@
                 name.appendChild(document.createTextNode(mobName));
                 // CL
                 const cl = row.insertCell();
-                cl.appendChild(document.createTextNode('' + (mob.level - 2) + ' - ' + (mob.level + 2)));
+                cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
                 // Meat
                 drawResource(row.insertCell(), mob.meat_type, mob.meat);
                 // Hide

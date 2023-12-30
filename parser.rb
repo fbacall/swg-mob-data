@@ -11,13 +11,13 @@ class Parser
   def mob_data
     mob_data = {}
     PLANETS.each do |planet|
-      mob_data[planet] = {}
       files = Dir.glob(File.join(creature_base, planet, '*.lua')).reject { |f| f.end_with?('serverobjects.lua') }
       puts "#{planet} (#{files.size}): "
       files.each do |file|
         next if file.end_with?('serverobjects.lua')
         mob = convert_mob(parse_mob_lua(file))
-        mob_data[planet][mob[:name]] = mob
+        raise "Mob name collision #{mob[:name]}" if mob_data[mob[:name]]
+        mob_data[mob[:name]] = mob
         print '.'
       end
       puts
@@ -28,20 +28,20 @@ class Parser
   def mission_data
     mission_data = {}
     PLANETS.each do |planet|
-      mission_data[planet] = []
       file = File.join(mission_base, "#{planet}_destroy_missions.lua")
       puts file
       mission_data[planet] = parse_mission_lua(file)
     end
     mission_data.each do |planet, lairs|
-      lairs.each_key do |lair|
-        lairs[lair].merge!(mobs: lair_data(lair, planet))
+      lairs.map! do |lair|
+        convert_mission(lair.merge(mobs: lair_data(lair[:lairTemplateName], planet)))
       end
     end
     mission_data
   end
 
   def lair_data(lair, planet)
+    lair = lair.sub('spinded', 'spined') # Typo fix
     path = File.join(lair_base, 'creature_lair', planet, "#{lair}.lua")
     path = File.join(lair_base, 'npc_theater', planet, "#{lair}.lua") unless File.exist?(path)
     path = File.join(lair_base, 'creature_dynamic', planet, "#{lair}.lua") unless File.exist?(path)
@@ -128,11 +128,7 @@ class Parser
       raise e
     end
 
-    h = {}
-    d.flatten.each do |mission|
-      h[mission.delete(:lairTemplateName)] = mission
-    end
-    h
+    d.flatten
   end
 
   def parse_lair_lua(file)
@@ -208,6 +204,22 @@ class Parser
     end
   end
 
+  def convert_mission(mission)
+    begin
+      output = {}
+      output[:name] = mission[:lairTemplateName]
+      output[:min_cl] = mission[:minDifficulty]
+      output[:max_cl] = mission[:maxDifficulty]
+      output[:size] = mission[:size]
+      output[:mobs] = mission[:mobs].map(&:first)
+      convert(output)
+    rescue Exception => e
+      STDERR.puts "!!! ERROR converting"
+      STDERR.puts mission.inspect
+      raise e
+    end
+  end
+
   def parse_resist(resist)
     return 'Vul' if resist == -1
     return 0 if resist == 0
@@ -250,33 +262,6 @@ end
 parser = Parser.new(ARGV[0])
 mob_data = parser.mob_data
 mission_data = parser.mission_data
-mission_data.each do |planet, missions|
-  planet_mobs = mob_data[planet]
-  missions.each_value do |mission|
-    (mission[:mobs] || []).each do |mission_mob|
-      mob_name = mission_mob[0]
-      mob = planet_mobs[mob_name]
-      unless mob
-        puts "Missing #{mob_name} from #{planet}"
-        Parser::PLANETS.each do |other_planet|
-          if mob_data[other_planet].key?(mob_name)
-            mob = mob_data[other_planet][mob_name]
-            puts "...found on #{other_planet}"
-          end
-        end
-      end
-      if mission[:minDifficulty]
-        mob[:mission_min] ||= 9999
-        mob[:mission_min] = mission[:minDifficulty] if mission[:minDifficulty] < mob[:mission_min]
-      end
-
-      if mission[:maxDifficulty]
-        mob[:mission_max] ||= 9999
-        mob[:mission_max] = mission[:maxDifficulty] if mission[:maxDifficulty] < mob[:mission_max]
-      end
-    end
-  end
-end
 
 TYPES = {
   'MOB_HERBIVORE' => 'creatures',
@@ -287,15 +272,14 @@ TYPES = {
 }
 
 categorized = {}
-mob_data.each do |planet, mobs|
-  mobs.values.sort { |a, b| a[:name] <=> b[:name] }.each do |mob|
-    category = TYPES[mob[:type]]
-    categorized[category] ||= {}
-    categorized[category][planet] ||= []
-    categorized[category][planet] << mob
-  end
+mob_data.each do |mob_name, mob|
+  category = TYPES[mob[:type]]
+  categorized[category] ||= {}
+  categorized[category][mob_name] = mob
 end
 FileUtils.mkdir_p('data')
 categorized.each do |category, mobs|
   File.write(File.join('data', "#{category}.json"), JSON.pretty_generate(mobs))
 end
+
+File.write(File.join('data', "missions.json"), JSON.pretty_generate(mission_data))
