@@ -1,0 +1,3342 @@
+{
+  "corellia": [
+    {
+      "name": "corellia_gubbur_lair_neutral_small",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "gubbur"
+      ]
+    },
+    {
+      "name": "corellia_meatlump_camp_neutral_medium_theater",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "meatlump_buffoon",
+        "meatlump_stooge",
+        "meatlump_fool"
+      ]
+    },
+    {
+      "name": "corellia_paralope_lair_neutral_medium",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 25,
+      "mobs": [
+        "paralope"
+      ]
+    },
+    {
+      "name": "corellia_durni_warren_neutral_small_boss_01",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 20,
+      "mobs": [
+        "durni"
+      ]
+    },
+    {
+      "name": "corellia_plumed_rasp_nest_neutral_small",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 20,
+      "mobs": [
+        "plumed_rasp"
+      ]
+    },
+    {
+      "name": "corellia_diseased_vrelt_lair_neutral_boss_02",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 25,
+      "mobs": [
+        "diseased_vrelt"
+      ]
+    },
+    {
+      "name": "corellia_scavenger_rat_lair_neutral_small",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 20,
+      "mobs": [
+        "scavenger_rat"
+      ]
+    },
+    {
+      "name": "corellia_corellian_butterfly_pod_neutral_small",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 20,
+      "mobs": [
+        "corellian_butterfly_worker"
+      ]
+    },
+    {
+      "name": "corellia_dalyrake_lair_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "dalyrake"
+      ]
+    },
+    {
+      "name": "corellia_giant_gubbur_lair_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 20,
+      "mobs": [
+        "giant_gubbur"
+      ]
+    },
+    {
+      "name": "corellia_meatlump_outpost_neutral_medium_theater",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "meatlump_clod",
+        "meatlump_oaf",
+        "meatlump_loon",
+        "meatlump_cretin"
+      ]
+    },
+    {
+      "name": "corellia_slice_hound_lair_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "slice_hound",
+        "female_slice_hound"
+      ]
+    },
+    {
+      "name": "corellia_vynock_lair_neutral_small",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 20,
+      "mobs": [
+        "vynock"
+      ]
+    },
+    {
+      "name": "corellia_bageraset_lair_neutral_medium_boss_01",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 30,
+      "mobs": [
+        "bageraset"
+      ]
+    },
+    {
+      "name": "corellia_canoid_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "canoid"
+      ]
+    },
+    {
+      "name": "corellia_carrion_spat_lair_neutral_medium_boss_01",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "carrion_spat"
+      ]
+    },
+    {
+      "name": "corellia_drall_patriot_camp_neutral_medium_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "drall_patriot",
+        "drall_sentry",
+        "drall_guard"
+      ]
+    },
+    {
+      "name": "corellia_greck_base_neutral_large_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "grecks_assassin",
+        "grecks_mugger"
+      ]
+    },
+    {
+      "name": "corellia_gurrcat_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "gurrcat"
+      ]
+    },
+    {
+      "name": "corellia_hidden_daggers_camp_neutral_medium_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "hidden_daggers_dissident",
+        "hidden_daggers_activist"
+      ]
+    },
+    {
+      "name": "corellia_krahbu_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "krahbu"
+      ]
+    },
+    {
+      "name": "corellia_lord_nyax_chapel_neutral_medium_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "servant_of_lord_nyax",
+        "minion_of_lord_nyax"
+      ]
+    },
+    {
+      "name": "corellia_murra_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "murra"
+      ]
+    },
+    {
+      "name": "corellia_swooper_camp_neutral_small_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "swooper_gangmember",
+        "swooper_corellia",
+        "swooper_leader"
+      ]
+    },
+    {
+      "name": "corellia_tabage_lair_neutral_medium",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "tabage"
+      ]
+    },
+    {
+      "name": "corellia_monumenter_base_neutral_medium_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 20,
+      "mobs": [
+        "monumenter_bandit",
+        "monumenter_smuggler",
+        "monumenter_marauder"
+      ]
+    },
+    {
+      "name": "corellia_gulginaw_nest_neutral_medium",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "gulginaw"
+      ]
+    },
+    {
+      "name": "corellia_selonian_outpost_neutral_large_theater",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "selonian_raider",
+        "selonian_warrior",
+        "selonian_captain"
+      ]
+    },
+    {
+      "name": "corellia_dire_cat_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "dire_cat"
+      ]
+    },
+    {
+      "name": "corellia_dire_cat_lair_neutral_medium_boss_01",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "dire_cat"
+      ]
+    },
+    {
+      "name": "corellia_hidden_daggers_outpost_neutral_medium_theater",
+      "min_cl": 13,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "hidden_daggers_extremist",
+        "hidden_daggers_lieutenant",
+        "hidden_daggers_leader"
+      ]
+    },
+    {
+      "name": "corellia_drall_patriot_base_neutral_large_theater",
+      "min_cl": 13,
+      "max_cl": 19,
+      "size": 30,
+      "mobs": [
+        "drall_patriot_foot_soldier",
+        "drall_patriot_conqueror",
+        "drall_patriot_legionnaire"
+      ]
+    },
+    {
+      "name": "corellia_gronda_lair_neutral_large",
+      "min_cl": 13,
+      "max_cl": 19,
+      "size": 30,
+      "mobs": [
+        "gronda",
+        "dwarf_gronda"
+      ]
+    },
+    {
+      "name": "corellia_drall_camp_neutral_medium_theater",
+      "min_cl": 13,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "drall_abbot",
+        "drall_chieftain",
+        "drall_master",
+        "drall_monk"
+      ]
+    },
+    {
+      "name": "corellia_corsec_traitor_base_neutral_medium_theater",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 30,
+      "mobs": [
+        "corsec_traitor"
+      ]
+    },
+    {
+      "name": "corellia_humbaba_lair_neutral_medium",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 30,
+      "mobs": [
+        "humbaba"
+      ]
+    },
+    {
+      "name": "corellia_deranged_wrix_lair_neutral_medium",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "deranged_wrix"
+      ]
+    },
+    {
+      "name": "corellia_giant_carrion_spat_lair_neutral_medium",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 30,
+      "mobs": [
+        "giant_carrion_spat"
+      ]
+    },
+    {
+      "name": "corellia_lord_nyax_church_neutral_medium_theater",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 30,
+      "mobs": [
+        "fanatic_of_lord_nyax",
+        "disciple_of_lord_nyax"
+      ]
+    },
+    {
+      "name": "corellia_selonian_base_neutral_large_theater",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 20,
+      "mobs": [
+        "selonian_warlord",
+        "selonian_champion"
+      ]
+    },
+    {
+      "name": "corellia_corsec_camp_neutral_medium_theater",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 30,
+      "mobs": [
+        "corsec_lieutenant",
+        "corsec_master_sergeant"
+      ]
+    },
+    {
+      "name": "corellia_razor_cat_pride_neutral_medium_boss_01",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "razor_cat",
+        "female_razor_cat"
+      ]
+    },
+    {
+      "name": "corellia_corsec_outpost_neutral_medium_theater",
+      "min_cl": 21,
+      "max_cl": 25,
+      "size": 25,
+      "mobs": [
+        "corsec_captain",
+        "corsec_major"
+      ]
+    },
+    {
+      "name": "corellia_flail_cut_throat_outpost_neutral_medium_theater",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 25,
+      "mobs": [
+        "flail_boss",
+        "flail_butcher",
+        "flail_executioner"
+      ]
+    },
+    {
+      "name": "corellia_savage_humbaba_lair_neutral_medium",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 25,
+      "mobs": [
+        "savage_humbaba"
+      ]
+    },
+    {
+      "name": "corellia_beldonna_base_neutral_large_theater",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 30,
+      "mobs": [
+        "beldonnas_league_enforcer",
+        "beldonnas_league_marshal"
+      ]
+    },
+    {
+      "name": "corellia_lord_nyax_visionary_neutral_large_theater",
+      "min_cl": 25,
+      "max_cl": 31,
+      "size": 25,
+      "mobs": [
+        "visionary_of_lord_nyax",
+        "zealot_of_lord_nyax",
+        "fiend_of_lord_nyax"
+      ]
+    },
+    {
+      "name": "corellia_corsec_base_neutral_large_theater",
+      "min_cl": 27,
+      "max_cl": 31,
+      "size": 30,
+      "mobs": [
+        "corsec_commissioner",
+        "corsec_chief"
+      ]
+    },
+    {
+      "name": "corellia_sharnaff_lair_neutral_large_boss_01",
+      "min_cl": 29,
+      "max_cl": 33,
+      "size": 35,
+      "mobs": [
+        "sharnaff",
+        "sharnaff_bull"
+      ]
+    },
+    {
+      "name": "corellia_war_gronda_lair_neutral_large",
+      "min_cl": 30,
+      "max_cl": 34,
+      "size": 35,
+      "mobs": [
+        "war_gronda"
+      ]
+    }
+  ],
+  "dantooine": [
+    {
+      "name": "dantooine_bol_pigmy_neutral_small",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "lesser_plains_bol"
+      ]
+    },
+    {
+      "name": "dantooine_voritor_lair_neutral_medium",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "voritor_lizard"
+      ]
+    },
+    {
+      "name": "dantooine_quenker_lair_neutral_medium",
+      "min_cl": 21,
+      "max_cl": 25,
+      "size": 20,
+      "mobs": [
+        "quenker"
+      ]
+    },
+    {
+      "name": "dantooine_dantari_raider_camp_neutral_large_theater",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "dantari_raider"
+      ]
+    },
+    {
+      "name": "dantooine_huurton_howler_lair_neutral_medium_boss_01",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "huurton_howler"
+      ]
+    },
+    {
+      "name": "dantooine_huurton_matron_lair_neutral_medium",
+      "min_cl": 24,
+      "max_cl": 28,
+      "size": 25,
+      "mobs": [
+        "huurton_matron"
+      ]
+    },
+    {
+      "name": "dantooine_thune_lair_neutral_medium",
+      "min_cl": 24,
+      "max_cl": 28,
+      "size": 25,
+      "mobs": [
+        "thune"
+      ]
+    },
+    {
+      "name": "dantooine_bol_lair_neutral_medium_boss_01",
+      "min_cl": 26,
+      "max_cl": 30,
+      "size": 25,
+      "mobs": [
+        "bol",
+        "bol_pack_runner"
+      ]
+    },
+    {
+      "name": "dantooine_quenker_savage_lair_neutral_medium_boss_01",
+      "min_cl": 26,
+      "max_cl": 30,
+      "size": 35,
+      "mobs": [
+        "savage_quenker"
+      ]
+    },
+    {
+      "name": "dantooine_graul_lair_neutral_medium",
+      "min_cl": 28,
+      "max_cl": 32,
+      "size": 35,
+      "mobs": [
+        "graul"
+      ]
+    },
+    {
+      "name": "dantooine_dantari_battlelord_squad_neutral_none",
+      "min_cl": 29,
+      "max_cl": 36,
+      "size": 25,
+      "mobs": [
+        "dantari_battlelord",
+        "dantari_strategist",
+        "domestic_bol_mount"
+      ]
+    },
+    {
+      "name": "dantooine_piket_longhorn_lair_neutral_medium",
+      "min_cl": 30,
+      "max_cl": 37,
+      "size": 30,
+      "mobs": [
+        "piket_longhorn_female",
+        "piket_longhorn"
+      ]
+    },
+    {
+      "name": "dantooine_quenker_bile_drenched_lair_neutral_medium",
+      "min_cl": 32,
+      "max_cl": 36,
+      "size": 25,
+      "mobs": [
+        "bile_drenched_quenker"
+      ]
+    },
+    {
+      "name": "dantooine_graul_mauler_lair_neutral_large_boss_01",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 35,
+      "mobs": [
+        "graul_mauler"
+      ]
+    },
+    {
+      "name": "dantooine_kunga_hunter_neutral_none",
+      "min_cl": 35,
+      "max_cl": 39,
+      "size": 25,
+      "mobs": [
+        "kunga_hunter"
+      ]
+    },
+    {
+      "name": "dantooine_quenker_ravager_lair_neutral_medium",
+      "min_cl": 36,
+      "max_cl": 40,
+      "size": 25,
+      "mobs": [
+        "quenker_ravager"
+      ]
+    },
+    {
+      "name": "dantooine_dantari_chief_squad_neutral_none",
+      "min_cl": 40,
+      "max_cl": 44,
+      "size": 25,
+      "mobs": [
+        "dantari_chief"
+      ]
+    },
+    {
+      "name": "dantooine_mokk_hunter_neutral_none",
+      "min_cl": 40,
+      "max_cl": 44,
+      "size": 25,
+      "mobs": [
+        "mokk_hunter"
+      ]
+    },
+    {
+      "name": "dantooine_mokk_soothsayer_camp_neutral_medium_theater",
+      "min_cl": 41,
+      "max_cl": 45,
+      "size": 25,
+      "mobs": [
+        "mokk_soothsayer"
+      ]
+    },
+    {
+      "name": "dantooine_bol_seething_lair_neutral_medium",
+      "min_cl": 42,
+      "max_cl": 46,
+      "size": 25,
+      "mobs": [
+        "seething_bol_crusher"
+      ]
+    },
+    {
+      "name": "dantooine_quenker_relic_reaper_lair_neutral_medium",
+      "min_cl": 43,
+      "max_cl": 47,
+      "size": 25,
+      "mobs": [
+        "quenker_relic_reaper"
+      ]
+    },
+    {
+      "name": "dantooine_voritor_tracker_lair_neutral_medium",
+      "min_cl": 43,
+      "max_cl": 47,
+      "size": 25,
+      "mobs": [
+        "grassland_voritor_tracker"
+      ]
+    },
+    {
+      "name": "dantooine_mokk_scout_neutral_none",
+      "min_cl": 45,
+      "max_cl": 49,
+      "size": 25,
+      "mobs": [
+        "mokk_scout"
+      ]
+    },
+    {
+      "name": "dantooine_kunga_scout_neutral_none",
+      "min_cl": 46,
+      "max_cl": 50,
+      "size": 25,
+      "mobs": [
+        "kunga_scout"
+      ]
+    },
+    {
+      "name": "dantooine_janta_hunter_neutral_none",
+      "min_cl": 48,
+      "max_cl": 52,
+      "size": 25,
+      "mobs": [
+        "janta_hunter"
+      ]
+    },
+    {
+      "name": "dantooine_janta_scout_neutral_none",
+      "min_cl": 49,
+      "max_cl": 53,
+      "size": 25,
+      "mobs": [
+        "janta_scout"
+      ]
+    },
+    {
+      "name": "dantooine_voritor_jungle_lair_neutral_medium_boss_01",
+      "min_cl": 51,
+      "max_cl": 55,
+      "size": 25,
+      "mobs": [
+        "horned_voritor_lizard"
+      ]
+    },
+    {
+      "name": "dantooine_voritor_hunter_lair_neutral_medium",
+      "min_cl": 55,
+      "max_cl": 59,
+      "size": 25,
+      "mobs": [
+        "slinking_voritor_hunter"
+      ]
+    },
+    {
+      "name": "dantooine_janta_shaman_camp_neutral_medium_theater",
+      "min_cl": 55,
+      "max_cl": 60,
+      "size": 25,
+      "mobs": [
+        "janta_shaman",
+        "janta_loreweaver"
+      ]
+    },
+    {
+      "name": "dantooine_mokk_shaman_neutral_none",
+      "min_cl": 58,
+      "max_cl": 62,
+      "size": 25,
+      "mobs": [
+        "mokk_shaman"
+      ]
+    }
+  ],
+  "dathomir": [
+    {
+      "name": "dathomir_brackaset_pigmy_neutral_small",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "lowland_brackaset"
+      ]
+    },
+    {
+      "name": "dathomir_kwi_lair_neutral_small",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "kwi"
+      ]
+    },
+    {
+      "name": "dathomir_purbole_lair_neutral_medium_boss_01",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "purbole",
+        "purbole_youth"
+      ]
+    },
+    {
+      "name": "dathomir_verne_bull_lair_neutral_large",
+      "min_cl": 14,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "verne_bull",
+        "verne_calf"
+      ]
+    },
+    {
+      "name": "dathomir_baz_nitch_lair_neutral_small",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 20,
+      "mobs": [
+        "baz_nitch",
+        "young_baz_nitch"
+      ]
+    },
+    {
+      "name": "dathomir_reptilian_mature_flyer_lair_neutral_large",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 30,
+      "mobs": [
+        "mature_reptilian_flier"
+      ]
+    },
+    {
+      "name": "dathomir_malkloc_lair_neutral_large",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 35,
+      "mobs": [
+        "malkloc",
+        "young_malkloc"
+      ]
+    },
+    {
+      "name": "dathomir_bolma_lair_neutral_medium_boss_01",
+      "min_cl": 19,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "bolma_male",
+        "bolma_female",
+        "bolma_calf",
+        "lumbering_bolma"
+      ]
+    },
+    {
+      "name": "dathomir_malkloc_bull_lair_neutral_large",
+      "min_cl": 22,
+      "max_cl": 28,
+      "size": 30,
+      "mobs": [
+        "malkloc",
+        "malkloc_bull"
+      ]
+    },
+    {
+      "name": "dathomir_reptilian_ancient_flyer_lair_neutral_large",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 30,
+      "mobs": [
+        "ancient_reptilian_flier"
+      ]
+    },
+    {
+      "name": "dathomir_brackaset_lair_neutral_medium",
+      "min_cl": 24,
+      "max_cl": 28,
+      "size": 25,
+      "mobs": [
+        "brackaset"
+      ]
+    },
+    {
+      "name": "dathomir_gaping_spider_lair_neutral_medium_boss_01",
+      "min_cl": 24,
+      "max_cl": 28,
+      "size": 25,
+      "mobs": [
+        "gaping_spider"
+      ]
+    },
+    {
+      "name": "dathomir_stallion_bolma_lair_neutral_medium",
+      "min_cl": 27,
+      "max_cl": 33,
+      "size": 25,
+      "mobs": [
+        "alpha_bolma",
+        "bolma_male"
+      ]
+    },
+    {
+      "name": "dathomir_mutant_baz_nitch_lair_neutral_small",
+      "min_cl": 28,
+      "max_cl": 32,
+      "size": 25,
+      "mobs": [
+        "mutant_baz_nitch"
+      ]
+    },
+    {
+      "name": "dathomir_giant_baz_nitch_lair_neutral_medium",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 25,
+      "mobs": [
+        "giant_baz_nitch"
+      ]
+    },
+    {
+      "name": "dathomir_rhoa_kwi_lair_neutral_medium",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 25,
+      "mobs": [
+        "rhoa_kwi"
+      ]
+    },
+    {
+      "name": "dathomir_gaping_spider_recluse_lair_neutral_medium",
+      "min_cl": 42,
+      "max_cl": 46,
+      "size": 25,
+      "mobs": [
+        "gaping_spider_recluse"
+      ]
+    },
+    {
+      "name": "dathomir_kamurith_snapper_lair_neutral_medium",
+      "min_cl": 42,
+      "max_cl": 46,
+      "size": 25,
+      "mobs": [
+        "kamurith_snapper"
+      ]
+    },
+    {
+      "name": "dathomir_brackaset_surefoot_lair_neutral_medium",
+      "min_cl": 44,
+      "max_cl": 48,
+      "size": 35,
+      "mobs": [
+        "surefoot_brackaset"
+      ]
+    },
+    {
+      "name": "dathomir_kamurith_nocuous_lair_neutral_medium",
+      "min_cl": 44,
+      "max_cl": 48,
+      "size": 25,
+      "mobs": [
+        "nocuous_kamurith"
+      ]
+    },
+    {
+      "name": "dathomir_bolma_craggy_lair_neutral_medium",
+      "min_cl": 45,
+      "max_cl": 49,
+      "size": 25,
+      "mobs": [
+        "craggy_bolma"
+      ]
+    },
+    {
+      "name": "dathomir_kamurith_defiler_lair_neutral_medium_boss_01",
+      "min_cl": 48,
+      "max_cl": 52,
+      "size": 35,
+      "mobs": [
+        "kamurith_defiler"
+      ]
+    },
+    {
+      "name": "dathomir_rancor_lair_neutral_large",
+      "min_cl": 48,
+      "max_cl": 52,
+      "size": 35,
+      "mobs": [
+        "rancor"
+      ]
+    },
+    {
+      "name": "dathomir_rancor_bull_lair_neutral_large",
+      "min_cl": 63,
+      "max_cl": 67,
+      "size": 35,
+      "mobs": [
+        "bull_rancor"
+      ]
+    },
+    {
+      "name": "dathomir_rancor_enraged_lair_neutral_large",
+      "min_cl": 78,
+      "max_cl": 82,
+      "size": 35,
+      "mobs": [
+        "enraged_rancor"
+      ]
+    },
+    {
+      "name": "dathomir_rancor_enraged_bull_lair_neutral_large_boss_01",
+      "min_cl": 87,
+      "max_cl": 91,
+      "size": 35,
+      "mobs": [
+        "enraged_bull_rancor"
+      ]
+    }
+  ],
+  "endor": [
+    {
+      "name": "endor_squall_rabid_neutral_small",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "rabid_squall"
+      ]
+    },
+    {
+      "name": "endor_pouncing_jax_lair_neutral_small_boss_01",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "pouncing_jax"
+      ]
+    },
+    {
+      "name": "endor_gurreck_cowardly_lair_neutral_small",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "cowardly_gurreck"
+      ]
+    },
+    {
+      "name": "endor_bolle_bol_colt_neutral_small",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "bolle_bol_colt"
+      ]
+    },
+    {
+      "name": "endor_arachne_hatchling_lair_neutral_small",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "arachne_hatchling"
+      ]
+    },
+    {
+      "name": "endor_boar_wolf_cub_lair_neutral_small",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "boar_wolf_cub"
+      ]
+    },
+    {
+      "name": "endor_borgle_putrid_neutral_small",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "putrid_borgle"
+      ]
+    },
+    {
+      "name": "endor_squill_noxious_neutral_small",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "noxious_squill"
+      ]
+    },
+    {
+      "name": "endor_swirl_prong_neutral_small",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "swirl_prong"
+      ]
+    },
+    {
+      "name": "endor_bark_mite_burrower_swarmling_lair_neutral_small",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "bark_mite_burrower_swarmling"
+      ]
+    },
+    {
+      "name": "endor_bloodseeker_mite_drone_lair_neutral_small_boss_01",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "bloodseeker_mite_drone"
+      ]
+    },
+    {
+      "name": "endor_remmer_dune_scavenger_neutral_small",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "remmer_dune_scavenger"
+      ]
+    },
+    {
+      "name": "endor_lantern_bird_neutral_small",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 25,
+      "mobs": [
+        "lantern_bird"
+      ]
+    },
+    {
+      "name": "endor_hanadak_young_rock_crusher_neutral_small",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 30,
+      "mobs": [
+        "young_hanadak_rock_crusher"
+      ]
+    },
+    {
+      "name": "endor_bolle_bol_stomper_neutral_small",
+      "min_cl": 21,
+      "max_cl": 25,
+      "size": 30,
+      "mobs": [
+        "bolle_bol_stomper"
+      ]
+    },
+    {
+      "name": "endor_boar_wolf_lair_neutral_small",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "boar_wolf"
+      ]
+    },
+    {
+      "name": "endor_borgle_life_sapper_neutral_small",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "borgle_life_sapper"
+      ]
+    },
+    {
+      "name": "endor_gurreck_crazed_neutral_small",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "crazed_gurreck"
+      ]
+    },
+    {
+      "name": "endor_roba_neutral_small",
+      "min_cl": 24,
+      "max_cl": 28,
+      "size": 25,
+      "mobs": [
+        "roba"
+      ]
+    },
+    {
+      "name": "endor_arachne_drone_lair_neutral_small_01",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 25,
+      "mobs": [
+        "arachne_drone"
+      ]
+    },
+    {
+      "name": "endor_blooming_jax_lair_neutral_small",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 25,
+      "mobs": [
+        "blooming_jax"
+      ]
+    },
+    {
+      "name": "endor_blushing_jax_lair_neutral_small",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 20,
+      "mobs": [
+        "blushing_jax"
+      ]
+    },
+    {
+      "name": "endor_mantigrue_night_stalker_lair_neutral_small",
+      "min_cl": 26,
+      "max_cl": 30,
+      "size": 25,
+      "mobs": [
+        "mantigrue_night_stalker"
+      ]
+    },
+    {
+      "name": "endor_bark_mite_burrower_drone_lair_neutral_small",
+      "min_cl": 27,
+      "max_cl": 31,
+      "size": 25,
+      "mobs": [
+        "bark_mite_burrower_drone"
+      ]
+    },
+    {
+      "name": "endor_swirl_prong_impaler_neutral_small",
+      "min_cl": 28,
+      "max_cl": 32,
+      "size": 25,
+      "mobs": [
+        "swirl_prong_impaler"
+      ]
+    },
+    {
+      "name": "endor_hanadak_mature_neutral_small",
+      "min_cl": 29,
+      "max_cl": 33,
+      "size": 25,
+      "mobs": [
+        "mature_hanadak"
+      ]
+    },
+    {
+      "name": "endor_borgle_fierce_neutral_small",
+      "min_cl": 30,
+      "max_cl": 34,
+      "size": 25,
+      "mobs": [
+        "fierce_borgle"
+      ]
+    },
+    {
+      "name": "endor_merek_bloodstained_neutral_small",
+      "min_cl": 30,
+      "max_cl": 34,
+      "size": 25,
+      "mobs": [
+        "blood_stained_merek"
+      ]
+    },
+    {
+      "name": "endor_bordok_stud_mare_neutral_small",
+      "min_cl": 32,
+      "max_cl": 36,
+      "size": 25,
+      "mobs": [
+        "bordok_mare",
+        "roaming_bordok_stud"
+      ]
+    },
+    {
+      "name": "endor_blurrg_crimson_neutral_small",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 25,
+      "mobs": [
+        "crimson_blurrg"
+      ]
+    },
+    {
+      "name": "endor_hanadak_rock_smasher_neutral_small",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 25,
+      "mobs": [
+        "mature_hanadak_rock_smasher"
+      ]
+    },
+    {
+      "name": "endor_arachne_venom_filled_lair_neutral_small",
+      "min_cl": 34,
+      "max_cl": 38,
+      "size": 25,
+      "mobs": [
+        "venom_filled_arachne"
+      ]
+    },
+    {
+      "name": "endor_gurreck_hilltop_neutral_small",
+      "min_cl": 39,
+      "max_cl": 43,
+      "size": 25,
+      "mobs": [
+        "hilltop_gurreck_hunter"
+      ]
+    },
+    {
+      "name": "endor_arachne_lair_neutral_boss_03",
+      "min_cl": 40,
+      "max_cl": 44,
+      "size": 25,
+      "mobs": [
+        "arachne_warrior"
+      ]
+    },
+    {
+      "name": "endor_merek_toxic_battlelord_neutral_small",
+      "min_cl": 43,
+      "max_cl": 47,
+      "size": 25,
+      "mobs": [
+        "toxic_merek_battlelord"
+      ]
+    },
+    {
+      "name": "endor_mantigrue_deranged_neutral_none_boss_01",
+      "min_cl": 43,
+      "max_cl": 47,
+      "size": 25,
+      "mobs": [
+        "deranged_mantigrue"
+      ]
+    },
+    {
+      "name": "endor_marauder_frenzied_neutral_medium_theater",
+      "min_cl": 44,
+      "max_cl": 50,
+      "size": 25,
+      "mobs": [
+        "frenzied_marauder",
+        "feral_marauder",
+        "marauder"
+      ]
+    },
+    {
+      "name": "endor_blurrg_lair_neutral_small",
+      "min_cl": 48,
+      "max_cl": 52,
+      "size": 25,
+      "mobs": [
+        "blurrg"
+      ]
+    },
+    {
+      "name": "endor_mantigrue_reaper_lair_neutral_small",
+      "min_cl": 48,
+      "max_cl": 52,
+      "size": 25,
+      "mobs": [
+        "mantigrue_reaper"
+      ]
+    },
+    {
+      "name": "endor_mantigrue_screecher_lair_neutral_small",
+      "min_cl": 53,
+      "max_cl": 57,
+      "size": 25,
+      "mobs": [
+        "mantigrue_screecher"
+      ]
+    },
+    {
+      "name": "endor_marauder_blood_crazed_plains_neutral_medium_theater",
+      "min_cl": 54,
+      "max_cl": 58,
+      "size": 25,
+      "mobs": [
+        "blood_crazed_plains_marauder",
+        "berserk_marauder"
+      ]
+    }
+  ],
+  "lok": [
+    {
+      "name": "lok_pharple_lair_neutral_medium",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 25,
+      "mobs": [
+        "pharple",
+        "giant_pharple"
+      ]
+    },
+    {
+      "name": "lok_flit_lair_neutral_medium",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "flit",
+        "flit_youth"
+      ]
+    },
+    {
+      "name": "lok_spinded_snake_lair_neutral_medium",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "young_spined_snake",
+        "sandy_spined_snake"
+      ]
+    },
+    {
+      "name": "lok_perlek_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "perlek"
+      ]
+    },
+    {
+      "name": "lok_gurnaset_lair_neutral_medium",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "gurnaset"
+      ]
+    },
+    {
+      "name": "lok_langlatch_lair_neutral_medium",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "langlatch_hunter"
+      ]
+    },
+    {
+      "name": "lok_spinded_snake_lair2_neutral_medium",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "spined_snake"
+      ]
+    },
+    {
+      "name": "lok_kusak_lair_neutral_medium",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "kusak"
+      ]
+    },
+    {
+      "name": "lok_flit_lair2_neutral_medium_boss_01",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "giant_flit"
+      ]
+    },
+    {
+      "name": "lok_marooned_pirate_camp_neutral_medium_theater",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "marooned_pirate"
+      ]
+    },
+    {
+      "name": "lok_blood_razor_camp_neutral_easy_theater",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 25,
+      "mobs": [
+        "blood_razor_weak_pirate"
+      ]
+    },
+    {
+      "name": "lok_nym_camp_neutral_medium_theater",
+      "min_cl": 21,
+      "max_cl": 25,
+      "size": 25,
+      "mobs": [
+        "nym_pirate_weak",
+        "nym_brawler",
+        "nym_surveyor"
+      ]
+    },
+    {
+      "name": "lok_mynock_lair_neutral_medium",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "salt_mynock",
+        "lowland_salt_mynock"
+      ]
+    },
+    {
+      "name": "lok_vesp_lair_neutral_medium",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "vesp",
+        "mountain_vesp"
+      ]
+    },
+    {
+      "name": "lok_nym_camp2_neutral_medium_theater",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 25,
+      "mobs": [
+        "nym_bodyguard",
+        "nym_pirate_strong"
+      ]
+    },
+    {
+      "name": "lok_gurk_lair_neutral_boss_02",
+      "min_cl": 28,
+      "max_cl": 32,
+      "size": 25,
+      "mobs": [
+        "gurk"
+      ]
+    },
+    {
+      "name": "lok_snorbal_lair_neutral_medium",
+      "min_cl": 28,
+      "max_cl": 32,
+      "size": 25,
+      "mobs": [
+        "snorbal"
+      ]
+    },
+    {
+      "name": "lok_nym_base_neutral_large_theater",
+      "min_cl": 29,
+      "max_cl": 33,
+      "size": 25,
+      "mobs": [
+        "nym_guard_weak",
+        "nym_pirate_elite"
+      ]
+    },
+    {
+      "name": "lok_mercenary_camp_neutral_medium_theater",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 25,
+      "mobs": [
+        "strong_mercenary",
+        "weak_mercenary"
+      ]
+    },
+    {
+      "name": "lok_canyon_corsair_camp_neutral_medium_theater",
+      "min_cl": 34,
+      "max_cl": 38,
+      "size": 25,
+      "mobs": [
+        "canyon_corsair_cutthroat",
+        "canyon_corsair_strong_pirate",
+        "canyon_corsair_guard"
+      ]
+    },
+    {
+      "name": "lok_nym_base2_neutral_large_theater",
+      "min_cl": 36,
+      "max_cl": 40,
+      "size": 25,
+      "mobs": [
+        "nym_destroyer",
+        "nym_guard_elite",
+        "nym_guard_strong"
+      ]
+    },
+    {
+      "name": "lok_blood_razor_camp_neutral_medium_theater",
+      "min_cl": 39,
+      "max_cl": 43,
+      "size": 25,
+      "mobs": [
+        "blood_razor_captain",
+        "blood_razor_officer",
+        "blood_razor_guard"
+      ]
+    },
+    {
+      "name": "lok_mercenary_camp2_neutral_medium_theater",
+      "min_cl": 40,
+      "max_cl": 44,
+      "size": 25,
+      "mobs": [
+        "mercenary_destroyer",
+        "mercenary_warlord"
+      ]
+    },
+    {
+      "name": "lok_gurk_lair2_neutral_medium_boss_01",
+      "min_cl": 41,
+      "max_cl": 45,
+      "size": 25,
+      "mobs": [
+        "crazed_gurk_destroyer"
+      ]
+    },
+    {
+      "name": "lok_canyon_corsair_camp2_neutral_medium_theater",
+      "min_cl": 45,
+      "max_cl": 50,
+      "size": 25,
+      "mobs": [
+        "canyon_corsair_captain",
+        "elite_canyon_corsair"
+      ]
+    }
+  ],
+  "naboo": [
+    {
+      "name": "naboo_gnort_lair_neutral_small",
+      "min_cl": 2,
+      "max_cl": 6,
+      "size": 20,
+      "mobs": [
+        "gnort"
+      ]
+    },
+    {
+      "name": "naboo_chuba_lair_neutral_small",
+      "min_cl": 3,
+      "max_cl": 7,
+      "size": 20,
+      "mobs": [
+        "chuba"
+      ]
+    },
+    {
+      "name": "naboo_capper_spineflap_pod_neutral_small",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "capper_spineflap"
+      ]
+    },
+    {
+      "name": "naboo_diseased_nuna_lair_neutral_small",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "diseased_nuna"
+      ]
+    },
+    {
+      "name": "naboo_flesh_eating_chuba_lair_neutral_small",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "flesh_eating_chuba"
+      ]
+    },
+    {
+      "name": "naboo_flewt_lair_neutral_boss_02",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 20,
+      "mobs": [
+        "flewt"
+      ]
+    },
+    {
+      "name": "naboo_hermit_spider_lair_neutral_boss_01",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "hermit_spider"
+      ]
+    },
+    {
+      "name": "naboo_ikopi_lair_neutral_medium",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "ikopi"
+      ]
+    },
+    {
+      "name": "naboo_nightspider_lair_neutral_boss_01",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "nightspider"
+      ]
+    },
+    {
+      "name": "naboo_ankura_gungan_camp_neutral_large_theater",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 25,
+      "mobs": [
+        "ankura_gungan"
+      ]
+    },
+    {
+      "name": "naboo_mott_lair_neutral_medium",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 25,
+      "mobs": [
+        "mott"
+      ]
+    },
+    {
+      "name": "naboo_plasma_thief_camp_neutral_large_theater",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 30,
+      "mobs": [
+        "plasma_thief",
+        "plasma_thief_leader",
+        "plasma_bandit"
+      ]
+    },
+    {
+      "name": "naboo_sharupat_family_diseased_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "rabid_shaupaut"
+      ]
+    },
+    {
+      "name": "naboo_kaadu_lair_neutral_medium_boss_01",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "kaadu"
+      ]
+    },
+    {
+      "name": "naboo_krevol_lair_neutral_boss_02",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "spiked_krevol"
+      ]
+    },
+    {
+      "name": "naboo_nuna_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "nuna"
+      ]
+    },
+    {
+      "name": "naboo_otolla_gungan_camp_neutral_large_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "otolla_gungan"
+      ]
+    },
+    {
+      "name": "naboo_trade_federation_camp_neutral_large_theater",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "trade_federation_loyalist",
+        "trade_federation_pirate"
+      ]
+    },
+    {
+      "name": "naboo_veermok_camp_neutral_medium",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "veermok_sentry",
+        "veermok"
+      ]
+    },
+    {
+      "name": "naboo_borvos_camp_neutral_small_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "borvos_bruiser",
+        "borvos_soldier",
+        "borvos_mercenary"
+      ]
+    },
+    {
+      "name": "naboo_mauler_sect_neutral_medium_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "mauler_apprentice"
+      ]
+    },
+    {
+      "name": "naboo_gualama_small_lair_neutral_medium",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "bachelor_gualama"
+      ]
+    },
+    {
+      "name": "naboo_gualama_large_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "maverick_gualama"
+      ]
+    },
+    {
+      "name": "naboo_gungan_mercenary_camp_neutral_large_theater",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "gungan_mercenary",
+        "gungan_kaadu",
+        "gungan_kaadu_rider"
+      ]
+    },
+    {
+      "name": "naboo_peko_peko_eyrie_neutral_large",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "peko_peko"
+      ]
+    },
+    {
+      "name": "naboo_rsf_camp_neutral_medium_theater",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "rsf_commando"
+      ]
+    },
+    {
+      "name": "naboo_plains_tusk_cat_pride_neutral_medium",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "female_plains_tusk_cat",
+        "male_plains_tusk_cat"
+      ]
+    },
+    {
+      "name": "naboo_rsf_outpost_neutral_large_theater",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "rsf_captain",
+        "rsf_security_officer"
+      ]
+    },
+    {
+      "name": "naboo_borvos_fort_neutral_large_theater",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "borvos_champion",
+        "borvos_thief",
+        "borvos_thug"
+      ]
+    },
+    {
+      "name": "naboo_falumpaset_lair_neutral_large",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "falumpaset"
+      ]
+    },
+    {
+      "name": "naboo_narglatch_pride_neutral_medium",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "narglatch"
+      ]
+    },
+    {
+      "name": "naboo_sharupat_family_neutral_medium",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "shaupaut_hunter"
+      ]
+    },
+    {
+      "name": "naboo_fanned_rawl_lair_neutral_small_boss_01",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 25,
+      "mobs": [
+        "fanned_rawl"
+      ]
+    },
+    {
+      "name": "naboo_gungan_war_base_neutral_large_theater",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "gungan_general",
+        "gungan_leader",
+        "gungan_falumpaset"
+      ]
+    },
+    {
+      "name": "naboo_bolle_bol_lair_neutral_large_boss_01",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 30,
+      "mobs": [
+        "bolle_bol"
+      ]
+    },
+    {
+      "name": "naboo_fambaa_lair_neutral_large_boss_01",
+      "min_cl": 32,
+      "max_cl": 36,
+      "size": 35,
+      "mobs": [
+        "fambaa"
+      ]
+    }
+  ],
+  "rori": [
+    {
+      "name": "rori_borgal_young_lair_neutral_small",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "young_borgle"
+      ]
+    },
+    {
+      "name": "rori_capper_spineflap_hive_neutral_large",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "capper_spineflap"
+      ]
+    },
+    {
+      "name": "rori_gundark_hooligan_camp_neutral_medium_theater",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 20,
+      "mobs": [
+        "gundark_hooligan",
+        "gundark_rogue",
+        "gundark_crook"
+      ]
+    },
+    {
+      "name": "rori_brigade_scout_camp_neutral_medium_theater",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 20,
+      "mobs": [
+        "first_brigade_scout",
+        "first_brigade_trooper"
+      ]
+    },
+    {
+      "name": "rori_ikopi_lair_neutral_medium_boss_01",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "ikopi"
+      ]
+    },
+    {
+      "name": "rori_nightspider_lair_neutral_small",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "nightspider"
+      ]
+    },
+    {
+      "name": "rori_sickle_rasp_nest_neutral_medium",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 20,
+      "mobs": [
+        "sickle_rasp"
+      ]
+    },
+    {
+      "name": "rori_kobola_miner_base_neutral_large_theater",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 20,
+      "mobs": [
+        "kobola_miner",
+        "kobola_thief"
+      ]
+    },
+    {
+      "name": "rori_gundark_raider_camp_neutral_medium_theater",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 20,
+      "mobs": [
+        "gundark_raider",
+        "gundark_desperado",
+        "gundark_ruffian"
+      ]
+    },
+    {
+      "name": "rori_cobral_mugger_camp_neutral_medium_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 20,
+      "mobs": [
+        "cobral_mugger",
+        "cobral_hooligan"
+      ]
+    },
+    {
+      "name": "rori_narmle_camp_neutral_large_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "narmle_militia_lieutenant",
+        "narmle_militia_grenadier"
+      ]
+    },
+    {
+      "name": "rori_garyn_raiders_camp_neutral_medium_theater",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "garyns_prowler"
+      ]
+    },
+    {
+      "name": "rori_squall_warren_neutral_medium",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 20,
+      "mobs": [
+        "male_squall",
+        "female_squall"
+      ]
+    },
+    {
+      "name": "rori_borgle_lair_neutral_large",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "borgle"
+      ]
+    },
+    {
+      "name": "rori_dashing_vir_vur_lair_neutral_small_boss_01",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 20,
+      "mobs": [
+        "dashing_vir_vur"
+      ]
+    },
+    {
+      "name": "rori_mauler_sect_neutral_medium_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 20,
+      "mobs": [
+        "mauler_apprentice"
+      ]
+    },
+    {
+      "name": "rori_nudfuh_lair_neutral_medium",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 30,
+      "mobs": [
+        "nudfuh"
+      ]
+    },
+    {
+      "name": "rori_fuzzy_jax_lair_neutral_medium",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 20,
+      "mobs": [
+        "fuzzy_jax"
+      ]
+    },
+    {
+      "name": "rori_gualama_small_lair_neutral_medium",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "bachelor_gualama"
+      ]
+    },
+    {
+      "name": "rori_forest_mite_neutral_boss_03",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "forest_mite"
+      ]
+    },
+    {
+      "name": "rori_vrobal_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "vrobal"
+      ]
+    },
+    {
+      "name": "rori_chared_krevol_lair_neutral_medium",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "charred_krevol"
+      ]
+    },
+    {
+      "name": "rori_savage_pugoriss_lair_neutral_medium",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "savage_pugoriss"
+      ]
+    },
+    {
+      "name": "rori_brigade_camp_neutral_large_theater",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 20,
+      "mobs": [
+        "first_brigade_marine",
+        "first_brigade_officer"
+      ]
+    },
+    {
+      "name": "rori_elder_pugoriss_lair_neutral_medium_boss_01",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "elder_pugoriss"
+      ]
+    },
+    {
+      "name": "rori_swamp_tusk_cat_pride_neutral_medium",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "male_swamp_tusk_cat",
+        "female_swamp_tusk_cat"
+      ]
+    },
+    {
+      "name": "rori_tattered_torton_lair_neutral_large",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 30,
+      "mobs": [
+        "tattered_torton"
+      ]
+    },
+    {
+      "name": "rori_rorgungan_warcamp_neutral_large_theater",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "rorgungan_warchief",
+        "rorgungan_warrior"
+      ]
+    },
+    {
+      "name": "rori_leviasquall_warren_neutral_medium",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "leviasquall"
+      ]
+    },
+    {
+      "name": "rori_kai_tok_lair_neutral_medium",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 25,
+      "mobs": [
+        "screaming_kai_tok"
+      ]
+    },
+    {
+      "name": "rori_cobral_boss_camp_neutral_large_theater",
+      "min_cl": 20,
+      "max_cl": 30,
+      "size": 30,
+      "mobs": [
+        "neo_cobral_boss",
+        "neo_cobral_bandit"
+      ]
+    },
+    {
+      "name": "rori_narmle_base_neutral_large_theater",
+      "min_cl": 21,
+      "max_cl": 25,
+      "size": 20,
+      "mobs": [
+        "narmle_militia_colonel",
+        "narmle_militia_commander"
+      ]
+    },
+    {
+      "name": "rori_cobral_overlord_camp_neutral_large_theater",
+      "min_cl": 21,
+      "max_cl": 33,
+      "size": 30,
+      "mobs": [
+        "neo_cobral_overlord",
+        "neo_cobral_hitman"
+      ]
+    },
+    {
+      "name": "rori_spice_collective_miner_base_neutral_large_theater",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 20,
+      "mobs": [
+        "spice_collective_heavy_guard",
+        "spice_collective_elite_guard"
+      ]
+    },
+    {
+      "name": "rori_torton_lair_neutral_large",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 30,
+      "mobs": [
+        "torton"
+      ]
+    },
+    {
+      "name": "rori_brigade_base_neutral_large_theater",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "first_brigade_general",
+        "first_brigade_captain"
+      ]
+    },
+    {
+      "name": "rori_garyn_raiders_outpost_neutral_large_theater",
+      "min_cl": 26,
+      "max_cl": 32,
+      "size": 30,
+      "mobs": [
+        "garyns_dragoon",
+        "garyns_vigo",
+        "garyns_lieutenant"
+      ]
+    },
+    {
+      "name": "rori_ravenous_torton_lair_neutral_large_boss_01",
+      "min_cl": 32,
+      "max_cl": 36,
+      "size": 30,
+      "mobs": [
+        "ravenous_torton"
+      ]
+    }
+  ],
+  "talus": [
+    {
+      "name": "talus_fynock_youth_lair_neutral_small",
+      "min_cl": 3,
+      "max_cl": 7,
+      "size": 25,
+      "mobs": [
+        "fearful_fynock_youth"
+      ]
+    },
+    {
+      "name": "talus_chunker_goon_camp_neutral_small_theater",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 25,
+      "mobs": [
+        "chunker_goon",
+        "chunker_mooch",
+        "chunker_pest",
+        "chunker_nitwit",
+        "chunker_punk"
+      ]
+    },
+    {
+      "name": "talus_paralope_lair_neutral_medium_boss_01",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 25,
+      "mobs": [
+        "paralope"
+      ]
+    },
+    {
+      "name": "talus_sleemo_delinquent_camp_neutral_medium_theater",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "sleemo_delinquent",
+        "sleemo_punk",
+        "sleemo_hoodlum"
+      ]
+    },
+    {
+      "name": "talus_dalyrake_nest_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "dalyrake"
+      ]
+    },
+    {
+      "name": "talus_decay_mite_lair_neutral_boss_01",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "decay_mite"
+      ]
+    },
+    {
+      "name": "talus_liberation_loyalist_camp_neutral_medium_theater",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "talus_liberation_party_loyalist",
+        "talus_liberation_party_volunteer"
+      ]
+    },
+    {
+      "name": "talus_sleemo_vandal_camp_neutral_medium_theater",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "sleemo_vandal",
+        "sleemo_scamp"
+      ]
+    },
+    {
+      "name": "talus_vynock_lair_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "vynock"
+      ]
+    },
+    {
+      "name": "talus_chunker_bruiser_camp_neutral_medium_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "chunker_braggart",
+        "chunker_bully",
+        "chunker_bruiser",
+        "chunker_creep",
+        "chunker_swindler"
+      ]
+    },
+    {
+      "name": "talus_song_rasp_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 20,
+      "mobs": [
+        "song_rasp"
+      ]
+    },
+    {
+      "name": "talus_rot_mite_lair_neutral_boss_02",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "rot_mite"
+      ]
+    },
+    {
+      "name": "talus_fed_dub_constable_camp_neutral_large_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "fed_dub_constable"
+      ]
+    },
+    {
+      "name": "talus_fynock_lair_neutral_boss_03",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "fynock"
+      ]
+    },
+    {
+      "name": "talus_percussive_rasp_lair_neutral_medium",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 20,
+      "mobs": [
+        "percussive_rasp"
+      ]
+    },
+    {
+      "name": "talus_wrix_lair_neutral_medium",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "wrix"
+      ]
+    },
+    {
+      "name": "talus_aakuan_steward_camp_neutral_small_theater",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "aakuan_steward",
+        "aakuan_follower",
+        "aakuan_keeper"
+      ]
+    },
+    {
+      "name": "talus_dung_mite_lair_neutral_boss_02",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "dung_mite"
+      ]
+    },
+    {
+      "name": "talus_guf_drolg_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 30,
+      "mobs": [
+        "guf_drolg"
+      ]
+    },
+    {
+      "name": "talus_liberation_patriot_camp_neutral_medium_theater",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "talus_liberation_party_patriot"
+      ]
+    },
+    {
+      "name": "talus_tortur_lair_neutral_large",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 35,
+      "mobs": [
+        "meager_tortur"
+      ]
+    },
+    {
+      "name": "talus_binayre_pirate_camp_neutral_medium_theater",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "binayre_pirate"
+      ]
+    },
+    {
+      "name": "talus_kahmurra_lair_neutral_medium",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "kahmurra"
+      ]
+    },
+    {
+      "name": "talus_savage_guf_drolg_lair_neutral_medium",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "savage_guf_drolg"
+      ]
+    },
+    {
+      "name": "talus_drall_patriot_base_neutral_large_theater",
+      "min_cl": 13,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "drall_patriot_foot_soldier",
+        "drall_patriot_conqueror",
+        "drall_patriot_legionnaire"
+      ]
+    },
+    {
+      "name": "talus_roba_lair_neutral_large",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "male_roba",
+        "female_roba"
+      ]
+    },
+    {
+      "name": "talus_sludge_panther_lair_neutral_medium",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "sludge_panther"
+      ]
+    },
+    {
+      "name": "talus_humbaba_lair_neutral_medium",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "humbaba"
+      ]
+    },
+    {
+      "name": "talus_lost_aqualish_captain_camp_neutral_large_theater",
+      "min_cl": 15,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "lost_aqualish_captain",
+        "lost_aqualish_bomber"
+      ]
+    },
+    {
+      "name": "talus_devil_gulginaw_nest_neutral_medium",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "devil_gulginaw"
+      ]
+    },
+    {
+      "name": "talus_kima_lair_neutral_medium_boss_01",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 20,
+      "mobs": [
+        "kima"
+      ]
+    },
+    {
+      "name": "talus_woodland_kima_lair_neutral_medium",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 20,
+      "mobs": [
+        "woodland_kima"
+      ]
+    },
+    {
+      "name": "talus_vicious_huf_dun_lair_neutral_medium",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 30,
+      "mobs": [
+        "vicious_huf_dun"
+      ]
+    },
+    {
+      "name": "talus_wolf_kima_lair_neutral_medium",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 30,
+      "mobs": [
+        "wolf_kima"
+      ]
+    },
+    {
+      "name": "talus_binayre_chief_camp_neutral_large_theater",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 25,
+      "mobs": [
+        "binayre_chief",
+        "binayre_swindler"
+      ]
+    },
+    {
+      "name": "talus_liberation_activist_camp_neutral_medium_theater",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 25,
+      "mobs": [
+        "talus_liberation_party_activist"
+      ]
+    },
+    {
+      "name": "talus_huf_dun_lair_neutral_medium",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 30,
+      "mobs": [
+        "huf_dun",
+        "huf_dun_bull"
+      ]
+    },
+    {
+      "name": "talus_beldonna_base_neutral_large_theater",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "beldonnas_league_enforcer",
+        "beldonnas_league_marshal"
+      ]
+    },
+    {
+      "name": "talus_grand_wrix_lair_neutral_medium_boss_01",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "grand_wrix"
+      ]
+    },
+    {
+      "name": "talus_greater_sludge_panther_lair_neutral_medium",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "greater_sludge_panther"
+      ]
+    },
+    {
+      "name": "talus_mutated_kahmurra_lair_neutral_medium",
+      "min_cl": 24,
+      "max_cl": 28,
+      "size": 25,
+      "mobs": [
+        "mutated_kahmurra"
+      ]
+    },
+    {
+      "name": "talus_lost_aqualish_warchief_camp_neutral_large_theater",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 25,
+      "mobs": [
+        "lost_aqualish_warchief"
+      ]
+    },
+    {
+      "name": "talus_aakuan_champion_camp_neutral_large_theater",
+      "min_cl": 29,
+      "max_cl": 33,
+      "size": 25,
+      "mobs": [
+        "aakuan_champion",
+        "aakuan_anarchist",
+        "aakuan_assassin"
+      ]
+    }
+  ],
+  "tatooine": [
+    {
+      "name": "tatooine_kreetle_over_death_neutral_medium_boss_01",
+      "min_cl": 1,
+      "max_cl": 5,
+      "size": 25,
+      "mobs": [
+        "kreetle"
+      ]
+    },
+    {
+      "name": "tatooine_kreetle_lair_neutral_small",
+      "min_cl": 1,
+      "max_cl": 5,
+      "size": 25,
+      "mobs": [
+        "kreetle"
+      ]
+    },
+    {
+      "name": "tatooine_tatooine_mynock_lair_neutral_small",
+      "min_cl": 1,
+      "max_cl": 5,
+      "size": 25,
+      "mobs": [
+        "tatooine_mynock"
+      ]
+    },
+    {
+      "name": "tatooine_womprat_womprat_neutral_medium_boss_01",
+      "min_cl": 1,
+      "max_cl": 5,
+      "size": 25,
+      "mobs": [
+        "womp_rat"
+      ]
+    },
+    {
+      "name": "tatooine_dwarf_nuna_nuna_neutral_medium_boss_01",
+      "min_cl": 3,
+      "max_cl": 7,
+      "size": 25,
+      "mobs": [
+        "dwarf_nuna"
+      ]
+    },
+    {
+      "name": "tatooine_trandosian_slaver_neutral_medium_theater",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 25,
+      "mobs": [
+        "trandosian_slavemaster",
+        "trandosian_slaver"
+      ]
+    },
+    {
+      "name": "tatooine_gorg_lair_neutral_small",
+      "min_cl": 4,
+      "max_cl": 8,
+      "size": 25,
+      "mobs": [
+        "gorg"
+      ]
+    },
+    {
+      "name": "tatooine_eopie_lair_neutral_small",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "eopie"
+      ]
+    },
+    {
+      "name": "tatooine_sevorrt_lair_neutral_medium",
+      "min_cl": 5,
+      "max_cl": 9,
+      "size": 25,
+      "mobs": [
+        "sevorrt"
+      ]
+    },
+    {
+      "name": "tatooine_diseased_bocatt_lair_neutral_medium",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 25,
+      "mobs": [
+        "diseased_bocatt"
+      ]
+    },
+    {
+      "name": "tatooine_rockmite_click_neutral_small",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 25,
+      "mobs": [
+        "rockmite"
+      ]
+    },
+    {
+      "name": "tatooine_spice_fiend_neutral_small_theater",
+      "min_cl": 6,
+      "max_cl": 10,
+      "size": 25,
+      "mobs": [
+        "spice_fiend"
+      ]
+    },
+    {
+      "name": "tatooine_jawa_outpost_neutral_medium_theater",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "jawa_leader",
+        "jawa_engineer"
+      ]
+    },
+    {
+      "name": "tatooine_jundland_eopie_lair_neutral_medium",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "jundland_eopie"
+      ]
+    },
+    {
+      "name": "tatooine_zucca_boar_zucca_neutral_medium_boss_01",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "zucca_boar"
+      ]
+    },
+    {
+      "name": "tatooine_cupa_cupa_neutral_medium_boss_01",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "cu_pa"
+      ]
+    },
+    {
+      "name": "tatooine_weequay_outpost_neutral_large_theater",
+      "min_cl": 9,
+      "max_cl": 13,
+      "size": 25,
+      "mobs": [
+        "weequay_champion",
+        "weequay_soldier",
+        "weequay_thug",
+        "weequay_zealot"
+      ]
+    },
+    {
+      "name": "tatooine_rodian_clan_outpost_neutral_large_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "rodian_clan_warchief",
+        "rodian_clan_captain"
+      ]
+    },
+    {
+      "name": "tatooine_scyk_scyk_neutral_medium_boss_01",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "scyk"
+      ]
+    },
+    {
+      "name": "tatooine_valarian_swooper_neutral_small_theater",
+      "min_cl": 10,
+      "max_cl": 14,
+      "size": 25,
+      "mobs": [
+        "valarian_swooper_leader",
+        "valarian_swooper"
+      ]
+    },
+    {
+      "name": "tatooine_worrt_giant_neutral_medium_boss_01",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "giant_worrt"
+      ]
+    },
+    {
+      "name": "tatooine_rock_beetle_click_neutral_medium",
+      "min_cl": 11,
+      "max_cl": 15,
+      "size": 25,
+      "mobs": [
+        "rock_beetle"
+      ]
+    },
+    {
+      "name": "tatooine_mutant_womprat_lair_neutral_small",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "mutant_womp_rat",
+        "variegated_womp_rat"
+      ]
+    },
+    {
+      "name": "tatooine_alkhara_bandit_outpost_neutral_large_theater",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "alkhara_lieutenant",
+        "alkhara_bandit"
+      ]
+    },
+    {
+      "name": "tatooine_swarming_lesser_dewback_lair_neutral_large",
+      "min_cl": 13,
+      "max_cl": 17,
+      "size": 25,
+      "mobs": [
+        "swarming_lesser_dewback"
+      ]
+    },
+    {
+      "name": "tatooine_desert_eopie_lair_neutral_small",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "desert_eopie"
+      ]
+    },
+    {
+      "name": "tatooine_jabba_enforcer_camp_neutral_medium_theater",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "jabba_enforcer"
+      ]
+    },
+    {
+      "name": "tatooine_valarian_assasin_neutral_large_theater",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "valarian_assassin"
+      ]
+    },
+    {
+      "name": "tatooine_bantha_dune_bantha_neutral_medium_boss_01",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "dune_bantha"
+      ]
+    },
+    {
+      "name": "tatooine_jabba_assasin_camp_neutral_large_theater",
+      "min_cl": 15,
+      "max_cl": 19,
+      "size": 25,
+      "mobs": [
+        "jabba_assassin"
+      ]
+    },
+    {
+      "name": "tatooine_dune_lizard_dune_lizard_neutral_medium_boss_01",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "dune_lizard"
+      ]
+    },
+    {
+      "name": "tatooine_ronto_lair_neutral_large",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 30,
+      "mobs": [
+        "ronto"
+      ]
+    },
+    {
+      "name": "tatooine_squill_squill_neutral_medium_boss_01",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "squill"
+      ]
+    },
+    {
+      "name": "tatooine_cu_pa_lair_neutral_medium",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "cu_pa"
+      ]
+    },
+    {
+      "name": "tatooine_dewback_dewback_neutral_medium_boss_01",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 30,
+      "mobs": [
+        "dewback"
+      ]
+    },
+    {
+      "name": "tatooine_bull_bantha_lair_neutral_large",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "bull_bantha"
+      ]
+    },
+    {
+      "name": "tatooine_desert_squill_lair_neutral_small",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "desert_squill"
+      ]
+    },
+    {
+      "name": "tatooine_mountain_dewback_lair_neutral_large",
+      "min_cl": 18,
+      "max_cl": 22,
+      "size": 25,
+      "mobs": [
+        "mountain_dewback"
+      ]
+    },
+    {
+      "name": "tatooine_cannibal_dewback_lair_neutral_large",
+      "min_cl": 19,
+      "max_cl": 23,
+      "size": 25,
+      "mobs": [
+        "cannibal_dewback"
+      ]
+    },
+    {
+      "name": "tatooine_bocatt_bocatt_neutral_medium_boss_01",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "bocatt"
+      ]
+    },
+    {
+      "name": "tatooine_greater_womprat_lair_neutral_medium",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "greater_desert_womp_rat"
+      ]
+    },
+    {
+      "name": "tatooine_mountain_worrt_lair_neutral_large",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "mountain_worrt"
+      ]
+    },
+    {
+      "name": "tatooine_matriarch_bantha_lair_neutral_large",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "bantha_matriarch"
+      ]
+    },
+    {
+      "name": "tatooine_grizzled_dewback_lair_neutral_large",
+      "min_cl": 25,
+      "max_cl": 29,
+      "size": 25,
+      "mobs": [
+        "grizzled_dewback"
+      ]
+    },
+    {
+      "name": "tatooine_dragonet_dragonet_neutral_medium_boss_01",
+      "min_cl": 27,
+      "max_cl": 31,
+      "size": 25,
+      "mobs": [
+        "dragonet"
+      ]
+    },
+    {
+      "name": "tatooine_giant_sand_beetle_click_neutral_large",
+      "min_cl": 28,
+      "max_cl": 32,
+      "size": 25,
+      "mobs": [
+        "giant_sand_beetle"
+      ]
+    },
+    {
+      "name": "tatooine_mountain_squill_lair_neutral_medium",
+      "min_cl": 32,
+      "max_cl": 36,
+      "size": 25,
+      "mobs": [
+        "mountain_squill",
+        "female_mountain_squill"
+      ]
+    }
+  ],
+  "yavin4": [
+    {
+      "name": "yavin4_tanc_mite_lair_neutral_medium",
+      "min_cl": 7,
+      "max_cl": 11,
+      "size": 25,
+      "mobs": [
+        "tanc_mite"
+      ]
+    },
+    {
+      "name": "yavin4_gackle_bat_lair_neutral_boss_01",
+      "min_cl": 8,
+      "max_cl": 12,
+      "size": 25,
+      "mobs": [
+        "gackle_bat"
+      ]
+    },
+    {
+      "name": "yavin4_spined_puc_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 25,
+      "mobs": [
+        "spined_puc"
+      ]
+    },
+    {
+      "name": "yavin4_stintaril_lair_neutral_medium",
+      "min_cl": 12,
+      "max_cl": 16,
+      "size": 20,
+      "mobs": [
+        "stintaril"
+      ]
+    },
+    {
+      "name": "yavin4_choku_lair_neutral_medium",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "choku"
+      ]
+    },
+    {
+      "name": "yavin4_whisper_bird_male_neutral_medium_boss_01",
+      "min_cl": 14,
+      "max_cl": 18,
+      "size": 25,
+      "mobs": [
+        "whisper_bird_male"
+      ]
+    },
+    {
+      "name": "yavin4_kliknik_kliknik_neutral_medium_boss_01",
+      "min_cl": 16,
+      "max_cl": 20,
+      "size": 25,
+      "mobs": [
+        "kliknik"
+      ]
+    },
+    {
+      "name": "yavin4_hutt_expedition_force_camp_hutt_medium_theater",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "hutt_expeditonary_force_member",
+        "hutt_expeditonary_force_leader"
+      ]
+    },
+    {
+      "name": "yavin4_mamien_lair_neutral_boss_03",
+      "min_cl": 17,
+      "max_cl": 21,
+      "size": 25,
+      "mobs": [
+        "female_mamien",
+        "male_mamien"
+      ]
+    },
+    {
+      "name": "yavin4_skreeg_lair_neutral_hard",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "skreeg_hunter",
+        "skreeg_male"
+      ]
+    },
+    {
+      "name": "yavin4_angler_lair_neutral_medium",
+      "min_cl": 20,
+      "max_cl": 24,
+      "size": 25,
+      "mobs": [
+        "angler"
+      ]
+    },
+    {
+      "name": "yavin4_mawgax_male_neutral_medium_boss_01",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 25,
+      "mobs": [
+        "female_mawgax",
+        "male_mawgax"
+      ]
+    },
+    {
+      "name": "yavin4_tybis_lair_neutral_medium",
+      "min_cl": 22,
+      "max_cl": 26,
+      "size": 25,
+      "mobs": [
+        "tybis"
+      ]
+    },
+    {
+      "name": "yavin4_crystal_snake_lair_neutral_medium",
+      "min_cl": 23,
+      "max_cl": 27,
+      "size": 25,
+      "mobs": [
+        "crystal_snake"
+      ]
+    },
+    {
+      "name": "yavin4_crystal_snake_giant_neutral_medium_boss_01",
+      "min_cl": 29,
+      "max_cl": 33,
+      "size": 25,
+      "mobs": [
+        "giant_crystal_snake"
+      ]
+    },
+    {
+      "name": "yavin4_mawgax_lair_neutral_medium",
+      "min_cl": 30,
+      "max_cl": 34,
+      "size": 25,
+      "mobs": [
+        "giant_mawgax"
+      ]
+    },
+    {
+      "name": "yavin4_angler_giant_neutral_medium_boss_01",
+      "min_cl": 33,
+      "max_cl": 37,
+      "size": 25,
+      "mobs": [
+        "giant_angler"
+      ]
+    }
+  ]
+}

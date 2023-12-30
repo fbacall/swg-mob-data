@@ -11,22 +11,59 @@ class Parser
   def mob_data
     mob_data = {}
     PLANETS.each do |planet|
-      mob_data[planet] = []
       files = Dir.glob(File.join(creature_base, planet, '*.lua')).reject { |f| f.end_with?('serverobjects.lua') }
       puts "#{planet} (#{files.size}): "
       files.each do |file|
         next if file.end_with?('serverobjects.lua')
-        mob_data[planet] << convert(parse_lua(file))
+        mob = convert_mob(parse_mob_lua(file))
+        raise "Mob name collision #{mob[:name]}" if mob_data[mob[:name]]
+        mob_data[mob[:name]] = mob
         print '.'
       end
-      mob_data[planet].sort! { |a, b| a[:name] <=> b[:name] }
       puts
     end
     mob_data
   end
 
+  def mission_data
+    mission_data = {}
+    PLANETS.each do |planet|
+      file = File.join(mission_base, "#{planet}_destroy_missions.lua")
+      puts file
+      mission_data[planet] = parse_mission_lua(file)
+    end
+    mission_data.each do |planet, lairs|
+      lairs.map! do |lair|
+        convert_mission(lair.merge(mobs: lair_data(lair[:lairTemplateName], planet)))
+      end
+    end
+    mission_data
+  end
+
+  def lair_data(lair, planet)
+    lair = lair.sub('spinded', 'spined') # Typo fix
+    path = File.join(lair_base, 'creature_lair', planet, "#{lair}.lua")
+    path = File.join(lair_base, 'npc_theater', planet, "#{lair}.lua") unless File.exist?(path)
+    path = File.join(lair_base, 'creature_dynamic', planet, "#{lair}.lua") unless File.exist?(path)
+    path = File.join(lair_base, 'npc_dynamic', planet, "#{lair}.lua") unless File.exist?(path)
+    unless File.exist?(path)
+      STDERR.puts "Can't find path for lair: #{lair}, skipping!"
+      return []
+    end
+
+    parse_lair_lua(path)
+  end
+
   def creature_base
-    File.join(@base, 'MMOCoreORB/bin/scripts/mobile')
+    File.join(@base, 'MMOCoreORB', 'bin', 'scripts', 'mobile')
+  end
+
+  def mission_base
+    File.join(@base, 'MMOCoreORB', 'bin', 'scripts', 'mobile', 'spawn', 'destroy_mission')
+  end
+
+  def lair_base
+    File.join(@base, 'MMOCoreORB', 'bin', 'scripts', 'mobile', 'lair')
   end
 
   private
@@ -37,7 +74,7 @@ class Parser
     x
   end
 
-  def parse_lua(file)
+  def parse_mob_lua(file)
     data = File.read(file)
     data.gsub!(/\s*\-\-[^\n]+\n/,"\n") # Comments
     data.gsub!(/,\s*\-\-[^\n]+\n/,",\n") # Comments following ,
@@ -67,7 +104,78 @@ class Parser
     d
   end
 
-  def convert(mob)
+  def parse_mission_lua(file)
+    data = File.read(file)
+    data.gsub!(/\s*\-\-[^\n]+\n/,"\n") # Comments
+    data.gsub!(/,\s*\-\-[^\n]+\n/,",\n") # Comments following ,
+    data.gsub!('{', '[') # Array open
+    data.gsub!('}', ']') # Array close
+    data.gsub!(';', ',') # Some lines end in semi-colon instead of comma for some reason
+    data.gsub!(/\s*=\s*/, ': ') # = to :
+    data.sub!(/.+_missions\s*:\s*\[/, '')
+    data.sub!(/\s*addDestroyMissionGroup.*/, '')
+    data.sub!(/\s*lairSpawns\s*:\s*/, '')
+    data.sub!(/\s*minLevelCeiling\s*:\s*\d*\s*,?/, '[')
+    data.sub!(/\s*addDestroyMissionGroup.*/, '')
+
+    data.sub!(/:\s*\./, ': 0.') # Floats without leading 0
+
+    begin
+      d = eval(data)
+    rescue Exception => e
+      STDERR.puts "!!! ERROR parsing #{file}"
+      STDERR.puts data
+      raise e
+    end
+
+    d.flatten
+  end
+
+  def parse_lair_lua(file)
+    data = File.read(file)
+    i = data.index('mobile')
+    raise 'No mobile data' unless i
+    open = 0
+    buffer = ''
+    while true
+      case data[i]
+      when '{'
+        open += 1
+        buffer << '['
+      when '}'
+        open -= 1
+        buffer << ']'
+        break if open.zero?
+      when nil
+        break
+      else
+        buffer << data[i] unless open.zero?
+      end
+      i += 1
+    end
+
+    begin
+      d = eval(buffer)
+    rescue Exception => e
+      STDERR.puts "!!! ERROR parsing #{file}"
+      STDERR.puts data
+      STDERR.puts 'buffer:'
+      STDERR.puts buffer
+      raise e
+    end
+
+    d
+  end
+
+  def convert(output)
+    output.each do |k, v|
+      output[k] = v.to_s if v.is_a?(SwgConstant)
+      output[k] = output[k].strip if output[k].is_a?(String)
+    end
+    output
+  end
+
+  def convert_mob(mob)
     begin
       output = {}
       output[:name] = mob[:name]
@@ -88,14 +196,26 @@ class Parser
       output[:armor] = mob[:armor]
       output[:kinetic_resist] = parse_resist(mob[:resists][0])
       output[:energy_resist] = parse_resist(mob[:resists][1])
-      output.each do |k, v|
-        output[k] = v.to_s if v.is_a?(SwgConstant)
-        output[k] = output[k].strip if output[k].is_a?(String)
-      end
-      output
+      convert(output)
     rescue Exception => e
       STDERR.puts "!!! ERROR converting"
       STDERR.puts mob.inspect
+      raise e
+    end
+  end
+
+  def convert_mission(mission)
+    begin
+      output = {}
+      output[:name] = mission[:lairTemplateName]
+      output[:min_cl] = mission[:minDifficulty]
+      output[:max_cl] = mission[:maxDifficulty]
+      output[:size] = mission[:size]
+      output[:mobs] = mission[:mobs].map(&:first)
+      convert(output)
+    rescue Exception => e
+      STDERR.puts "!!! ERROR converting"
+      STDERR.puts mission.inspect
       raise e
     end
   end
@@ -140,7 +260,9 @@ class Parser
 end
 
 parser = Parser.new(ARGV[0])
-data = parser.mob_data
+mob_data = parser.mob_data
+mission_data = parser.mission_data
+
 TYPES = {
   'MOB_HERBIVORE' => 'creatures',
   'MOB_CARNIVORE' => 'creatures',
@@ -150,15 +272,14 @@ TYPES = {
 }
 
 categorized = {}
-data.each do |planet, mobs|
-  mobs.each do |mob|
-    category = TYPES[mob[:type]]
-    categorized[category] ||= {}
-    categorized[category][planet] ||= []
-    categorized[category][planet] << mob
-  end
+mob_data.each do |mob_name, mob|
+  category = TYPES[mob[:type]]
+  categorized[category] ||= {}
+  categorized[category][mob_name] = mob
 end
 FileUtils.mkdir_p('data')
 categorized.each do |category, mobs|
   File.write(File.join('data', "#{category}.json"), JSON.pretty_generate(mobs))
 end
+
+File.write(File.join('data', "missions.json"), JSON.pretty_generate(mission_data))

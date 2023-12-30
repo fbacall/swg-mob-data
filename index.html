@@ -139,7 +139,7 @@
         <thead>
             <tr>
                 <th data-sort="name">Creature</th>
-                <th data-sort="level" class="sort-asc">CL</th>
+                <th data-sort="min_cl" class="sort-asc">CL</th>
                 <th style="width: 10em;" data-sort="meat">Meat</th>
                 <th style="width: 10em;" data-sort="hide">Hide</th>
                 <th style="width: 10em;" data-sort="bone">Bone</th>
@@ -174,8 +174,10 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", init);
+    let mobData = null;
+    let missionData = null;
     let planetData = {};
-    let sort = 'level';
+    let sort = 'min_cl';
     let sortDir = 1;
     const filters = {};
 
@@ -183,11 +185,39 @@
         fetch('data/creatures.json')
             .then((response) => response.json())
             .then((data) => {
-                planetData = data;
-                draw();
-                document.getElementById('mobs').style.visibility = '';
-                redraw();
+                mobData = data;
+                combine();
             });
+        fetch('data/missions.json')
+            .then((response) => response.json())
+            .then((data) => {
+                missionData = data;
+                combine();
+            });
+    }
+
+    function combine() {
+        if (!mobData || !missionData) {
+            return;
+        }
+
+        for (const [planet, missions] of Object.entries(missionData)) {
+            planetData[planet] = [];
+            missions.forEach(mission => {
+                mission.mobs.forEach(mobName => {
+                    if (mobData[mobName]) {
+                        const planetMob = { ...mobData[mobName] };
+                        planetMob.min_cl = mission.min_cl;
+                        planetMob.max_cl = mission.max_cl;
+                        planetData[planet].push(planetMob);
+                    }
+                })
+            });
+        }
+
+        draw();
+        document.getElementById('mobs').style.visibility = '';
+        redraw();
     }
 
     function draw() {
@@ -207,7 +237,7 @@
                 name.appendChild(document.createTextNode(mobName));
                 // CL
                 const cl = row.insertCell();
-                cl.appendChild(document.createTextNode('' + (mob.level - 2) + '-' + (mob.level + 2)));
+                cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
                 // Meat
                 drawResource(row.insertCell(), mob.meat_type, mob.meat);
                 // Hide
