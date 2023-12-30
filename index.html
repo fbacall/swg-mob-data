@@ -217,10 +217,17 @@
             missions.forEach(mission => {
                 mission.mobs.forEach(mobName => {
                     if (mobData[mobName]) {
-                        const planetMob = { ...mobData[mobName] };
-                        planetMob.min_cl = mission.min_cl;
-                        planetMob.max_cl = mission.max_cl;
-                        planetData[planet].push(planetMob);
+                        let planetMob = planetData[planet].find(m => m.name === mobName);
+                        if (planetMob) {
+                            planetMob.min_cl = Math.min(planetMob.min_cl, mission.min_cl);
+                            planetMob.max_cl = Math.max(planetMob.max_cl, mission.max_cl);
+                        } else {
+                            planetMob = { ...mobData[mobName] };
+                            planetMob.min_cl = mission.min_cl;
+                            planetMob.max_cl = mission.max_cl;
+                            planetData[planet].push(planetMob);
+                        }
+
                     }
                 })
             });
