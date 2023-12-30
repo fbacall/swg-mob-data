@@ -6,6 +6,10 @@
     <meta name="author" content="fbacall">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
             font-family: sans-serif;
             font-size: 14px;
@@ -14,34 +18,42 @@
 
         #controls {
             position: fixed;
-            bottom: 0;
-            background: #ddd;
-            padding: 10px;
+            top: 0;
+            background-color: #ccc;
+            padding: 0 10px;
             width: 100%;
-            height: 2em;
+            line-height: 2em;
+            z-index: 100;
+            border-style: solid;
+            border-color: #888;
+            border-width: 1px 1px 0 1px;
         }
 
         #mobs {
             position: relative;
             border-collapse: collapse;
-            margin-bottom: 5em;
+            width: 100%;
         }
 
         tr {
-            height: 2em;
+            height: 1.7em;
         }
 
         th {
             position: sticky;
             top: 0;
+            height: 4em;
+            padding-top: 2em;
             background-color: #ddd;
-            border: 1px solid #888;
+        }
+
+        th.resource {
+            width: 12em;
         }
 
         td {
             text-align: center;
             padding: 0 0.5em;
-            border: 1px solid #888;
         }
 
         td.left {
@@ -70,7 +82,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             text-align: left;
-            background: #ddd;
+            background: #eee;
         }
 
         .creature-resource .yield {
@@ -135,25 +147,6 @@
 <body>
 
 <div class="container">
-    <table id="mobs" style="visibility: hidden;">
-        <thead>
-            <tr>
-                <th data-sort="name">Creature</th>
-                <th data-sort="min_cl" class="sort-asc">CL</th>
-                <th style="width: 10em;" data-sort="meat">Meat</th>
-                <th style="width: 10em;" data-sort="hide">Hide</th>
-                <th style="width: 10em;" data-sort="bone">Bone</th>
-                <th style="width: 10em;" data-sort="milk">Milk</th>
-                <th>Info</th>
-                <th data-sort="kinetic_resist">Kin</th>
-                <th data-sort="energy_resist">Ene</th>
-                <th data-sort="ham">HAM</th>
-                <th data-sort="xp">XP</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
     <div id="controls">
         Planet:
         <select id="planet-filter">
@@ -170,6 +163,25 @@
             <option value="yavin4">Yavin IV</option>
         </select>
     </div>
+    <table id="mobs" style="visibility: hidden;">
+        <thead>
+            <tr>
+                <th data-sort="name">Creature</th>
+                <th data-sort="min_cl" class="sort-asc">CL</th>
+                <th class="resource" data-sort="meat">Meat</th>
+                <th class="resource" data-sort="hide">Hide</th>
+                <th class="resource" data-sort="bone">Bone</th>
+                <th class="resource" data-sort="milk">Milk</th>
+                <th>Info</th>
+                <th data-sort="kinetic_resist">Kin</th>
+                <th data-sort="energy_resist">Ene</th>
+                <th data-sort="ham">HAM</th>
+                <th data-sort="xp">XP</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
 </div>
 
 <script>
@@ -179,7 +191,6 @@
     let planetData = {};
     let sort = 'min_cl';
     let sortDir = 1;
-    const filters = {};
 
     function init() {
         fetch('data/creatures.json')
@@ -289,7 +300,7 @@
         for (const [planet, mobs] of Object.entries(planetData)) {
             applySort(mobs);
             const filteredMobs = applyFilter(mobs, planet);
-            if (filteredMobs.length) {
+            if (filteredMobs.length && !document.getElementById('planet-filter').value) {
                 drawPlanetRow(tbody, planet);
             }
             mobs.forEach(function (mob) {
@@ -305,9 +316,6 @@
 
     function applyFilter(mobs, planet) {
         const planetFilter = document.getElementById('planet-filter').value;
-        console.log(planetFilter);
-        console.log(planet);
-        console.log(planetFilter && (planetFilter !== planet));
         return mobs.filter(function (mob) {
             if (planetFilter && (planetFilter !== planet)) {
                 return false;
