@@ -67,11 +67,21 @@
             border: 5px solid #333;
             max-width: 80vh;
             max-height: 80vh;
+            position: relative;
         }
 
         #map .image svg {
             width: 100%;
             height: 100%;
+        }
+
+        #map .world-spawn {
+            position: absolute;
+            color: white;
+            width: 100%;
+            text-align: center;
+            top: 50px;
+            font-weight: bold;
         }
 
         tr {
@@ -544,22 +554,28 @@
         map.innerHTML = '';
         const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
         mob.regions.forEach(region => {
-            console.log(region.shape);
-            if (region.shape[0] === 'rectangle') {
-                const x1 = region.shape[1] + 8000;
-                const y1 = 8000 - region.shape[2];
-                const x2 = region.shape[3] + 8000;
-                const y2 = 8000 - region.shape[4];
-                const x = Math.min(x1, x2);
-                const y = Math.min(y1, y2);
-                const width = Math.max(x1, x2) - x;
-                const height = Math.max(y1, y2) - y;
-                svg.appendChild(svgNode('rect', { x: x, y: y, width: width, height: height, fill: '#ff000066' }));
-            } else if (region.shape[0] === 'circle') {
-                const x = region.shape[1] + 8000;
-                const y = 8000 - region.shape[2];
-                const r = region.shape[3];
-                svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#ff000066' }));
+            if (region.name.includes(':world_spawner')) {
+                const worldSpawn = document.createElement('div');
+                worldSpawn.classList.add('world-spawn');
+                worldSpawn.appendChild(document.createTextNode('(Can also spawn globally)'));
+                map.appendChild(worldSpawn);
+            } else {
+                if (region.shape[0] === 'rectangle') {
+                    const x1 = region.shape[1] + 8000;
+                    const y1 = 8000 - region.shape[2];
+                    const x2 = region.shape[3] + 8000;
+                    const y2 = 8000 - region.shape[4];
+                    const x = Math.min(x1, x2);
+                    const y = Math.min(y1, y2);
+                    const width = Math.max(x1, x2) - x;
+                    const height = Math.max(y1, y2) - y;
+                    svg.appendChild(svgNode('rect', { x: x, y: y, width: width, height: height, fill: '#ff000066' }));
+                } else if (region.shape[0] === 'circle') {
+                    const x = region.shape[1] + 8000;
+                    const y = 8000 - region.shape[2];
+                    const r = region.shape[3];
+                    svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#ff000066' }));
+                }
             }
         });
         map.appendChild(svg);
