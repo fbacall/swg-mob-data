@@ -16,23 +16,62 @@
             margin: 0;
         }
 
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
         #controls {
             position: fixed;
             top: 0;
             background-color: #ccc;
             padding: 0 10px;
             width: 100%;
+            max-width: 1800px;
             line-height: 2em;
             z-index: 100;
-            border-style: solid;
-            border-color: #888;
-            border-width: 1px 1px 0 1px;
+        }
+
+        #controls div {
+            display: inline-block;
+            margin-right: 1em;
+            padding-right: 1em;
+            border-right: 2px solid #eee;
         }
 
         #mobs {
             position: relative;
             border-collapse: collapse;
             width: 100%;
+        }
+
+        #map {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.5);
+        }
+
+        #map.open {
+            display: block;
+        }
+
+        #map .image {
+            background-size: cover;
+            margin: 60px auto;
+            border: 5px solid #333;
+            max-width: 80vh;
+            max-height: 80vh;
+        }
+
+        #map .image svg {
+            width: 100%;
+            height: 100%;
         }
 
         tr {
@@ -99,6 +138,19 @@
             display: inline-block;
         }
 
+        .spawns {
+            display: inline-block;
+            cursor: pointer;
+            float: right;
+            font-size: small;
+            color: #5291f2;
+            text-decoration: underline;
+        }
+
+        .spawns:hover {
+            color: #9dc5ff;
+        }
+
         .armor { background: #ccc; }
         .mediumdisease, .mediumpoison { color: #e8af27; }
         .strongdisease, .strongpoison { color: #a90a0a; }
@@ -142,32 +194,53 @@
         .talus { background-color: #4aeecb; }
         .tatooine { background-color: #ffe100; }
         .yavin4 { background-color: #6aff00; }
+
+        .map-corellia { background-image: url('img/corellia.jpg'); }
+        .map-dantooine { background-image: url('img/dantooine.jpg'); }
+        .map-dathomir { background-image: url('img/dathomir.jpg'); }
+        .map-endor { background-image: url('img/endor.jpg'); }
+        .map-lok { background-image: url('img/lok.jpg'); }
+        .map-naboo { background-image: url('img/naboo.jpg'); }
+        .map-rori { background-image: url('img/rori.jpg'); }
+        .map-talus { background-image: url('img/talus.jpg'); }
+        .map-tatooine { background-image: url('img/tatooine.jpg'); }
+        .map-yavin4 { background-image: url('img/yavin4.jpg'); }
     </style>
 </head>
 <body>
 
 <div class="container">
+    <div id="map">
+        <div class="image"></div>
+    </div>
+
     <div id="controls">
-        Planet:
-        <select id="planet-filter">
-            <option value="">(Any)</option>
-            <option value="corellia">Corellia</option>
-            <option value="dantooine">Dantooine</option>
-            <option value="dathomir">Dathomir</option>
-            <option value="endor">Endor</option>
-            <option value="lok">Lok</option>
-            <option value="naboo">Naboo</option>
-            <option value="rori">Rori</option>
-            <option value="talus">Talus</option>
-            <option value="tatooine">Tatooine</option>
-            <option value="yavin4">Yavin IV</option>
-        </select>
+        <div>
+            Planet:
+            <select id="planet-filter">
+                <option value="">(Any)</option>
+                <option value="corellia">Corellia</option>
+                <option value="dantooine">Dantooine</option>
+                <option value="dathomir">Dathomir</option>
+                <option value="endor">Endor</option>
+                <option value="lok">Lok</option>
+                <option value="naboo">Naboo</option>
+                <option value="rori">Rori</option>
+                <option value="talus">Talus</option>
+                <option value="tatooine">Tatooine</option>
+                <option value="yavin4">Yavin IV</option>
+            </select>
+        </div>
+        <div>
+            <label for="spawn-filter">Include spawns?</label>
+            <input type="checkbox" id="spawn-filter"/>
+        </div>
     </div>
     <table id="mobs" style="visibility: hidden;">
         <thead>
             <tr>
                 <th data-sort="name">Creature</th>
-                <th data-sort="min_cl" class="sort-asc">CL</th>
+                <th data-sort="level" class="sort-asc">CL</th>
                 <th class="resource" data-sort="meat">Meat</th>
                 <th class="resource" data-sort="hide">Hide</th>
                 <th class="resource" data-sort="bone">Bone</th>
@@ -188,8 +261,9 @@
     document.addEventListener("DOMContentLoaded", init);
     let mobData = null;
     let missionData = null;
+    let regionData = null;
     let planetData = {};
-    let sort = 'min_cl';
+    let sort = 'level';
     let sortDir = 1;
 
     function init() {
@@ -205,10 +279,16 @@
                 missionData = data;
                 combine();
             });
+        fetch('data/regions.json')
+            .then((response) => response.json())
+            .then((data) => {
+                regionData = data;
+                combine();
+            });
     }
 
     function combine() {
-        if (!mobData || !missionData) {
+        if (!mobData || !missionData || !regionData) {
             return;
         }
 
@@ -233,6 +313,32 @@
             });
         }
 
+        for (const [planet, regions] of Object.entries(regionData)) {
+            if (!planetData[planet]) {
+                planetData[planet] = [];
+            }
+            for (const [regionName, region] of Object.entries(regions)) {
+                region.mobs.forEach(mobName => {
+                    if (mobData[mobName]) {
+                        let planetMob = planetData[planet].find(m => m.name === mobName);
+                        if (planetMob) {
+                            if (!planetMob.regions) {
+                                planetMob.regions = [];
+                            }
+                            if (!planetMob.regions.find(r => r.name === region.name)) {
+                                planetMob.regions.push(region);
+                            }
+                        } else {
+                            planetMob = { ...mobData[mobName] };
+                            planetMob.regions = [region];
+                            planetData[planet].push(planetMob);
+                        }
+
+                    }
+                })
+            }
+        }
+
         draw();
         document.getElementById('mobs').style.visibility = '';
         redraw();
@@ -253,9 +359,21 @@
                 }
                 name.classList.add('left');
                 name.appendChild(document.createTextNode(mobName));
+                if (mob.regions) {
+                    const spawns = document.createElement('span');
+                    spawns.classList.add('spawns');
+                    spawns.dataset.mob = mob.name;
+                    spawns.dataset.planet = planet;
+                    spawns.appendChild(document.createTextNode('Spawns'));
+                    name.appendChild(spawns);
+                }
                 // CL
                 const cl = row.insertCell();
-                cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
+                if (mob.min_cl) {
+                    cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
+                } else {
+                    cl.appendChild(document.createTextNode('' + mob.level + '*'));
+                }
                 // Meat
                 drawResource(row.insertCell(), mob.meat_type, mob.meat);
                 // Hide
@@ -312,7 +430,6 @@
             }
             mobs.forEach(function (mob) {
                 tbody.appendChild(mob.row);
-                console.log(mob.row);
                 mob.row.style.display = 'none';
             });
             filteredMobs.forEach(function (mob) {
@@ -323,8 +440,12 @@
 
     function applyFilter(mobs, planet) {
         const planetFilter = document.getElementById('planet-filter').value;
+        const includeSpawns = document.getElementById('spawn-filter').checked;
         return mobs.filter(function (mob) {
             if (planetFilter && (planetFilter !== planet)) {
+                return false;
+            }
+            if (!includeSpawns && !mob.min_cl) {
                 return false;
             }
             return true;
@@ -356,7 +477,9 @@
                 }
                 return (a[sort] - b[sort]) * sortDir;
             }
-        } else {
+        } else if (sort === 'level') {
+            f = (a, b) => ((a.min_cl || a.level) - (b.min_cl || b.level)) * sortDir;
+        }else {
             f = (a, b) => (a[sort] - b[sort]) * sortDir;
         }
         mobs.sort(f);
@@ -412,8 +535,48 @@
         cell.appendChild(document.createTextNode(text));
     }
 
+    function drawMap(element) {
+        const mob = planetData[element.dataset.planet].find(m => m.name === element.dataset.mob);
+        const bg = document.getElementById('map');
+        bg.classList.add('open');
+        const map = bg.querySelector('.image');
+        map.classList.add('map-' + element.dataset.planet);
+        map.innerHTML = '';
+        const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
+        mob.regions.forEach(region => {
+            console.log(region.shape);
+            if (region.shape[0] === 'rectangle') {
+                const x1 = region.shape[1] + 8000;
+                const y1 = 8000 - region.shape[2];
+                const x2 = region.shape[3] + 8000;
+                const y2 = 8000 - region.shape[4];
+                const x = Math.min(x1, x2);
+                const y = Math.min(y1, y2);
+                const width = Math.max(x1, x2) - x;
+                const height = Math.max(y1, y2) - y;
+                svg.appendChild(svgNode('rect', { x: x, y: y, width: width, height: height, fill: '#ff000066' }));
+            } else if (region.shape[0] === 'circle') {
+                const x = region.shape[1] + 8000;
+                const y = 8000 - region.shape[2];
+                const r = region.shape[3];
+                svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#ff000066' }));
+            }
+        });
+        map.appendChild(svg);
+    }
+
     function capitalize(string) {
         return string[0].toUpperCase() + string.slice(1)
+    }
+
+    function svgNode(node, props) {
+        const n = document.createElementNS("http://www.w3.org/2000/svg", node);
+        if (props) {
+            for (const [key, value] of Object.entries(props)) {
+                n.setAttributeNS(null, key, value);
+            }
+        }
+        return n;
     }
 
     document.getElementById('mobs').addEventListener('click', function (e) {
@@ -428,10 +591,22 @@
             }
             e.target.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
             redraw();
+        } else if (e.target.dataset.mob) {
+            drawMap(e.target);
+        }
+    });
+
+    document.getElementById('map').addEventListener('click', function (e) {
+        if (e.target === this) {
+            this.classList.remove('open');
         }
     });
 
     document.getElementById('planet-filter').addEventListener('change', function (e) {
+        setTimeout(redraw, 5);
+    });
+
+    document.getElementById('spawn-filter').addEventListener('change', function (e) {
         setTimeout(redraw, 5);
     });
 </script>
