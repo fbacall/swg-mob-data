@@ -258,6 +258,10 @@
             <label for="spawn-filter">Include spawns?</label>
             <input type="checkbox" id="spawn-filter"/>
         </div>
+        <div>
+            <label for="npc-filter">Include NPCs?</label>
+            <input type="checkbox" id="npc-filter"/>
+        </div>
     </div>
     <table id="mobs" style="visibility: hidden;">
         <thead>
@@ -291,7 +295,7 @@
     let sortDir = 1;
 
     function init() {
-        fetch('data/creatures.json')
+        fetch('data/mobs.json')
             .then((response) => response.json())
             .then((data) => {
                 mobData = data;
@@ -494,11 +498,15 @@
     function applyFilter(mobs, planet) {
         const planetFilter = document.getElementById('planet-filter').value;
         const includeSpawns = document.getElementById('spawn-filter').checked;
+        const includeNpcs = document.getElementById('npc-filter').checked;
         return mobs.filter(function (mob) {
             if (planetFilter && (planetFilter !== planet)) {
                 return false;
             }
             if (!includeSpawns && !mob.min_cl) {
+                return false;
+            }
+            if (!includeNpcs && !(mob.type === 'MOB_CARNIVORE' || mob.type === 'MOB_HERBIVORE')) {
                 return false;
             }
             return true;
@@ -687,6 +695,10 @@
     });
 
     document.getElementById('spawn-filter').addEventListener('change', function (e) {
+        setTimeout(redraw, 5);
+    });
+
+    document.getElementById('npc-filter').addEventListener('change', function (e) {
         setTimeout(redraw, 5);
     });
 </script>

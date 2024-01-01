@@ -503,25 +503,8 @@ mission_data = parser.mission_data
 region_data = parser.region_data
 static_spawn_data = parser.static_spawn_data
 
-TYPES = {
-  'MOB_HERBIVORE' => 'creatures',
-  'MOB_CARNIVORE' => 'creatures',
-  'MOB_NPC' => 'npcs',
-  'MOB_DROID' => 'npcs',
-  'MOB_ANDROID' => 'npcs'
-}
-
-categorized = {}
-mob_data.each do |mob_name, mob|
-  category = TYPES[mob[:type]]
-  categorized[category] ||= {}
-  categorized[category][mob_name] = mob
-end
 FileUtils.mkdir_p('data')
-categorized.each do |category, mobs|
-  File.write(File.join('data', "#{category}.json"), JSON.pretty_generate(mobs))
-end
-
+File.write(File.join('data', "mobs.json"), JSON.pretty_generate(mob_data))
 File.write(File.join('data', "missions.json"), JSON.pretty_generate(mission_data))
 #File.write(File.join('data', "lairs.json"), JSON.pretty_generate(lair_data))
 File.write(File.join('data', "regions.json"), JSON.pretty_generate(region_data))
