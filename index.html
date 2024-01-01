@@ -440,7 +440,6 @@
                 planetData[planet] = [];
             }
             for (const [mobName, spawns] of Object.entries(staticSpawns)) {
-                console.log(mobName);
                 if (mobData[mobName]) {
                     let planetMob = planetData[planet].find(m => m.name === mobName);
                     if (planetMob) {
