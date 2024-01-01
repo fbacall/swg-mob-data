@@ -454,43 +454,21 @@
     let sortDir = 1;
 
     function init() {
-        fetch('data/mobs.json')
-            .then((response) => response.json())
-            .then((data) => {
-                mobData = data;
-                combine();
-            });
-        fetch('data/missions.json')
-            .then((response) => response.json())
-            .then((data) => {
-                missionData = data;
-                combine();
-            });
-        fetch('data/regions.json')
-            .then((response) => response.json())
-            .then((data) => {
-                regionData = data;
-                combine();
-            });
-        fetch('data/static_spawns.json')
-            .then((response) => response.json())
-            .then((data) => {
-                staticSpawnData = data;
-                combine();
-            });
+        Promise.all([
+            fetch('data/mobs.json').then((r) => r.json()).then((d) => { mobData = d; }),
+            fetch('data/missions.json').then((r) => r.json()).then((d) => { missionData = d; }),
+            fetch('data/regions.json').then((r) => r.json()).then((d) => { regionData = d; }),
+            fetch('data/static_spawns.json').then((r) => r.json()).then((d) => { staticSpawnData = d; })
+        ]).then(combineData)
     }
 
-    function combine() {
-        if (!mobData || !missionData || !regionData || !staticSpawnData) {
-            return;
-        }
-
+    function combineData() {
         for (const [planet, missions] of Object.entries(missionData)) {
-            planetData[planet] = [];
+            planetData[planet] = {};
             missions.forEach(mission => {
                 mission.mobs.forEach(mobName => {
                     if (mobData[mobName]) {
-                        let planetMob = planetData[planet].find(m => m.name === mobName);
+                        let planetMob = planetData[planet][mobName];
                         if (planetMob) {
                             planetMob.min_cl = Math.min(planetMob.min_cl, mission.min_cl);
                             planetMob.max_cl = Math.max(planetMob.max_cl, mission.max_cl);
@@ -498,7 +476,7 @@
                             planetMob = { ...mobData[mobName] };
                             planetMob.min_cl = mission.min_cl;
                             planetMob.max_cl = mission.max_cl;
-                            planetData[planet].push(planetMob);
+                            planetData[planet][mobName] = planetMob;
                         }
 
                     }
@@ -508,12 +486,12 @@
 
         for (const [planet, regions] of Object.entries(regionData)) {
             if (!planetData[planet]) {
-                planetData[planet] = [];
+                planetData[planet] = {};
             }
-            for (const [regionName, region] of Object.entries(regions)) {
+            for (const region of Object.values(regions)) {
                 region.mobs.forEach(mobName => {
                     if (mobData[mobName]) {
-                        let planetMob = planetData[planet].find(m => m.name === mobName);
+                        let planetMob = planetData[planet][mobName];
                         if (planetMob) {
                             if (!planetMob.regions) {
                                 planetMob.regions = [];
@@ -524,7 +502,7 @@
                         } else {
                             planetMob = { ...mobData[mobName] };
                             planetMob.regions = [region];
-                            planetData[planet].push(planetMob);
+                            planetData[planet][mobName] = planetMob;
                         }
                     }
                 })
@@ -533,11 +511,11 @@
 
         for (const [planet, staticSpawns] of Object.entries(staticSpawnData)) {
             if (!planetData[planet]) {
-                planetData[planet] = [];
+                planetData[planet] = {};
             }
             for (const [mobName, spawns] of Object.entries(staticSpawns)) {
                 if (mobData[mobName]) {
-                    let planetMob = planetData[planet].find(m => m.name === mobName);
+                    let planetMob = planetData[planet][mobName];
                     if (planetMob) {
                         if (!planetMob.staticSpawns) {
                             planetMob.staticSpawns = [];
@@ -546,21 +524,21 @@
                     } else {
                         planetMob = { ...mobData[mobName] };
                         planetMob.staticSpawns = spawns;
-                        planetData[planet].push(planetMob);
+                        planetData[planet][mobName] = planetMob;
                     }
                 }
             }
         }
 
-        draw();
+        createRows();
         document.getElementById('mobs').style.visibility = '';
         redraw();
     }
 
-    function draw() {
+    function createRows() {
         const tbody = document.getElementById('mobs').getElementsByTagName('tbody')[0];
         for (const [planet, mobs] of Object.entries(planetData)) {
-            mobs.forEach(function (mob) {
+            for (const mob of Object.values(mobs)) {
                 const row = tbody.insertRow();
                 // Name
                 const name = row.insertCell();
@@ -629,7 +607,7 @@
                 drawNum(row.insertCell(), mob.xp);
 
                 mob.row = row;
-            });
+            }
         }
     }
 
@@ -637,7 +615,8 @@
         const tbody = document.getElementById('mobs').getElementsByTagName('tbody')[0];
         tbody.querySelectorAll('tr.planet').forEach(row => row.remove());
 
-        for (const [planet, mobs] of Object.entries(planetData)) {
+        for (const [planet, planetMobs] of Object.entries(planetData)) {
+            const mobs = Object.values(planetMobs);
             applySort(mobs);
             const filteredMobs = applyFilter(mobs, planet);
             if (filteredMobs.length && !document.getElementById('planet-filter').value) {
@@ -754,7 +733,7 @@
     }
 
     function drawMap(element) {
-        const mob = planetData[element.dataset.planet].find(m => m.name === element.dataset.mob);
+        const mob = planetData[element.dataset.planet][element.dataset.mob];
         const bg = document.getElementById('map');
         bg.classList.add('open');
         const map = bg.querySelector('.image');
