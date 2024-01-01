@@ -96,6 +96,10 @@
             height: 1.7em;
         }
 
+        tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
         th {
             position: sticky;
             top: 0;
@@ -105,7 +109,7 @@
         }
 
         th.resource {
-            width: 12em;
+            width: 8em;
         }
 
         td {
@@ -115,6 +119,11 @@
 
         td.left {
             text-align: left;
+        }
+
+        td.info {
+            text-align: left;
+            max-width: 20em;
         }
 
         [data-sort] {
@@ -139,19 +148,21 @@
             overflow: hidden;
             text-overflow: ellipsis;
             text-align: left;
-            background: #eee;
+            font-size: smaller;
+            line-height: 100%;
         }
 
         .creature-resource .yield {
             float: right;
             margin-left: 1em;
+            font-size: small;
         }
 
         .tag {
             border-radius: 2px;
-            background: #eee;
-            padding: 2px 10px;
-            margin: 2px;
+            background: #ddd;
+            padding: 2px 5px;
+            margin-right: 2px;
             font-size: smaller;
             display: inline-block;
         }
@@ -165,8 +176,8 @@
             text-decoration: underline;
         }
 
-        .spawns.static-spawns {
-            color: #58cb22;
+        .spawns.static-spawns:after {
+            content: '*';
         }
 
         .spawns:hover {
@@ -186,20 +197,20 @@
         .omg { color: #c91414; }
 
         .bone_avian { background-color: #80c4d7; }
-        .bone_mammal { background-color: #a9a9a9; }
+        .bone_mammal { background-color: #cccccc; }
         .hide_bristley { background-color: #f9b660; }
         .hide_leathery { background-color: #ffd516; }
         .hide_scaley { background-color: #7ed52c; }
-        .hide_wooly { background-color: #b08056; }
+        .hide_wooly { background-color: #b9906b; }
         .meat_avian { background-color: #80c4d7; }
         .meat_carnivore { background-color: #ff9d93; }
         .meat_domesticated { background-color: #c6a90f; }
         .meat_herbivore { background-color: #aae798; }
         .meat_insect { background-color: #cd9ced; }
         .meat_reptilian { background-color: #f79f23; }
-        .meat_wild { background-color: #d27320; }
+        .meat_wild { background-color: #d89558; }
         .milk_wild { background-color: #cafffe; }
-        .milk_domesticated { background-color: #c6a90f; }
+        .milk_domesticated { background-color: #f5efb8; }
 
         td.planet {
             text-align: center;
@@ -262,11 +273,17 @@
             <label for="npc-filter">Include NPCs?</label>
             <input type="checkbox" id="npc-filter"/>
         </div>
+        <div>
+            * - Static spawns available
+        </div>
+        <div>
+            † - No missions available
+        </div>
     </div>
     <table id="mobs" style="visibility: hidden;">
         <thead>
             <tr>
-                <th data-sort="name">Creature</th>
+                <th style="min-width: 16em" data-sort="name">Creature</th>
                 <th data-sort="level" class="sort-asc">CL</th>
                 <th class="resource" data-sort="meat">Meat</th>
                 <th class="resource" data-sort="hide">Hide</th>
@@ -429,7 +446,7 @@
                 if (mob.min_cl) {
                     cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
                 } else {
-                    cl.appendChild(document.createTextNode('' + mob.level + '*'));
+                    cl.appendChild(document.createTextNode('' + mob.level + '†'));
                 }
                 // Meat
                 drawResource(row.insertCell(), mob.meat_type, mob.meat);
@@ -441,7 +458,7 @@
                 drawResource(row.insertCell(), mob.milk_type, mob.milk);
                 // Info
                 const info = row.insertCell();
-                info.classList.add('left');
+                info.classList.add('info');
                 // AR
                 if (mob.armor && mob.armor > 0) {
                     const ar = document.createElement('span');
@@ -486,11 +503,10 @@
                 drawPlanetRow(tbody, planet);
             }
             mobs.forEach(function (mob) {
-                tbody.appendChild(mob.row);
-                mob.row.style.display = 'none';
+                mob.row.remove();
             });
             filteredMobs.forEach(function (mob) {
-                mob.row.style.display = '';
+                tbody.appendChild(mob.row);
             });
         }
     }
