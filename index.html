@@ -24,7 +24,7 @@
         #controls {
             position: fixed;
             top: 0;
-            background-color: #ccc;
+            background-color: #ddd;
             padding: 0 10px;
             width: 100%;
             max-width: 1800px;
@@ -37,6 +37,50 @@
             margin-right: 1em;
             padding-right: 1em;
             border-right: 2px solid #eee;
+        }
+
+        #open-controls {
+            display: none;
+        }
+
+        @media screen and (max-width: 992px) {
+            #controls div {
+                display: block;
+                border-right: none;
+            }
+
+            #controls.open div.collapsed {
+                display: block;
+            }
+
+            #controls div.collapsed {
+                display: none;
+            }
+
+            #open-controls {
+                display: block;
+                float: right;
+
+                cursor: pointer;
+                margin: 5px 0 !important;
+                padding: 0 10px !important;
+                text-align: center;
+                border: 1px solid #aaa !important;
+                border-radius: 4px;
+                line-height: 16px;
+            }
+
+            #open-controls:after {
+                content: '↓';
+            }
+
+            #controls.open #open-controls:after {
+                content: '↑';
+            }
+
+            #open-controls:hover {
+                background: #ddd;
+            }
         }
 
         #mobs {
@@ -65,8 +109,8 @@
             background-size: cover;
             margin: 60px auto 0;
             border: 5px solid #333;
-            max-width: 80vh;
-            max-height: 80vh;
+            width: 80vmin;
+            height: 80vmin;
             position: relative;
         }
 
@@ -86,8 +130,8 @@
 
         #static-spawns {
             display: none;
-            background: #eee;
-            max-width: 80vh;
+            background: #ddd;
+            width: 85vmin;
             padding: 1em;
             margin: 20px auto;
             border: 5px solid #333;
@@ -250,6 +294,7 @@
     </div>
 
     <div id="controls">
+        <div id="open-controls"></div>
         <div>
             Planet:
             <select id="planet-filter">
@@ -266,18 +311,18 @@
                 <option value="yavin4">Yavin IV</option>
             </select>
         </div>
-        <div>
+        <div class="collapsed">
             <label for="spawn-filter">Include spawns?</label>
             <input type="checkbox" id="spawn-filter"/>
         </div>
-        <div>
+        <div class="collapsed">
             <label for="npc-filter">Include NPCs?</label>
             <input type="checkbox" id="npc-filter"/>
         </div>
-        <div>
+        <div class="collapsed">
             * - Static spawns available
         </div>
-        <div>
+        <div class="collapsed">
             † - No missions available
         </div>
     </div>
@@ -718,6 +763,10 @@
 
     document.getElementById('npc-filter').addEventListener('change', function (e) {
         setTimeout(redraw, 5);
+    });
+
+    document.getElementById('open-controls').addEventListener('click', function (e) {
+        document.getElementById('controls').classList.toggle('open');
     });
 </script>
 </body>
