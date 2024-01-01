@@ -10,10 +10,98 @@
             box-sizing: border-box;
         }
 
+        :root {
+            --text: #333;
+            --bg: #fff;
+            --link: #5d83ff;
+            --link-hover: #9fb8ff;
+            --muted: #bbb;
+            --controls: #ddd;
+            --hover: #eee;
+            --border: #aaa;
+
+            --row: #fff;
+            --row-odd: #eee;
+            --armor: #ccc;
+
+            --tag: #ddd;
+            --medium-strength: #e8af27;
+            --strong-strength: #a90a0a;
+            --ranged: #a5edff;
+            --no-resist: #bbb;
+            --vulnerable: #55a632;
+
+            --bronze: #8d5213;
+            --silver: #778;
+            --gold: #907a33;
+            --omg: #c91414;
+
+            --bone_avian: #80c4d7;
+            --bone_mammal: #cccccc;
+            --hide_bristley: #f9b660;
+            --hide_leathery: #ffd516;
+            --hide_scaley: #7ed52c;
+            --hide_wooly: #b9906b;
+            --meat_avian: #80c4d7;
+            --meat_carnivore: #ff9d93;
+            --meat_domesticated: #c6a90f;
+            --meat_herbivore: #aae798;
+            --meat_insect: #cd9ced;
+            --meat_reptilian: #f79f23;
+            --meat_wild: #d89558;
+            --milk_wild: #cafffe;
+            --milk_domesticated: #f5efb8;
+        }
+
+        :root[data-theme=dark] {
+            --text: #fff;
+            --bg: #000;
+            --link: #5d83ff;
+            --link-hover: #9fb8ff;
+            --muted: #bbb;
+            --controls: #444;
+            --hover: #666;
+            --border: #222;
+
+            --row: #222;
+            --row-odd: #111;
+            --armor: #777;
+
+            --tag: #444;
+            --medium-strength: #9c7324;
+            --strong-strength: #7c0a0a;
+            --ranged: #235265;
+            --no-resist: #bbb;
+            --vulnerable: #55a632;
+
+            --bronze: #ca7914;
+            --silver: #a5a5b6;
+            --gold: #ccb046;
+            --omg: #ec1515;
+
+            --bone_avian: #314c58;
+            --bone_mammal: #898989;
+            --hide_bristley: #a97c43;
+            --hide_leathery: #b59714;
+            --hide_scaley: #386314;
+            --hide_wooly: #513d2c;
+            --meat_avian: #314c58;
+            --meat_carnivore: #704340;
+            --meat_domesticated: #564708;
+            --meat_herbivore: #465d3c;
+            --meat_insect: #503b5c;
+            --meat_reptilian: #815411;
+            --meat_wild: #7e5934;
+            --milk_wild: #5f7b7a;
+            --milk_domesticated: #7b755c;
+        }
+
         body {
             font-family: sans-serif;
             font-size: 14px;
             margin: 0;
+            background: var(--bg);
+            color: var(--text);
         }
 
         .container {
@@ -24,7 +112,7 @@
         #controls {
             position: fixed;
             top: 0;
-            background-color: #ddd;
+            background-color: var(--controls);
             padding: 0 10px;
             width: 100%;
             max-width: 1800px;
@@ -36,7 +124,7 @@
             display: inline-block;
             margin-right: 1em;
             padding-right: 1em;
-            border-right: 2px solid #eee;
+            border-right: 2px solid var(--border);
         }
 
         #open-controls {
@@ -65,7 +153,7 @@
                 margin: 5px 0 !important;
                 padding: 0 10px !important;
                 text-align: center;
-                border: 1px solid #aaa !important;
+                border: 1px solid var(--border) !important;
                 border-radius: 4px;
                 line-height: 16px;
             }
@@ -79,7 +167,7 @@
             }
 
             #open-controls:hover {
-                background: #ddd;
+                background: var(--hover);
             }
         }
 
@@ -98,7 +186,7 @@
             width: 100%;
             height: 100%;
             overflow: auto;
-            background-color: rgba(0,0,0,0.5);
+            background-color: rgba(0, 0, 0, 0.5);
         }
 
         #map.open {
@@ -108,7 +196,7 @@
         #map .image {
             background-size: cover;
             margin: 60px auto 0;
-            border: 5px solid #333;
+            border: 5px solid var(--border);
             width: 80vmin;
             height: 80vmin;
             position: relative;
@@ -130,19 +218,20 @@
 
         #static-spawns {
             display: none;
-            background: #ddd;
+            background: var(--controls);
             width: 85vmin;
             padding: 1em;
             margin: 20px auto;
-            border: 5px solid #333;
+            border: 5px solid var(--border);
         }
 
         tr {
             height: 1.7em;
+            background-color: var(--row);
         }
 
         tr:nth-child(odd) {
-            background-color: #eee;
+            background-color: var(--row-odd);
         }
 
         th {
@@ -150,7 +239,7 @@
             top: 0;
             height: 4em;
             padding-top: 2em;
-            background-color: #ddd;
+            background-color: var(--controls);
         }
 
         th.resource {
@@ -177,7 +266,7 @@
         }
 
         [data-sort]:hover {
-            background: #ccccff;
+            background: var(--hover);
         }
 
         .sort-desc:after {
@@ -205,7 +294,7 @@
 
         .tag {
             border-radius: 2px;
-            background: #ddd;
+            background: var(--tag);
             padding: 2px 5px;
             margin-right: 2px;
             font-size: smaller;
@@ -217,7 +306,7 @@
             cursor: pointer;
             float: right;
             font-size: small;
-            color: #5291f2;
+            color: var(--link);
             text-decoration: underline;
         }
 
@@ -226,52 +315,55 @@
         }
 
         .spawns:hover {
-            color: #9dc5ff;
+            color: var(--link-hover);
         }
 
-        .armor { background: #ccc; }
-        .mediumdisease, .mediumpoison { color: #e8af27; }
-        .strongdisease, .strongpoison { color: #a90a0a; }
-        .ranged { background: #a5edff; }
-        .no-resist { color: #bbb; }
-        .vulnerable { color: #55a632; }
+        .armor { background: var(--armor); }
+        .armor-2 { background: var(--medium-strength); }
+        .armor-3 { background: var(--strong-strength); }
+        .mediumdisease, .mediumpoison { background-color: var(--medium-strength); }
+        .strongdisease, .strongpoison { background-color: var(--strong-strength); }
+        .ranged { background: var(--ranged); }
+        .no-resist { color: var(--muted); }
+        .vulnerable { color: var(--vulnerable); }
 
-        .bronze { color: #8d5213; }
-        .silver { color: #778; }
-        .gold { color: #907a33; }
-        .omg { color: #c91414; }
+        .bronze { color: var(--bronze); }
+        .silver { color: var(--silver); }
+        .gold { color: var(--gold); }
+        .omg { color: var(--omg); }
 
-        .bone_avian { background-color: #80c4d7; }
-        .bone_mammal { background-color: #cccccc; }
-        .hide_bristley { background-color: #f9b660; }
-        .hide_leathery { background-color: #ffd516; }
-        .hide_scaley { background-color: #7ed52c; }
-        .hide_wooly { background-color: #b9906b; }
-        .meat_avian { background-color: #80c4d7; }
-        .meat_carnivore { background-color: #ff9d93; }
-        .meat_domesticated { background-color: #c6a90f; }
-        .meat_herbivore { background-color: #aae798; }
-        .meat_insect { background-color: #cd9ced; }
-        .meat_reptilian { background-color: #f79f23; }
-        .meat_wild { background-color: #d89558; }
-        .milk_wild { background-color: #cafffe; }
-        .milk_domesticated { background-color: #f5efb8; }
+        .bone_avian { background-color: var(--bone_avian); }
+        .bone_mammal { background-color: var(--bone_mammal); }
+        .hide_bristley { background-color: var(--hide_bristley); }
+        .hide_leathery { background-color: var(--hide_leathery); }
+        .hide_scaley { background-color: var(--hide_scaley); }
+        .hide_wooly { background-color: var(--hide_wooly); }
+        .meat_avian { background-color: var(--meat_avian); }
+        .meat_carnivore { background-color: var(--meat_carnivore); }
+        .meat_domesticated { background-color: var(--meat_domesticated); }
+        .meat_herbivore { background-color: var(--meat_herbivore); }
+        .meat_insect { background-color: var(--meat_insect); }
+        .meat_reptilian { background-color: var(--meat_reptilian); }
+        .meat_wild { background-color: var(--meat_wild); }
+        .milk_wild { background-color: var(--milk_wild); }
+        .milk_domesticated { background-color: var(--milk_domesticated); }
 
-        td.planet {
+        tr.planet {
             text-align: center;
             font-weight: bold;
             padding: 0.5em;
+            color: #333 !important;
         }
-        .corellia { background-color: #b7e9e7; }
-        .dantooine { background-color: #ff00ff; }
-        .dathomir { background-color: #8634ea; }
-        .endor { background-color: #358216; }
-        .lok { background-color: #e9c43b; }
-        .naboo { background-color: #84c267; }
-        .rori { background-color: #ea8050; }
-        .talus { background-color: #4aeecb; }
-        .tatooine { background-color: #ffe100; }
-        .yavin4 { background-color: #6aff00; }
+        .corellia { background-color: #b7e9e7 !important; }
+        .dantooine { background-color: #ff00ff !important; }
+        .dathomir { background-color: #8634ea !important; }
+        .endor { background-color: #358216 !important; }
+        .lok { background-color: #e9c43b !important; }
+        .naboo { background-color: #84c267 !important; }
+        .rori { background-color: #ea8050 !important; }
+        .talus { background-color: #4aeecb !important; }
+        .tatooine { background-color: #ffe100 !important; }
+        .yavin4 { background-color: #6aff00 !important; }
 
         .map-corellia { background-image: url('img/corellia.jpg'); }
         .map-dantooine { background-image: url('img/dantooine.jpg'); }
@@ -324,6 +416,10 @@
         </div>
         <div class="collapsed">
             † - No missions available
+        </div>
+        <div class="collapsed">
+            <label for="dark-mode">Dark mode?</label>
+            <input type="checkbox" id="dark-mode"/>
         </div>
     </div>
     <table id="mobs" style="visibility: hidden;">
@@ -767,6 +863,17 @@
     document.getElementById('open-controls').addEventListener('click', function (e) {
         document.getElementById('controls').classList.toggle('open');
     });
+
+    document.getElementById('dark-mode').addEventListener('change', function (e) {
+        const enabled = document.getElementById('dark-mode').checked;
+        document.documentElement.setAttribute('data-theme', enabled ? 'dark' : '');
+        localStorage.setItem('dark-mode', enabled ? 'true' : 'false');
+    });
+    const darkMode = (localStorage.getItem('dark-mode') === 'true') || window.matchMedia("(prefers-color-scheme: dark)").matches;
+    document.getElementById('dark-mode').checked = darkMode;
+    if (darkMode) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+    }
 </script>
 </body>
 </html>
