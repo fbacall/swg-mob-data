@@ -498,15 +498,11 @@ end
 parser = Parser.new(ARGV[0])
 mob_data = parser.mob_data
 mission_data = parser.mission_data
-#lair_data = parser.lair_data
-#spawn_data = parser.spawn_data
 region_data = parser.region_data
 static_spawn_data = parser.static_spawn_data
 
 FileUtils.mkdir_p('data')
 File.write(File.join('data', "mobs.json"), JSON.pretty_generate(mob_data))
 File.write(File.join('data', "missions.json"), JSON.pretty_generate(mission_data))
-#File.write(File.join('data', "lairs.json"), JSON.pretty_generate(lair_data))
 File.write(File.join('data', "regions.json"), JSON.pretty_generate(region_data))
-#File.write(File.join('data', "spawns.json"), JSON.pretty_generate(spawn_data))
 File.write(File.join('data', "static_spawns.json"), JSON.pretty_generate(static_spawn_data))
