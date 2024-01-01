@@ -90,6 +90,7 @@
             max-width: 80vh;
             padding: 1em;
             margin: 20px auto;
+            border: 5px solid #333;
         }
 
         tr {
@@ -660,7 +661,8 @@
                 const y = 8000 - spawn[1];
                 const r = 100;
                 const text = '/waypoint ' + spawn[0] + ' ' + spawn[1] + ' ' + mob.name;
-                svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#58cb22', title: text }));
+                svg.appendChild(svgNode('circle', {
+                    cx: x, cy: y, r: r, fill: '#ffff00', stroke: '#00000066', 'stroke-width': 80, title: text }));
                 staticSpawnList.appendChild(document.createTextNode(text + "\n"));
             });
             bg.appendChild(staticSpawnList);
