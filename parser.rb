@@ -91,10 +91,9 @@ class Parser
   end
 
   def static_spawn_data
-    # TODO: Still needs work, not everything in the static spawn file is appropriate to include
-    #       the Yavin4 static spawn file also loads mobs from an array.
     static_spawn_data = {}
-    Dir.glob(File.join(static_spawn_base, '*.lua')).each do |file|
+    (Dir.glob(File.join(static_spawn_base, '*.lua')) + Dir.glob(File.join(city_spawn_base, '*.lua'))).each do |file|
+      next if file.end_with?('/city.lua')
       parse_static_spawn_lua(file).each do |static_spawn|
         planet = static_spawn.delete(:planet)
         static_spawn_data[planet] ||= {}
@@ -132,6 +131,10 @@ class Parser
     File.join(@base, 'MMOCoreORB', 'bin', 'scripts', 'screenplays', 'static_spawns')
   end
 
+  def city_spawn_base
+    File.join(@base, 'MMOCoreORB', 'bin', 'scripts', 'screenplays', 'cities')
+  end
+
   private
 
   def merge(*a)
@@ -142,8 +145,7 @@ class Parser
 
   def parse_mob_lua(file)
     data = File.read(file)
-    data.gsub!(/\s*\-\-[^\n]+\n/,"\n") # Comments
-    data.gsub!(/,\s*\-\-[^\n]+\n/,",\n") # Comments following ,
+    strip_comments(data)
     data.gsub!('{', '[') # Array open
     data.gsub!('}', ']') # Array close
     data.gsub!(';', ',') # Some lines end in semi-colon instead of comma for some reason
@@ -172,8 +174,7 @@ class Parser
 
   def parse_mission_lua(file)
     data = File.read(file)
-    data.gsub!(/\s*\-\-[^\n]+\n/,"\n") # Comments
-    data.gsub!(/,\s*\-\-[^\n]+\n/,",\n") # Comments following ,
+    strip_comments(data)
     data.gsub!('{', '[') # Array open
     data.gsub!('}', ']') # Array close
     data.gsub!(';', ',') # Some lines end in semi-colon instead of comma for some reason
@@ -239,9 +240,7 @@ class Parser
 
   def parse_spawn_lua(file)
     data = File.read(file)
-    data.gsub!(/\s*\-\-\[\[.+\]\]/m, "\n") # Block comments
-    data.gsub!(/\s*\-\-[^\n]*\n/,"\n") # Comments
-    data.gsub!(/,\s*\-\-[^\n]*\n/,",\n") # Comments following ,
+    strip_comments(data)
     data.gsub!('{', '[') # Array open
     data.gsub!('}', ']') # Array close
     data.gsub!(';', ',') # Some lines end in semi-colon instead of comma for some reason
@@ -267,9 +266,7 @@ class Parser
 
   def parse_region_lua(file)
     data = File.read(file)
-    data.gsub!(/\s*\-\-\[\[.+\]\]/m, "\n") # Block comments
-    data.gsub!(/\s*\-\-[^\n]*\n/,"\n") # Comments
-    data.gsub!(/,\s*\-\-[^\n]*\n/,",\n") # Comments following ,
+    strip_comments(data)
     data.gsub!('{', '[') # Array open
     data.gsub!('}', ']') # Array close
     data.gsub!(';', ',') # Some lines end in semi-colon instead of comma for some reason
@@ -290,12 +287,74 @@ class Parser
 
   def parse_static_spawn_lua(file)
     data = File.read(file)
-    data.scan(/spawnMobile\(.+/).map do |s|
-      s.sub!('spawnMobile(', '')
-      s.gsub!('"','')
-      s = s.split(',').map(&:strip)
-      { planet: s[0].gsub('"',''), mob: s[1], x: s[3].to_f, y: s[5].to_f }
+    strip_comments(data)
+    planet = nil
+    m = data.match(/planet\s*=\s*"([^"]+)"/)
+    planet = m[1] if m
+    data.gsub!('self.planet', "\"#{planet}\"") if planet
+    data.gsub!('math.rad', '')
+    # explicit spawnMobiles calls
+    spawns = data.scan(/spawnMobile\(.+/).map do |s|
+      s.sub!('spawnMobile(', '[')
+      s.strip!
+      s.sub!(/\)$/, ']')
+      s.sub!(/\)--.+/, ']')
+      next if s.include?(', mob')
+      begin
+        d = eval(s)
+      rescue Exception => e
+        STDERR.puts "!!! ERROR parsing #{file}"
+        STDERR.puts s
+        raise e
+      end
+      { planet: d[0], mob: d[1], x: d[3], y: d[5] }
+    end.compact
+
+    # from array e.g. mobiles = {}
+    i = data.index('mobiles = {')
+    if i && planet
+      open = 0
+      buffer = ''
+      comment = false
+      while true
+        case data[i]
+        when '{'
+          open += 1
+          buffer << '['
+        when '}'
+          open -= 1
+          buffer << ']'
+          break if open.zero?
+        when nil
+          break
+        else
+          if data[i] == '-' && data[i+1] == '-'
+            comment = true
+          elsif comment && data[i] == "\n"
+            comment = false
+          elsif !comment
+            buffer << data[i] unless open.zero?
+          end
+        end
+        i += 1
+      end
+
+      begin
+        d = eval(buffer)
+      rescue Exception => e
+        STDERR.puts "!!! ERROR parsing #{file}"
+        STDERR.puts data
+        STDERR.puts 'buffer:'
+        STDERR.puts buffer
+        raise e
+      end
+
+      spawns += d.map do |s|
+        { planet: planet, mob: s[0], x: s[2], y: s[4] }
+      end
     end
+
+    spawns.uniq
   end
 
   def convert(output)
@@ -417,6 +476,16 @@ class Parser
     end
   end
 
+  def strip_comments(data)
+    data.gsub!(/\s*\-\-\[\[.+\]\]/m, "\n") # Block comments
+    data.gsub!(/\s*\-\-[^\n]*\n/,"\n") # Comments
+    data.gsub!(/,\s*\-\-[^\n]*\n/,",\n") # Comments following ,
+  end
+
+  def getRandomNumber(n)
+    (n.to_f / 2)
+  end
+
   def method_missing(symbol, *args)
     SwgConstant.new(symbol)
   end
@@ -457,4 +526,4 @@ File.write(File.join('data', "missions.json"), JSON.pretty_generate(mission_data
 #File.write(File.join('data', "lairs.json"), JSON.pretty_generate(lair_data))
 File.write(File.join('data', "regions.json"), JSON.pretty_generate(region_data))
 #File.write(File.join('data', "spawns.json"), JSON.pretty_generate(spawn_data))
-# File.write(File.join('data', "static_spawns.json"), JSON.pretty_generate(static_spawn_data))
+File.write(File.join('data', "static_spawns.json"), JSON.pretty_generate(static_spawn_data))

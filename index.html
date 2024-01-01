@@ -63,7 +63,7 @@
 
         #map .image {
             background-size: cover;
-            margin: 60px auto;
+            margin: 60px auto 0;
             border: 5px solid #333;
             max-width: 80vh;
             max-height: 80vh;
@@ -82,6 +82,14 @@
             text-align: center;
             top: 50px;
             font-weight: bold;
+        }
+
+        #static-spawns {
+            display: none;
+            background: #eee;
+            max-width: 80vh;
+            padding: 1em;
+            margin: 20px auto;
         }
 
         tr {
@@ -157,6 +165,10 @@
             text-decoration: underline;
         }
 
+        .spawns.static-spawns {
+            color: #58cb22;
+        }
+
         .spawns:hover {
             color: #9dc5ff;
         }
@@ -222,6 +234,7 @@
 <div class="container">
     <div id="map">
         <div class="image"></div>
+        <pre id="static-spawns"></pre>
     </div>
 
     <div id="controls">
@@ -272,6 +285,7 @@
     let mobData = null;
     let missionData = null;
     let regionData = null;
+    let staticSpawnData = null;
     let planetData = {};
     let sort = 'level';
     let sortDir = 1;
@@ -295,10 +309,16 @@
                 regionData = data;
                 combine();
             });
+        fetch('data/static_spawns.json')
+            .then((response) => response.json())
+            .then((data) => {
+                staticSpawnData = data;
+                combine();
+            });
     }
 
     function combine() {
-        if (!mobData || !missionData || !regionData) {
+        if (!mobData || !missionData || !regionData || !staticSpawnData) {
             return;
         }
 
@@ -343,9 +363,30 @@
                             planetMob.regions = [region];
                             planetData[planet].push(planetMob);
                         }
-
                     }
                 })
+            }
+        }
+
+        for (const [planet, staticSpawns] of Object.entries(staticSpawnData)) {
+            if (!planetData[planet]) {
+                planetData[planet] = [];
+            }
+            for (const [mobName, spawns] of Object.entries(staticSpawns)) {
+                console.log(mobName);
+                if (mobData[mobName]) {
+                    let planetMob = planetData[planet].find(m => m.name === mobName);
+                    if (planetMob) {
+                        if (!planetMob.staticSpawns) {
+                            planetMob.staticSpawns = [];
+                        }
+                        planetMob.staticSpawns = planetMob.staticSpawns.concat(spawns);
+                    } else {
+                        planetMob = { ...mobData[mobName] };
+                        planetMob.staticSpawns = spawns;
+                        planetData[planet].push(planetMob);
+                    }
+                }
             }
         }
 
@@ -361,20 +402,22 @@
                 const row = tbody.insertRow();
                 // Name
                 const name = row.insertCell();
-                let mobName;
                 if (mob.type === 'MOB_DROID' || mob.type === 'MOB_ANDROID') {
-                    mobName = mob.name.split('_').map(s => s.toUpperCase()).join('-');
+                    mob.humanName = mob.name.split('_').map(s => s.toUpperCase()).join('-');
                 } else {
-                    mobName = mob.name.split('_').map(s => capitalize(s)).join(' ');
+                    mob.humanName = mob.name.split('_').map(s => capitalize(s)).join(' ');
                 }
                 name.classList.add('left');
-                name.appendChild(document.createTextNode(mobName));
-                if (mob.regions) {
+                name.appendChild(document.createTextNode(mob.humanName));
+                if (mob.regions || mob.staticSpawns) {
                     const spawns = document.createElement('span');
                     spawns.classList.add('spawns');
+                    if (mob.staticSpawns) {
+                        spawns.classList.add('static-spawns');
+                    }
                     spawns.dataset.mob = mob.name;
                     spawns.dataset.planet = planet;
-                    spawns.appendChild(document.createTextNode('Spawns'));
+                    spawns.appendChild(document.createTextNode('Map'));
                     name.appendChild(spawns);
                 }
                 // CL
@@ -553,32 +596,53 @@
         map.classList.add('map-' + element.dataset.planet);
         map.innerHTML = '';
         const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
-        mob.regions.forEach(region => {
-            if (region.name.includes('world_spawner')) {
-                const worldSpawn = document.createElement('div');
-                worldSpawn.classList.add('world-spawn');
-                worldSpawn.appendChild(document.createTextNode('(Can also spawn globally)'));
-                map.appendChild(worldSpawn);
-            } else {
-                if (region.shape[0] === 'rectangle') {
-                    const x1 = region.shape[1] + 8000;
-                    const y1 = 8000 - region.shape[2];
-                    const x2 = region.shape[3] + 8000;
-                    const y2 = 8000 - region.shape[4];
-                    const x = Math.min(x1, x2);
-                    const y = Math.min(y1, y2);
-                    const width = Math.max(x1, x2) - x;
-                    const height = Math.max(y1, y2) - y;
-                    svg.appendChild(svgNode('rect', { x: x, y: y, width: width, height: height, fill: '#ff000066' }));
-                } else if (region.shape[0] === 'circle') {
-                    const x = region.shape[1] + 8000;
-                    const y = 8000 - region.shape[2];
-                    const r = region.shape[3];
-                    svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#ff000066' }));
-                }
-            }
-        });
         map.appendChild(svg);
+
+        if (mob.regions) {
+            mob.regions.forEach(region => {
+                if (region.name.includes('world_spawner')) {
+                    const worldSpawn = document.createElement('div');
+                    worldSpawn.classList.add('world-spawn');
+                    worldSpawn.appendChild(document.createTextNode('(Can also spawn globally)'));
+                    map.appendChild(worldSpawn);
+                } else {
+                    if (region.shape[0] === 'rectangle') {
+                        const x1 = region.shape[1] + 8000;
+                        const y1 = 8000 - region.shape[2];
+                        const x2 = region.shape[3] + 8000;
+                        const y2 = 8000 - region.shape[4];
+                        const x = Math.min(x1, x2);
+                        const y = Math.min(y1, y2);
+                        const width = Math.max(x1, x2) - x;
+                        const height = Math.max(y1, y2) - y;
+                        svg.appendChild(svgNode('rect', { x: x, y: y, width: width, height: height, fill: '#ff000066' }));
+                    } else if (region.shape[0] === 'circle') {
+                        const x = region.shape[1] + 8000;
+                        const y = 8000 - region.shape[2];
+                        const r = region.shape[3];
+                        svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#ff000066' }));
+                    }
+                }
+            });
+        }
+
+        const staticSpawnList = document.getElementById('static-spawns');
+        if (mob.staticSpawns) {
+            staticSpawnList.style.display = 'block';
+            staticSpawnList.innerText = '';
+            staticSpawnList.appendChild(document.createTextNode("# Static spawns:\n"));
+            mob.staticSpawns.forEach(spawn => {
+                const x = spawn[0] + 8000;
+                const y = 8000 - spawn[1];
+                const r = 100;
+                const text = '/waypoint ' + spawn[0] + ' ' + spawn[1] + ' ' + mob.name;
+                svg.appendChild(svgNode('circle', { cx: x, cy: y, r: r, fill: '#58cb22', title: text }));
+                staticSpawnList.appendChild(document.createTextNode(text + "\n"));
+            });
+            bg.appendChild(staticSpawnList);
+        } else {
+            staticSpawnList.style.display = 'none';
+        }
     }
 
     function capitalize(string) {
