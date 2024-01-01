@@ -554,7 +554,7 @@
         map.innerHTML = '';
         const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
         mob.regions.forEach(region => {
-            if (region.name.includes(':world_spawner')) {
+            if (region.name.includes('world_spawner')) {
                 const worldSpawn = document.createElement('div');
                 worldSpawn.classList.add('world-spawn');
                 worldSpawn.appendChild(document.createTextNode('(Can also spawn globally)'));
