@@ -107,6 +107,7 @@
         .container {
             max-width: 1800px;
             margin: 0 auto;
+            border: 2px solid var(--border);
         }
 
         #controls {
@@ -118,6 +119,10 @@
             max-width: 1800px;
             line-height: 2em;
             z-index: 100;
+            border-width: 0 2px 2px 2px;
+            border-style: solid;
+            border-color: var(--border);
+            margin: 0 -1px;
         }
 
         #controls div {
@@ -128,7 +133,7 @@
         }
 
         #open-controls {
-            display: none;
+            display: none !important;
         }
 
         @media screen and (max-width: 992px) {
@@ -146,7 +151,7 @@
             }
 
             #open-controls {
-                display: block;
+                display: block !important;
                 float: right;
 
                 cursor: pointer;
@@ -240,6 +245,7 @@
             height: 4em;
             padding-top: 2em;
             background-color: var(--controls);
+            z-index: 90;
         }
 
         th.resource {
@@ -263,6 +269,7 @@
         [data-sort] {
             user-select: none;
             cursor: pointer;
+            text-decoration: underline;
         }
 
         [data-sort]:hover {
