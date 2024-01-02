@@ -745,7 +745,7 @@
         const bg = document.getElementById('map');
         bg.classList.add('open');
         const map = bg.querySelector('.image');
-        map.classList.add('map-' + element.dataset.planet);
+        map.className = 'image map-' + element.dataset.planet;
         map.innerHTML = '';
         const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
         map.appendChild(svg);
