@@ -200,10 +200,9 @@
 
         #map .image {
             background-size: cover;
-            margin: 60px auto 0;
             border: 5px solid var(--border);
-            width: 80vmin;
             height: 80vmin;
+            width: 80vmin;
             position: relative;
         }
 
@@ -221,13 +220,28 @@
             font-weight: bold;
         }
 
+        .map-wrapper {
+            margin: 60px auto 0;
+            width: 80vmin;
+            position: relative;
+        }
+
+        #coords {
+            font-size: large;
+            font-family: monospace;
+            text-align: right;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+        }
+
         #static-spawns {
+            margin: 20px auto;
             display: none;
             background: var(--controls);
-            width: 85vmin;
             padding: 1em;
-            margin: 20px auto;
             border: 5px solid var(--border);
+            width: 80vmin;
         }
 
         tr {
@@ -397,7 +411,10 @@
 
 <div class="container">
     <div id="map">
-        <div class="image"></div>
+        <div class="map-wrapper">
+            <div class="image"></div>
+            <div id="coords"></div>
+        </div>
         <pre id="static-spawns"></pre>
     </div>
 
@@ -809,7 +826,6 @@
                     cx: x, cy: y, r: 100, fill: '#ffff00', stroke: '#000000', 'stroke-width': 20, title: text }));
                 staticSpawnList.appendChild(document.createTextNode(text + "\n"));
             });
-            bg.appendChild(staticSpawnList);
         } else {
             staticSpawnList.style.display = 'none';
         }
@@ -893,6 +909,20 @@
         if (filterDebounce)
             clearTimeout(filterDebounce);
         filterDebounce = setTimeout(redraw, 100);
+    });
+
+    document.getElementById('map').addEventListener('mousemove', function (e) {
+        const svg = this.querySelector('svg');
+        const domPoint = new DOMPointReadOnly(e.clientX, e.clientY);
+        const pt = domPoint.matrixTransform(svg.getScreenCTM().inverse());
+        const coords = document.getElementById('coords');
+        if (pt.x < 0 || pt.y < 0 || pt.x > 16000 || pt.y > 16000) {
+            coords.innerText = '';
+        } else {
+            coords.innerText = '' + Math.round(pt.x - 8000) + ' ' + Math.round(8000 - pt.y);
+            // coords.style.left = e.clientX + 'px';
+            // coords.style.top = e.clientY + 20 + 'px';
+        }
     });
 </script>
 </body>
