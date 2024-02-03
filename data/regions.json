@@ -1,7 +1,7 @@
 {
   "corellia": {
     "@corellia_region_names:bela_vistal_easy_newbie": {
-      "name": "@corellia_region_names:bela_vistal_easy_newbie",
+      "id": "@corellia_region_names:bela_vistal_easy_newbie",
       "spawns": [
         "bela_vistal_easy_newbie"
       ],
@@ -29,7 +29,7 @@
       ]
     },
     "@corellia_region_names:bela_vistal_medium_newbie": {
-      "name": "@corellia_region_names:bela_vistal_medium_newbie",
+      "id": "@corellia_region_names:bela_vistal_medium_newbie",
       "spawns": [
         "bela_vistal_medium_newbie"
       ],
@@ -66,7 +66,7 @@
       ]
     },
     "@corellia_region_names:central_easy": {
-      "name": "@corellia_region_names:central_easy",
+      "id": "@corellia_region_names:central_easy",
       "spawns": [
         "corellia_central_easy"
       ],
@@ -101,7 +101,7 @@
       ]
     },
     "@corellia_region_names:central_medium": {
-      "name": "@corellia_region_names:central_medium",
+      "id": "@corellia_region_names:central_medium",
       "spawns": [
         "corellia_central_medium"
       ],
@@ -151,7 +151,7 @@
       ]
     },
     "@corellia_region_names:central_plains": {
-      "name": "@corellia_region_names:central_plains",
+      "id": "@corellia_region_names:central_plains",
       "spawns": [
         "corellia_central_plains"
       ],
@@ -257,7 +257,7 @@
       ]
     },
     "@corellia_region_names:coronest_easy_newbie": {
-      "name": "@corellia_region_names:coronest_easy_newbie",
+      "id": "@corellia_region_names:coronest_easy_newbie",
       "spawns": [
         "coronet_easy_newbie"
       ],
@@ -285,7 +285,7 @@
       ]
     },
     "@corellia_region_names:coronet_medium_newbie": {
-      "name": "@corellia_region_names:coronet_medium_newbie",
+      "id": "@corellia_region_names:coronet_medium_newbie",
       "spawns": [
         "coronet_medium_newbie"
       ],
@@ -322,7 +322,7 @@
       ]
     },
     "@corellia_region_names:doaba_guefel_easy_newbie": {
-      "name": "@corellia_region_names:doaba_guefel_easy_newbie",
+      "id": "@corellia_region_names:doaba_guefel_easy_newbie",
       "spawns": [
         "doaba_guerfel_easy_newbie"
       ],
@@ -350,7 +350,7 @@
       ]
     },
     "@corellia_region_names:doaba_guefel_medium_newbie": {
-      "name": "@corellia_region_names:doaba_guefel_medium_newbie",
+      "id": "@corellia_region_names:doaba_guefel_medium_newbie",
       "spawns": [
         "doaba_guerfel_medium_newbie"
       ],
@@ -387,7 +387,7 @@
       ]
     },
     "@corellia_region_names:east_sea_coast": {
-      "name": "@corellia_region_names:east_sea_coast",
+      "id": "@corellia_region_names:east_sea_coast",
       "spawns": [
         "corellia_east_sea_coast"
       ],
@@ -416,7 +416,7 @@
       ]
     },
     "@corellia_region_names:eastern_medium": {
-      "name": "@corellia_region_names:eastern_medium",
+      "id": "@corellia_region_names:eastern_medium",
       "spawns": [
         "corellia_eastern_medium"
       ],
@@ -479,7 +479,7 @@
       ]
     },
     "@corellia_region_names:eastern_rogue_corsec_medium": {
-      "name": "@corellia_region_names:eastern_rogue_corsec_medium",
+      "id": "@corellia_region_names:eastern_rogue_corsec_medium",
       "spawns": [
         "corellia_eastern_rogue_corsec_medium"
       ],
@@ -497,7 +497,7 @@
       ]
     },
     "@corellia_region_names:forest1": {
-      "name": "@corellia_region_names:forest1",
+      "id": "@corellia_region_names:forest1",
       "spawns": [
         "corellia_forest_1"
       ],
@@ -598,7 +598,7 @@
       ]
     },
     "@corellia_region_names:forest2": {
-      "name": "@corellia_region_names:forest2",
+      "id": "@corellia_region_names:forest2",
       "spawns": [
         "corellia_forest_2"
       ],
@@ -727,7 +727,7 @@
       ]
     },
     "@corellia_region_names:forest3": {
-      "name": "@corellia_region_names:forest3",
+      "id": "@corellia_region_names:forest3",
       "spawns": [
         "corellia_forest_3"
       ],
@@ -862,7 +862,7 @@
       ]
     },
     "@corellia_region_names:forest4": {
-      "name": "@corellia_region_names:forest4",
+      "id": "@corellia_region_names:forest4",
       "spawns": [
         "corellia_northwest_forest"
       ],
@@ -1076,7 +1076,7 @@
       ]
     },
     "@corellia_region_names:forest5": {
-      "name": "@corellia_region_names:forest5",
+      "id": "@corellia_region_names:forest5",
       "spawns": [
         "corellia_southwest_forest"
       ],
@@ -1237,7 +1237,7 @@
       ]
     },
     "@corellia_region_names:kor_vella_easy_newbie": {
-      "name": "@corellia_region_names:kor_vella_easy_newbie",
+      "id": "@corellia_region_names:kor_vella_easy_newbie",
       "spawns": [
         "kor_vella_easy_newbie"
       ],
@@ -1265,7 +1265,7 @@
       ]
     },
     "@corellia_region_names:kor_vella_medium_newbie": {
-      "name": "@corellia_region_names:kor_vella_medium_newbie",
+      "id": "@corellia_region_names:kor_vella_medium_newbie",
       "spawns": [
         "kor_vella_medium_newbie"
       ],
@@ -1302,7 +1302,7 @@
       ]
     },
     "@corellia_region_names:lord_nyax_hard": {
-      "name": "@corellia_region_names:lord_nyax_hard",
+      "id": "@corellia_region_names:lord_nyax_hard",
       "spawns": [
         "corellia_lord_nyax_hard"
       ],
@@ -1322,7 +1322,7 @@
       ]
     },
     "@corellia_region_names:swamp1": {
-      "name": "@corellia_region_names:swamp1",
+      "id": "@corellia_region_names:swamp1",
       "spawns": [
         "agrilat_swamp"
       ],
@@ -1379,7 +1379,7 @@
       ]
     },
     "@corellia_region_names:tyrena_easy_newbie": {
-      "name": "@corellia_region_names:tyrena_easy_newbie",
+      "id": "@corellia_region_names:tyrena_easy_newbie",
       "spawns": [
         "tyrena_easy_newbie"
       ],
@@ -1407,7 +1407,7 @@
       ]
     },
     "@corellia_region_names:tyrena_medium_newbie": {
-      "name": "@corellia_region_names:tyrena_medium_newbie",
+      "id": "@corellia_region_names:tyrena_medium_newbie",
       "spawns": [
         "tyrena_medium_newbie"
       ],
@@ -1444,7 +1444,7 @@
       ]
     },
     "@corellia_region_names:vreni_island_medium_newbie": {
-      "name": "@corellia_region_names:vreni_island_medium_newbie",
+      "id": "@corellia_region_names:vreni_island_medium_newbie",
       "spawns": [
         "vreni_island_medium_newbie"
       ],
@@ -1480,7 +1480,7 @@
       ]
     },
     "@corellia_region_names:northern_beladonas_hard": {
-      "name": "@corellia_region_names:northern_beladonas_hard",
+      "id": "@corellia_region_names:northern_beladonas_hard",
       "spawns": [
         "corellia_northern_beladonas_hard"
       ],
@@ -1498,7 +1498,7 @@
       ]
     },
     "@corellia_region_names:northern_selonian_hard": {
-      "name": "@corellia_region_names:northern_selonian_hard",
+      "id": "@corellia_region_names:northern_selonian_hard",
       "spawns": [
         "corellia_northern_selonian_hard"
       ],
@@ -1531,7 +1531,7 @@
       ]
     },
     "@corellia_region_names:northeastern_hard": {
-      "name": "@corellia_region_names:northeastern_hard",
+      "id": "@corellia_region_names:northeastern_hard",
       "spawns": [
         "corellia_northeastern_hard"
       ],
@@ -1604,7 +1604,7 @@
       ]
     },
     "@corellia_region_names:northeastern_dark_adept_hard": {
-      "name": "@corellia_region_names:northeastern_dark_adept_hard",
+      "id": "@corellia_region_names:northeastern_dark_adept_hard",
       "spawns": [
         "corellia_northeastern_dark_adept_hard"
       ],
@@ -1621,7 +1621,7 @@
       ]
     },
     "@corellia_region_names:northwestern_medium": {
-      "name": "@corellia_region_names:northwestern_medium",
+      "id": "@corellia_region_names:northwestern_medium",
       "spawns": [
         "corellia_northwestern_medium"
       ],
@@ -1692,7 +1692,7 @@
       ]
     },
     "@corellia_region_names:northwestern_gronda_hard": {
-      "name": "@corellia_region_names:northwestern_gronda_hard",
+      "id": "@corellia_region_names:northwestern_gronda_hard",
       "spawns": [
         "corellia_northwestern_gronda_hard",
         "corellia_hard_gronda_nw"
@@ -1794,7 +1794,7 @@
       ]
     },
     "@corellia_region_names:se_medium": {
-      "name": "@corellia_region_names:se_medium",
+      "id": "@corellia_region_names:se_medium",
       "spawns": [
         "corellia_se_medium",
         "corellia_medium_dire_cat_se",
@@ -2140,7 +2140,7 @@
       ]
     },
     "@corellia_region_names:southwestern_medium": {
-      "name": "@corellia_region_names:southwestern_medium",
+      "id": "@corellia_region_names:southwestern_medium",
       "spawns": [
         "corellia_southerwestern_medium"
       ],
@@ -2198,7 +2198,7 @@
       ]
     },
     "@corellia_region_names:hard_crimson_sand_panther_sw": {
-      "name": "@corellia_region_names:hard_crimson_sand_panther_sw",
+      "id": "@corellia_region_names:hard_crimson_sand_panther_sw",
       "spawns": [
         "corellia_hard_crimson_sand_panther_sw"
       ],
@@ -2279,7 +2279,7 @@
       ]
     },
     "@corellia_region_names:southern_central_easy": {
-      "name": "@corellia_region_names:southern_central_easy",
+      "id": "@corellia_region_names:southern_central_easy",
       "spawns": [
         "corellia_southern_central_easy"
       ],
@@ -2327,7 +2327,7 @@
       ]
     },
     "@corellia_region_names:grassland1": {
-      "name": "@corellia_region_names:grassland1",
+      "id": "@corellia_region_names:grassland1",
       "spawns": [
         "corellia_northwest_plains"
       ],
@@ -2422,7 +2422,7 @@
       ]
     },
     "@corellia_region_names:grassland2": {
-      "name": "@corellia_region_names:grassland2",
+      "id": "@corellia_region_names:grassland2",
       "spawns": [
         "corellia_medium_dire_cat_ne"
       ],
@@ -2486,7 +2486,7 @@
       ]
     },
     "@corellia_region_names:grassland3": {
-      "name": "@corellia_region_names:grassland3",
+      "id": "@corellia_region_names:grassland3",
       "spawns": [
         "corellia_hard_gronda_ne",
         "corellia_hard_gulginaw_ne"
@@ -2634,7 +2634,7 @@
       ]
     },
     "@corellia_region_names:grassland4": {
-      "name": "@corellia_region_names:grassland4",
+      "id": "@corellia_region_names:grassland4",
       "spawns": [
         "corellia_hard_gronda_sw",
         "corellia_hard_gulginaw_sw"
@@ -2754,7 +2754,7 @@
       ]
     },
     "@corellia_region_names:grassland5": {
-      "name": "@corellia_region_names:grassland5",
+      "id": "@corellia_region_names:grassland5",
       "spawns": [
         "corellia_western_plains"
       ],
@@ -2891,7 +2891,7 @@
       ]
     },
     "@corellia_region_names:grassland6": {
-      "name": "@corellia_region_names:grassland6",
+      "id": "@corellia_region_names:grassland6",
       "spawns": [
         "corellia_southeast_plains"
       ],
@@ -3011,7 +3011,7 @@
       ]
     },
     "@corellia_region_names:grassland7": {
-      "name": "@corellia_region_names:grassland7",
+      "id": "@corellia_region_names:grassland7",
       "spawns": [
         "corellia_southeast_plains"
       ],
@@ -3131,7 +3131,7 @@
       ]
     },
     "@corellia_region_names:grassland8": {
-      "name": "@corellia_region_names:grassland8",
+      "id": "@corellia_region_names:grassland8",
       "spawns": [
         "corellia_southeast_plains"
       ],
@@ -3251,7 +3251,7 @@
       ]
     },
     "@corellia_region_names:mountain1": {
-      "name": "@corellia_region_names:mountain1",
+      "id": "@corellia_region_names:mountain1",
       "spawns": [
         "corellia_southeast_mountain_peak"
       ],
@@ -3294,7 +3294,7 @@
       ]
     },
     "@corellia_region_names:mountain2": {
-      "name": "@corellia_region_names:mountain2",
+      "id": "@corellia_region_names:mountain2",
       "spawns": [
         "corellia_southeast_mountain_range"
       ],
@@ -3386,7 +3386,7 @@
       ]
     },
     "@corellia_region_names:mountain3": {
-      "name": "@corellia_region_names:mountain3",
+      "id": "@corellia_region_names:mountain3",
       "spawns": [
         "corellia_western_mountain_forest"
       ],
@@ -3596,7 +3596,7 @@
       ]
     },
     "@corellia_region_names:mountain4": {
-      "name": "@corellia_region_names:mountain4",
+      "id": "@corellia_region_names:mountain4",
       "spawns": [
         "corellia_northwest_mountains"
       ],
@@ -3647,7 +3647,7 @@
       ]
     },
     "@corellia_region_names:mountain5": {
-      "name": "@corellia_region_names:mountain5",
+      "id": "@corellia_region_names:mountain5",
       "spawns": [
         "corellia_northwest_mountain_peak",
         "corellia_northwest_mountains"
@@ -3762,7 +3762,7 @@
       ]
     },
     "@corellia_region_names:mountain6": {
-      "name": "@corellia_region_names:mountain6",
+      "id": "@corellia_region_names:mountain6",
       "spawns": [
         "corellia_north_central_mountains"
       ],
@@ -3868,7 +3868,7 @@
       ]
     },
     "@corellia_region_names:mountain7": {
-      "name": "@corellia_region_names:mountain7",
+      "id": "@corellia_region_names:mountain7",
       "spawns": [
         "corellia_northeast_mountains"
       ],
@@ -3937,7 +3937,7 @@
       ]
     },
     "@corellia_region_names:mountain8": {
-      "name": "@corellia_region_names:mountain8",
+      "id": "@corellia_region_names:mountain8",
       "spawns": [
         "corellia_north_central_mountains"
       ],
@@ -4042,7 +4042,7 @@
       ]
     },
     "@corellia_region_names:world_spawner": {
-      "name": "@corellia_region_names:world_spawner",
+      "id": "@corellia_region_names:world_spawner",
       "spawns": [
         "corellia_world"
       ],
@@ -4132,7 +4132,7 @@
   },
   "dantooine": {
     "@dantooine_region_names:eastern_mountains_1": {
-      "name": "@dantooine_region_names:eastern_mountains_1",
+      "id": "@dantooine_region_names:eastern_mountains_1",
       "spawns": [
         "dantooine_eastern_mountains"
       ],
@@ -4268,7 +4268,7 @@
       ]
     },
     "@dantooine_region_names:eastern_mountains_2": {
-      "name": "@dantooine_region_names:eastern_mountains_2",
+      "id": "@dantooine_region_names:eastern_mountains_2",
       "spawns": [
         "dantooine_eastern_mountains"
       ],
@@ -4404,7 +4404,7 @@
       ]
     },
     "@dantooine_region_names:northern_mountains_1": {
-      "name": "@dantooine_region_names:northern_mountains_1",
+      "id": "@dantooine_region_names:northern_mountains_1",
       "spawns": [
         "dantooine_northern_mountains"
       ],
@@ -4540,7 +4540,7 @@
       ]
     },
     "@dantooine_region_names:northern_mountains_2": {
-      "name": "@dantooine_region_names:northern_mountains_2",
+      "id": "@dantooine_region_names:northern_mountains_2",
       "spawns": [
         "dantooine_northern_mountains"
       ],
@@ -4675,7 +4675,7 @@
       ]
     },
     "@dantooine_region_names:northern_mountains_3": {
-      "name": "@dantooine_region_names:northern_mountains_3",
+      "id": "@dantooine_region_names:northern_mountains_3",
       "spawns": [
         "dantooine_northern_mountains"
       ],
@@ -4811,7 +4811,7 @@
       ]
     },
     "@dantooine_region_names:northern_mountains_4": {
-      "name": "@dantooine_region_names:northern_mountains_4",
+      "id": "@dantooine_region_names:northern_mountains_4",
       "spawns": [
         "dantooine_northern_mountains"
       ],
@@ -4946,7 +4946,7 @@
       ]
     },
     "@dantooine_region_names:northern_mountains_5": {
-      "name": "@dantooine_region_names:northern_mountains_5",
+      "id": "@dantooine_region_names:northern_mountains_5",
       "spawns": [
         "dantooine_northern_mountains"
       ],
@@ -5082,7 +5082,7 @@
       ]
     },
     "@dantooine_region_names:northeastern_mountains_1": {
-      "name": "@dantooine_region_names:northeastern_mountains_1",
+      "id": "@dantooine_region_names:northeastern_mountains_1",
       "spawns": [
         "dantooine_northern_mountains"
       ],
@@ -5217,7 +5217,7 @@
       ]
     },
     "@dantooine_region_names:northwestern_mountains_1": {
-      "name": "@dantooine_region_names:northwestern_mountains_1",
+      "id": "@dantooine_region_names:northwestern_mountains_1",
       "spawns": [
         "dantooine_western_mountains"
       ],
@@ -5332,7 +5332,7 @@
       ]
     },
     "@dantooine_region_names:northwestern_mountains_2": {
-      "name": "@dantooine_region_names:northwestern_mountains_2",
+      "id": "@dantooine_region_names:northwestern_mountains_2",
       "spawns": [
         "dantooine_western_mountains"
       ],
@@ -5446,7 +5446,7 @@
       ]
     },
     "@dantooine_region_names:southern_mountains_1": {
-      "name": "@dantooine_region_names:southern_mountains_1",
+      "id": "@dantooine_region_names:southern_mountains_1",
       "spawns": [
         "dantooine_southern_mountains"
       ],
@@ -5559,7 +5559,7 @@
       ]
     },
     "@dantooine_region_names:southern_mountains_2": {
-      "name": "@dantooine_region_names:southern_mountains_2",
+      "id": "@dantooine_region_names:southern_mountains_2",
       "spawns": [
         "dantooine_southern_mountains"
       ],
@@ -5672,7 +5672,7 @@
       ]
     },
     "@dantooine_region_names:southeastern_mountains_1": {
-      "name": "@dantooine_region_names:southeastern_mountains_1",
+      "id": "@dantooine_region_names:southeastern_mountains_1",
       "spawns": [
         "dantooine_eastern_mountains",
         "dantooine_southern_mountains"
@@ -5907,7 +5907,7 @@
       ]
     },
     "@dantooine_region_names:southwestern_mountains_1": {
-      "name": "@dantooine_region_names:southwestern_mountains_1",
+      "id": "@dantooine_region_names:southwestern_mountains_1",
       "spawns": [
         "dantooine_western_mountains",
         "dantooine_southern_mountains"
@@ -6121,7 +6121,7 @@
       ]
     },
     "@dantooine_region_names:taikaha_hills_1_m": {
-      "name": "@dantooine_region_names:taikaha_hills_1_m",
+      "id": "@dantooine_region_names:taikaha_hills_1_m",
       "spawns": [
         "dantooine_hard_graul_nw"
       ],
@@ -6204,7 +6204,7 @@
       ]
     },
     "@dantooine_region_names:taikaha_hills_2_m": {
-      "name": "@dantooine_region_names:taikaha_hills_2_m",
+      "id": "@dantooine_region_names:taikaha_hills_2_m",
       "spawns": [
         "dantooine_hard_graul_nw"
       ],
@@ -6287,7 +6287,7 @@
       ]
     },
     "@dantooine_region_names:taikaha_hills_3_m": {
-      "name": "@dantooine_region_names:taikaha_hills_3_m",
+      "id": "@dantooine_region_names:taikaha_hills_3_m",
       "spawns": [
         "dantooine_hard_graul_nw"
       ],
@@ -6370,7 +6370,7 @@
       ]
     },
     "@dantooine_region_names:western_mountains_1": {
-      "name": "@dantooine_region_names:western_mountains_1",
+      "id": "@dantooine_region_names:western_mountains_1",
       "spawns": [
         "dantooine_western_mountains"
       ],
@@ -6484,7 +6484,7 @@
       ]
     },
     "@dantooine_region_names:western_mountains_2": {
-      "name": "@dantooine_region_names:western_mountains_2",
+      "id": "@dantooine_region_names:western_mountains_2",
       "spawns": [
         "dantooine_western_mountains"
       ],
@@ -6598,7 +6598,7 @@
       ]
     },
     "@dantooine_region_names:central_steppes_1": {
-      "name": "@dantooine_region_names:central_steppes_1",
+      "id": "@dantooine_region_names:central_steppes_1",
       "spawns": [
         "dantooine_medium_piket_ne"
       ],
@@ -6625,7 +6625,7 @@
       ]
     },
     "@dantooine_region_names:northern_steppes_1": {
-      "name": "@dantooine_region_names:northern_steppes_1",
+      "id": "@dantooine_region_names:northern_steppes_1",
       "spawns": [
         "dantooine_northwest_stepes"
       ],
@@ -6749,7 +6749,7 @@
       ]
     },
     "@dantooine_region_names:southwestern_steppes_1": {
-      "name": "@dantooine_region_names:southwestern_steppes_1",
+      "id": "@dantooine_region_names:southwestern_steppes_1",
       "spawns": [
         "dantooine_southwest_stepes"
       ],
@@ -6866,7 +6866,7 @@
       ]
     },
     "@dantooine_region_names:ataahua_slopes_1_m": {
-      "name": "@dantooine_region_names:ataahua_slopes_1_m",
+      "id": "@dantooine_region_names:ataahua_slopes_1_m",
       "spawns": [
         "dantooine_southwest_stepes"
       ],
@@ -6983,7 +6983,7 @@
       ]
     },
     "@dantooine_region_names:the_great_steppes_1": {
-      "name": "@dantooine_region_names:the_great_steppes_1",
+      "id": "@dantooine_region_names:the_great_steppes_1",
       "spawns": [
         "dantooine_hard_voritor_sw",
         "dantooine_medium_piket_sw",
@@ -7148,7 +7148,7 @@
       ]
     },
     "@dantooine_region_names:southeastern_steppes_1": {
-      "name": "@dantooine_region_names:southeastern_steppes_1",
+      "id": "@dantooine_region_names:southeastern_steppes_1",
       "spawns": [
         "dantooine_southern_plains"
       ],
@@ -7265,7 +7265,7 @@
       ]
     },
     "@dantooine_region_names:southeastern_steppes_2": {
-      "name": "@dantooine_region_names:southeastern_steppes_2",
+      "id": "@dantooine_region_names:southeastern_steppes_2",
       "spawns": [
         "dantooine_southern_plains"
       ],
@@ -7382,7 +7382,7 @@
       ]
     },
     "@dantooine_region_names:river_1": {
-      "name": "@dantooine_region_names:river_1",
+      "id": "@dantooine_region_names:river_1",
       "spawns": [
         "dantooine_hard_dantari_ne"
       ],
@@ -7408,7 +7408,7 @@
       ]
     },
     "@dantooine_region_names:river_10": {
-      "name": "@dantooine_region_names:river_10",
+      "id": "@dantooine_region_names:river_10",
       "spawns": [
         "dantooine_hard_dantari_sw"
       ],
@@ -7436,7 +7436,7 @@
       ]
     },
     "@dantooine_region_names:river_11": {
-      "name": "@dantooine_region_names:river_11",
+      "id": "@dantooine_region_names:river_11",
       "spawns": [
         "dantooine_medium_bol_nw"
       ],
@@ -7517,7 +7517,7 @@
       ]
     },
     "@dantooine_region_names:river_12": {
-      "name": "@dantooine_region_names:river_12",
+      "id": "@dantooine_region_names:river_12",
       "spawns": [
         "dantooine_medium_bol_nw"
       ],
@@ -7598,7 +7598,7 @@
       ]
     },
     "@dantooine_region_names:river_13": {
-      "name": "@dantooine_region_names:river_13",
+      "id": "@dantooine_region_names:river_13",
       "spawns": [
         "dantooine_northern_plains"
       ],
@@ -7763,7 +7763,7 @@
       ]
     },
     "@dantooine_region_names:river_27": {
-      "name": "@dantooine_region_names:river_27",
+      "id": "@dantooine_region_names:river_27",
       "spawns": [
         "dantooine_southern_plains"
       ],
@@ -7881,7 +7881,7 @@
       ]
     },
     "@dantooine_region_names:river_25": {
-      "name": "@dantooine_region_names:river_25",
+      "id": "@dantooine_region_names:river_25",
       "spawns": [
         "dantooine_southern_plains"
       ],
@@ -7999,7 +7999,7 @@
       ]
     },
     "@dantooine_region_names:northern_medium": {
-      "name": "@dantooine_region_names:northern_medium",
+      "id": "@dantooine_region_names:northern_medium",
       "spawns": [
         "dantooine_northern_medium"
       ],
@@ -8042,7 +8042,7 @@
       ]
     },
     "@dantooine_region_names:northeastern_hard": {
-      "name": "@dantooine_region_names:northeastern_hard",
+      "id": "@dantooine_region_names:northeastern_hard",
       "spawns": [
         "dantooine_northeastern_hard"
       ],
@@ -8067,7 +8067,7 @@
       ]
     },
     "@dantooine_region_names:northwestern_hard": {
-      "name": "@dantooine_region_names:northwestern_hard",
+      "id": "@dantooine_region_names:northwestern_hard",
       "spawns": [
         "dantooine_northwestern_hard"
       ],
@@ -8092,7 +8092,7 @@
       ]
     },
     "@dantooine_region_names:southeastern_medium": {
-      "name": "@dantooine_region_names:southeastern_medium",
+      "id": "@dantooine_region_names:southeastern_medium",
       "spawns": [
         "dantooine_southeastern_medium"
       ],
@@ -8135,7 +8135,7 @@
       ]
     },
     "@dantooine_region_names:southwestern_medium": {
-      "name": "@dantooine_region_names:southwestern_medium",
+      "id": "@dantooine_region_names:southwestern_medium",
       "spawns": [
         "dantooine_southwestern_medium"
       ],
@@ -8182,7 +8182,7 @@
       ]
     },
     "@dantooine_region_names:southern_medium": {
-      "name": "@dantooine_region_names:southern_medium",
+      "id": "@dantooine_region_names:southern_medium",
       "spawns": [
         "dantooine_southern_medium"
       ],
@@ -8218,7 +8218,7 @@
       ]
     },
     "@dantooine_region_names:eastern_medium": {
-      "name": "@dantooine_region_names:eastern_medium",
+      "id": "@dantooine_region_names:eastern_medium",
       "spawns": [
         "dantooine_eastern_medium"
       ],
@@ -8265,7 +8265,7 @@
       ]
     },
     "@dantooine_region_names:western_medium": {
-      "name": "@dantooine_region_names:western_medium",
+      "id": "@dantooine_region_names:western_medium",
       "spawns": [
         "dantooine_western_medium"
       ],
@@ -8308,7 +8308,7 @@
       ]
     },
     "@dantooine_region_names:central_easy": {
-      "name": "@dantooine_region_names:central_easy",
+      "id": "@dantooine_region_names:central_easy",
       "spawns": [
         "dantooine_central_easy"
       ],
@@ -8353,7 +8353,7 @@
       ]
     },
     "@dantooine_region_names:central_medium": {
-      "name": "@dantooine_region_names:central_medium",
+      "id": "@dantooine_region_names:central_medium",
       "spawns": [
         "dantooine_central_medium"
       ],
@@ -8396,7 +8396,7 @@
       ]
     },
     "@dantooine_region_names:central_western_medium": {
-      "name": "@dantooine_region_names:central_western_medium",
+      "id": "@dantooine_region_names:central_western_medium",
       "spawns": [
         "dantooine_central_western_medium"
       ],
@@ -8434,7 +8434,7 @@
       ]
     },
     "@dantooine_region_names:world_spawner": {
-      "name": "@dantooine_region_names:world_spawner",
+      "id": "@dantooine_region_names:world_spawner",
       "spawns": [
         "dantooine_world"
       ],
@@ -8571,7 +8571,7 @@
   },
   "dathomir": {
     "@dathomir_region_names:canyon": {
-      "name": "@dathomir_region_names:canyon",
+      "id": "@dathomir_region_names:canyon",
       "spawns": [
         "dathomir_the_great_canyon"
       ],
@@ -8627,7 +8627,7 @@
       ]
     },
     "@dathomir_region_names:desert": {
-      "name": "@dathomir_region_names:desert",
+      "id": "@dathomir_region_names:desert",
       "spawns": [
         "dathomir_southern_desert"
       ],
@@ -8703,7 +8703,7 @@
       ]
     },
     "@dathomir_region_names:forest_1": {
-      "name": "@dathomir_region_names:forest_1",
+      "id": "@dathomir_region_names:forest_1",
       "spawns": [
         "dathomir_hard_rancor_nw",
         "dathomir_hard_purbole_nw"
@@ -8844,7 +8844,7 @@
       ]
     },
     "@dathomir_region_names:forest_2": {
-      "name": "@dathomir_region_names:forest_2",
+      "id": "@dathomir_region_names:forest_2",
       "spawns": [
         "dathomir_singing_mountain"
       ],
@@ -8930,7 +8930,7 @@
       ]
     },
     "@dathomir_region_names:forest_3": {
-      "name": "@dathomir_region_names:forest_3",
+      "id": "@dathomir_region_names:forest_3",
       "spawns": [
         "dathomir_dry_rock_mountains_se",
         "dathomir_hard_graul_se"
@@ -9047,7 +9047,7 @@
       ]
     },
     "@dathomir_region_names:forest_4": {
-      "name": "@dathomir_region_names:forest_4",
+      "id": "@dathomir_region_names:forest_4",
       "spawns": [
         "dathomir_dry_rock_mountains_sw",
         "dathomir_hard_graul_sw",
@@ -9284,7 +9284,7 @@
       ]
     },
     "@dathomir_region_names:northern_hard": {
-      "name": "@dathomir_region_names:northern_hard",
+      "id": "@dathomir_region_names:northern_hard",
       "spawns": [
         "dathomir_northern_hard"
       ],
@@ -9327,7 +9327,7 @@
       ]
     },
     "@dathomir_region_names:northeastern_medium": {
-      "name": "@dathomir_region_names:northeastern_medium",
+      "id": "@dathomir_region_names:northeastern_medium",
       "spawns": [
         "dathomir_northeastern_medium"
       ],
@@ -9375,7 +9375,7 @@
       ]
     },
     "@dathomir_region_names:northwestern_medium": {
-      "name": "@dathomir_region_names:northwestern_medium",
+      "id": "@dathomir_region_names:northwestern_medium",
       "spawns": [
         "dathomir_northwestern_medium"
       ],
@@ -9409,7 +9409,7 @@
       ]
     },
     "@dathomir_region_names:southern_medium": {
-      "name": "@dathomir_region_names:southern_medium",
+      "id": "@dathomir_region_names:southern_medium",
       "spawns": [
         "dathomir_southern_medium"
       ],
@@ -9458,7 +9458,7 @@
       ]
     },
     "@dathomir_region_names:southeastern_medium": {
-      "name": "@dathomir_region_names:southeastern_medium",
+      "id": "@dathomir_region_names:southeastern_medium",
       "spawns": [
         "dathomir_southeastern_medium"
       ],
@@ -9492,7 +9492,7 @@
       ]
     },
     "@dathomir_region_names:southwestern_hard": {
-      "name": "@dathomir_region_names:southwestern_hard",
+      "id": "@dathomir_region_names:southwestern_hard",
       "spawns": [
         "dathomir_southwestern_hard"
       ],
@@ -9525,7 +9525,7 @@
       ]
     },
     "@dathomir_region_names:southwestern_medium": {
-      "name": "@dathomir_region_names:southwestern_medium",
+      "id": "@dathomir_region_names:southwestern_medium",
       "spawns": [
         "dathomir_southwestern_medium"
       ],
@@ -9561,7 +9561,7 @@
       ]
     },
     "@dathomir_region_names:eastern_hard": {
-      "name": "@dathomir_region_names:eastern_hard",
+      "id": "@dathomir_region_names:eastern_hard",
       "spawns": [
         "dathomir_eastern_hard"
       ],
@@ -9609,7 +9609,7 @@
       ]
     },
     "@dathomir_region_names:western_hard": {
-      "name": "@dathomir_region_names:western_hard",
+      "id": "@dathomir_region_names:western_hard",
       "spawns": [
         "dathomir_western_hard"
       ],
@@ -9657,7 +9657,7 @@
       ]
     },
     "@dathomir_region_names:central_easy": {
-      "name": "@dathomir_region_names:central_easy",
+      "id": "@dathomir_region_names:central_easy",
       "spawns": [
         "dathomir_central_easy"
       ],
@@ -9706,7 +9706,7 @@
       ]
     },
     "@dathomir_region_names:mountain_1": {
-      "name": "@dathomir_region_names:mountain_1",
+      "id": "@dathomir_region_names:mountain_1",
       "spawns": [
         "dathomir_northern_mountains"
       ],
@@ -9814,7 +9814,7 @@
       ]
     },
     "@dathomir_region_names:mountain_2": {
-      "name": "@dathomir_region_names:mountain_2",
+      "id": "@dathomir_region_names:mountain_2",
       "spawns": [
         "dathomir_western_mountains"
       ],
@@ -9894,7 +9894,7 @@
       ]
     },
     "@dathomir_region_names:mountain_3": {
-      "name": "@dathomir_region_names:mountain_3",
+      "id": "@dathomir_region_names:mountain_3",
       "spawns": [
         "dathomir_western_mountains"
       ],
@@ -9974,7 +9974,7 @@
       ]
     },
     "@dathomir_region_names:mountain_5": {
-      "name": "@dathomir_region_names:mountain_5",
+      "id": "@dathomir_region_names:mountain_5",
       "spawns": [
         "dathomir_western_mountains"
       ],
@@ -10054,7 +10054,7 @@
       ]
     },
     "@dathomir_region_names:mountain_6": {
-      "name": "@dathomir_region_names:mountain_6",
+      "id": "@dathomir_region_names:mountain_6",
       "spawns": [
         "dathomir_western_mountains"
       ],
@@ -10134,7 +10134,7 @@
       ]
     },
     "@dathomir_region_names:mountain_8": {
-      "name": "@dathomir_region_names:mountain_8",
+      "id": "@dathomir_region_names:mountain_8",
       "spawns": [
         "dathomir_red_hills_nw"
       ],
@@ -10190,7 +10190,7 @@
       ]
     },
     "@dathomir_region_names:mountain_4": {
-      "name": "@dathomir_region_names:mountain_4",
+      "id": "@dathomir_region_names:mountain_4",
       "spawns": [
         "dathomir_eastern_mountains"
       ],
@@ -10261,7 +10261,7 @@
       ]
     },
     "@dathomir_region_names:mountain_7": {
-      "name": "@dathomir_region_names:mountain_7",
+      "id": "@dathomir_region_names:mountain_7",
       "spawns": [
         "dathomir_red_hills_ne"
       ],
@@ -10317,7 +10317,7 @@
       ]
     },
     "@dathomir_region_names:world_spawner": {
-      "name": "@dathomir_region_names:world_spawner",
+      "id": "@dathomir_region_names:world_spawner",
       "spawns": [
         "dathomir_world"
       ],
@@ -10461,7 +10461,7 @@
   },
   "endor": {
     "@endor_region_names:central_east_medium": {
-      "name": "@endor_region_names:central_east_medium",
+      "id": "@endor_region_names:central_east_medium",
       "spawns": [
         "endor_central_east_medium"
       ],
@@ -10538,7 +10538,7 @@
       ]
     },
     "@endor_region_names:central_western_easy": {
-      "name": "@endor_region_names:central_western_easy",
+      "id": "@endor_region_names:central_western_easy",
       "spawns": [
         "endor_central_western_easy"
       ],
@@ -10615,7 +10615,7 @@
       ]
     },
     "@endor_region_names:eastern_medium": {
-      "name": "@endor_region_names:eastern_medium",
+      "id": "@endor_region_names:eastern_medium",
       "spawns": [
         "endor_eastern_medium"
       ],
@@ -10655,7 +10655,7 @@
       ]
     },
     "@endor_region_names:northeastern_hard": {
-      "name": "@endor_region_names:northeastern_hard",
+      "id": "@endor_region_names:northeastern_hard",
       "spawns": [
         "endor_northeastern_hard"
       ],
@@ -10684,7 +10684,7 @@
       ]
     },
     "@endor_region_names:northeastern_medium": {
-      "name": "@endor_region_names:northeastern_medium",
+      "id": "@endor_region_names:northeastern_medium",
       "spawns": [
         "endor_northeastern_medium"
       ],
@@ -10720,7 +10720,7 @@
       ]
     },
     "@endor_region_names:northeastern_veryhard": {
-      "name": "@endor_region_names:northeastern_veryhard",
+      "id": "@endor_region_names:northeastern_veryhard",
       "spawns": [
         "endor_northeastern_veryhard"
       ],
@@ -10740,7 +10740,7 @@
       ]
     },
     "@endor_region_names:northern_medium": {
-      "name": "@endor_region_names:northern_medium",
+      "id": "@endor_region_names:northern_medium",
       "spawns": [
         "endor_northern_medium"
       ],
@@ -10780,7 +10780,7 @@
       ]
     },
     "@endor_region_names:northwestern_hard": {
-      "name": "@endor_region_names:northwestern_hard",
+      "id": "@endor_region_names:northwestern_hard",
       "spawns": [
         "endor_northwestern_hard"
       ],
@@ -10836,7 +10836,7 @@
       ]
     },
     "@endor_region_names:southeastern_medium": {
-      "name": "@endor_region_names:southeastern_medium",
+      "id": "@endor_region_names:southeastern_medium",
       "spawns": [
         "endor_southeastern_medium"
       ],
@@ -10872,7 +10872,7 @@
       ]
     },
     "@endor_region_names:southern_central_easy": {
-      "name": "@endor_region_names:southern_central_easy",
+      "id": "@endor_region_names:southern_central_easy",
       "spawns": [
         "endor_southern_central_easy"
       ],
@@ -10974,7 +10974,7 @@
       ]
     },
     "@endor_region_names:southern_central_medium": {
-      "name": "@endor_region_names:southern_central_medium",
+      "id": "@endor_region_names:southern_central_medium",
       "spawns": [
         "endor_southern_central_medium"
       ],
@@ -11048,7 +11048,7 @@
       ]
     },
     "@endor_region_names:western_hard": {
-      "name": "@endor_region_names:western_hard",
+      "id": "@endor_region_names:western_hard",
       "spawns": [
         "endor_western_hard"
       ],
@@ -11083,7 +11083,7 @@
       ]
     },
     "@endor_region_names:desert_one": {
-      "name": "@endor_region_names:desert_one",
+      "id": "@endor_region_names:desert_one",
       "spawns": [
         "endor_eastern_desert",
         "endor_central_desert"
@@ -11182,7 +11182,7 @@
       ]
     },
     "@endor_region_names:desert_two": {
-      "name": "@endor_region_names:desert_two",
+      "id": "@endor_region_names:desert_two",
       "spawns": [
         "endor_hard_desert_marauder_ne"
       ],
@@ -11233,7 +11233,7 @@
       ]
     },
     "@endor_region_names:mountain_one": {
-      "name": "@endor_region_names:mountain_one",
+      "id": "@endor_region_names:mountain_one",
       "spawns": [
         "endor_northern_mountains",
         "endor_western_mountains"
@@ -11320,7 +11320,7 @@
       ]
     },
     "@endor_region_names:mountain_two": {
-      "name": "@endor_region_names:mountain_two",
+      "id": "@endor_region_names:mountain_two",
       "spawns": [
         "endor_western_mountains"
       ],
@@ -11371,7 +11371,7 @@
       ]
     },
     "@endor_region_names:mountain_three": {
-      "name": "@endor_region_names:mountain_three",
+      "id": "@endor_region_names:mountain_three",
       "spawns": [
         "endor_northern_mountains"
       ],
@@ -11422,7 +11422,7 @@
       ]
     },
     "@endor_region_names:mountain_four": {
-      "name": "@endor_region_names:mountain_four",
+      "id": "@endor_region_names:mountain_four",
       "spawns": [
         "endor_eastern_mountains"
       ],
@@ -11473,7 +11473,7 @@
       ]
     },
     "@endor_region_names:plains_one": {
-      "name": "@endor_region_names:plains_one",
+      "id": "@endor_region_names:plains_one",
       "spawns": [
         "endor_northwest_plains"
       ],
@@ -11544,7 +11544,7 @@
       ]
     },
     "@endor_region_names:plains_two": {
-      "name": "@endor_region_names:plains_two",
+      "id": "@endor_region_names:plains_two",
       "spawns": [
         "endor_hard_bordok_sw",
         "endor_hard_gorax_sw"
@@ -11643,7 +11643,7 @@
       ]
     },
     "@endor_region_names:plains_three": {
-      "name": "@endor_region_names:plains_three",
+      "id": "@endor_region_names:plains_three",
       "spawns": [
         "endor_northeast_plains"
       ],
@@ -11690,7 +11690,7 @@
       ]
     },
     "@endor_region_names:plains_four": {
-      "name": "@endor_region_names:plains_four",
+      "id": "@endor_region_names:plains_four",
       "spawns": [
         "endor_medium_bolma_se"
       ],
@@ -11729,7 +11729,7 @@
       ]
     },
     "@endor_region_names:forest_one": {
-      "name": "@endor_region_names:forest_one",
+      "id": "@endor_region_names:forest_one",
       "spawns": [
         "endor_hard_bordok_nw",
         "endor_hard_mantigrue_nw",
@@ -11875,7 +11875,7 @@
       ]
     },
     "@endor_region_names:forest_two": {
-      "name": "@endor_region_names:forest_two",
+      "id": "@endor_region_names:forest_two",
       "spawns": [
         "endor_hard_bordok_sw"
       ],
@@ -11937,7 +11937,7 @@
       ]
     },
     "@endor_region_names:forest_three": {
-      "name": "@endor_region_names:forest_three",
+      "id": "@endor_region_names:forest_three",
       "spawns": [
         "endor_medium_blurrg_sw"
       ],
@@ -12006,7 +12006,7 @@
       ]
     },
     "@endor_region_names:forest_five": {
-      "name": "@endor_region_names:forest_five",
+      "id": "@endor_region_names:forest_five",
       "spawns": [
         "endor_medium_bolma_ne",
         "endor_medium_lantern_bird_ne"
@@ -12096,7 +12096,7 @@
       ]
     },
     "@endor_region_names:forest_six": {
-      "name": "@endor_region_names:forest_six",
+      "id": "@endor_region_names:forest_six",
       "spawns": [
         "endor_southeast_forest"
       ],
@@ -12144,7 +12144,7 @@
       ]
     },
     "@endor_region_names:peak_one": {
-      "name": "@endor_region_names:peak_one",
+      "id": "@endor_region_names:peak_one",
       "spawns": [
         "endor_northern_peak"
       ],
@@ -12207,7 +12207,7 @@
       ]
     },
     "@endor_region_names:peak_two": {
-      "name": "@endor_region_names:peak_two",
+      "id": "@endor_region_names:peak_two",
       "spawns": [
         "endor_southwest_peak"
       ],
@@ -12267,7 +12267,7 @@
       ]
     },
     "@endor_region_names:peak_three": {
-      "name": "@endor_region_names:peak_three",
+      "id": "@endor_region_names:peak_three",
       "spawns": [
         "endor_central_peak"
       ],
@@ -12321,7 +12321,7 @@
       ]
     },
     "@endor_region_names:peak_four": {
-      "name": "@endor_region_names:peak_four",
+      "id": "@endor_region_names:peak_four",
       "spawns": [
         "endor_southeast_peak"
       ],
@@ -12364,7 +12364,7 @@
       ]
     },
     "@endor_region_names:world_spawner": {
-      "name": "@endor_region_names:world_spawner",
+      "id": "@endor_region_names:world_spawner",
       "spawns": [
         "endor_world"
       ],
@@ -12416,7 +12416,7 @@
   },
   "lok": {
     "@lok_region_names:central_north_medium": {
-      "name": "@lok_region_names:central_north_medium",
+      "id": "@lok_region_names:central_north_medium",
       "spawns": [
         "lok_central_north_medium"
       ],
@@ -12448,7 +12448,7 @@
       ]
     },
     "@lok_region_names:central_south_Kimogilas_hard": {
-      "name": "@lok_region_names:central_south_Kimogilas_hard",
+      "id": "@lok_region_names:central_south_Kimogilas_hard",
       "spawns": [
         "lok_central_south_kimogilas_hard"
       ],
@@ -12469,7 +12469,7 @@
       ]
     },
     "@lok_region_names:central_south_medium": {
-      "name": "@lok_region_names:central_south_medium",
+      "id": "@lok_region_names:central_south_medium",
       "spawns": [
         "lok_central_south_medium"
       ],
@@ -12511,7 +12511,7 @@
       ]
     },
     "@lok_region_names:eastern_medium": {
-      "name": "@lok_region_names:eastern_medium",
+      "id": "@lok_region_names:eastern_medium",
       "spawns": [
         "lok_eastern_medium"
       ],
@@ -12560,7 +12560,7 @@
       ]
     },
     "@lok_region_names:easy_gurnaset_nw": {
-      "name": "@lok_region_names:easy_gurnaset_nw",
+      "id": "@lok_region_names:easy_gurnaset_nw",
       "spawns": [
         "lok_easy_gurnaset_nw"
       ],
@@ -12585,7 +12585,7 @@
       ]
     },
     "@lok_region_names:hard_nym_se": {
-      "name": "@lok_region_names:hard_nym_se",
+      "id": "@lok_region_names:hard_nym_se",
       "spawns": [
         "lok_hard_nym_se"
       ],
@@ -12613,7 +12613,7 @@
       ]
     },
     "@lok_region_names:medium_vesp_sw": {
-      "name": "@lok_region_names:medium_vesp_sw",
+      "id": "@lok_region_names:medium_vesp_sw",
       "spawns": [
         "lok_medium_vesp_sw"
       ],
@@ -12637,7 +12637,7 @@
       ]
     },
     "@lok_region_names:northern_easy": {
-      "name": "@lok_region_names:northern_easy",
+      "id": "@lok_region_names:northern_easy",
       "spawns": [
         "lok_northern_easy"
       ],
@@ -12664,7 +12664,7 @@
       ]
     },
     "@lok_region_names:northeastern_easy": {
-      "name": "@lok_region_names:northeastern_easy",
+      "id": "@lok_region_names:northeastern_easy",
       "spawns": [
         "lok_northeastern_easy"
       ],
@@ -12693,7 +12693,7 @@
       ]
     },
     "@lok_region_names:northwestern_medium": {
-      "name": "@lok_region_names:northwestern_medium",
+      "id": "@lok_region_names:northwestern_medium",
       "spawns": [
         "lok_northwestern_medium"
       ],
@@ -12740,7 +12740,7 @@
       ]
     },
     "@lok_region_names:southeastern_hard": {
-      "name": "@lok_region_names:southeastern_hard",
+      "id": "@lok_region_names:southeastern_hard",
       "spawns": [
         "lok_southeastern_hard"
       ],
@@ -12770,7 +12770,7 @@
       ]
     },
     "@lok_region_names:southern_hard": {
-      "name": "@lok_region_names:southern_hard",
+      "id": "@lok_region_names:southern_hard",
       "spawns": [
         "lok_southern_hard"
       ],
@@ -12799,7 +12799,7 @@
       ]
     },
     "@lok_region_names:southwestern_hard": {
-      "name": "@lok_region_names:southwestern_hard",
+      "id": "@lok_region_names:southwestern_hard",
       "spawns": [
         "lok_southwestern_hard"
       ],
@@ -12829,7 +12829,7 @@
       ]
     },
     "@lok_region_names:western_medium": {
-      "name": "@lok_region_names:western_medium",
+      "id": "@lok_region_names:western_medium",
       "spawns": [
         "lok_western_medium"
       ],
@@ -12857,7 +12857,7 @@
       ]
     },
     "@lok_region_names:mountains_1": {
-      "name": "@lok_region_names:mountains_1",
+      "id": "@lok_region_names:mountains_1",
       "spawns": [
         "lok_northern_mountains"
       ],
@@ -12931,7 +12931,7 @@
       ]
     },
     "@lok_region_names:mountains_2": {
-      "name": "@lok_region_names:mountains_2",
+      "id": "@lok_region_names:mountains_2",
       "spawns": [
         "lok_western_mountains"
       ],
@@ -12998,7 +12998,7 @@
       ]
     },
     "@lok_region_names:mountains_3": {
-      "name": "@lok_region_names:mountains_3",
+      "id": "@lok_region_names:mountains_3",
       "spawns": [
         "lok_southern_mountains"
       ],
@@ -13083,7 +13083,7 @@
       ]
     },
     "@lok_region_names:mountains_4": {
-      "name": "@lok_region_names:mountains_4",
+      "id": "@lok_region_names:mountains_4",
       "spawns": [
         "lok_eastern_mountains"
       ],
@@ -13150,7 +13150,7 @@
       ]
     },
     "@lok_region_names:mountains_5": {
-      "name": "@lok_region_names:mountains_5",
+      "id": "@lok_region_names:mountains_5",
       "spawns": [
         "lok_hard_kimogilla_nw"
       ],
@@ -13266,7 +13266,7 @@
       ]
     },
     "@lok_region_names:river_1": {
-      "name": "@lok_region_names:river_1",
+      "id": "@lok_region_names:river_1",
       "spawns": [
         "lok_hard_kimogilla_nw",
         "lok_hard_nym_nw",
@@ -13492,7 +13492,7 @@
       ]
     },
     "@lok_region_names:river_2": {
-      "name": "@lok_region_names:river_2",
+      "id": "@lok_region_names:river_2",
       "spawns": [
         "lok_hard_nym_nw",
         "lok_northwestern_medium"
@@ -13615,7 +13615,7 @@
       ]
     },
     "@lok_region_names:river_3": {
-      "name": "@lok_region_names:river_3",
+      "id": "@lok_region_names:river_3",
       "spawns": [
         "lok_hard_kusak_ne",
         "lok_medium_vesp_ne",
@@ -13809,7 +13809,7 @@
       ]
     },
     "@lok_region_names:river_4": {
-      "name": "@lok_region_names:river_4",
+      "id": "@lok_region_names:river_4",
       "spawns": [
         "lok_hard_langlatch_se",
         "lok_hard_canyon_corsair_se"
@@ -13999,7 +13999,7 @@
       ]
     },
     "@lok_region_names:river_5": {
-      "name": "@lok_region_names:river_5",
+      "id": "@lok_region_names:river_5",
       "spawns": [
         "lok_hard_kusak_ne",
         "lok_medium_vesp_ne",
@@ -14270,7 +14270,7 @@
       ]
     },
     "@lok_region_names:wasteland_1": {
-      "name": "@lok_region_names:wasteland_1",
+      "id": "@lok_region_names:wasteland_1",
       "spawns": [
         "lok_northern_plains"
       ],
@@ -14382,7 +14382,7 @@
       ]
     },
     "@lok_region_names:wasteland_2": {
-      "name": "@lok_region_names:wasteland_2",
+      "id": "@lok_region_names:wasteland_2",
       "spawns": [
         "lok_northern_plains"
       ],
@@ -14494,7 +14494,7 @@
       ]
     },
     "@lok_region_names:wasteland_3": {
-      "name": "@lok_region_names:wasteland_3",
+      "id": "@lok_region_names:wasteland_3",
       "spawns": [
         "lok_north_sulphur_flats"
       ],
@@ -14612,7 +14612,7 @@
       ]
     },
     "@lok_region_names:wasteland_4": {
-      "name": "@lok_region_names:wasteland_4",
+      "id": "@lok_region_names:wasteland_4",
       "spawns": [
         "lok_western_plains"
       ],
@@ -14758,7 +14758,7 @@
       ]
     },
     "@lok_region_names:wasteland_5": {
-      "name": "@lok_region_names:wasteland_5",
+      "id": "@lok_region_names:wasteland_5",
       "spawns": [
         "lok_southwest_sulphur_flats"
       ],
@@ -14872,7 +14872,7 @@
       ]
     },
     "@lok_region_names:wasteland_6": {
-      "name": "@lok_region_names:wasteland_6",
+      "id": "@lok_region_names:wasteland_6",
       "spawns": [
         "lok_east_sulphur_flats"
       ],
@@ -14985,7 +14985,7 @@
       ]
     },
     "@lok_region_names:wasteland_8": {
-      "name": "@lok_region_names:wasteland_8",
+      "id": "@lok_region_names:wasteland_8",
       "spawns": [
         "lok_southeast_sulphur_flats"
       ],
@@ -15099,7 +15099,7 @@
       ]
     },
     "@lok_region_names:wasteland_9": {
-      "name": "@lok_region_names:wasteland_9",
+      "id": "@lok_region_names:wasteland_9",
       "spawns": [
         "lok_medium_vesp_ne"
       ],
@@ -15206,7 +15206,7 @@
       ]
     },
     "@lok_region_names:wasteland_10": {
-      "name": "@lok_region_names:wasteland_10",
+      "id": "@lok_region_names:wasteland_10",
       "spawns": [
         "lok_southeast_sulphur_flats"
       ],
@@ -15320,7 +15320,7 @@
       ]
     },
     "@lok_region_names:wasteland_11": {
-      "name": "@lok_region_names:wasteland_11",
+      "id": "@lok_region_names:wasteland_11",
       "spawns": [
         "lok_western_plains"
       ],
@@ -15466,7 +15466,7 @@
       ]
     },
     "@lok_region_names:wasteland_12": {
-      "name": "@lok_region_names:wasteland_12",
+      "id": "@lok_region_names:wasteland_12",
       "spawns": [
         "lok_hard_kimogilla_nw"
       ],
@@ -15582,7 +15582,7 @@
       ]
     },
     "@lok_region_names:wasteland_13": {
-      "name": "@lok_region_names:wasteland_13",
+      "id": "@lok_region_names:wasteland_13",
       "spawns": [
         "lok_hard_canyon_corsair_se",
         "lok_hard_langlatch_se"
@@ -15772,7 +15772,7 @@
       ]
     },
     "@lok_region_names:hills_1": {
-      "name": "@lok_region_names:hills_1",
+      "id": "@lok_region_names:hills_1",
       "spawns": [
         "lok_hard_nym_nw"
       ],
@@ -15862,7 +15862,7 @@
       ]
     },
     "@lok_region_names:hills_2": {
-      "name": "@lok_region_names:hills_2",
+      "id": "@lok_region_names:hills_2",
       "spawns": [
         "lok_medium_vesp_ne"
       ],
@@ -15969,7 +15969,7 @@
       ]
     },
     "@lok_region_names:hills_3": {
-      "name": "@lok_region_names:hills_3",
+      "id": "@lok_region_names:hills_3",
       "spawns": [
         "lok_easy_gurnaset_nw"
       ],
@@ -15994,7 +15994,7 @@
       ]
     },
     "@lok_region_names:hills_4": {
-      "name": "@lok_region_names:hills_4",
+      "id": "@lok_region_names:hills_4",
       "spawns": [
         "lok_hard_kimogilla_sw"
       ],
@@ -16104,7 +16104,7 @@
       ]
     },
     "@lok_region_names:hills_5": {
-      "name": "@lok_region_names:hills_5",
+      "id": "@lok_region_names:hills_5",
       "spawns": [
         "lok_hard_canyon_corsair_se",
         "lok_volcano"
@@ -16198,7 +16198,7 @@
       ]
     },
     "@lok_region_names:world_spawner": {
-      "name": "@lok_region_names:world_spawner",
+      "id": "@lok_region_names:world_spawner",
       "spawns": [
         "lok_world"
       ],
@@ -16296,7 +16296,7 @@
   },
   "naboo": {
     "deeja_easy_newbie": {
-      "name": "deeja_easy_newbie",
+      "id": "deeja_easy_newbie",
       "spawns": [
         "naboo_deeja_easy_newbie"
       ],
@@ -16331,7 +16331,7 @@
       ]
     },
     "deeja_medium_newbie": {
-      "name": "deeja_medium_newbie",
+      "id": "deeja_medium_newbie",
       "spawns": [
         "naboo_deeja_medium_newbie"
       ],
@@ -16367,7 +16367,7 @@
       ]
     },
     "kaadara_easy_newbie": {
-      "name": "kaadara_easy_newbie",
+      "id": "kaadara_easy_newbie",
       "spawns": [
         "naboo_beachtown_easy_newbie"
       ],
@@ -16402,7 +16402,7 @@
       ]
     },
     "kaadara_medium_newbie": {
-      "name": "kaadara_medium_newbie",
+      "id": "kaadara_medium_newbie",
       "spawns": [
         "naboo_beachtown_medium_newbie"
       ],
@@ -16438,7 +16438,7 @@
       ]
     },
     "keren_easy_newbie": {
-      "name": "keren_easy_newbie",
+      "id": "keren_easy_newbie",
       "spawns": [
         "naboo_keren_easy_newbie"
       ],
@@ -16473,7 +16473,7 @@
       ]
     },
     "keren_medium_newbie": {
-      "name": "keren_medium_newbie",
+      "id": "keren_medium_newbie",
       "spawns": [
         "naboo_keren_medium_newbie"
       ],
@@ -16509,7 +16509,7 @@
       ]
     },
     "moenia_easy_newbie": {
-      "name": "moenia_easy_newbie",
+      "id": "moenia_easy_newbie",
       "spawns": [
         "naboo_moenia_easy_newbie"
       ],
@@ -16544,7 +16544,7 @@
       ]
     },
     "moenia_medium_newbie": {
-      "name": "moenia_medium_newbie",
+      "id": "moenia_medium_newbie",
       "spawns": [
         "naboo_moenia_medium_newbie"
       ],
@@ -16580,7 +16580,7 @@
       ]
     },
     "theed_easy_newbie_1": {
-      "name": "theed_easy_newbie_1",
+      "id": "theed_easy_newbie_1",
       "spawns": [
         "naboo_theed_easy_newbie"
       ],
@@ -16615,7 +16615,7 @@
       ]
     },
     "theed_easy_newbie_2": {
-      "name": "theed_easy_newbie_2",
+      "id": "theed_easy_newbie_2",
       "spawns": [
         "naboo_theed_easy_newbie"
       ],
@@ -16650,7 +16650,7 @@
       ]
     },
     "theed_medium_newbie": {
-      "name": "theed_medium_newbie",
+      "id": "theed_medium_newbie",
       "spawns": [
         "naboo_theed_medium_newbie"
       ],
@@ -16686,7 +16686,7 @@
       ]
     },
     "@naboo_region_names:northeast": {
-      "name": "@naboo_region_names:northeast",
+      "id": "@naboo_region_names:northeast",
       "spawns": [
         "naboo_northeast",
         "naboo_easy_gnort_ne",
@@ -17004,7 +17004,7 @@
       ]
     },
     "@naboo_region_names:northwest": {
-      "name": "@naboo_region_names:northwest",
+      "id": "@naboo_region_names:northwest",
       "spawns": [
         "naboo_northwest",
         "naboo_hard_capper_spineflap_nw",
@@ -17183,7 +17183,7 @@
       ]
     },
     "@naboo_region_names:southeast": {
-      "name": "@naboo_region_names:southeast",
+      "id": "@naboo_region_names:southeast",
       "spawns": [
         "naboo_southeast"
       ],
@@ -17229,7 +17229,7 @@
       ]
     },
     "@naboo_region_names:central_south": {
-      "name": "@naboo_region_names:central_south",
+      "id": "@naboo_region_names:central_south",
       "spawns": [
         "naboo_central_south"
       ],
@@ -17263,7 +17263,7 @@
       ]
     },
     "@naboo_region_names:southwestern_hard": {
-      "name": "@naboo_region_names:southwestern_hard",
+      "id": "@naboo_region_names:southwestern_hard",
       "spawns": [
         "naboo_southwestern_hard",
         "naboo_hard_capper_spineflap_sw"
@@ -17336,7 +17336,7 @@
       ]
     },
     "hard_peko_peko_nw": {
-      "name": "hard_peko_peko_nw",
+      "id": "hard_peko_peko_nw",
       "spawns": [
         "naboo_hard_peko_peko_nw"
       ],
@@ -17362,7 +17362,7 @@
       ]
     },
     "@naboo_region_names:central_mountain_range": {
-      "name": "@naboo_region_names:central_mountain_range",
+      "id": "@naboo_region_names:central_mountain_range",
       "spawns": [
         "naboo_central_mountain_range"
       ],
@@ -17412,7 +17412,7 @@
       ]
     },
     "@naboo_region_names:hard_gungan_se": {
-      "name": "@naboo_region_names:hard_gungan_se",
+      "id": "@naboo_region_names:hard_gungan_se",
       "spawns": [
         "naboo_hard_gungan_se"
       ],
@@ -17441,7 +17441,7 @@
       ]
     },
     "@naboo_region_names:medium_gungan_se": {
-      "name": "@naboo_region_names:medium_gungan_se",
+      "id": "@naboo_region_names:medium_gungan_se",
       "spawns": [
         "naboo_medium_gungan_se"
       ],
@@ -17473,7 +17473,7 @@
       ]
     },
     "@naboo_region_names:medium_imperial_se": {
-      "name": "@naboo_region_names:medium_imperial_se",
+      "id": "@naboo_region_names:medium_imperial_se",
       "spawns": [
         "naboo_medium_imperial_se"
       ],
@@ -17497,7 +17497,7 @@
       ]
     },
     "@naboo_region_names:medium_mauler_se": {
-      "name": "@naboo_region_names:medium_mauler_se",
+      "id": "@naboo_region_names:medium_mauler_se",
       "spawns": [
         "naboo_medium_mauler_se"
       ],
@@ -17524,7 +17524,7 @@
       ]
     },
     "@naboo_region_names:medium_sharupat_se": {
-      "name": "@naboo_region_names:medium_sharupat_se",
+      "id": "@naboo_region_names:medium_sharupat_se",
       "spawns": [
         "naboo_medium_sharupat_se"
       ],
@@ -17541,7 +17541,7 @@
       ]
     },
     "@naboo_region_names:medium_swamp_cat_central_south": {
-      "name": "@naboo_region_names:medium_swamp_cat_central_south",
+      "id": "@naboo_region_names:medium_swamp_cat_central_south",
       "spawns": [
         "naboo_medium_swamp_cat_central_south"
       ],
@@ -17557,7 +17557,7 @@
       ]
     },
     "@naboo_region_names:medium_swamp_cat_se_2": {
-      "name": "@naboo_region_names:medium_swamp_cat_se_2",
+      "id": "@naboo_region_names:medium_swamp_cat_se_2",
       "spawns": [
         "naboo_medium_swamp_cat_se_2"
       ],
@@ -17577,7 +17577,7 @@
       ]
     },
     "@naboo_region_names:medium_swamp_cat_se": {
-      "name": "@naboo_region_names:medium_swamp_cat_se",
+      "id": "@naboo_region_names:medium_swamp_cat_se",
       "spawns": [
         "naboo_medium_swamp_cat_se"
       ],
@@ -17597,7 +17597,7 @@
       ]
     },
     "@naboo_region_names:medium_swamp_cat_southwest": {
-      "name": "@naboo_region_names:medium_swamp_cat_southwest",
+      "id": "@naboo_region_names:medium_swamp_cat_southwest",
       "spawns": [
         "naboo_medium_swamp_cat_southwest"
       ],
@@ -17613,7 +17613,7 @@
       ]
     },
     "@naboo_region_names:medium_veermok_se": {
-      "name": "@naboo_region_names:medium_veermok_se",
+      "id": "@naboo_region_names:medium_veermok_se",
       "spawns": [
         "naboo_medium_veermok_se"
       ],
@@ -17634,7 +17634,7 @@
       ]
     },
     "@naboo_region_names:northeast_gungan_medium": {
-      "name": "@naboo_region_names:northeast_gungan_medium",
+      "id": "@naboo_region_names:northeast_gungan_medium",
       "spawns": [
         "naboo_northeast_gungan_medium"
       ],
@@ -17659,7 +17659,7 @@
       ]
     },
     "@naboo_region_names:northeast_imperial_medium": {
-      "name": "@naboo_region_names:northeast_imperial_medium",
+      "id": "@naboo_region_names:northeast_imperial_medium",
       "spawns": [
         "naboo_northeast_imperial_medium"
       ],
@@ -17682,7 +17682,7 @@
       ]
     },
     "@naboo_region_names:northeast_nightspiders_medium": {
-      "name": "@naboo_region_names:northeast_nightspiders_medium",
+      "id": "@naboo_region_names:northeast_nightspiders_medium",
       "spawns": [
         "naboo_northeast_nightspiders_medium"
       ],
@@ -17705,7 +17705,7 @@
       ]
     },
     "@naboo_region_names:northwest_gungan_medium": {
-      "name": "@naboo_region_names:northwest_gungan_medium",
+      "id": "@naboo_region_names:northwest_gungan_medium",
       "spawns": [
         "naboo_northwest_gungan_medium"
       ],
@@ -17738,7 +17738,7 @@
       ]
     },
     "@naboo_region_names:northeast_veermok_medium": {
-      "name": "@naboo_region_names:northeast_veermok_medium",
+      "id": "@naboo_region_names:northeast_veermok_medium",
       "spawns": [
         "naboo_northeast_veermok_medium"
       ],
@@ -17761,7 +17761,7 @@
       ]
     },
     "@naboo_region_names:medium_peko_central_south_hard": {
-      "name": "@naboo_region_names:medium_peko_central_south_hard",
+      "id": "@naboo_region_names:medium_peko_central_south_hard",
       "spawns": [
         "naboo_medium_peko_cental_south_hard"
       ],
@@ -17777,7 +17777,7 @@
       ]
     },
     "@naboo_region_names:medium_peko_2_central_south_hard": {
-      "name": "@naboo_region_names:medium_peko_2_central_south_hard",
+      "id": "@naboo_region_names:medium_peko_2_central_south_hard",
       "spawns": [
         "naboo_medium_peko_2_cental_south_hard"
       ],
@@ -17794,7 +17794,7 @@
       ]
     },
     "@naboo_region_names:gallo_mountains_1": {
-      "name": "@naboo_region_names:gallo_mountains_1",
+      "id": "@naboo_region_names:gallo_mountains_1",
       "spawns": [
         "naboo_southwest_mountain_circle",
         "naboo_medium_mountain_ikopi_sw",
@@ -17986,7 +17986,7 @@
       ]
     },
     "@naboo_region_names:gallo_mountains_2": {
-      "name": "@naboo_region_names:gallo_mountains_2",
+      "id": "@naboo_region_names:gallo_mountains_2",
       "spawns": [
         "naboo_central_mountain_circle"
       ],
@@ -18102,7 +18102,7 @@
       ]
     },
     "@naboo_region_names:gallo_mountains_3": {
-      "name": "@naboo_region_names:gallo_mountains_3",
+      "id": "@naboo_region_names:gallo_mountains_3",
       "spawns": [
         "naboo_central_mountain_circle",
         "naboo_medium_mountain_ikopi_ne"
@@ -18268,7 +18268,7 @@
       ]
     },
     "@naboo_region_names:gallo_mountains_4": {
-      "name": "@naboo_region_names:gallo_mountains_4",
+      "id": "@naboo_region_names:gallo_mountains_4",
       "spawns": [
         "naboo_eastern_mountains"
       ],
@@ -18347,7 +18347,7 @@
       ]
     },
     "@naboo_region_names:gallo_mountains_5": {
-      "name": "@naboo_region_names:gallo_mountains_5",
+      "id": "@naboo_region_names:gallo_mountains_5",
       "spawns": [
         "naboo_medium_mountain_ikopi_se",
         "naboo_medium_mountain_krevol_se"
@@ -18490,7 +18490,7 @@
       ]
     },
     "@naboo_region_names:gallo_mountains_6": {
-      "name": "@naboo_region_names:gallo_mountains_6",
+      "id": "@naboo_region_names:gallo_mountains_6",
       "spawns": [
         "naboo_southwest_mountain_circle",
         "naboo_eastern_mountains",
@@ -18749,7 +18749,7 @@
       ]
     },
     "@naboo_region_names:swamp_1": {
-      "name": "@naboo_region_names:swamp_1",
+      "id": "@naboo_region_names:swamp_1",
       "spawns": [
         "naboo_southeast_swamp"
       ],
@@ -18857,7 +18857,7 @@
       ]
     },
     "@naboo_region_names:swamp_2": {
-      "name": "@naboo_region_names:swamp_2",
+      "id": "@naboo_region_names:swamp_2",
       "spawns": [
         "naboo_southwest_swamp",
         "naboo_hard_gungan_sw"
@@ -19070,7 +19070,7 @@
       ]
     },
     "@naboo_region_names:swamp_3": {
-      "name": "@naboo_region_names:swamp_3",
+      "id": "@naboo_region_names:swamp_3",
       "spawns": [
         "naboo_eastern_jungle_swamp"
       ],
@@ -19189,7 +19189,7 @@
       ]
     },
     "@naboo_region_names:rainforest_1": {
-      "name": "@naboo_region_names:rainforest_1",
+      "id": "@naboo_region_names:rainforest_1",
       "spawns": [
         "naboo_central_jungle_swamp"
       ],
@@ -19292,7 +19292,7 @@
       ]
     },
     "@naboo_region_names:rainforest_2": {
-      "name": "@naboo_region_names:rainforest_2",
+      "id": "@naboo_region_names:rainforest_2",
       "spawns": [
         "naboo_north_eastern_jungle_swamp"
       ],
@@ -19436,7 +19436,7 @@
       ]
     },
     "@naboo_region_names:rainforest_3": {
-      "name": "@naboo_region_names:rainforest_3",
+      "id": "@naboo_region_names:rainforest_3",
       "spawns": [
         "naboo_north_eastern_jungle_swamp"
       ],
@@ -19580,7 +19580,7 @@
       ]
     },
     "@naboo_region_names:forest_1": {
-      "name": "@naboo_region_names:forest_1",
+      "id": "@naboo_region_names:forest_1",
       "spawns": [
         "naboo_hard_peko_peko_nw",
         "naboo_medium_tusk_cat_nw"
@@ -19705,7 +19705,7 @@
       ]
     },
     "@naboo_region_names:gallo_jungle_1": {
-      "name": "@naboo_region_names:gallo_jungle_1",
+      "id": "@naboo_region_names:gallo_jungle_1",
       "spawns": [
         "naboo_central_jungle_swamp"
       ],
@@ -19809,7 +19809,7 @@
       ]
     },
     "@naboo_region_names:gallo_jungle_2": {
-      "name": "@naboo_region_names:gallo_jungle_2",
+      "id": "@naboo_region_names:gallo_jungle_2",
       "spawns": [
         "naboo_southeast_swamp",
         "naboo_southwest_swamp",
@@ -20117,7 +20117,7 @@
       ]
     },
     "@naboo_region_names:gallo_forest_1": {
-      "name": "@naboo_region_names:gallo_forest_1",
+      "id": "@naboo_region_names:gallo_forest_1",
       "spawns": [
         "naboo_world"
       ],
@@ -20220,7 +20220,7 @@
       ]
     },
     "@naboo_region_names:plains_1": {
-      "name": "@naboo_region_names:plains_1",
+      "id": "@naboo_region_names:plains_1",
       "spawns": [
         "naboo_northern_plains"
       ],
@@ -20366,7 +20366,7 @@
       ]
     },
     "@naboo_region_names:world_spawner": {
-      "name": "@naboo_region_names:world_spawner",
+      "id": "@naboo_region_names:world_spawner",
       "spawns": [
         "naboo_world"
       ],
@@ -20471,7 +20471,7 @@
   },
   "rori": {
     "narmle_easy_newbie": {
-      "name": "narmle_easy_newbie",
+      "id": "narmle_easy_newbie",
       "spawns": [
         "rori_narmle_easy_newbie"
       ],
@@ -20501,7 +20501,7 @@
       ]
     },
     "narmle_medium_newbie": {
-      "name": "narmle_medium_newbie",
+      "id": "narmle_medium_newbie",
       "spawns": [
         "rori_narmle_medium_newbie"
       ],
@@ -20532,7 +20532,7 @@
       ]
     },
     "restuss_easy_newbie": {
-      "name": "restuss_easy_newbie",
+      "id": "restuss_easy_newbie",
       "spawns": [
         "rori_restuss_easy_newbie"
       ],
@@ -20562,7 +20562,7 @@
       ]
     },
     "restuss_medium_newbie": {
-      "name": "restuss_medium_newbie",
+      "id": "restuss_medium_newbie",
       "spawns": [
         "rori_restuss_medium_newbie"
       ],
@@ -20593,7 +20593,7 @@
       ]
     },
     "@rori_region_names:central_medium": {
-      "name": "@rori_region_names:central_medium",
+      "id": "@rori_region_names:central_medium",
       "spawns": [
         "rori_central_medium"
       ],
@@ -20638,7 +20638,7 @@
       ]
     },
     "@rori_region_names:eastern_medium": {
-      "name": "@rori_region_names:eastern_medium",
+      "id": "@rori_region_names:eastern_medium",
       "spawns": [
         "rori_eastern_medium"
       ],
@@ -20684,7 +20684,7 @@
       ]
     },
     "@rori_region_names:northern_hard": {
-      "name": "@rori_region_names:northern_hard",
+      "id": "@rori_region_names:northern_hard",
       "spawns": [
         "rori_northern_hard"
       ],
@@ -20713,7 +20713,7 @@
       ]
     },
     "@rori_region_names:northeastern_medium": {
-      "name": "@rori_region_names:northeastern_medium",
+      "id": "@rori_region_names:northeastern_medium",
       "spawns": [
         "rori_northeastern_medium"
       ],
@@ -20771,7 +20771,7 @@
       ]
     },
     "@rori_region_names:southeastern_medium": {
-      "name": "@rori_region_names:southeastern_medium",
+      "id": "@rori_region_names:southeastern_medium",
       "spawns": [
         "rori_southeastern_medium"
       ],
@@ -20835,7 +20835,7 @@
       ]
     },
     "@rori_region_names:southwestern_easy": {
-      "name": "@rori_region_names:southwestern_easy",
+      "id": "@rori_region_names:southwestern_easy",
       "spawns": [
         "rori_southwestern_easy"
       ],
@@ -20878,7 +20878,7 @@
       ]
     },
     "@rori_region_names:southwestern_medium": {
-      "name": "@rori_region_names:southwestern_medium",
+      "id": "@rori_region_names:southwestern_medium",
       "spawns": [
         "rori_southwestern_medium"
       ],
@@ -20926,7 +20926,7 @@
       ]
     },
     "@rori_region_names:northern_medium": {
-      "name": "@rori_region_names:northern_medium",
+      "id": "@rori_region_names:northern_medium",
       "spawns": [
         "rori_northern_medium"
       ],
@@ -20973,7 +20973,7 @@
       ]
     },
     "@rori_region_names:northwestern_hard": {
-      "name": "@rori_region_names:northwestern_hard",
+      "id": "@rori_region_names:northwestern_hard",
       "spawns": [
         "rori_northwestern_hard"
       ],
@@ -21005,7 +21005,7 @@
       ]
     },
     "@rori_region_names:northwestern_medium": {
-      "name": "@rori_region_names:northwestern_medium",
+      "id": "@rori_region_names:northwestern_medium",
       "spawns": [
         "rori_northwestern_medium"
       ],
@@ -21060,7 +21060,7 @@
       ]
     },
     "@rori_region_names:western_medium": {
-      "name": "@rori_region_names:western_medium",
+      "id": "@rori_region_names:western_medium",
       "spawns": [
         "rori_western_medium"
       ],
@@ -21101,7 +21101,7 @@
       ]
     },
     "@rori_region_names:swamp_general_1": {
-      "name": "@rori_region_names:swamp_general_1",
+      "id": "@rori_region_names:swamp_general_1",
       "spawns": [
         "rori_swamp_1"
       ],
@@ -21262,7 +21262,7 @@
       ]
     },
     "@rori_region_names:swamp_general_2": {
-      "name": "@rori_region_names:swamp_general_2",
+      "id": "@rori_region_names:swamp_general_2",
       "spawns": [
         "rori_swamp_2"
       ],
@@ -21337,7 +21337,7 @@
       ]
     },
     "@rori_region_names:eastern_mountains_1": {
-      "name": "@rori_region_names:eastern_mountains_1",
+      "id": "@rori_region_names:eastern_mountains_1",
       "spawns": [
         "rori_eastern_mountains"
       ],
@@ -21494,7 +21494,7 @@
       ]
     },
     "@rori_region_names:eastern_mountains_2": {
-      "name": "@rori_region_names:eastern_mountains_2",
+      "id": "@rori_region_names:eastern_mountains_2",
       "spawns": [
         "rori_northeast_mountains"
       ],
@@ -21650,7 +21650,7 @@
       ]
     },
     "@rori_region_names:eastern_mountains_3": {
-      "name": "@rori_region_names:eastern_mountains_3",
+      "id": "@rori_region_names:eastern_mountains_3",
       "spawns": [
         "rori_eastern_peak"
       ],
@@ -21755,7 +21755,7 @@
       ]
     },
     "@rori_region_names:southern_mountains_1": {
-      "name": "@rori_region_names:southern_mountains_1",
+      "id": "@rori_region_names:southern_mountains_1",
       "spawns": [
         "rori_southern_jungle_mountains"
       ],
@@ -21927,7 +21927,7 @@
       ]
     },
     "@rori_region_names:southern_mountains_2": {
-      "name": "@rori_region_names:southern_mountains_2",
+      "id": "@rori_region_names:southern_mountains_2",
       "spawns": [
         "rori_southern_jungle_mountains"
       ],
@@ -22099,7 +22099,7 @@
       ]
     },
     "@rori_region_names:southern_mountains_3": {
-      "name": "@rori_region_names:southern_mountains_3",
+      "id": "@rori_region_names:southern_mountains_3",
       "spawns": [
         "rori_southern_jungle_mountains"
       ],
@@ -22271,7 +22271,7 @@
       ]
     },
     "@rori_region_names:southern_mountains_4": {
-      "name": "@rori_region_names:southern_mountains_4",
+      "id": "@rori_region_names:southern_mountains_4",
       "spawns": [
         "rori_southern_jungle_mountains"
       ],
@@ -22443,7 +22443,7 @@
       ]
     },
     "@rori_region_names:western_mountains_1": {
-      "name": "@rori_region_names:western_mountains_1",
+      "id": "@rori_region_names:western_mountains_1",
       "spawns": [
         "rori_western_mountains"
       ],
@@ -22524,7 +22524,7 @@
       ]
     },
     "@rori_region_names:western_mountains_2": {
-      "name": "@rori_region_names:western_mountains_2",
+      "id": "@rori_region_names:western_mountains_2",
       "spawns": [
         "rori_northwest_mountains"
       ],
@@ -22638,7 +22638,7 @@
       ]
     },
     "@rori_region_names:western_mountains_3": {
-      "name": "@rori_region_names:western_mountains_3",
+      "id": "@rori_region_names:western_mountains_3",
       "spawns": [
         "rori_northwest_peak"
       ],
@@ -22753,7 +22753,7 @@
       ]
     },
     "@rori_region_names:western_mountains_4": {
-      "name": "@rori_region_names:western_mountains_4",
+      "id": "@rori_region_names:western_mountains_4",
       "spawns": [
         "rori_southeast_jungle_peak"
       ],
@@ -22840,7 +22840,7 @@
       ]
     },
     "@rori_region_names:northern_islands_1": {
-      "name": "@rori_region_names:northern_islands_1",
+      "id": "@rori_region_names:northern_islands_1",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -22916,7 +22916,7 @@
       ]
     },
     "@rori_region_names:northern_islands_2": {
-      "name": "@rori_region_names:northern_islands_2",
+      "id": "@rori_region_names:northern_islands_2",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -22982,7 +22982,7 @@
       ]
     },
     "@rori_region_names:northern_islands_3": {
-      "name": "@rori_region_names:northern_islands_3",
+      "id": "@rori_region_names:northern_islands_3",
       "spawns": [
         "rori_swamp_5"
       ],
@@ -23069,7 +23069,7 @@
       ]
     },
     "@rori_region_names:central_islands_1": {
-      "name": "@rori_region_names:central_islands_1",
+      "id": "@rori_region_names:central_islands_1",
       "spawns": [
         "rori_central_water_swamp"
       ],
@@ -23195,7 +23195,7 @@
       ]
     },
     "@rori_region_names:central_islands_2": {
-      "name": "@rori_region_names:central_islands_2",
+      "id": "@rori_region_names:central_islands_2",
       "spawns": [
         "rori_central_water_swamp"
       ],
@@ -23321,7 +23321,7 @@
       ]
     },
     "@rori_region_names:eastern_islands_1": {
-      "name": "@rori_region_names:eastern_islands_1",
+      "id": "@rori_region_names:eastern_islands_1",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23397,7 +23397,7 @@
       ]
     },
     "@rori_region_names:eastern_islands_2": {
-      "name": "@rori_region_names:eastern_islands_2",
+      "id": "@rori_region_names:eastern_islands_2",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -23463,7 +23463,7 @@
       ]
     },
     "@rori_region_names:monster_island": {
-      "name": "@rori_region_names:monster_island",
+      "id": "@rori_region_names:monster_island",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23540,7 +23540,7 @@
       ]
     },
     "@rori_region_names:western_islands_1": {
-      "name": "@rori_region_names:western_islands_1",
+      "id": "@rori_region_names:western_islands_1",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23616,7 +23616,7 @@
       ]
     },
     "@rori_region_names:western_islands_2": {
-      "name": "@rori_region_names:western_islands_2",
+      "id": "@rori_region_names:western_islands_2",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -23682,7 +23682,7 @@
       ]
     },
     "@rori_region_names:mud_beach_1": {
-      "name": "@rori_region_names:mud_beach_1",
+      "id": "@rori_region_names:mud_beach_1",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23758,7 +23758,7 @@
       ]
     },
     "@rori_region_names:mud_beach_2": {
-      "name": "@rori_region_names:mud_beach_2",
+      "id": "@rori_region_names:mud_beach_2",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23834,7 +23834,7 @@
       ]
     },
     "@rori_region_names:mud_beach_3": {
-      "name": "@rori_region_names:mud_beach_3",
+      "id": "@rori_region_names:mud_beach_3",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23910,7 +23910,7 @@
       ]
     },
     "@rori_region_names:mud_beach_4": {
-      "name": "@rori_region_names:mud_beach_4",
+      "id": "@rori_region_names:mud_beach_4",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -23986,7 +23986,7 @@
       ]
     },
     "@rori_region_names:mud_beach_5": {
-      "name": "@rori_region_names:mud_beach_5",
+      "id": "@rori_region_names:mud_beach_5",
       "spawns": [
         "rori_swamp_3"
       ],
@@ -24062,7 +24062,7 @@
       ]
     },
     "@rori_region_names:mud_beach_6": {
-      "name": "@rori_region_names:mud_beach_6",
+      "id": "@rori_region_names:mud_beach_6",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -24128,7 +24128,7 @@
       ]
     },
     "@rori_region_names:mud_beach_7": {
-      "name": "@rori_region_names:mud_beach_7",
+      "id": "@rori_region_names:mud_beach_7",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -24194,7 +24194,7 @@
       ]
     },
     "@rori_region_names:mud_beach_8": {
-      "name": "@rori_region_names:mud_beach_8",
+      "id": "@rori_region_names:mud_beach_8",
       "spawns": [
         "rori_hard_capper_spineflap_ne"
       ],
@@ -24256,7 +24256,7 @@
       ]
     },
     "@rori_region_names:mud_beach_9": {
-      "name": "@rori_region_names:mud_beach_9",
+      "id": "@rori_region_names:mud_beach_9",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -24322,7 +24322,7 @@
       ]
     },
     "@rori_region_names:southern_mud_flats_1": {
-      "name": "@rori_region_names:southern_mud_flats_1",
+      "id": "@rori_region_names:southern_mud_flats_1",
       "spawns": [
         "rori_swamp_4"
       ],
@@ -24388,7 +24388,7 @@
       ]
     },
     "@rori_region_names:southern_mud_flats_2": {
-      "name": "@rori_region_names:southern_mud_flats_2",
+      "id": "@rori_region_names:southern_mud_flats_2",
       "spawns": [
         "rori_swamp_5"
       ],
@@ -24475,7 +24475,7 @@
       ]
     },
     "@rori_region_names:southern_mud_flats_3": {
-      "name": "@rori_region_names:southern_mud_flats_3",
+      "id": "@rori_region_names:southern_mud_flats_3",
       "spawns": [
         "rori_swamp_5"
       ],
@@ -24562,7 +24562,7 @@
       ]
     },
     "@rori_region_names:southern_mud_flats_4": {
-      "name": "@rori_region_names:southern_mud_flats_4",
+      "id": "@rori_region_names:southern_mud_flats_4",
       "spawns": [
         "rori_swamp_5"
       ],
@@ -24649,7 +24649,7 @@
       ]
     },
     "@rori_region_names:southern_mud_flats_5": {
-      "name": "@rori_region_names:southern_mud_flats_5",
+      "id": "@rori_region_names:southern_mud_flats_5",
       "spawns": [
         "rori_swamp_5"
       ],
@@ -24736,7 +24736,7 @@
       ]
     },
     "@rori_region_names:southern_mud_flats_6": {
-      "name": "@rori_region_names:southern_mud_flats_6",
+      "id": "@rori_region_names:southern_mud_flats_6",
       "spawns": [
         "rori_swamp_5"
       ],
@@ -24823,7 +24823,7 @@
       ]
     },
     "@rori_region_names:southern_forest_1": {
-      "name": "@rori_region_names:southern_forest_1",
+      "id": "@rori_region_names:southern_forest_1",
       "spawns": [
         "rori_southwest_jungle_peak"
       ],
@@ -24895,7 +24895,7 @@
       ]
     },
     "@rori_region_names:southern_forest_2": {
-      "name": "@rori_region_names:southern_forest_2",
+      "id": "@rori_region_names:southern_forest_2",
       "spawns": [
         "rori_jungle_1"
       ],
@@ -24980,7 +24980,7 @@
       ]
     },
     "@rori_region_names:southern_forest_3": {
-      "name": "@rori_region_names:southern_forest_3",
+      "id": "@rori_region_names:southern_forest_3",
       "spawns": [
         "rori_jungle_2"
       ],
@@ -25065,7 +25065,7 @@
       ]
     },
     "@rori_region_names:southern_forest_4": {
-      "name": "@rori_region_names:southern_forest_4",
+      "id": "@rori_region_names:southern_forest_4",
       "spawns": [
         "rori_jungle_3"
       ],
@@ -25154,7 +25154,7 @@
       ]
     },
     "@rori_region_names:southern_forest_5": {
-      "name": "@rori_region_names:southern_forest_5",
+      "id": "@rori_region_names:southern_forest_5",
       "spawns": [
         "rori_jungle_3"
       ],
@@ -25243,7 +25243,7 @@
       ]
     },
     "@rori_region_names:southern_forest_6": {
-      "name": "@rori_region_names:southern_forest_6",
+      "id": "@rori_region_names:southern_forest_6",
       "spawns": [
         "rori_jungle_3"
       ],
@@ -25332,7 +25332,7 @@
       ]
     },
     "@rori_region_names:southern_forest_7": {
-      "name": "@rori_region_names:southern_forest_7",
+      "id": "@rori_region_names:southern_forest_7",
       "spawns": [
         "rori_jungle_3"
       ],
@@ -25421,7 +25421,7 @@
       ]
     },
     "@rori_region_names:plains_1": {
-      "name": "@rori_region_names:plains_1",
+      "id": "@rori_region_names:plains_1",
       "spawns": [
         "rori_medium_tusk_cat_ne"
       ],
@@ -25440,7 +25440,7 @@
       ]
     },
     "@rori_region_names:plains_2": {
-      "name": "@rori_region_names:plains_2",
+      "id": "@rori_region_names:plains_2",
       "spawns": [
         "rori_eastern_jungle_plains"
       ],
@@ -25566,7 +25566,7 @@
       ]
     },
     "@rori_region_names:plains_3": {
-      "name": "@rori_region_names:plains_3",
+      "id": "@rori_region_names:plains_3",
       "spawns": [
         "rori_hard_capper_spineflap_ne"
       ],
@@ -25629,7 +25629,7 @@
       ]
     },
     "@rori_region_names:plains_4": {
-      "name": "@rori_region_names:plains_4",
+      "id": "@rori_region_names:plains_4",
       "spawns": [
         "rori_northern_peak"
       ],
@@ -25693,7 +25693,7 @@
       ]
     },
     "@rori_region_names:plains_5": {
-      "name": "@rori_region_names:plains_5",
+      "id": "@rori_region_names:plains_5",
       "spawns": [
         "rori_hard_rogungan_se"
       ],
@@ -25775,7 +25775,7 @@
       ]
     },
     "@rori_region_names:plains_6": {
-      "name": "@rori_region_names:plains_6",
+      "id": "@rori_region_names:plains_6",
       "spawns": [
         "rori_easy_fuzzy_jax_se"
       ],
@@ -25817,7 +25817,7 @@
       ]
     },
     "@rori_region_names:easy_ikopi_se": {
-      "name": "@rori_region_names:easy_ikopi_se",
+      "id": "@rori_region_names:easy_ikopi_se",
       "spawns": [
         "rori_easy_ikopi_se"
       ],
@@ -25839,7 +25839,7 @@
       ]
     },
     "@rori_region_names:easy_ikopi_sw": {
-      "name": "@rori_region_names:easy_ikopi_sw",
+      "id": "@rori_region_names:easy_ikopi_sw",
       "spawns": [
         "rori_easy_ikopi_sw"
       ],
@@ -25862,7 +25862,7 @@
       ]
     },
     "@rori_region_names:southeastern_borgle_medium": {
-      "name": "@rori_region_names:southeastern_borgle_medium",
+      "id": "@rori_region_names:southeastern_borgle_medium",
       "spawns": [
         "rori_southeastern_borgle_medium"
       ],
@@ -25881,7 +25881,7 @@
       ]
     },
     "@rori_region_names:southeastern_rebel_medium": {
-      "name": "@rori_region_names:southeastern_rebel_medium",
+      "id": "@rori_region_names:southeastern_rebel_medium",
       "spawns": [
         "rori_southeastern_rebel_medium"
       ],
@@ -25897,7 +25897,7 @@
       ]
     },
     "@rori_region_names:hard_mauler_ne": {
-      "name": "@rori_region_names:hard_mauler_ne",
+      "id": "@rori_region_names:hard_mauler_ne",
       "spawns": [
         "rori_hard_mauler_ne"
       ],
@@ -25913,7 +25913,7 @@
       ]
     },
     "@rori_region_names:hard_mauler_sw": {
-      "name": "@rori_region_names:hard_mauler_sw",
+      "id": "@rori_region_names:hard_mauler_sw",
       "spawns": [
         "rori_hard_mauler_sw"
       ],
@@ -25937,7 +25937,7 @@
       ]
     },
     "@rori_region_names:hard_rogungan_nw": {
-      "name": "@rori_region_names:hard_rogungan_nw",
+      "id": "@rori_region_names:hard_rogungan_nw",
       "spawns": [
         "rori_hard_rogungan_nw"
       ],
@@ -25958,7 +25958,7 @@
       ]
     },
     "@rori_region_names:hard_torton_nw": {
-      "name": "@rori_region_names:hard_torton_nw",
+      "id": "@rori_region_names:hard_torton_nw",
       "spawns": [
         "rori_hard_torton_nw"
       ],
@@ -25980,7 +25980,7 @@
       ]
     },
     "@rori_region_names:southwest_imperial_medium": {
-      "name": "@rori_region_names:southwest_imperial_medium",
+      "id": "@rori_region_names:southwest_imperial_medium",
       "spawns": [
         "rori_southwest_imperial_medium"
       ],
@@ -25997,7 +25997,7 @@
       ]
     },
     "@rori_region_names:world_spawner": {
-      "name": "@rori_region_names:world_spawner",
+      "id": "@rori_region_names:world_spawner",
       "spawns": [
         "rori_world"
       ],
@@ -26117,7 +26117,7 @@
   },
   "talus": {
     "@talus_region_names:dearic_easy_newbie": {
-      "name": "@talus_region_names:dearic_easy_newbie",
+      "id": "@talus_region_names:dearic_easy_newbie",
       "spawns": [
         "talus_dearic_easy_newbie"
       ],
@@ -26142,7 +26142,7 @@
       ]
     },
     "@talus_region_names:dearic_medium_newbie": {
-      "name": "@talus_region_names:dearic_medium_newbie",
+      "id": "@talus_region_names:dearic_medium_newbie",
       "spawns": [
         "talus_dearic_medium_newbie"
       ],
@@ -26167,7 +26167,7 @@
       ]
     },
     "@talus_region_names:nashal_easy_newbie": {
-      "name": "@talus_region_names:nashal_easy_newbie",
+      "id": "@talus_region_names:nashal_easy_newbie",
       "spawns": [
         "talus_nashal_easy_newbie"
       ],
@@ -26192,7 +26192,7 @@
       ]
     },
     "@talus_region_names:nashal_medium_newbie": {
-      "name": "@talus_region_names:nashal_medium_newbie",
+      "id": "@talus_region_names:nashal_medium_newbie",
       "spawns": [
         "talus_nashal_medium_newbie"
       ],
@@ -26217,7 +26217,7 @@
       ]
     },
     "@talus_region_names:central_medium": {
-      "name": "@talus_region_names:central_medium",
+      "id": "@talus_region_names:central_medium",
       "spawns": [
         "talus_central_medium"
       ],
@@ -26287,7 +26287,7 @@
       ]
     },
     "@talus_region_names:northeastern_medium": {
-      "name": "@talus_region_names:northeastern_medium",
+      "id": "@talus_region_names:northeastern_medium",
       "spawns": [
         "talus_northeastern_medium"
       ],
@@ -26356,7 +26356,7 @@
       ]
     },
     "@talus_region_names:northern_medium": {
-      "name": "@talus_region_names:northern_medium",
+      "id": "@talus_region_names:northern_medium",
       "spawns": [
         "talus_northern_medium"
       ],
@@ -26390,7 +26390,7 @@
       ]
     },
     "@talus_region_names:northwestern_hard": {
-      "name": "@talus_region_names:northwestern_hard",
+      "id": "@talus_region_names:northwestern_hard",
       "spawns": [
         "talus_northwestern_hard"
       ],
@@ -26412,7 +26412,7 @@
       ]
     },
     "@talus_region_names:southern_easy": {
-      "name": "@talus_region_names:southern_easy",
+      "id": "@talus_region_names:southern_easy",
       "spawns": [
         "talus_southern_easy"
       ],
@@ -26452,7 +26452,7 @@
       ]
     },
     "@talus_region_names:sountheastern_medium": {
-      "name": "@talus_region_names:sountheastern_medium",
+      "id": "@talus_region_names:sountheastern_medium",
       "spawns": [
         "talus_sountheastern_medium"
       ],
@@ -26515,7 +26515,7 @@
       ]
     },
     "@talus_region_names:southwestern_medium": {
-      "name": "@talus_region_names:southwestern_medium",
+      "id": "@talus_region_names:southwestern_medium",
       "spawns": [
         "talus_southwestern_medium"
       ],
@@ -26590,7 +26590,7 @@
       ]
     },
     "@talus_region_names:western_medium": {
-      "name": "@talus_region_names:western_medium",
+      "id": "@talus_region_names:western_medium",
       "spawns": [
         "talus_western_medium"
       ],
@@ -26629,7 +26629,7 @@
       ]
     },
     "@talus_region_names:western_hard": {
-      "name": "@talus_region_names:western_hard",
+      "id": "@talus_region_names:western_hard",
       "spawns": [
         "talus_western_hard"
       ],
@@ -26657,7 +26657,7 @@
       ]
     },
     "@talus_region_names:hard_guf_drolg_ne": {
-      "name": "@talus_region_names:hard_guf_drolg_ne",
+      "id": "@talus_region_names:hard_guf_drolg_ne",
       "spawns": [
         "talus_hard_guf_drolg_ne"
       ],
@@ -26678,7 +26678,7 @@
       ]
     },
     "@talus_region_names:hard_aakuan_se": {
-      "name": "@talus_region_names:hard_aakuan_se",
+      "id": "@talus_region_names:hard_aakuan_se",
       "spawns": [
         "talus_hard_aakuan_se"
       ],
@@ -26704,7 +26704,7 @@
       ]
     },
     "@talus_region_names:hard_selonian_sw": {
-      "name": "@talus_region_names:hard_selonian_sw",
+      "id": "@talus_region_names:hard_selonian_sw",
       "spawns": [
         "talus_hard_selonian_sw"
       ],
@@ -26723,7 +26723,7 @@
       ]
     },
     "@talus_region_names:aakuan_hard": {
-      "name": "@talus_region_names:aakuan_hard",
+      "id": "@talus_region_names:aakuan_hard",
       "spawns": [
         "talus_aakuan_hard"
       ],
@@ -26749,7 +26749,7 @@
       ]
     },
     "@talus_region_names:decay_mite_medium": {
-      "name": "@talus_region_names:decay_mite_medium",
+      "id": "@talus_region_names:decay_mite_medium",
       "spawns": [
         "talus_decay_mite_medium"
       ],
@@ -26767,7 +26767,7 @@
       ]
     },
     "@talus_region_names:binyare_pirates_medium": {
-      "name": "@talus_region_names:binyare_pirates_medium",
+      "id": "@talus_region_names:binyare_pirates_medium",
       "spawns": [
         "talus_binyare_pirates_medium"
       ],
@@ -26788,7 +26788,7 @@
       ]
     },
     "@talus_region_names:northern_imperial_hard": {
-      "name": "@talus_region_names:northern_imperial_hard",
+      "id": "@talus_region_names:northern_imperial_hard",
       "spawns": [
         "talus_northern_imperial_hard"
       ],
@@ -26804,7 +26804,7 @@
       ]
     },
     "@talus_region_names:forest": {
-      "name": "@talus_region_names:forest",
+      "id": "@talus_region_names:forest",
       "spawns": [
         "talus_northeast_forest"
       ],
@@ -26891,7 +26891,7 @@
       ]
     },
     "@talus_region_names:forest_1": {
-      "name": "@talus_region_names:forest_1",
+      "id": "@talus_region_names:forest_1",
       "spawns": [
         "talus_northern_forest"
       ],
@@ -27009,7 +27009,7 @@
       ]
     },
     "@talus_region_names:forest_2": {
-      "name": "@talus_region_names:forest_2",
+      "id": "@talus_region_names:forest_2",
       "spawns": [
         "talus_northeast_forest"
       ],
@@ -27096,7 +27096,7 @@
       ]
     },
     "@talus_region_names:forest_3": {
-      "name": "@talus_region_names:forest_3",
+      "id": "@talus_region_names:forest_3",
       "spawns": [
         "talus_northwest_forest"
       ],
@@ -27208,7 +27208,7 @@
       ]
     },
     "@talus_region_names:forest_4": {
-      "name": "@talus_region_names:forest_4",
+      "id": "@talus_region_names:forest_4",
       "spawns": [
         "talus_northwest_forest"
       ],
@@ -27320,7 +27320,7 @@
       ]
     },
     "@talus_region_names:forest_5": {
-      "name": "@talus_region_names:forest_5",
+      "id": "@talus_region_names:forest_5",
       "spawns": [
         "talus_southwest_forest"
       ],
@@ -27444,7 +27444,7 @@
       ]
     },
     "@talus_region_names:mountains": {
-      "name": "@talus_region_names:mountains",
+      "id": "@talus_region_names:mountains",
       "spawns": [
         "talus_northern_mountains"
       ],
@@ -27589,7 +27589,7 @@
       ]
     },
     "@talus_region_names:mountains_1": {
-      "name": "@talus_region_names:mountains_1",
+      "id": "@talus_region_names:mountains_1",
       "spawns": [
         "talus_northern_mountains"
       ],
@@ -27734,7 +27734,7 @@
       ]
     },
     "@talus_region_names:mountains_2": {
-      "name": "@talus_region_names:mountains_2",
+      "id": "@talus_region_names:mountains_2",
       "spawns": [
         "talus_medium_devil_gulginaw_nw",
         "talus_medium_wolf_kima_nw"
@@ -27859,7 +27859,7 @@
       ]
     },
     "@talus_region_names:mountains_3": {
-      "name": "@talus_region_names:mountains_3",
+      "id": "@talus_region_names:mountains_3",
       "spawns": [
         "talus_western_mountains"
       ],
@@ -28035,7 +28035,7 @@
       ]
     },
     "@talus_region_names:mountains_4": {
-      "name": "@talus_region_names:mountains_4",
+      "id": "@talus_region_names:mountains_4",
       "spawns": [
         "talus_eastern_mountains"
       ],
@@ -28182,7 +28182,7 @@
       ]
     },
     "@talus_region_names:mountains_5": {
-      "name": "@talus_region_names:mountains_5",
+      "id": "@talus_region_names:mountains_5",
       "spawns": [
         "talus_medium_wolf_kima_ne"
       ],
@@ -28207,7 +28207,7 @@
       ]
     },
     "@talus_region_names:mountains_6": {
-      "name": "@talus_region_names:mountains_6",
+      "id": "@talus_region_names:mountains_6",
       "spawns": [
         "talus_medium_wolf_kima_ne"
       ],
@@ -28232,7 +28232,7 @@
       ]
     },
     "@talus_region_names:mountains_7": {
-      "name": "@talus_region_names:mountains_7",
+      "id": "@talus_region_names:mountains_7",
       "spawns": [
         "talus_hard_grand_wrix_se"
       ],
@@ -28312,7 +28312,7 @@
       ]
     },
     "@talus_region_names:mountains_8": {
-      "name": "@talus_region_names:mountains_8",
+      "id": "@talus_region_names:mountains_8",
       "spawns": [
         "talus_hard_dalyrake_ne"
       ],
@@ -28382,7 +28382,7 @@
       ]
     },
     "@talus_region_names:grasslands": {
-      "name": "@talus_region_names:grasslands",
+      "id": "@talus_region_names:grasslands",
       "spawns": [
         "talus_western_plains"
       ],
@@ -28454,7 +28454,7 @@
       ]
     },
     "@talus_region_names:grasslands_1": {
-      "name": "@talus_region_names:grasslands_1",
+      "id": "@talus_region_names:grasslands_1",
       "spawns": [
         "talus_central_plains"
       ],
@@ -28560,7 +28560,7 @@
       ]
     },
     "@talus_region_names:grasslands_2": {
-      "name": "@talus_region_names:grasslands_2",
+      "id": "@talus_region_names:grasslands_2",
       "spawns": [
         "talus_southern_coast"
       ],
@@ -28613,7 +28613,7 @@
       ]
     },
     "@talus_region_names:grasslands_3": {
-      "name": "@talus_region_names:grasslands_3",
+      "id": "@talus_region_names:grasslands_3",
       "spawns": [
         "talus_eastern_plains"
       ],
@@ -28705,7 +28705,7 @@
       ]
     },
     "@talus_region_names:grasslands_4": {
-      "name": "@talus_region_names:grasslands_4",
+      "id": "@talus_region_names:grasslands_4",
       "spawns": [
         "talus_central_plains"
       ],
@@ -28810,7 +28810,7 @@
       ]
     },
     "@talus_region_names:grasslands_5": {
-      "name": "@talus_region_names:grasslands_5",
+      "id": "@talus_region_names:grasslands_5",
       "spawns": [
         "talus_medium_sludge_panther_sw"
       ],
@@ -28849,7 +28849,7 @@
       ]
     },
     "@talus_region_names:prairie": {
-      "name": "@talus_region_names:prairie",
+      "id": "@talus_region_names:prairie",
       "spawns": [
         "talus_hard_grand_wrix_nw"
       ],
@@ -28938,7 +28938,7 @@
       ]
     },
     "@talus_region_names:prairie_1": {
-      "name": "@talus_region_names:prairie_1",
+      "id": "@talus_region_names:prairie_1",
       "spawns": [
         "talus_central_plains"
       ],
@@ -29044,7 +29044,7 @@
       ]
     },
     "@talus_region_names:swamp": {
-      "name": "@talus_region_names:swamp",
+      "id": "@talus_region_names:swamp",
       "spawns": [
         "talus_hard_dalyrake_sw"
       ],
@@ -29116,7 +29116,7 @@
       ]
     },
     "@talus_region_names:river": {
-      "name": "@talus_region_names:river",
+      "id": "@talus_region_names:river",
       "spawns": [
         "talus_hard_guf_drolg_se"
       ],
@@ -29132,7 +29132,7 @@
       ]
     },
     "world_spawner": {
-      "name": "world_spawner",
+      "id": "world_spawner",
       "spawns": [
         "talus_world"
       ],
@@ -29247,7 +29247,7 @@
   },
   "tatooine": {
     "@tatooine_region_names:anchorhead_easy_newbie": {
-      "name": "@tatooine_region_names:anchorhead_easy_newbie",
+      "id": "@tatooine_region_names:anchorhead_easy_newbie",
       "spawns": [
         "tatooine_anchorhead_easy_newbie"
       ],
@@ -29268,7 +29268,7 @@
       ]
     },
     "@tatooine_region_names:anchorhead_medium_newbie": {
-      "name": "@tatooine_region_names:anchorhead_medium_newbie",
+      "id": "@tatooine_region_names:anchorhead_medium_newbie",
       "spawns": [
         "tatooine_anchorhead_medium_newbie"
       ],
@@ -29289,7 +29289,7 @@
       ]
     },
     "@tatooine_region_names:bestine_medium_newbie": {
-      "name": "@tatooine_region_names:bestine_medium_newbie",
+      "id": "@tatooine_region_names:bestine_medium_newbie",
       "spawns": [
         "tatooine_bestine_easy_newbie"
       ],
@@ -29310,7 +29310,7 @@
       ]
     },
     "@tatooine_region_names:bestine_easy_newbie": {
-      "name": "@tatooine_region_names:bestine_easy_newbie",
+      "id": "@tatooine_region_names:bestine_easy_newbie",
       "spawns": [
         "tatooine_bestine_medium_newbie"
       ],
@@ -29337,7 +29337,7 @@
       ]
     },
     "@tatooine_region_names:mos_eisley_medium_newbie": {
-      "name": "@tatooine_region_names:mos_eisley_medium_newbie",
+      "id": "@tatooine_region_names:mos_eisley_medium_newbie",
       "spawns": [
         "tatooine_mos_eisley_medium_newbie"
       ],
@@ -29365,7 +29365,7 @@
       ]
     },
     "@tatooine_region_names:mos_eisley_easy_newbie": {
-      "name": "@tatooine_region_names:mos_eisley_easy_newbie",
+      "id": "@tatooine_region_names:mos_eisley_easy_newbie",
       "spawns": [
         "tatooine_mos_eisley_easy_newbie"
       ],
@@ -29404,7 +29404,7 @@
       ]
     },
     "@tatooine_region_names:mos_eisley_se_medium": {
-      "name": "@tatooine_region_names:mos_eisley_se_medium",
+      "id": "@tatooine_region_names:mos_eisley_se_medium",
       "spawns": [
         "tatooine_mos_eisley_se_medium"
       ],
@@ -29431,7 +29431,7 @@
       ]
     },
     "@tatooine_region_names:mos_eisley_se_hard": {
-      "name": "@tatooine_region_names:mos_eisley_se_hard",
+      "id": "@tatooine_region_names:mos_eisley_se_hard",
       "spawns": [
         "tatooine_mos_eisley_se_hard"
       ],
@@ -29475,7 +29475,7 @@
       ]
     },
     "@tatooine_region_names:mos_eisley_easy_newbie_sw": {
-      "name": "@tatooine_region_names:mos_eisley_easy_newbie_sw",
+      "id": "@tatooine_region_names:mos_eisley_easy_newbie_sw",
       "spawns": [
         "tatooine_mos_eisley_easy_newbie_sw"
       ],
@@ -29513,7 +29513,7 @@
       ]
     },
     "@tatooine_region_names:mos_entha_easy_newbie": {
-      "name": "@tatooine_region_names:mos_entha_easy_newbie",
+      "id": "@tatooine_region_names:mos_entha_easy_newbie",
       "spawns": [
         "tatooine_mos_entha_easy_newbie"
       ],
@@ -29534,7 +29534,7 @@
       ]
     },
     "@tatooine_region_names:mos_entha_medium_newbie": {
-      "name": "@tatooine_region_names:mos_entha_medium_newbie",
+      "id": "@tatooine_region_names:mos_entha_medium_newbie",
       "spawns": [
         "tatooine_mos_entha_medium_newbie"
       ],
@@ -29562,7 +29562,7 @@
       ]
     },
     "@tatooine_region_names:mos_entha_medium": {
-      "name": "@tatooine_region_names:mos_entha_medium",
+      "id": "@tatooine_region_names:mos_entha_medium",
       "spawns": [
         "tatooine_mos_entha_medium"
       ],
@@ -29615,7 +29615,7 @@
       ]
     },
     "@tatooine_region_names:mos_entha_weequay": {
-      "name": "@tatooine_region_names:mos_entha_weequay",
+      "id": "@tatooine_region_names:mos_entha_weequay",
       "spawns": [
         "tatooine_mos_entha_weequay"
       ],
@@ -29638,7 +29638,7 @@
       ]
     },
     "@tatooine_region_names:wayfar_easy_newbie": {
-      "name": "@tatooine_region_names:wayfar_easy_newbie",
+      "id": "@tatooine_region_names:wayfar_easy_newbie",
       "spawns": [
         "tatooine_wayfar_easy_newbie"
       ],
@@ -29659,7 +29659,7 @@
       ]
     },
     "@tatooine_region_names:wayfar_medium_newbie": {
-      "name": "@tatooine_region_names:wayfar_medium_newbie",
+      "id": "@tatooine_region_names:wayfar_medium_newbie",
       "spawns": [
         "tatooine_wayfar_medium_newbie"
       ],
@@ -29687,7 +29687,7 @@
       ]
     },
     "@tatooine_region_names:mos_espa_easy_newbie": {
-      "name": "@tatooine_region_names:mos_espa_easy_newbie",
+      "id": "@tatooine_region_names:mos_espa_easy_newbie",
       "spawns": [
         "tatooine_mos_espa_easy_newbie"
       ],
@@ -29708,7 +29708,7 @@
       ]
     },
     "@tatooine_region_names:mos_espa_medium_newbie": {
-      "name": "@tatooine_region_names:mos_espa_medium_newbie",
+      "id": "@tatooine_region_names:mos_espa_medium_newbie",
       "spawns": [
         "tatooine_mos_espa_medium_newbie"
       ],
@@ -29736,7 +29736,7 @@
       ]
     },
     "@tatooine_region_names:mos_taike_easy_newbie": {
-      "name": "@tatooine_region_names:mos_taike_easy_newbie",
+      "id": "@tatooine_region_names:mos_taike_easy_newbie",
       "spawns": [
         "tatooine_mos_taike_easy_newbie"
       ],
@@ -29757,7 +29757,7 @@
       ]
     },
     "@tatooine_region_names:mos_taike_medium_newbie": {
-      "name": "@tatooine_region_names:mos_taike_medium_newbie",
+      "id": "@tatooine_region_names:mos_taike_medium_newbie",
       "spawns": [
         "tatooine_mos_taike_medium_newbie"
       ],
@@ -29785,7 +29785,7 @@
       ]
     },
     "@tatooine_region_names:hard_krayt_ne": {
-      "name": "@tatooine_region_names:hard_krayt_ne",
+      "id": "@tatooine_region_names:hard_krayt_ne",
       "spawns": [
         "tatooine_hard_krayt_ne"
       ],
@@ -29806,7 +29806,7 @@
       ]
     },
     "@tatooine_region_names:north_eastern_krayt_background": {
-      "name": "@tatooine_region_names:north_eastern_krayt_background",
+      "id": "@tatooine_region_names:north_eastern_krayt_background",
       "spawns": [
         "tatooine_north_eastern_krayt_background"
       ],
@@ -29829,7 +29829,7 @@
       ]
     },
     "@tatooine_region_names:jundland_waste_1": {
-      "name": "@tatooine_region_names:jundland_waste_1",
+      "id": "@tatooine_region_names:jundland_waste_1",
       "spawns": [
         "tatooine_jundland_wastes"
       ],
@@ -29897,7 +29897,7 @@
       ]
     },
     "@tatooine_region_names:jundland_waste_2": {
-      "name": "@tatooine_region_names:jundland_waste_2",
+      "id": "@tatooine_region_names:jundland_waste_2",
       "spawns": [
         "tatooine_jundland_wastes"
       ],
@@ -29965,7 +29965,7 @@
       ]
     },
     "@tatooine_region_names:eastern_dune_sea": {
-      "name": "@tatooine_region_names:eastern_dune_sea",
+      "id": "@tatooine_region_names:eastern_dune_sea",
       "spawns": [
         "tatooine_hard_dune_sea"
       ],
@@ -30035,7 +30035,7 @@
       ]
     },
     "@tatooine_region_names:western_dune_sea_1": {
-      "name": "@tatooine_region_names:western_dune_sea_1",
+      "id": "@tatooine_region_names:western_dune_sea_1",
       "spawns": [
         "tatooine_hard_dune_sea"
       ],
@@ -30105,7 +30105,7 @@
       ]
     },
     "@tatooine_region_names:western_dune_sea_2": {
-      "name": "@tatooine_region_names:western_dune_sea_2",
+      "id": "@tatooine_region_names:western_dune_sea_2",
       "spawns": [
         "tatooine_hard_dune_sea"
       ],
@@ -30174,7 +30174,7 @@
       ]
     },
     "@tatooine_region_names:western_dune_sea_3": {
-      "name": "@tatooine_region_names:western_dune_sea_3",
+      "id": "@tatooine_region_names:western_dune_sea_3",
       "spawns": [
         "tatooine_hard_dune_sea"
       ],
@@ -30243,7 +30243,7 @@
       ]
     },
     "@tatooine_region_names:southwestern_desert": {
-      "name": "@tatooine_region_names:southwestern_desert",
+      "id": "@tatooine_region_names:southwestern_desert",
       "spawns": [
         "tatooine_southwestern_desert"
       ],
@@ -30287,7 +30287,7 @@
       ]
     },
     "@tatooine_region_names:medium_imperial_patrol": {
-      "name": "@tatooine_region_names:medium_imperial_patrol",
+      "id": "@tatooine_region_names:medium_imperial_patrol",
       "spawns": [
         "tatooine_medium_imperial_patrol"
       ],
@@ -30306,7 +30306,7 @@
       ]
     },
     "@tatooine_region_names:medium_rebel_patrol": {
-      "name": "@tatooine_region_names:medium_rebel_patrol",
+      "id": "@tatooine_region_names:medium_rebel_patrol",
       "spawns": [
         "tatooine_medium_rebel_patrol"
       ],
@@ -30328,7 +30328,7 @@
       ]
     },
     "@tatooine_region_names:medium_rodian_patrol": {
-      "name": "@tatooine_region_names:medium_rodian_patrol",
+      "id": "@tatooine_region_names:medium_rodian_patrol",
       "spawns": [
         "tatooine_medium_rodian_patrol"
       ],
@@ -30346,7 +30346,7 @@
       ]
     },
     "@tatooine_region_names:medium_squill_caves": {
-      "name": "@tatooine_region_names:medium_squill_caves",
+      "id": "@tatooine_region_names:medium_squill_caves",
       "spawns": [
         "tatooine_medium_squill_caves"
       ],
@@ -30362,7 +30362,7 @@
       ]
     },
     "@tatooine_region_names:hard_squill_caves": {
-      "name": "@tatooine_region_names:hard_squill_caves",
+      "id": "@tatooine_region_names:hard_squill_caves",
       "spawns": [
         "tatooine_hard_squill_caves"
       ],
@@ -30383,7 +30383,7 @@
       ]
     },
     "@tatooine_region_names:jabba_camps_sw": {
-      "name": "@tatooine_region_names:jabba_camps_sw",
+      "id": "@tatooine_region_names:jabba_camps_sw",
       "spawns": [
         "tatooine_jabba_camps_sw"
       ],
@@ -30401,7 +30401,7 @@
       ]
     },
     "@tatooine_region_names:medium_criminals": {
-      "name": "@tatooine_region_names:medium_criminals",
+      "id": "@tatooine_region_names:medium_criminals",
       "spawns": [
         "tatooine_medium_criminals"
       ],
@@ -30423,7 +30423,7 @@
       ]
     },
     "@tatooine_region_names:nw_tusken_medium": {
-      "name": "@tatooine_region_names:nw_tusken_medium",
+      "id": "@tatooine_region_names:nw_tusken_medium",
       "spawns": [
         "tatooine_nw_tusken_medium"
       ],
@@ -30455,7 +30455,7 @@
       ]
     },
     "@tatooine_region_names:north_eastern_hard": {
-      "name": "@tatooine_region_names:north_eastern_hard",
+      "id": "@tatooine_region_names:north_eastern_hard",
       "spawns": [
         "tatooine_north_eastern_hard"
       ],
@@ -30486,7 +30486,7 @@
       ]
     },
     "@tatooine_region_names:nw_tusken_hard": {
-      "name": "@tatooine_region_names:nw_tusken_hard",
+      "id": "@tatooine_region_names:nw_tusken_hard",
       "spawns": [
         "tatooine_nw_tusken_hard"
       ],
@@ -30530,7 +30530,7 @@
       ]
     },
     "@tatooine_region_names:northeast_imperial_medium": {
-      "name": "@tatooine_region_names:northeast_imperial_medium",
+      "id": "@tatooine_region_names:northeast_imperial_medium",
       "spawns": [
         "tatooine_northeast_imperial_medium"
       ],
@@ -30556,7 +30556,7 @@
       ]
     },
     "@tatooine_region_names:northeast_rebel_medium": {
-      "name": "@tatooine_region_names:northeast_rebel_medium",
+      "id": "@tatooine_region_names:northeast_rebel_medium",
       "spawns": [
         "tatooine_northeast_rebel_medium"
       ],
@@ -30585,7 +30585,7 @@
       ]
     },
     "@tatooine_region_names:nw_rebel_hard": {
-      "name": "@tatooine_region_names:nw_rebel_hard",
+      "id": "@tatooine_region_names:nw_rebel_hard",
       "spawns": [
         "tatooine_nw_rebel_hard"
       ],
@@ -30619,7 +30619,7 @@
       ]
     },
     "@tatooine_region_names:nw_imperial_hard": {
-      "name": "@tatooine_region_names:nw_imperial_hard",
+      "id": "@tatooine_region_names:nw_imperial_hard",
       "spawns": [
         "tatooine_nw_imperial_hard"
       ],
@@ -30653,7 +30653,7 @@
       ]
     },
     "@tatooine_region_names:jundlan_eopie": {
-      "name": "@tatooine_region_names:jundlan_eopie",
+      "id": "@tatooine_region_names:jundlan_eopie",
       "spawns": [
         "tatooine_jundlan_eopie"
       ],
@@ -30675,7 +30675,7 @@
       ]
     },
     "@tatooine_region_names:medium_womprats": {
-      "name": "@tatooine_region_names:medium_womprats",
+      "id": "@tatooine_region_names:medium_womprats",
       "spawns": [
         "tatooine_medium_womprats"
       ],
@@ -30696,7 +30696,7 @@
       ]
     },
     "@tatooine_region_names:lowland_basin_1": {
-      "name": "@tatooine_region_names:lowland_basin_1",
+      "id": "@tatooine_region_names:lowland_basin_1",
       "spawns": [
         "tatooine_lowland_basin"
       ],
@@ -30760,7 +30760,7 @@
       ]
     },
     "@tatooine_region_names:southern_reach_1": {
-      "name": "@tatooine_region_names:southern_reach_1",
+      "id": "@tatooine_region_names:southern_reach_1",
       "spawns": [
         "tatooine_southern_reach"
       ],
@@ -30828,7 +30828,7 @@
       ]
     },
     "@tatooine_region_names:plateau": {
-      "name": "@tatooine_region_names:plateau",
+      "id": "@tatooine_region_names:plateau",
       "spawns": [
         "tatooine_easy_criminals_se",
         "tatooine_easy_militia_se",
@@ -30949,7 +30949,7 @@
       ]
     },
     "@tatooine_region_names:eastern_oasis": {
-      "name": "@tatooine_region_names:eastern_oasis",
+      "id": "@tatooine_region_names:eastern_oasis",
       "spawns": [
         "tatooine_eastern_peaks"
       ],
@@ -31014,7 +31014,7 @@
       ]
     },
     "@tatooine_region_names:northeastern_oasis": {
-      "name": "@tatooine_region_names:northeastern_oasis",
+      "id": "@tatooine_region_names:northeastern_oasis",
       "spawns": [
         "tatooine_northeastern_desert"
       ],
@@ -31145,7 +31145,7 @@
       ]
     },
     "@tatooine_region_names:southern_oasis": {
-      "name": "@tatooine_region_names:southern_oasis",
+      "id": "@tatooine_region_names:southern_oasis",
       "spawns": [
         "tatooine_world"
       ],
@@ -31271,7 +31271,7 @@
       ]
     },
     "@tatooine_region_names:western_oasis": {
-      "name": "@tatooine_region_names:western_oasis",
+      "id": "@tatooine_region_names:western_oasis",
       "spawns": [
         "tatooine_hard_jawa_nw",
         "tatooine_medium_jawa_nw"
@@ -31329,7 +31329,7 @@
       ]
     },
     "@tatooine_region_names:mospic_high_range_1": {
-      "name": "@tatooine_region_names:mospic_high_range_1",
+      "id": "@tatooine_region_names:mospic_high_range_1",
       "spawns": [
         "tatooine_central_mountains"
       ],
@@ -31435,7 +31435,7 @@
       ]
     },
     "@tatooine_region_names:mospic_high_range_2": {
-      "name": "@tatooine_region_names:mospic_high_range_2",
+      "id": "@tatooine_region_names:mospic_high_range_2",
       "spawns": [
         "tatooine_hard_criminals_se",
         "tatooine_medium_criminals_se"
@@ -31532,7 +31532,7 @@
       ]
     },
     "@tatooine_region_names:mospic_high_range_3": {
-      "name": "@tatooine_region_names:mospic_high_range_3",
+      "id": "@tatooine_region_names:mospic_high_range_3",
       "spawns": [
         "tatooine_hard_valarian_se"
       ],
@@ -31584,7 +31584,7 @@
       ]
     },
     "@tatooine_region_names:mospic_high_range_4": {
-      "name": "@tatooine_region_names:mospic_high_range_4",
+      "id": "@tatooine_region_names:mospic_high_range_4",
       "spawns": [
         "tatooine_southeastern_mountains"
       ],
@@ -31661,7 +31661,7 @@
       ]
     },
     "@tatooine_region_names:mospic_high_range_5": {
-      "name": "@tatooine_region_names:mospic_high_range_5",
+      "id": "@tatooine_region_names:mospic_high_range_5",
       "spawns": [
         "tatooine_medium_scyks_se",
         "tatooine_medium_swoopers_se",
@@ -31767,7 +31767,7 @@
       ]
     },
     "@tatooine_region_names:mospic_high_range_6": {
-      "name": "@tatooine_region_names:mospic_high_range_6",
+      "id": "@tatooine_region_names:mospic_high_range_6",
       "spawns": [
         "tatooine_hard_jabba_thug_sw"
       ],
@@ -31785,7 +31785,7 @@
       ]
     },
     "@tatooine_region_names:grand_arena": {
-      "name": "@tatooine_region_names:grand_arena",
+      "id": "@tatooine_region_names:grand_arena",
       "spawns": [
         "tatooine_northern_wasteland"
       ],
@@ -31880,7 +31880,7 @@
       ]
     },
     "@tatooine_region_names:world_spawner": {
-      "name": "@tatooine_region_names:world_spawner",
+      "id": "@tatooine_region_names:world_spawner",
       "spawns": [
         "tatooine_world"
       ],
@@ -32009,7 +32009,7 @@
   },
   "yavin4": {
     "@yavin4_region_names:central_medium": {
-      "name": "@yavin4_region_names:central_medium",
+      "id": "@yavin4_region_names:central_medium",
       "spawns": [
         "yavin4_central_medium"
       ],
@@ -32037,7 +32037,7 @@
       ]
     },
     "@yavin4_region_names:eastern_hard": {
-      "name": "@yavin4_region_names:eastern_hard",
+      "id": "@yavin4_region_names:eastern_hard",
       "spawns": [
         "yavin4_eastern_hard"
       ],
@@ -32059,7 +32059,7 @@
       ]
     },
     "@yavin4_region_names:northeastern_hard": {
-      "name": "@yavin4_region_names:northeastern_hard",
+      "id": "@yavin4_region_names:northeastern_hard",
       "spawns": [
         "yavin4_northeastern_hard"
       ],
@@ -32087,7 +32087,7 @@
       ]
     },
     "@yavin4_region_names:northern_easy": {
-      "name": "@yavin4_region_names:northern_easy",
+      "id": "@yavin4_region_names:northern_easy",
       "spawns": [
         "yavin4_northern_easy"
       ],
@@ -32125,7 +32125,7 @@
       ]
     },
     "@yavin4_region_names:northwestern_hard": {
-      "name": "@yavin4_region_names:northwestern_hard",
+      "id": "@yavin4_region_names:northwestern_hard",
       "spawns": [
         "yavin4_northwestern_hard"
       ],
@@ -32157,7 +32157,7 @@
       ]
     },
     "@yavin4_region_names:southeastern_hard": {
-      "name": "@yavin4_region_names:southeastern_hard",
+      "id": "@yavin4_region_names:southeastern_hard",
       "spawns": [
         "yavin4_southeastern_hard"
       ],
@@ -32184,7 +32184,7 @@
       ]
     },
     "@yavin4_region_names:southern_medium": {
-      "name": "@yavin4_region_names:southern_medium",
+      "id": "@yavin4_region_names:southern_medium",
       "spawns": [
         "yavin4_southern_medium"
       ],
@@ -32212,7 +32212,7 @@
       ]
     },
     "@yavin4_region_names:southwestern_easy": {
-      "name": "@yavin4_region_names:southwestern_easy",
+      "id": "@yavin4_region_names:southwestern_easy",
       "spawns": [
         "yavin4_southwestern_easy"
       ],
@@ -32249,7 +32249,7 @@
       ]
     },
     "@yavin4_region_names:western_medium": {
-      "name": "@yavin4_region_names:western_medium",
+      "id": "@yavin4_region_names:western_medium",
       "spawns": [
         "yavin4_western_medium"
       ],
@@ -32270,7 +32270,7 @@
       ]
     },
     "@yavin4_region_names:swamp_one": {
-      "name": "@yavin4_region_names:swamp_one",
+      "id": "@yavin4_region_names:swamp_one",
       "spawns": [
         "yavin4_isle_of_kun"
       ],
@@ -32345,7 +32345,7 @@
       ]
     },
     "@yavin4_region_names:swamp_two": {
-      "name": "@yavin4_region_names:swamp_two",
+      "id": "@yavin4_region_names:swamp_two",
       "spawns": [
         "yavin4_eastern_swamp"
       ],
@@ -32433,7 +32433,7 @@
       ]
     },
     "@yavin4_region_names:jungle_one": {
-      "name": "@yavin4_region_names:jungle_one",
+      "id": "@yavin4_region_names:jungle_one",
       "spawns": [
         "yavin4_hard_angler_nw",
         "yavin4_hard_kliknik_nw"
@@ -32521,7 +32521,7 @@
       ]
     },
     "@yavin4_region_names:jungle_two": {
-      "name": "@yavin4_region_names:jungle_two",
+      "id": "@yavin4_region_names:jungle_two",
       "spawns": [
         "yavin4_medium_gackle_bat_nw"
       ],
@@ -32631,7 +32631,7 @@
       ]
     },
     "@yavin4_region_names:jungle_three": {
-      "name": "@yavin4_region_names:jungle_three",
+      "id": "@yavin4_region_names:jungle_three",
       "spawns": [
         "yavin4_southern_delta"
       ],
@@ -32725,7 +32725,7 @@
       ]
     },
     "@yavin4_region_names:jungle_four": {
-      "name": "@yavin4_region_names:jungle_four",
+      "id": "@yavin4_region_names:jungle_four",
       "spawns": [
         "yavin4_central_jungle"
       ],
@@ -32829,7 +32829,7 @@
       ]
     },
     "@yavin4_region_names:jungle_five": {
-      "name": "@yavin4_region_names:jungle_five",
+      "id": "@yavin4_region_names:jungle_five",
       "spawns": [
         "yavin4_hard_kliknik_ne",
         "yavin4_hard_angler_ne"
@@ -32935,7 +32935,7 @@
       ]
     },
     "@yavin4_region_names:mountain_two": {
-      "name": "@yavin4_region_names:mountain_two",
+      "id": "@yavin4_region_names:mountain_two",
       "spawns": [
         "yavin4_northwest_reach"
       ],
@@ -33030,7 +33030,7 @@
       ]
     },
     "@yavin4_region_names:mountain_three": {
-      "name": "@yavin4_region_names:mountain_three",
+      "id": "@yavin4_region_names:mountain_three",
       "spawns": [
         "yavin4_western_peak"
       ],
@@ -33103,7 +33103,7 @@
       ]
     },
     "@yavin4_region_names:mountain_four": {
-      "name": "@yavin4_region_names:mountain_four",
+      "id": "@yavin4_region_names:mountain_four",
       "spawns": [
         "yavin4_southwest_isle",
         "yavin4_hard_mamien_sw",
@@ -33281,7 +33281,7 @@
       ]
     },
     "@yavin4_region_names:mountain_five": {
-      "name": "@yavin4_region_names:mountain_five",
+      "id": "@yavin4_region_names:mountain_five",
       "spawns": [
         "yavin4_southeast_peak"
       ],
@@ -33331,7 +33331,7 @@
       ]
     },
     "@yavin4_region_names:mountain_six": {
-      "name": "@yavin4_region_names:mountain_six",
+      "id": "@yavin4_region_names:mountain_six",
       "spawns": [
         "yavin4_hard_angler_se",
         "yavin4_hard_crystal_snake_ne",
@@ -33486,7 +33486,7 @@
       ]
     },
     "@yavin4_region_names:world_spawner": {
-      "name": "@yavin4_region_names:world_spawner",
+      "id": "@yavin4_region_names:world_spawner",
       "spawns": [
         "yavin4_world"
       ],

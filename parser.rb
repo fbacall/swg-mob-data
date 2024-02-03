@@ -8,6 +8,11 @@ class Parser
     @base = base
   end
 
+  def i18n
+    return @i18n if @i18n
+    @i18n = Hash[File.read(string_base).scan(/stringFiles\[\d+\]\.addEntry\("([^"]+)", "([^"]+)"\)\;/)]
+  end
+
   def mob_data
     mob_data = {}
     PLANETS.each do |planet|
@@ -16,8 +21,8 @@ class Parser
       files.each do |file|
         next if file.end_with?('serverobjects.lua')
         mob = convert_mob(parse_mob_lua(file))
-        raise "Mob name collision #{mob[:name]}" if mob_data[mob[:name]]
-        mob_data[mob[:name]] = mob
+        raise "Mob ID collision #{mob[:id]}" if mob_data[mob[:id]]
+        mob_data[mob[:id]] = mob
         print '.'
       end
       puts
@@ -48,8 +53,8 @@ class Parser
         puts "#{loc} #{type} (#{files.size}): "
         files.each do |file|
           lair = parse_lair_lua(file)
-          raise "Lair name collision #{lair[:name]}" if @lair_data[lair[:name]]
-          @lair_data[lair[:name]] = lair
+          raise "Lair ID collision #{lair[:id]}" if @lair_data[lair[:id]]
+          @lair_data[lair[:id]] = lair
           print '.'
         end
         puts
@@ -66,8 +71,8 @@ class Parser
       puts "#{planet} (#{files.size}): "
       files.each do |file|
         spawn = convert_spawns(parse_spawn_lua(file))
-        warn "Spawn name collision #{spawn[:name]}" if @spawn_data[spawn[:name]]
-        @spawn_data[spawn[:name]] = spawn.merge(mobs: spawn[:lairs].map { |l| lair_data[l[:name]][:mobs].map(&:first) }.flatten )
+        warn "Spawn id collision #{spawn[:id]}" if @spawn_data[spawn[:id]]
+        @spawn_data[spawn[:id]] = spawn.merge(mobs: spawn[:lairs].map { |l| lair_data[l[:id]][:mobs].map(&:first) }.flatten )
         print '.'
       end
       puts
@@ -81,8 +86,8 @@ class Parser
       file = File.join(region_base, "#{planet}_regions.lua")
       region_data[planet] = {}
       convert_regions(parse_region_lua(file)).each do |region|
-        raise "Region name collision #{region[:name]}" if region_data[planet][region[:name]]
-        region_data[planet][region[:name]] = region.merge(mobs: region[:spawns].map { |s| spawn_data[s][:mobs] }.flatten )
+        raise "Region ID collision #{region[:id]}" if region_data[planet][region[:id]]
+        region_data[planet][region[:id]] = region.merge(mobs: region[:spawns].map { |s| spawn_data[s][:mobs] }.flatten )
       end
       print '.'
     end
@@ -105,6 +110,10 @@ class Parser
     end
 
     static_spawn_data
+  end
+
+  def string_base
+    File.join(@base, 'MMOCoreORB', 'doc', 'ConversationEditor', 'stringfiles.js')
   end
 
   def creature_base
@@ -159,7 +168,7 @@ class Parser
       # Parse creature name from start of file
       match_data = data.match(/([a-zA-Z0-9_-]+)\s*:\s*{/)
       raise "Couldn't match creature name" if match_data.nil?
-      name = match_data[1]
+      id = match_data[1]
       data.sub!(match_data[0], '{')
       d = eval(data)
     rescue Exception => e
@@ -168,7 +177,7 @@ class Parser
       raise e
     end
 
-    d[:name] = name # Merge parsed name back in
+    d[:id] = id # Merge parsed id back in
     d
   end
 
@@ -226,7 +235,7 @@ class Parser
       # Parse creature name from start of file
       match_data = data.match(/([a-zA-Z0-9_-]+)\s*=\s*Lair:new\s*{/)
       raise "Couldn't match lair name" if match_data.nil?
-      name = match_data[1]
+      id = match_data[1]
     rescue Exception => e
       STDERR.puts "!!! ERROR parsing #{file}"
       STDERR.puts data
@@ -235,7 +244,7 @@ class Parser
       raise e
     end
 
-    { name: name, mobs: d }
+    { id: id, mobs: d }
   end
 
   def parse_spawn_lua(file)
@@ -252,7 +261,7 @@ class Parser
       # Parse spawn name from start of file
       match_data = data.match(/([a-zA-Z0-9_-]+)\s*:\s*\[/)
       raise "Couldn't match spawn name" if match_data.nil?
-      name = match_data[1]
+      id = match_data[1]
       data.sub!(match_data[0], '[')
       d = eval(data)
     rescue Exception => e
@@ -261,7 +270,7 @@ class Parser
       raise e
     end
 
-    { name: name, lairs: d.flatten }
+    { id: id, lairs: d.flatten }
   end
 
   def parse_region_lua(file)
@@ -368,7 +377,8 @@ class Parser
   def convert_mob(mob)
     begin
       output = {}
-      output[:name] = mob[:name]
+      output[:id] = mob[:id]
+      output[:name] = mob[:customName] || i18n.fetch(mob[:objectName].split(':').last)
       output[:type] = mob[:mobType]
       output[:level] = mob[:level]
       output[:meat] = mob[:meatAmount] unless mob[:meatAmount] == 0
@@ -397,7 +407,8 @@ class Parser
   def convert_mission(mission)
     begin
       output = {}
-      output[:name] = mission[:lairTemplateName]
+      output[:id] = mission[:lairTemplateName]
+      output[:name] = i18n.fetch(mission[:lairTemplateName])
       output[:min_cl] = mission[:minDifficulty]
       output[:max_cl] = mission[:maxDifficulty]
       output[:size] = mission[:size]
@@ -416,7 +427,7 @@ class Parser
     spawn[:lairs].each do |lair|
       begin
         output = {}
-        output[:name] = lair[:lairTemplateName]
+        output[:id] = lair[:lairTemplateName]
         output[:min_cl] = lair[:minDifficulty]
         output[:max_cl] = lair[:maxDifficulty]
         output[:weighting] = lair[:weighting]
@@ -437,7 +448,7 @@ class Parser
     regions.map do |region|
       next unless region[4].to_ary.any? { |r| r.to_s == 'SPAWNAREA' }
       r = {}
-      r[:name] = region[0]
+      r[:id] = region[0]
       x, y = region[1], region[2]
       shape = region[3]
       r[:spawns] = region[5]

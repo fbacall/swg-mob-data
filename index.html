@@ -182,7 +182,7 @@
             width: 100%;
         }
 
-        #map {
+        #overlay {
             display: none;
             position: fixed;
             z-index: 1;
@@ -194,7 +194,7 @@
             background-color: rgba(0, 0, 0, 0.5);
         }
 
-        #map.open {
+        #overlay.open {
             display: block;
         }
 
@@ -233,6 +233,8 @@
             position: absolute;
             right: 10px;
             bottom: 10px;
+            color: #fff;
+            text-shadow: 1px 1px #000;
         }
 
         #static-spawns {
@@ -322,13 +324,16 @@
             display: inline-block;
         }
 
-        .spawns {
-            display: inline-block;
+        .clickable {
             cursor: pointer;
-            float: right;
-            font-size: small;
             color: var(--link);
             text-decoration: underline;
+        }
+
+        .spawns {
+            display: inline-block;
+            float: right;
+            font-size: small;
         }
 
         .spawns.static-spawns:after {
@@ -344,7 +349,7 @@
             vertical-align: super;
         }
 
-        .spawns:hover {
+        .clickable:hover {
             color: var(--link-hover);
         }
 
@@ -410,8 +415,8 @@
 <body>
 
 <div class="container">
-    <div id="map">
-        <div class="map-wrapper">
+    <div id="overlay">
+        <div id="map" class="map-wrapper">
             <div class="image"></div>
             <div id="coords"></div>
         </div>
@@ -485,6 +490,7 @@
     const textFilterable = ['name', 'meat_type', 'hide_type', 'bone_type', 'milk_type'];
     const missionRewardFactor = 375;
     const missionRandomRewardFactor = 15;
+    const ijmFactor = 1.15;
     let mobData = null;
     let missionData = null;
     let regionData = null;
@@ -506,16 +512,26 @@
         for (const [planet, missions] of Object.entries(missionData)) {
             planetData[planet] = {};
             missions.forEach(mission => {
+                mission.minReward = mission.min_cl * missionRewardFactor;
+                mission.maxReward = mission.max_cl * missionRewardFactor + mission.max_cl * missionRandomRewardFactor;
                 mission.mobs.forEach(mobName => {
                     if (mobData[mobName]) {
                         let planetMob = planetData[planet][mobName];
                         if (planetMob) {
                             planetMob.min_cl = Math.min(planetMob.min_cl, mission.min_cl);
+                            planetMob.minReward = Math.min(planetMob.minReward, mission.minReward);
                             planetMob.max_cl = Math.max(planetMob.max_cl, mission.max_cl);
+                            planetMob.maxReward = Math.max(planetMob.maxReward, mission.maxReward);
+                            if (!planetMob.missions) {
+                                planetMob.missions = [];
+                            }
+                            planetMob.missions.push(mission);
                         } else {
                             planetMob = { ...mobData[mobName] };
                             planetMob.min_cl = mission.min_cl;
                             planetMob.max_cl = mission.max_cl;
+                            planetMob.minReward = mission.minReward;
+                            planetMob.maxReward = mission.maxReward;
                             planetData[planet][mobName] = planetMob;
                         }
 
@@ -536,7 +552,7 @@
                             if (!planetMob.regions) {
                                 planetMob.regions = [];
                             }
-                            if (!planetMob.regions.find(r => r.name === region.name)) {
+                            if (!planetMob.regions.find(r => r.id === region.id)) {
                                 planetMob.regions.push(region);
                             }
                         } else {
@@ -582,20 +598,16 @@
                 const row = tbody.insertRow();
                 // Name
                 const name = row.insertCell();
-                if (mob.type === 'MOB_DROID' || mob.type === 'MOB_ANDROID') {
-                    mob.humanName = mob.name.split('_').map(s => s.toUpperCase()).join('-');
-                } else {
-                    mob.humanName = mob.name.split('_').map(s => capitalize(s)).join(' ');
-                }
+                mob.displayName = mob.name.replace('a ', '').replace('an ', '').split(' ').map(s => capitalize(s)).join(' ');
                 name.classList.add('left');
-                name.appendChild(document.createTextNode(mob.humanName));
+                name.appendChild(document.createTextNode(mob.displayName));
                 if (mob.regions || mob.staticSpawns) {
                     const spawns = document.createElement('span');
-                    spawns.classList.add('spawns');
+                    spawns.classList.add('spawns', 'clickable');
                     if (mob.staticSpawns) {
                         spawns.classList.add('static-spawns');
                     }
-                    spawns.dataset.mob = mob.name;
+                    spawns.dataset.mob = mob.id;
                     spawns.dataset.planet = planet;
                     spawns.appendChild(document.createTextNode('Map'));
                     name.appendChild(spawns);
@@ -604,10 +616,9 @@
                 const cl = row.insertCell();
                 if (mob.min_cl) {
                     cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
-                    cl.title = 'Reward: ' + mob.min_cl * missionRewardFactor + '-' +
-                                            (mob.max_cl * missionRewardFactor + mob.max_cl * missionRandomRewardFactor) +
-                            ' (IJM: ' + Math.round(mob.min_cl * missionRewardFactor * 1.15) + '-' +
-                                        Math.round((mob.max_cl * missionRewardFactor + mob.max_cl * missionRandomRewardFactor) * 1.15) + ')';
+                    cl.title = 'Reward: ' + mob.minReward + '-' + mob.maxReward +
+                            ' (IJM: ' + Math.round(mob.minReward * ijmFactor) + '-' + Math.round(mob.maxReward * ijmFactor) + ')';
+                    cl.classList.add('missions');
                 } else {
                     cl.classList.add('no-missions');
                     cl.appendChild(document.createTextNode('' + mob.level));
@@ -702,10 +713,10 @@
         let f;
         if (sort === 'name') {
             f = (a, b) => {
-                if (a.name.toUpperCase() > b.name.toUpperCase()) {
+                if (a.displayName.toUpperCase() > b.displayName.toUpperCase()) {
                     return sortDir;
                 }
-                if (a.name.toUpperCase() < b.name.toUpperCase()) {
+                if (a.displayName.toUpperCase() < b.displayName.toUpperCase()) {
                     return -sortDir;
                 }
                 return 0;
@@ -783,9 +794,9 @@
 
     function drawMap(element) {
         const mob = planetData[element.dataset.planet][element.dataset.mob];
-        const bg = document.getElementById('map');
+        const bg = document.getElementById('overlay');
         bg.classList.add('open');
-        const map = bg.querySelector('.image');
+        const map = document.querySelector('#map .image');
         map.className = 'image map-' + element.dataset.planet;
         map.innerHTML = '';
         const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
@@ -793,7 +804,7 @@
 
         if (mob.regions) {
             mob.regions.forEach(region => {
-                if (region.name.includes('world_spawner')) {
+                if (region.id.includes('world_spawner')) {
                     const worldSpawn = document.createElement('div');
                     worldSpawn.classList.add('world-spawn');
                     worldSpawn.appendChild(document.createTextNode('(Can also spawn globally)'));
@@ -848,7 +859,10 @@
     }
 
     function capitalize(string) {
-        return string[0].toUpperCase() + string.slice(1)
+        if (!string) {
+            return '';
+        }
+        return string[0].toUpperCase() + string.slice(1);
     }
 
     function svgNode(node, props) {
@@ -878,7 +892,7 @@
         }
     });
 
-    document.getElementById('map').addEventListener('click', function (e) {
+    document.getElementById('overlay').addEventListener('click', function (e) {
         if (e.target === this) {
             this.classList.remove('open');
         }
@@ -917,7 +931,7 @@
         filterDebounce = setTimeout(redraw, 100);
     });
 
-    document.getElementById('map').addEventListener('mousemove', function (e) {
+    document.getElementById('overlay').addEventListener('mousemove', function (e) {
         const svg = this.querySelector('svg');
         const domPoint = new DOMPointReadOnly(e.clientX, e.clientY);
         const pt = domPoint.matrixTransform(svg.getScreenCTM().inverse());
