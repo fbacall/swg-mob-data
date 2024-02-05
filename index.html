@@ -598,7 +598,7 @@
                 const row = tbody.insertRow();
                 // Name
                 const name = row.insertCell();
-                mob.displayName = mob.name.replace('a ', '').replace('an ', '').split(' ').map(s => capitalize(s)).join(' ');
+                mob.displayName = mob.name.replace(/^an? /, '').split(' ').map(s => capitalize(s)).join(' ');
                 name.classList.add('left');
                 name.appendChild(document.createTextNode(mob.displayName));
                 if (mob.regions || mob.staticSpawns) {
