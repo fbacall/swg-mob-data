@@ -19,21 +19,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "acun_solari": {
-    "id": "acun_solari",
-    "name": "Acun Solari",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-      "brawlernovice",
-      "marksmannovice"
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "afarathu_brute": {
     "id": "afarathu_brute",
     "name": "an Afarathu brute",
@@ -424,36 +409,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "corellia_times_investigator": {
-    "id": "corellia_times_investigator",
-    "name": "a Corellia Times investigator",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-      "brawlernovice",
-      "marksmannovice"
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "corellia_times_reporter": {
-    "id": "corellia_times_reporter",
-    "name": "a Corellia Times reporter",
-    "type": "MOB_NPC",
-    "level": 7,
-    "attacks": [
-      "brawlernovice",
-      "marksmannovice"
-    ],
-    "ham": 300,
-    "xp": 187,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "corellian_butterfly": {
     "id": "corellian_butterfly",
     "name": "corellian butterfly",
@@ -790,20 +745,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "crafting_contractor": {
-    "id": "crafting_contractor",
-    "name": "a contractor",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "crazed_durni": {
     "id": "crazed_durni",
     "name": "a crazed durni",
@@ -844,20 +785,6 @@
     "armor": 0,
     "kinetic_resist": 35,
     "energy_resist": 35
-  },
-  "dac_axfow": {
-    "id": "dac_axfow",
-    "name": "Colonel Dac Axfow (an Imperial officer)",
-    "type": "MOB_NPC",
-    "level": 23,
-    "attacks": [
-
-    ],
-    "ham": 5550,
-    "xp": 2006,
-    "armor": 0,
-    "kinetic_resist": 30,
-    "energy_resist": 30
   },
   "dalyrake": {
     "id": "dalyrake",
@@ -1327,20 +1254,6 @@
     "kinetic_resist": 0,
     "energy_resist": 15
   },
-  "eryk_chinn": {
-    "id": "eryk_chinn",
-    "name": "Sgt. Eryk Chinn (an Imperial bodyguard)",
-    "type": "MOB_NPC",
-    "level": 23,
-    "attacks": [
-
-    ],
-    "ham": 5550,
-    "xp": 2006,
-    "armor": 0,
-    "kinetic_resist": 30,
-    "energy_resist": 30
-  },
   "eye_of_solitude": {
     "id": "eye_of_solitude",
     "name": "an eye of Solitude",
@@ -1741,20 +1654,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "gilad_pellaeon": {
-    "id": "gilad_pellaeon",
-    "name": "Captain Gilad Pellaeon",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "grand_wrix": {
     "id": "grand_wrix",
     "name": "a grand wrix",
@@ -2146,20 +2045,6 @@
     "kinetic_resist": 5,
     "energy_resist": 5
   },
-  "jom_irimore": {
-    "id": "jom_irimore",
-    "name": "Jom Irimore",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "krahbu": {
     "id": "krahbu",
     "name": "Krahbu",
@@ -2187,20 +2072,6 @@
     "level": 23,
     "attacks": [
       "brawlermaster"
-    ],
-    "ham": 5550,
-    "xp": 2006,
-    "armor": 0,
-    "kinetic_resist": 30,
-    "energy_resist": 30
-  },
-  "logro_elsin": {
-    "id": "logro_elsin",
-    "name": "Lt. Logro Elsin (an Imperial pilot)",
-    "type": "MOB_NPC",
-    "level": 23,
-    "attacks": [
-
     ],
     "ham": 5550,
     "xp": 2006,
@@ -2563,20 +2434,6 @@
     ],
     "ham": 150,
     "xp": 147,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "quest_crowd_pleaser_theater_manager": {
-    "id": "quest_crowd_pleaser_theater_manager",
-    "name": "a theater manager",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -3300,20 +3157,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "ta_667": {
-    "id": "ta_667",
-    "name": "TA-667",
-    "type": "MOB_ANDROID",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "tabage": {
     "id": "tabage",
     "name": "a tabage",
@@ -3548,20 +3391,6 @@
     "kinetic_resist": 10,
     "energy_resist": 10
   },
-  "willham_burke": {
-    "id": "willham_burke",
-    "name": "Admiral Willham Burke",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "wooded_paralope": {
     "id": "wooded_paralope",
     "name": "a wooded paralope",
@@ -3617,20 +3446,6 @@
     "kinetic_resist": 10,
     "energy_resist": 50
   },
-  "zo_ssa": {
-    "id": "zo_ssa",
-    "name": "Commander Zo'ssa",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "abandoned_rebel_private": {
     "id": "abandoned_rebel_private",
     "name": "an abandoned Rebel private",
@@ -3645,20 +3460,6 @@
     "armor": 0,
     "kinetic_resist": 30,
     "energy_resist": 30
-  },
-  "adwan_turoldine": {
-    "id": "adwan_turoldine",
-    "name": "Adwan Turoldine (CorSec Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "ancient_graul": {
     "id": "ancient_graul",
@@ -3699,20 +3500,6 @@
     ],
     "ham": 900,
     "xp": 292,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "bek_rabor": {
-    "id": "bek_rabor",
-    "name": "Colonel Bek Rabor (an Imperial officer)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -3915,20 +3702,6 @@
     "armor": 1,
     "kinetic_resist": 80,
     "energy_resist": 80
-  },
-  "fern_yarrow": {
-    "id": "fern_yarrow",
-    "name": "Fern Yarrow (an Imperial Pilot)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "fierce_piket_protector": {
     "id": "fierce_piket_protector",
@@ -4395,21 +4168,6 @@
     "kinetic_resist": 35,
     "energy_resist": 0
   },
-  "insurgent": {
-    "id": "insurgent",
-    "name": "Insurgent (Black Epsilon Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 17,
-    "attacks": [
-      "brawlermaster",
-      "marksmanmaster"
-    ],
-    "ham": 3900,
-    "xp": 1102,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "janta_clan_leader": {
     "id": "janta_clan_leader",
     "name": "a Janta clan leader",
@@ -4601,34 +4359,6 @@
     "armor": 2,
     "kinetic_resist": 25,
     "energy_resist": 45
-  },
-  "juntah_herm": {
-    "id": "juntah_herm",
-    "name": "Lt. Juntah Herm (an Imperial pilot)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "kess_yarrow": {
-    "id": "kess_yarrow",
-    "name": "Kess Yarrow (a Rebel pilot)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "kunga_clan_leader": {
     "id": "kunga_clan_leader",
@@ -5212,20 +4942,6 @@
     "kinetic_resist": 55,
     "energy_resist": 55
   },
-  "rane_yarrow": {
-    "id": "rane_yarrow",
-    "name": "Rane Yarrow (a freelance pilot)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "savage_quenker": {
     "id": "savage_quenker",
     "name": "a savage quenker",
@@ -5441,20 +5157,6 @@
     "kinetic_resist": 30,
     "energy_resist": 30
   },
-  "ussox": {
-    "id": "ussox",
-    "name": "Ussox",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "vexed_voritor_lizard": {
     "id": "vexed_voritor_lizard",
     "name": "a vexed voritor lizard",
@@ -5518,34 +5220,6 @@
     "armor": 0,
     "kinetic_resist": 10,
     "energy_resist": 10
-  },
-  "yras_shen_jen": {
-    "id": "yras_shen_jen",
-    "name": "Yras Shen-jen (a self-employed pilot)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ytzosh": {
-    "id": "ytzosh",
-    "name": "Ytzosh",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "alpha_bolma": {
     "id": "alpha_bolma",
@@ -6425,20 +6099,6 @@
     "kinetic_resist": 25,
     "energy_resist": 60
   },
-  "herald_dathomir_denbar": {
-    "id": "herald_dathomir_denbar",
-    "name": "Denbar",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "infant_brackaset": {
     "id": "infant_brackaset",
     "name": "an infant brackaset",
@@ -6515,20 +6175,6 @@
     ],
     "ham": 200,
     "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "jaleela_bindoo": {
-    "id": "jaleela_bindoo",
-    "name": "Jaleela Bindoo",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -10910,20 +10556,6 @@
     "kinetic_resist": 0,
     "energy_resist": 30
   },
-  "kilnstrider": {
-    "id": "kilnstrider",
-    "name": "Admiral Kilnstrider (Storm Squadron Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 178,
-    "attacks": [
-
-    ],
-    "ham": 200000,
-    "xp": 16794,
-    "armor": 2,
-    "kinetic_resist": 75,
-    "energy_resist": 75
-  },
   "king_merek_harvester": {
     "id": "king_merek_harvester",
     "name": "a king merek harvester",
@@ -12934,23 +12566,6 @@
     "kinetic_resist": 35,
     "energy_resist": 80
   },
-  "bapibac": {
-    "id": "bapibac",
-    "name": "Bapibac One-Oesp",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-      "riflemanmaster",
-      "pistoleermaster",
-      "carbineermaster",
-      "brawlermaster"
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "blood_razor_berzerker": {
     "id": "blood_razor_berzerker",
     "name": "a Blood Razor berzerker",
@@ -13289,20 +12904,6 @@
     "kinetic_resist": 75,
     "energy_resist": 75
   },
-  "ciwi_mosregri": {
-    "id": "ciwi_mosregri",
-    "name": "Ciwi Mo-sregri",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "crazed_gurk_destroyer": {
     "id": "crazed_gurk_destroyer",
     "name": "a crazed gurk destroyer",
@@ -13573,20 +13174,6 @@
     ],
     "ham": 750,
     "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "evathm": {
-    "id": "evathm",
-    "name": "Evathm Av'Tvo",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -13985,34 +13572,6 @@
     ],
     "ham": 150,
     "xp": 85,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "idhak_ipath": {
-    "id": "idhak_ipath",
-    "name": "Idhak Ipath",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ifoja_lico": {
-    "id": "ifoja_lico",
-    "name": "Ifoja Lico",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -14549,20 +14108,6 @@
     "kinetic_resist": 35,
     "energy_resist": 35
   },
-  "melo": {
-    "id": "melo",
-    "name": "Melo",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "mercenary_commander": {
     "id": "mercenary_commander",
     "name": "a mercenary commander",
@@ -14806,21 +14351,6 @@
     "kinetic_resist": 0,
     "energy_resist": 40
   },
-  "nym_kusak_guardian": {
-    "id": "nym_kusak_guardian",
-    "name": "Nym's kusak guardian",
-    "type": "MOB_CARNIVORE",
-    "level": 29,
-    "attacks": [
-      "dizzyattack",
-      "stunattack"
-    ],
-    "ham": 9100,
-    "xp": 2914,
-    "armor": 0,
-    "kinetic_resist": 35,
-    "energy_resist": 15
-  },
   "nym_patrol_elite": {
     "id": "nym_patrol_elite",
     "name": "Nym's elite patrol",
@@ -15037,20 +14567,6 @@
     "kinetic_resist": 35,
     "energy_resist": 35
   },
-  "rifea_eicik": {
-    "id": "rifea_eicik",
-    "name": "Rifea Eicik",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "riverside_sulfur_mynock": {
     "id": "riverside_sulfur_mynock",
     "name": "a riverside sulfur mynok",
@@ -15071,20 +14587,6 @@
     "armor": 1,
     "kinetic_resist": "Vul",
     "energy_resist": 35
-  },
-  "rorha_wahe": {
-    "id": "rorha_wahe",
-    "name": "Rorha Wahe",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "runty_pharple": {
     "id": "runty_pharple",
@@ -15405,20 +14907,6 @@
     "kinetic_resist": 30,
     "energy_resist": 30
   },
-  "vixur_webb": {
-    "id": "vixur_webb",
-    "name": "Vixur Webb (a musician)",
-    "type": "MOB_NPC",
-    "level": 6,
-    "attacks": [
-
-    ],
-    "ham": 200,
-    "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "weak_mercenary": {
     "id": "weak_mercenary",
     "name": "a weak mercenary",
@@ -15506,20 +14994,6 @@
     ],
     "ham": 450,
     "xp": 235,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ayn_eckener": {
-    "id": "ayn_eckener",
-    "name": "Ayn Eckener",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -15733,20 +15207,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "captain_tish": {
-    "id": "captain_tish",
-    "name": "Captain Tish",
-    "type": "MOB_NPC",
-    "level": 16,
-    "attacks": [
-
-    ],
-    "ham": 3200,
-    "xp": 1102,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "carnivorous_nuna": {
     "id": "carnivorous_nuna",
     "name": "a carnivorous nuna",
@@ -15781,20 +15241,6 @@
     ],
     "ham": 150,
     "xp": 85,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "crider_trant": {
-    "id": "crider_trant",
-    "name": "Crider Trant",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -15902,20 +15348,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "dr_dea_tore": {
-    "id": "dr_dea_tore",
-    "name": "Dr. Dea Tore",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "elder_gualama": {
     "id": "elder_gualama",
     "name": "an elder gualama",
@@ -15956,20 +15388,6 @@
     "armor": 0,
     "kinetic_resist": 25,
     "energy_resist": 25
-  },
-  "etheli_drenel": {
-    "id": "etheli_drenel",
-    "name": "Etheli Dre'nel",
-    "type": "MOB_NPC",
-    "level": 8,
-    "attacks": [
-
-    ],
-    "ham": 450,
-    "xp": 235,
-    "armor": 0,
-    "kinetic_resist": 5,
-    "energy_resist": 5
   },
   "exiled_gungan": {
     "id": "exiled_gungan",
@@ -16212,20 +15630,6 @@
     "kinetic_resist": 25,
     "energy_resist": 45
   },
-  "gerrio_coronis": {
-    "id": "gerrio_coronis",
-    "name": "Gerrio Coronis",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "giant_cave_veermok": {
     "id": "giant_cave_veermok",
     "name": "a giant cave veermok",
@@ -16360,62 +15764,6 @@
     ],
     "ham": 125,
     "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "gorr_ebelt": {
-    "id": "gorr_ebelt",
-    "name": "Gorr Ebelt",
-    "type": "MOB_NPC",
-    "level": 21,
-    "attacks": [
-
-    ],
-    "ham": 4550,
-    "xp": 1609,
-    "armor": 0,
-    "kinetic_resist": 30,
-    "energy_resist": 30
-  },
-  "governor": {
-    "id": "governor",
-    "name": "a governor",
-    "type": "MOB_NPC",
-    "level": 9,
-    "attacks": [
-
-    ],
-    "ham": 750,
-    "xp": 235,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "governor_ian_lago": {
-    "id": "governor_ian_lago",
-    "name": "Governor Ian Lago",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "graf_zapalo": {
-    "id": "graf_zapalo",
-    "name": "Graf Zapalo",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -17029,62 +16377,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "isshala_daprovan": {
-    "id": "isshala_daprovan",
-    "name": "Isshala Daprovan",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "j1_po": {
-    "id": "j1_po",
-    "name": "J1-P0 (a protocol droid)",
-    "type": "MOB_DROID",
-    "level": 30,
-    "attacks": [
-
-    ],
-    "ham": 9300,
-    "xp": 2914,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 45
-  },
-  "junelle_astor": {
-    "id": "junelle_astor",
-    "name": "Junelle Astor",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 125,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "jyr_koble": {
-    "id": "jyr_koble",
-    "name": "Jyr Koble",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "kaadu": {
     "id": "kaadu",
     "name": "Kaadu",
@@ -17149,20 +16441,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "kadil_nurugen": {
-    "id": "kadil_nurugen",
-    "name": "Kadil Nurugen",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "king_venom_nightspider": {
     "id": "king_venom_nightspider",
     "name": "a king venom nightspider",
@@ -17215,90 +16493,6 @@
     ],
     "ham": 150,
     "xp": 85,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "lassin_dedge": {
-    "id": "lassin_dedge",
-    "name": "Lassin Dedge",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "liane": {
-    "id": "liane",
-    "name": "Liane",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "lord_throme_gormengal": {
-    "id": "lord_throme_gormengal",
-    "name": "Lord Throme Gormengal",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "lt_oron_wintree": {
-    "id": "lt_oron_wintree",
-    "name": "Lt. Oron Wintree",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "lt_porro_dolphe": {
-    "id": "lt_porro_dolphe",
-    "name": "Lt. Porro Dolphe",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "mal_sinkander": {
-    "id": "mal_sinkander",
-    "name": "Mal Sinkander",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -17481,20 +16675,6 @@
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 10
-  },
-  "mayor": {
-    "id": "mayor",
-    "name": "a mayor",
-    "type": "MOB_NPC",
-    "level": 7,
-    "attacks": [
-
-    ],
-    "ham": 300,
-    "xp": 147,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "miner": {
     "id": "miner",
@@ -18186,20 +17366,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "official": {
-    "id": "official",
-    "name": "an official",
-    "type": "MOB_NPC",
-    "level": 4,
-    "attacks": [
-
-    ],
-    "ham": 125,
-    "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 15,
-    "energy_resist": 15
-  },
   "official_patrol": {
     "id": "official_patrol",
     "name": "an official",
@@ -18467,34 +17633,6 @@
     "kinetic_resist": 25,
     "energy_resist": 0
   },
-  "queen_kylantha_gazebo": {
-    "id": "queen_kylantha_gazebo",
-    "name": "Queen Kylantha",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "queen_kylantha_throne": {
-    "id": "queen_kylantha_throne",
-    "name": "Queen Kylantha",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "rabid_shaupaut": {
     "id": "rabid_shaupaut",
     "name": "a rabid shaupaut",
@@ -18512,34 +17650,6 @@
     ],
     "ham": 750,
     "xp": 292,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "rhys_dallows": {
-    "id": "rhys_dallows",
-    "name": "Rhys Dallows",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ric_olie": {
-    "id": "ric_olie",
-    "name": "Ric Olie",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -18699,20 +17809,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "sayama_edosun": {
-    "id": "sayama_edosun",
-    "name": "Sayama Edosun",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "sentry_hermit_spider": {
     "id": "sentry_hermit_spider",
     "name": "a sentry hermit spider",
@@ -18842,20 +17938,6 @@
     ],
     "ham": 1100,
     "xp": 430,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "solcar_dienbel": {
-    "id": "solcar_dienbel",
-    "name": "Solcar Dienbel",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -19026,20 +18108,6 @@
     "xp": 292,
     "armor": 0,
     "kinetic_resist": 10,
-    "energy_resist": 0
-  },
-  "surlin_rolei": {
-    "id": "surlin_rolei",
-    "name": "Surlin Rolei",
-    "type": "MOB_NPC",
-    "level": 16,
-    "attacks": [
-
-    ],
-    "ham": 3200,
-    "xp": 1102,
-    "armor": 0,
-    "kinetic_resist": 0,
     "energy_resist": 0
   },
   "swamp_rat": {
@@ -19385,48 +18453,6 @@
     "armor": 0,
     "kinetic_resist": 10,
     "energy_resist": 10
-  },
-  "vrir_unglan": {
-    "id": "vrir_unglan",
-    "name": "Vrir Unglan",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ysnide_omewror": {
-    "id": "ysnide_omewror",
-    "name": "Ysnide Omewror",
-    "type": "MOB_NPC",
-    "level": 8,
-    "attacks": [
-
-    ],
-    "ham": 450,
-    "xp": 235,
-    "armor": 0,
-    "kinetic_resist": 5,
-    "energy_resist": 5
-  },
-  "zogor_storm": {
-    "id": "zogor_storm",
-    "name": "Zogor Sturm",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "adolescent_pygmy_torton": {
     "id": "adolescent_pygmy_torton",
@@ -22328,21 +21354,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "ceth_laike": {
-    "id": "ceth_laike",
-    "name": "Ceth Laike",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-      "brawlernovice",
-      "marksmannovice"
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "chunker_braggart": {
     "id": "chunker_braggart",
     "name": "a Chunker braggart",
@@ -24392,20 +23403,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "anim_kahn": {
-    "id": "anim_kahn",
-    "name": "Anim Kahn (a Valarian pilot)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "armodragon": {
     "id": "armodragon",
     "name": "an armodragon",
@@ -24427,34 +23424,6 @@
     "armor": 0,
     "kinetic_resist": 25,
     "energy_resist": 40
-  },
-  "arosp_eslykewa": {
-    "id": "arosp_eslykewa",
-    "name": "Arosp Eslykewa",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "awwaschlu_witubrarq": {
-    "id": "awwaschlu_witubrarq",
-    "name": "Awwaschlu Witubrarq",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "bantha": {
     "id": "bantha",
@@ -24520,48 +23489,6 @@
     "kinetic_resist": 35,
     "energy_resist": 10
   },
-  "beissa": {
-    "id": "beissa",
-    "name": "Beissa (Jabba's Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "binna_jode": {
-    "id": "binna_jode",
-    "name": "Binna Jode",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "bith_musician": {
-    "id": "bith_musician",
-    "name": "a Bith Musician",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "blight_boar": {
     "id": "blight_boar",
     "name": "a blight boar",
@@ -24581,20 +23508,6 @@
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
-  },
-  "boba_fett": {
-    "id": "boba_fett",
-    "name": "Boba Fett",
-    "type": "MOB_NPC",
-    "level": 99,
-    "attacks": [
-
-    ],
-    "ham": 26500,
-    "xp": 9336,
-    "armor": 2,
-    "kinetic_resist": 45,
-    "energy_resist": 45
   },
   "bocatt": {
     "id": "bocatt",
@@ -24618,20 +23531,6 @@
     "kinetic_resist": 10,
     "energy_resist": 10
   },
-  "bomarr_monk": {
-    "id": "bomarr_monk",
-    "name": "a Bomarr monk",
-    "type": "MOB_DROID",
-    "level": 3,
-    "attacks": [
-
-    ],
-    "ham": 100,
-    "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "bonecracker_bantha": {
     "id": "bonecracker_bantha",
     "name": "a bonecracker bantha",
@@ -24652,62 +23551,6 @@
     "armor": 0,
     "kinetic_resist": 10,
     "energy_resist": 25
-  },
-  "borra_setas": {
-    "id": "borra_setas",
-    "name": "Borra Setas",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "boshek": {
-    "id": "boshek",
-    "name": "Boshek",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "bounty_hunter": {
-    "id": "bounty_hunter",
-    "name": "a bounty hunter",
-    "type": "MOB_NPC",
-    "level": 99,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9243,
-    "armor": 0,
-    "kinetic_resist": 20,
-    "energy_resist": 20
-  },
-  "brea_tonnika": {
-    "id": "brea_tonnika",
-    "name": "Brea Tonnika",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "bull_bantha": {
     "id": "bull_bantha",
@@ -24806,20 +23649,6 @@
     "kinetic_resist": 60,
     "energy_resist": 60
   },
-  "capt_loftus": {
-    "id": "capt_loftus",
-    "name": "Captain Hantor Loftus",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 750,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "cave_beetle": {
     "id": "cave_beetle",
     "name": "a cave beetle",
@@ -24840,20 +23669,6 @@
     "kinetic_resist": 5,
     "energy_resist": 5
   },
-  "coris_mao": {
-    "id": "coris_mao",
-    "name": "Coris Mao",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "crimelord": {
     "id": "crimelord",
     "name": "a crimelord",
@@ -24865,20 +23680,6 @@
     ],
     "ham": 3900,
     "xp": 1102,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "crix_yarrow": {
-    "id": "crix_yarrow",
-    "name": "Crix Yarrow",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -24901,20 +23702,6 @@
       "ranged"
     ],
     "ham": 1100,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "da_la_socuna": {
-    "id": "da_la_socuna",
-    "name": "Commander Da'la Socuna (Rebel Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
     "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
@@ -24948,20 +23735,6 @@
       "stunattack"
     ],
     "ham": 300,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "dede_chesmi": {
-    "id": "dede_chesmi",
-    "name": "Dede Chesmi",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
     "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
@@ -25296,20 +24069,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "doikk_nats": {
-    "id": "doikk_nats",
-    "name": "Doikk Na'ts",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "domestic_eopie": {
     "id": "domestic_eopie",
     "name": "a domestic eopie",
@@ -25328,34 +24087,6 @@
     ],
     "ham": 125,
     "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "dooho": {
-    "id": "dooho",
-    "name": "Dooho",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "dorn_gestros": {
-    "id": "dorn_gestros",
-    "name": "Dorn Gestros",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -25397,20 +24128,6 @@
     ],
     "ham": 150,
     "xp": 147,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "droopy_mccool": {
-    "id": "droopy_mccool",
-    "name": "Droopy McCool",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -25630,62 +24347,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "ecik": {
-    "id": "ecik",
-    "name": "Ecik",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ecoospoo": {
-    "id": "ecoospoo",
-    "name": "Ecoospoo",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "egach_iromn": {
-    "id": "egach_iromn",
-    "name": "Egach Iromn",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "eight_lom": {
-    "id": "eight_lom",
-    "name": "4-LOM",
-    "type": "MOB_NPC",
-    "level": 21,
-    "attacks": [
-
-    ],
-    "ham": 5550,
-    "xp": 1609,
-    "armor": 2,
-    "kinetic_resist": 5,
-    "energy_resist": 5
-  },
   "eopie": {
     "id": "eopie",
     "name": "Eopie",
@@ -25724,20 +24385,6 @@
     ],
     "ham": 900,
     "xp": 292,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ev_9d9": {
-    "id": "ev_9d9",
-    "name": "EV-9D9",
-    "type": "MOB_DROID",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -25787,20 +24434,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "fawn_moonraiser": {
-    "id": "fawn_moonraiser",
-    "name": "Fawn Moonraiser",
-    "type": "MOB_NPC",
-    "level": 99,
-    "attacks": [
-
-    ],
-    "ham": 26500,
-    "xp": 9243,
-    "armor": 0,
-    "kinetic_resist": 40,
-    "energy_resist": 40
-  },
   "female_mountain_squill": {
     "id": "female_mountain_squill",
     "name": "a female mountain squill",
@@ -25842,34 +24475,6 @@
     "kinetic_resist": 5,
     "energy_resist": 10
   },
-  "figrin_dan": {
-    "id": "figrin_dan",
-    "name": "Figrin D'an",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "freelance_pilot": {
-    "id": "freelance_pilot",
-    "name": "(Retired) Freelance Pilot",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "fugitive": {
     "id": "fugitive",
     "name": "a fugitive",
@@ -25905,35 +24510,6 @@
     "armor": 0,
     "kinetic_resist": 15,
     "energy_resist": 25
-  },
-  "gamorrean_guard": {
-    "id": "gamorrean_guard",
-    "name": "a Gamorrean guard",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-      "brawlernovice",
-      "marksmannovice"
-    ],
-    "ham": 900,
-    "xp": 430,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "gerak_vurtimis": {
-    "id": "gerak_vurtimis",
-    "name": "Gerak Vurtimis",
-    "type": "MOB_NPC",
-    "level": 21,
-    "attacks": [
-      "brawlermaster"
-    ],
-    "ham": 5550,
-    "xp": 1609,
-    "armor": 0,
-    "kinetic_resist": 15,
-    "energy_resist": 15
   },
   "gerrik_lond": {
     "id": "gerrik_lond",
@@ -26007,34 +24583,6 @@
     ],
     "ham": 1700,
     "xp": 514,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "giko": {
-    "id": "giko",
-    "name": "Giko",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "gold_two": {
-    "id": "gold_two",
-    "name": "Gold Two",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -26142,20 +24690,6 @@
     "kinetic_resist": 35,
     "energy_resist": 20
   },
-  "gunham": {
-    "id": "gunham",
-    "name": "Commander Gunham (Imperial Pilot Coordinator)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "gunrunner": {
     "id": "gunrunner",
     "name": "a gunrunner",
@@ -26214,20 +24748,6 @@
     ],
     "ham": 125,
     "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ithorian_musician": {
-    "id": "ithorian_musician",
-    "name": "Mellaw Doowan",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -26304,21 +24824,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "jabba_rancor": {
-    "id": "jabba_rancor",
-    "name": "a rancor",
-    "type": "MOB_CARNIVORE",
-    "level": 61,
-    "attacks": [
-      "stunattack",
-      "intimidationattack"
-    ],
-    "ham": 12000,
-    "xp": 5921,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "jabba_scout": {
     "id": "jabba_scout",
     "name": "Jabba's scout",
@@ -26357,20 +24862,6 @@
     ],
     "ham": 450,
     "xp": 235,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "jabba_the_hutt": {
-    "id": "jabba_the_hutt",
-    "name": "Jabba the Hutt",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -26711,23 +25202,6 @@
     "kinetic_resist": 5,
     "energy_resist": 5
   },
-  "kwin_moonraiser": {
-    "id": "kwin_moonraiser",
-    "name": "Kwin Moonraiser",
-    "type": "MOB_NPC",
-    "level": 99,
-    "attacks": [
-      "brawlermaster",
-      "riflemanmaster",
-      "carbineermaster",
-      "pistoleermaster"
-    ],
-    "ham": 26500,
-    "xp": 9243,
-    "armor": 0,
-    "kinetic_resist": 40,
-    "energy_resist": 40
-  },
   "large_cave_beetle": {
     "id": "large_cave_beetle",
     "name": "a large cave beetle",
@@ -26783,20 +25257,6 @@
     "armor": 0,
     "kinetic_resist": 35,
     "energy_resist": 30
-  },
-  "le_repair_droid": {
-    "id": "le_repair_droid",
-    "name": "an LE repair droid",
-    "type": "MOB_DROID",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "lesser_bocatt": {
     "id": "lesser_bocatt",
@@ -26859,48 +25319,6 @@
     "kinetic_resist": 15,
     "energy_resist": 0
   },
-  "liar_one": {
-    "id": "liar_one",
-    "name": "Liar One",
-    "type": "MOB_NPC",
-    "level": 4,
-    "attacks": [
-
-    ],
-    "ham": 125,
-    "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "liar_two": {
-    "id": "liar_two",
-    "name": "Liar Two",
-    "type": "MOB_NPC",
-    "level": 4,
-    "attacks": [
-
-    ],
-    "ham": 125,
-    "xp": 62,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "malakili": {
-    "id": "malakili",
-    "name": "Malakili",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "malignant_squill": {
     "id": "malignant_squill",
     "name": "a malignant squill",
@@ -26921,62 +25339,6 @@
     "armor": 1,
     "kinetic_resist": 5,
     "energy_resist": 5
-  },
-  "marco_vahn": {
-    "id": "marco_vahn",
-    "name": "Marco Vahn (a booking agent)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "max_rebo": {
-    "id": "max_rebo",
-    "name": "Max Rebo",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "mebi_axane": {
-    "id": "mebi_axane",
-    "name": "Mebi Axane",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "mikos_denari": {
-    "id": "mikos_denari",
-    "name": "Mikos Denari",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "minor_worrt": {
     "id": "minor_worrt",
@@ -27381,20 +25743,6 @@
     "kinetic_resist": 10,
     "energy_resist": 15
   },
-  "nalan_cheel": {
-    "id": "nalan_cheel",
-    "name": "Nalan Cheel",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "nomad": {
     "id": "nomad",
     "name": "a nomad",
@@ -27406,34 +25754,6 @@
     ],
     "ham": 149,
     "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "oola": {
-    "id": "oola",
-    "name": "",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "osweri_hepa": {
-    "id": "osweri_hepa",
-    "name": "Osweri Hepa",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -27452,21 +25772,6 @@
     ],
     "ham": 1700,
     "xp": 609,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ovo": {
-    "id": "ovo",
-    "name": "Ovo",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-      "marksmannovice",
-      "brawlernovice"
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -27507,78 +25812,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "poki_wirqi": {
-    "id": "poki_wirqi",
-    "name": "Poki Wirqi",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "prost_roberts": {
-    "id": "prost_roberts",
-    "name": "Prost Roberts (an untrained pilot)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "protocol_droid_3po_red": {
-    "id": "protocol_droid_3po_red",
-    "name": "a 3PO protocol droid",
-    "type": "MOB_DROID",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "ra7_bug_droid": {
-    "id": "ra7_bug_droid",
-    "name": "an RA-7 Bug droid",
-    "type": "MOB_DROID",
-    "level": 20,
-    "attacks": [
-
-    ],
-    "ham": 5550,
-    "xp": 1426,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "rale_moonraiser": {
-    "id": "rale_moonraiser",
-    "name": "Rale Moonraiser",
-    "type": "MOB_NPC",
-    "level": 99,
-    "attacks": [
-      "riflemanmaster",
-      "pistoleermaster",
-      "carbineermaster"
-    ],
-    "ham": 26500,
-    "xp": 9243,
-    "armor": 0,
-    "kinetic_resist": 40,
-    "energy_resist": 40
-  },
   "razorback_felspur": {
     "id": "razorback_felspur",
     "name": "a razorback felspur",
@@ -27598,20 +25831,6 @@
     "armor": 0,
     "kinetic_resist": 15,
     "energy_resist": 15
-  },
-  "rel_keteris": {
-    "id": "rel_keteris",
-    "name": "Rel Keteris (a Hutt pilot)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "rill": {
     "id": "rill",
@@ -27775,20 +25994,6 @@
     "kinetic_resist": 10,
     "energy_resist": 5
   },
-  "salacious_crumb": {
-    "id": "salacious_crumb",
-    "name": "Salacious Crumb",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "sand_beetle": {
     "id": "sand_beetle",
     "name": "a sand beetle",
@@ -27826,20 +26031,6 @@
     "armor": 0,
     "kinetic_resist": 10,
     "energy_resist": 10
-  },
-  "sango_rond": {
-    "id": "sango_rond",
-    "name": "Sango Rond",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "scyk": {
     "id": "scyk",
@@ -27951,20 +26142,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "senni_tonnika": {
-    "id": "senni_tonnika",
-    "name": "Senni Tonnika",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "settler_thug": {
     "id": "settler_thug",
     "name": "a settler",
@@ -28015,20 +26192,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "shamdon_kree": {
-    "id": "shamdon_kree",
-    "name": "Shamdon Kree (Valarian's Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "slaver": {
     "id": "slaver",
     "name": "a slaver",
@@ -28060,48 +26223,6 @@
     ],
     "ham": 200,
     "xp": 113,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "smuggler_pilot": {
-    "id": "smuggler_pilot",
-    "name": "Smuggler Pilot",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "sol_windtide": {
-    "id": "sol_windtide",
-    "name": "Sol Windtide",
-    "type": "MOB_NPC",
-    "level": 21,
-    "attacks": [
-
-    ],
-    "ham": 5550,
-    "xp": 1609,
-    "armor": 0,
-    "kinetic_resist": 20,
-    "energy_resist": 20
-  },
-  "space_rebel_tier3_beissa": {
-    "id": "space_rebel_tier3_beissa",
-    "name": "Beissa (Jabba's Pilot Trainer)",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -28155,20 +26276,6 @@
     "armor": 0,
     "kinetic_resist": 10,
     "energy_resist": 10
-  },
-  "stanic_wavingstar": {
-    "id": "stanic_wavingstar",
-    "name": "Stanic Wavingstar",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "stormtrooper_dewback": {
     "id": "stormtrooper_dewback",
@@ -28247,34 +26354,6 @@
     "kinetic_resist": 0,
     "energy_resist": 0
   },
-  "sy_snootles": {
-    "id": "sy_snootles",
-    "name": "Sy Snootles",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "talon_karrde": {
-    "id": "talon_karrde",
-    "name": "Talon Karrde",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "tatooine_militiaman": {
     "id": "tatooine_militiaman",
     "name": "a Tatooine militiaman",
@@ -28306,34 +26385,6 @@
     ],
     "ham": 100,
     "xp": 45,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "tech_mor": {
-    "id": "tech_mor",
-    "name": "Tech Mo'r",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "tedn_dahai": {
-    "id": "tedn_dahai",
-    "name": "Tedn Dahai",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -28373,20 +26424,6 @@
     "kinetic_resist": 20,
     "energy_resist": 20
   },
-  "thivauwrai_aphereef": {
-    "id": "thivauwrai_aphereef",
-    "name": "Thivauwrai Aphereef",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "tormented_bocatt": {
     "id": "tormented_bocatt",
     "name": "a tormented bocatt",
@@ -28408,20 +26445,6 @@
     "armor": 0,
     "kinetic_resist": 20,
     "energy_resist": 20
-  },
-  "trace_lyson": {
-    "id": "trace_lyson",
-    "name": "Trace Lyson",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
   },
   "trandosian_slavemaster": {
     "id": "trandosian_slavemaster",
@@ -28984,20 +27007,6 @@
     "kinetic_resist": 5,
     "energy_resist": 5
   },
-  "ty_vila": {
-    "id": "ty_vila",
-    "name": "Ty'Vila (Former Pilots' Guild Director)",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "valarian_assassin": {
     "id": "valarian_assassin",
     "name": "Valarian's assassin",
@@ -29334,20 +27343,6 @@
     "kinetic_resist": 10,
     "energy_resist": 40
   },
-  "windom_starkiller": {
-    "id": "windom_starkiller",
-    "name": "Windom Starkiller",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
   "womp_rat": {
     "id": "womp_rat",
     "name": "WompRat",
@@ -29427,20 +27422,6 @@
     ],
     "ham": 3200,
     "xp": 960,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "wuher": {
-    "id": "wuher",
-    "name": "Wuher",
-    "type": "MOB_NPC",
-    "level": 10,
-    "attacks": [
-
-    ],
-    "ham": 900,
-    "xp": 356,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0
@@ -29750,20 +27731,6 @@
     ],
     "ham": 1100,
     "xp": 609,
-    "armor": 0,
-    "kinetic_resist": 0,
-    "energy_resist": 0
-  },
-  "drenn_zebber": {
-    "id": "drenn_zebber",
-    "name": "Drenn Zebber",
-    "type": "MOB_NPC",
-    "level": 100,
-    "attacks": [
-
-    ],
-    "ham": 27000,
-    "xp": 9429,
     "armor": 0,
     "kinetic_resist": 0,
     "energy_resist": 0

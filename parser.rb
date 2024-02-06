@@ -21,6 +21,7 @@ class Parser
       files.each do |file|
         next if file.end_with?('serverobjects.lua')
         mob = convert_mob(parse_mob_lua(file))
+        next if mob.nil?
         raise "Mob ID collision #{mob[:id]}" if mob_data[mob[:id]]
         mob_data[mob[:id]] = mob
         print '.'
@@ -376,6 +377,7 @@ class Parser
 
   def convert_mob(mob)
     begin
+      return nil unless mob[:pvpBitmask].to_ary.any? { |r| r.to_s == 'ATTACKABLE' }
       output = {}
       output[:id] = mob[:id]
       output[:name] = mob[:customName] || i18n.fetch(mob[:objectName].split(':').last)
