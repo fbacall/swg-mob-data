@@ -10,7 +10,15 @@ class Parser
 
   def i18n
     return @i18n if @i18n
-    @i18n = Hash[File.read(string_base).scan(/stringFiles\[\d+\]\.addEntry\("([^"]+)", "([^"]+)"\)\;/)]
+    strings = File.read(string_base)
+    @i18n = {}
+    prefixes = Hash[strings.scan(/stringFiles\[(\d+)\]\s*=\s*new\s*StringFile\("([^"]+)"\)/)]
+    strings.scan(/stringFiles\[(\d+)\]\.addEntry\("([^"]+)", "([^"]+)"\)\;/).each do |match|
+      prefix = prefixes[match[0]]
+      raise "Missing stringFile index: #{match[0]}" unless prefix
+      @i18n["@#{prefix}:#{match[1]}"] = match[2]
+    end
+    @i18n
   end
 
   def mob_data
@@ -380,7 +388,7 @@ class Parser
       return nil unless mob[:pvpBitmask].to_ary.any? { |r| r.to_s == 'ATTACKABLE' }
       output = {}
       output[:id] = mob[:id]
-      output[:name] = mob[:customName] || i18n.fetch(mob[:objectName].split(':').last)
+      output[:name] = mob[:customName] || i18n.fetch(mob[:objectName])
       output[:type] = mob[:mobType]
       output[:level] = mob[:level]
       output[:meat] = mob[:meatAmount] unless mob[:meatAmount] == 0
@@ -410,7 +418,7 @@ class Parser
     begin
       output = {}
       output[:id] = mission[:lairTemplateName]
-      output[:name] = i18n.fetch(mission[:lairTemplateName])
+      output[:name] = i18n.fetch("@#{lair_n}:#{mission[:lairTemplateName]}")
       output[:min_cl] = mission[:minDifficulty]
       output[:max_cl] = mission[:maxDifficulty]
       output[:size] = mission[:size]

@@ -152,7 +152,7 @@
   },
   "bageraset": {
     "id": "bageraset",
-    "name": "Bageraset",
+    "name": "a bageraset",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 230,
@@ -374,7 +374,7 @@
   },
   "carrion_spat": {
     "id": "carrion_spat",
-    "name": "Carrion Spat",
+    "name": "a carrion spat",
     "type": "MOB_CARNIVORE",
     "level": 10,
     "meat": 260,
@@ -411,7 +411,7 @@
   },
   "corellian_butterfly": {
     "id": "corellian_butterfly",
-    "name": "corellian butterfly",
+    "name": "a corellian butterfly",
     "type": "MOB_CARNIVORE",
     "level": 7,
     "meat": 3,
@@ -788,7 +788,7 @@
   },
   "dalyrake": {
     "id": "dalyrake",
-    "name": "Dalyrake",
+    "name": "a dalyrake",
     "type": "MOB_CARNIVORE",
     "level": 9,
     "meat": 25,
@@ -1176,7 +1176,7 @@
   },
   "durni": {
     "id": "durni",
-    "name": "Durni",
+    "name": "a durni",
     "type": "MOB_HERBIVORE",
     "level": 7,
     "meat": 5,
@@ -1798,7 +1798,7 @@
   },
   "gronda": {
     "id": "gronda",
-    "name": "Gronda",
+    "name": "a gronda",
     "type": "MOB_CARNIVORE",
     "level": 19,
     "meat": 360,
@@ -1859,7 +1859,7 @@
   },
   "gubbur": {
     "id": "gubbur",
-    "name": "Gubbur",
+    "name": "a gubbur",
     "type": "MOB_HERBIVORE",
     "level": 6,
     "meat": 4,
@@ -1879,7 +1879,7 @@
   },
   "gulginaw": {
     "id": "gulginaw",
-    "name": "Gulginaw",
+    "name": "a gulginaw",
     "type": "MOB_HERBIVORE",
     "level": 13,
     "meat": 75,
@@ -1897,7 +1897,7 @@
   },
   "gurrcat": {
     "id": "gurrcat",
-    "name": "Gurrcat",
+    "name": "a gurrcat",
     "type": "MOB_CARNIVORE",
     "level": 10,
     "meat": 65,
@@ -2047,7 +2047,7 @@
   },
   "krahbu": {
     "id": "krahbu",
-    "name": "Krahbu",
+    "name": "a krahbu",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 210,
@@ -2358,7 +2358,7 @@
   },
   "murra": {
     "id": "murra",
-    "name": "Murra",
+    "name": "a murra",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 55,
@@ -2422,7 +2422,7 @@
   },
   "plumed_rasp": {
     "id": "plumed_rasp",
-    "name": "plumed rasp",
+    "name": "a plumed rasp",
     "type": "MOB_HERBIVORE",
     "level": 7,
     "meat": 3,
@@ -2530,7 +2530,7 @@
   },
   "razor_cat": {
     "id": "razor_cat",
-    "name": "Razor Cat",
+    "name": "a razor cat",
     "type": "MOB_CARNIVORE",
     "level": 22,
     "meat": 65,
@@ -2942,7 +2942,7 @@
   },
   "sharnaff": {
     "id": "sharnaff",
-    "name": "Sharnaff",
+    "name": "a sharnaff",
     "type": "MOB_HERBIVORE",
     "level": 31,
     "meat": 450,
@@ -3007,7 +3007,7 @@
   },
   "slice_hound": {
     "id": "slice_hound",
-    "name": "Slice Hound",
+    "name": "a slice hound",
     "type": "MOB_CARNIVORE",
     "level": 9,
     "meat": 65,
@@ -3337,7 +3337,7 @@
   },
   "vynock": {
     "id": "vynock",
-    "name": "Vynock",
+    "name": "a vynock",
     "type": "MOB_CARNIVORE",
     "level": 9,
     "meat": 50,
@@ -3526,7 +3526,7 @@
   },
   "bol": {
     "id": "bol",
-    "name": "Bol",
+    "name": "a bol",
     "type": "MOB_HERBIVORE",
     "level": 29,
     "meat": 180,
@@ -3858,7 +3858,7 @@
   },
   "graul": {
     "id": "graul",
-    "name": "Graul",
+    "name": "a graul",
     "type": "MOB_CARNIVORE",
     "level": 30,
     "meat": 950,
@@ -3983,7 +3983,7 @@
   },
   "huurton": {
     "id": "huurton",
-    "name": "Huurton",
+    "name": "a huurton",
     "type": "MOB_CARNIVORE",
     "level": 18,
     "meat": 15,
@@ -4799,7 +4799,7 @@
   },
   "piket": {
     "id": "piket",
-    "name": "Piket",
+    "name": "a piket",
     "type": "MOB_HERBIVORE",
     "level": 30,
     "meat": 450,
@@ -4887,7 +4887,7 @@
   },
   "quenker": {
     "id": "quenker",
-    "name": "Quenker",
+    "name": "a quenker",
     "type": "MOB_CARNIVORE",
     "level": 23,
     "meat": 35,
@@ -5083,7 +5083,7 @@
   },
   "thune": {
     "id": "thune",
-    "name": "Thune",
+    "name": "a thune",
     "type": "MOB_HERBIVORE",
     "level": 26,
     "meat": 115,
@@ -5202,7 +5202,7 @@
   },
   "voritor_lizard": {
     "id": "voritor_lizard",
-    "name": "voritor lizard",
+    "name": "a voritor lizard",
     "type": "MOB_CARNIVORE",
     "level": 22,
     "meat": 35,
@@ -5323,7 +5323,7 @@
   },
   "baz_nitch": {
     "id": "baz_nitch",
-    "name": "baz nitch",
+    "name": "a baz nitch",
     "type": "MOB_HERBIVORE",
     "level": 22,
     "meat": 5,
@@ -5343,7 +5343,7 @@
   },
   "bolma": {
     "id": "bolma",
-    "name": "Bolma",
+    "name": "a bolma",
     "type": "MOB_HERBIVORE",
     "level": 19,
     "meat": 150,
@@ -5493,7 +5493,7 @@
   },
   "brackaset": {
     "id": "brackaset",
-    "name": "Brackaset",
+    "name": "a brackaset",
     "type": "MOB_HERBIVORE",
     "level": 26,
     "meat": 100,
@@ -5683,7 +5683,7 @@
   },
   "dathomir_prisoner": {
     "id": "dathomir_prisoner",
-    "name": "prisoner",
+    "name": "a prisoner",
     "type": "MOB_NPC",
     "level": 12,
     "attacks": [
@@ -5900,7 +5900,7 @@
   },
   "gaping_spider": {
     "id": "gaping_spider",
-    "name": "gaping spider",
+    "name": "a gaping spider",
     "type": "MOB_CARNIVORE",
     "level": 26,
     "meat": 8,
@@ -6261,7 +6261,7 @@
   },
   "kwi": {
     "id": "kwi",
-    "name": "Kwi",
+    "name": "a kwi",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 100,
@@ -6341,7 +6341,7 @@
   },
   "malkloc": {
     "id": "malkloc",
-    "name": "Malkloc",
+    "name": "a malkloc",
     "type": "MOB_HERBIVORE",
     "level": 22,
     "meat": 1000,
@@ -6786,7 +6786,7 @@
   },
   "purbole": {
     "id": "purbole",
-    "name": "Purbole",
+    "name": "a purbole",
     "type": "MOB_CARNIVORE",
     "level": 17,
     "meat": 12,
@@ -6909,7 +6909,7 @@
   },
   "rancor": {
     "id": "rancor",
-    "name": "Rancor",
+    "name": "a rancor",
     "type": "MOB_CARNIVORE",
     "level": 50,
     "meat": 950,
@@ -7175,7 +7175,7 @@
   },
   "shear_mite": {
     "id": "shear_mite",
-    "name": "Shear Mite",
+    "name": "a shear mite",
     "type": "MOB_CARNIVORE",
     "level": 16,
     "meat": 15,
@@ -7660,7 +7660,7 @@
   },
   "tough_dathomir_prisoner": {
     "id": "tough_dathomir_prisoner",
-    "name": "prisoner",
+    "name": "a prisoner",
     "type": "MOB_NPC",
     "level": 27,
     "attacks": [
@@ -7674,7 +7674,7 @@
   },
   "verne": {
     "id": "verne",
-    "name": "Verne",
+    "name": "a verne",
     "type": "MOB_HERBIVORE",
     "level": 17,
     "meat": 125,
@@ -8448,7 +8448,7 @@
   },
   "blurrg": {
     "id": "blurrg",
-    "name": "Blurrg",
+    "name": "a blurrg",
     "type": "MOB_CARNIVORE",
     "level": 50,
     "meat": 100,
@@ -8599,7 +8599,7 @@
   },
   "boar_wolf": {
     "id": "boar_wolf",
-    "name": "Boar Wolf",
+    "name": "a boar wolf",
     "type": "MOB_CARNIVORE",
     "level": 25,
     "meat": 65,
@@ -10137,7 +10137,7 @@
   },
   "gurreck": {
     "id": "gurreck",
-    "name": "Gurreck",
+    "name": "a gurreck",
     "type": "MOB_CARNIVORE",
     "level": 50,
     "meat": 75,
@@ -10718,7 +10718,7 @@
   },
   "lantern_bird": {
     "id": "lantern_bird",
-    "name": "lantern bird",
+    "name": "a lantern bird",
     "type": "MOB_HERBIVORE",
     "level": 21,
     "meat": 46,
@@ -10839,7 +10839,7 @@
   },
   "marauder": {
     "id": "marauder",
-    "name": "Marauder",
+    "name": "a Marauder",
     "type": "MOB_NPC",
     "level": 44,
     "attacks": [
@@ -11715,7 +11715,7 @@
   },
   "roba": {
     "id": "roba",
-    "name": "Roba",
+    "name": "a roba",
     "type": "MOB_HERBIVORE",
     "level": 26,
     "meat": 15,
@@ -12050,7 +12050,7 @@
   },
   "squall": {
     "id": "squall",
-    "name": "Squall",
+    "name": "a squall",
     "type": "MOB_HERBIVORE",
     "level": 6,
     "meat": 8,
@@ -12091,7 +12091,7 @@
   },
   "swirl_prong": {
     "id": "swirl_prong",
-    "name": "Swirl Prong",
+    "name": "a swirl prong",
     "type": "MOB_HERBIVORE",
     "level": 19,
     "meat": 125,
@@ -13032,7 +13032,7 @@
   },
   "droideka": {
     "id": "droideka",
-    "name": "Droideka",
+    "name": "a droideka",
     "type": "MOB_DROID",
     "level": 39,
     "attacks": [
@@ -13265,7 +13265,7 @@
   },
   "flit": {
     "id": "flit",
-    "name": "Flit",
+    "name": "a flit",
     "type": "MOB_CARNIVORE",
     "level": 8,
     "meat": 9,
@@ -13452,7 +13452,7 @@
   },
   "gurk": {
     "id": "gurk",
-    "name": "Gurk",
+    "name": "a gurk",
     "type": "MOB_HERBIVORE",
     "level": 30,
     "meat": 350,
@@ -13536,7 +13536,7 @@
   },
   "gurnaset": {
     "id": "gurnaset",
-    "name": "Gurnaset",
+    "name": "a gurnaset",
     "type": "MOB_HERBIVORE",
     "level": 15,
     "meat": 352,
@@ -13644,7 +13644,7 @@
   },
   "kimogila": {
     "id": "kimogila",
-    "name": "Kimogila",
+    "name": "a kimogila",
     "type": "MOB_CARNIVORE",
     "level": 95,
     "meat": 1000,
@@ -13702,7 +13702,7 @@
   },
   "kusak": {
     "id": "kusak",
-    "name": "Kusak",
+    "name": "a kusak",
     "type": "MOB_HERBIVORE",
     "level": 18,
     "meat": 20,
@@ -14464,7 +14464,7 @@
   },
   "perlek": {
     "id": "perlek",
-    "name": "Perlek",
+    "name": "a perlek",
     "type": "MOB_CARNIVORE",
     "level": 14,
     "meat": 250,
@@ -14528,7 +14528,7 @@
   },
   "pharple": {
     "id": "pharple",
-    "name": "Pharple",
+    "name": "a pharple",
     "type": "MOB_HERBIVORE",
     "level": 5,
     "meat": 18,
@@ -14610,7 +14610,7 @@
   },
   "salt_mynock": {
     "id": "salt_mynock",
-    "name": "salt mynock",
+    "name": "a salt mynock",
     "type": "MOB_CARNIVORE",
     "level": 23,
     "meat": 50,
@@ -14691,7 +14691,7 @@
   },
   "snorbal": {
     "id": "snorbal",
-    "name": "Snorbal",
+    "name": "a snorbal",
     "type": "MOB_HERBIVORE",
     "level": 30,
     "meat": 545,
@@ -14737,7 +14737,7 @@
   },
   "spined_snake": {
     "id": "spined_snake",
-    "name": "spined snake",
+    "name": "a spined snake",
     "type": "MOB_CARNIVORE",
     "level": 17,
     "meat": 11,
@@ -14850,7 +14850,7 @@
   },
   "vesp": {
     "id": "vesp",
-    "name": "Vesp",
+    "name": "a vesp",
     "type": "MOB_CARNIVORE",
     "level": 25,
     "meat": 10,
@@ -15020,7 +15020,7 @@
   },
   "bark_mite": {
     "id": "bark_mite",
-    "name": "bark mite",
+    "name": "a bark mite",
     "type": "MOB_CARNIVORE",
     "level": 10,
     "meat": 5,
@@ -15056,7 +15056,7 @@
   },
   "bolle_bol": {
     "id": "bolle_bol",
-    "name": "Bolle Bol",
+    "name": "a bolle bol",
     "type": "MOB_HERBIVORE",
     "level": 27,
     "meat": 450,
@@ -15169,7 +15169,7 @@
   },
   "capper_spineflap": {
     "id": "capper_spineflap",
-    "name": "spineflap capper",
+    "name": "a capper spineflap",
     "type": "MOB_CARNIVORE",
     "level": 6,
     "meat": 3,
@@ -15229,7 +15229,7 @@
   },
   "chuba": {
     "id": "chuba",
-    "name": "Chuba",
+    "name": "a chuba",
     "type": "MOB_HERBIVORE",
     "level": 5,
     "meat": 5,
@@ -15406,7 +15406,7 @@
   },
   "falumpaset": {
     "id": "falumpaset",
-    "name": "Falumpaset",
+    "name": "a falumpaset",
     "type": "MOB_HERBIVORE",
     "level": 19,
     "meat": 230,
@@ -15428,7 +15428,7 @@
   },
   "fambaa": {
     "id": "fambaa",
-    "name": "Fambaa",
+    "name": "a fambaa",
     "type": "MOB_HERBIVORE",
     "level": 34,
     "meat": 1000,
@@ -15451,7 +15451,7 @@
   },
   "fanned_rawl": {
     "id": "fanned_rawl",
-    "name": "fanned rawl",
+    "name": "a fanned rawl",
     "type": "MOB_CARNIVORE",
     "level": 10,
     "meat": 25,
@@ -15551,7 +15551,7 @@
   },
   "flewt": {
     "id": "flewt",
-    "name": "Flewt",
+    "name": "a flewt",
     "type": "MOB_CARNIVORE",
     "level": 7,
     "meat": 3,
@@ -15750,7 +15750,7 @@
   },
   "gnort": {
     "id": "gnort",
-    "name": "Gnort",
+    "name": "a gnort",
     "type": "MOB_HERBIVORE",
     "level": 4,
     "meat": 6,
@@ -15808,7 +15808,7 @@
   },
   "gualama": {
     "id": "gualama",
-    "name": "Gualama",
+    "name": "a gualama",
     "type": "MOB_HERBIVORE",
     "level": 13,
     "meat": 200,
@@ -16191,7 +16191,7 @@
   },
   "hermit_spider": {
     "id": "hermit_spider",
-    "name": "Hermit Spider",
+    "name": "a hermit spider",
     "type": "MOB_CARNIVORE",
     "level": 7,
     "meat": 60,
@@ -16242,7 +16242,7 @@
   },
   "horned_krevol": {
     "id": "horned_krevol",
-    "name": "horned krevol",
+    "name": "a horned krevol",
     "type": "MOB_HERBIVORE",
     "level": 6,
     "meat": 3,
@@ -16262,7 +16262,7 @@
   },
   "ikopi": {
     "id": "ikopi",
-    "name": "Ikopi",
+    "name": "an ikopi",
     "type": "MOB_HERBIVORE",
     "level": 7,
     "meat": 70,
@@ -16379,7 +16379,7 @@
   },
   "kaadu": {
     "id": "kaadu",
-    "name": "Kaadu",
+    "name": "a kaadu",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 120,
@@ -16678,7 +16678,7 @@
   },
   "miner": {
     "id": "miner",
-    "name": "Miner",
+    "name": "a miner",
     "type": "MOB_NPC",
     "level": 5,
     "attacks": [
@@ -16693,7 +16693,7 @@
   },
   "miner_patrol": {
     "id": "miner_patrol",
-    "name": "Miner",
+    "name": "a miner",
     "type": "MOB_NPC",
     "level": 5,
     "attacks": [
@@ -16743,7 +16743,7 @@
   },
   "mott": {
     "id": "mott",
-    "name": "Mott",
+    "name": "a mott",
     "type": "MOB_HERBIVORE",
     "level": 8,
     "meat": 85,
@@ -17177,7 +17177,7 @@
   },
   "narglatch": {
     "id": "narglatch",
-    "name": "Narglatch",
+    "name": "a narglatch",
     "type": "MOB_CARNIVORE",
     "level": 22,
     "meat": 75,
@@ -17348,7 +17348,7 @@
   },
   "nuna": {
     "id": "nuna",
-    "name": "Nuna",
+    "name": "a nuna",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 3,
@@ -17427,7 +17427,7 @@
   },
   "peko_peko": {
     "id": "peko_peko",
-    "name": "peko-peko",
+    "name": "a peko peko",
     "type": "MOB_CARNIVORE",
     "level": 14,
     "meat": 105,
@@ -17828,7 +17828,7 @@
   },
   "shaupaut": {
     "id": "shaupaut",
-    "name": "Shaupaut",
+    "name": "a shaupaut",
     "type": "MOB_CARNIVORE",
     "level": 7,
     "meat": 6,
@@ -18253,7 +18253,7 @@
   },
   "veermok": {
     "id": "veermok",
-    "name": "Veermok",
+    "name": "a veermok",
     "type": "MOB_CARNIVORE",
     "level": 13,
     "meat": 150,
@@ -18498,7 +18498,7 @@
   },
   "bearded_jax": {
     "id": "bearded_jax",
-    "name": "Bearded Jax",
+    "name": "a bearded jax",
     "type": "MOB_HERBIVORE",
     "level": 11,
     "meat": 15,
@@ -18587,7 +18587,7 @@
   },
   "borgle": {
     "id": "borgle",
-    "name": "Borgle",
+    "name": "a borgle",
     "type": "MOB_CARNIVORE",
     "level": 12,
     "meat": 5,
@@ -19473,7 +19473,7 @@
   },
   "horned_rasp": {
     "id": "horned_rasp",
-    "name": "horned rasp",
+    "name": "a horned rasp",
     "type": "MOB_HERBIVORE",
     "level": 6,
     "meat": 8,
@@ -20270,7 +20270,7 @@
   },
   "pugoriss": {
     "id": "pugoriss",
-    "name": "Pugoriss",
+    "name": "a pugoriss",
     "type": "MOB_HERBIVORE",
     "level": 14,
     "meat": 375,
@@ -20668,7 +20668,7 @@
   },
   "torton": {
     "id": "torton",
-    "name": "Torton",
+    "name": "a torton",
     "type": "MOB_HERBIVORE",
     "level": 24,
     "meat": 1000,
@@ -20792,7 +20792,7 @@
   },
   "vir_vur": {
     "id": "vir_vur",
-    "name": "Vir Vur",
+    "name": "a vir vur",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 10,
@@ -21895,7 +21895,7 @@
   },
   "flite_rasp": {
     "id": "flite_rasp",
-    "name": "flite rasp",
+    "name": "a flite rasp",
     "type": "MOB_HERBIVORE",
     "level": 8,
     "meat": 19,
@@ -21972,7 +21972,7 @@
   },
   "fynock": {
     "id": "fynock",
-    "name": "Fynock",
+    "name": "a fynock",
     "type": "MOB_CARNIVORE",
     "level": 12,
     "meat": 22,
@@ -22224,7 +22224,7 @@
   },
   "guf_drolg": {
     "id": "guf_drolg",
-    "name": "Guf Drolg",
+    "name": "a guf drolg",
     "type": "MOB_CARNIVORE",
     "level": 14,
     "meat": 350,
@@ -22300,7 +22300,7 @@
   },
   "huf_dun": {
     "id": "huf_dun",
-    "name": "Huf Dun",
+    "name": "a huf dun",
     "type": "MOB_HERBIVORE",
     "level": 21,
     "meat": 1000,
@@ -22362,7 +22362,7 @@
   },
   "kahmurra": {
     "id": "kahmurra",
-    "name": "Kahmurra",
+    "name": "a kahmurra",
     "type": "MOB_CARNIVORE",
     "level": 15,
     "meat": 45,
@@ -22384,7 +22384,7 @@
   },
   "kima": {
     "id": "kima",
-    "name": "Kima",
+    "name": "a kima",
     "type": "MOB_CARNIVORE",
     "level": 18,
     "meat": 7,
@@ -23427,7 +23427,7 @@
   },
   "bantha": {
     "id": "bantha",
-    "name": "Bantha",
+    "name": "a bantha",
     "type": "MOB_HERBIVORE",
     "level": 15,
     "meat": 450,
@@ -23449,7 +23449,7 @@
   },
   "bantha_e3": {
     "id": "bantha_e3",
-    "name": "Bantha",
+    "name": "a bantha",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 450,
@@ -23511,7 +23511,7 @@
   },
   "bocatt": {
     "id": "bocatt",
-    "name": "Bocatt",
+    "name": "a bocatt",
     "type": "MOB_CARNIVORE",
     "level": 22,
     "meat": 100,
@@ -23686,7 +23686,7 @@
   },
   "cu_pa": {
     "id": "cu_pa",
-    "name": "Cu Pa",
+    "name": "a cu pa",
     "type": "MOB_HERBIVORE",
     "level": 11,
     "meat": 215,
@@ -23924,7 +23924,7 @@
   },
   "dewback": {
     "id": "dewback",
-    "name": "Dewback",
+    "name": "a dewback",
     "type": "MOB_HERBIVORE",
     "level": 19,
     "meat": 350,
@@ -24174,7 +24174,7 @@
   },
   "dune_lizard": {
     "id": "dune_lizard",
-    "name": "Dune Lizard",
+    "name": "a dune lizard",
     "type": "MOB_CARNIVORE",
     "level": 18,
     "meat": 85,
@@ -24329,7 +24329,7 @@
   },
   "dwarf_nuna": {
     "id": "dwarf_nuna",
-    "name": "dwarf nuna",
+    "name": "a dwarf nuna",
     "type": "MOB_HERBIVORE",
     "level": 5,
     "meat": 2,
@@ -24349,7 +24349,7 @@
   },
   "eopie": {
     "id": "eopie",
-    "name": "Eopie",
+    "name": "an eopie",
     "type": "MOB_HERBIVORE",
     "level": 7,
     "meat": 315,
@@ -24707,7 +24707,7 @@
   },
   "hermit": {
     "id": "hermit",
-    "name": "She said give it to the wookiee.",
+    "name": "a hermit",
     "type": "MOB_NPC",
     "level": 4,
     "attacks": [
@@ -24896,7 +24896,7 @@
   },
   "jawa": {
     "id": "jawa",
-    "name": "Jawa",
+    "name": "a Jawa",
     "type": "MOB_NPC",
     "level": 6,
     "attacks": [
@@ -25873,7 +25873,7 @@
   },
   "rockmite": {
     "id": "rockmite",
-    "name": "RockMite",
+    "name": "a rockmite",
     "type": "MOB_CARNIVORE",
     "level": 8,
     "meat": 3,
@@ -25973,7 +25973,7 @@
   },
   "ronto": {
     "id": "ronto",
-    "name": "Ronto",
+    "name": "a ronto",
     "type": "MOB_HERBIVORE",
     "level": 18,
     "meat": 450,
@@ -26259,7 +26259,7 @@
   },
   "squill": {
     "id": "squill",
-    "name": "Squill",
+    "name": "a squill",
     "type": "MOB_CARNIVORE",
     "level": 18,
     "meat": 6,
@@ -27345,7 +27345,7 @@
   },
   "womp_rat": {
     "id": "womp_rat",
-    "name": "WompRat",
+    "name": "a womp rat",
     "type": "MOB_CARNIVORE",
     "level": 10,
     "meat": 4,
@@ -27388,7 +27388,7 @@
   },
   "worrt": {
     "id": "worrt",
-    "name": "Worrt",
+    "name": "a worrt",
     "type": "MOB_CARNIVORE",
     "level": 6,
     "meat": 5,
@@ -27463,7 +27463,7 @@
   },
   "zucca_boar": {
     "id": "zucca_boar",
-    "name": "Zucca Boar",
+    "name": "a zucca boar",
     "type": "MOB_HERBIVORE",
     "level": 10,
     "meat": 65,
@@ -27503,7 +27503,7 @@
   },
   "angler": {
     "id": "angler",
-    "name": "Angler",
+    "name": "an angler",
     "type": "MOB_CARNIVORE",
     "level": 22,
     "meat": 4,
@@ -27593,7 +27593,7 @@
   },
   "choku": {
     "id": "choku",
-    "name": "Choku",
+    "name": "a choku",
     "type": "MOB_CARNIVORE",
     "level": 16,
     "meat": 10,
@@ -27701,7 +27701,7 @@
   },
   "crystal_snake": {
     "id": "crystal_snake",
-    "name": "crystal snake",
+    "name": "a crystal snake",
     "type": "MOB_CARNIVORE",
     "level": 25,
     "meat": 5,
@@ -27882,7 +27882,7 @@
   },
   "gackle_bat": {
     "id": "gackle_bat",
-    "name": "gackle bat",
+    "name": "a gackle bat",
     "type": "MOB_CARNIVORE",
     "level": 10,
     "meat": 4,
@@ -28251,7 +28251,7 @@
   },
   "kliknik": {
     "id": "kliknik",
-    "name": "Kliknik",
+    "name": "a kliknik",
     "type": "MOB_CARNIVORE",
     "level": 18,
     "meat": 5,
@@ -29079,7 +29079,7 @@
   },
   "spined_puc": {
     "id": "spined_puc",
-    "name": "spined puc",
+    "name": "a spined puc",
     "type": "MOB_CARNIVORE",
     "level": 14,
     "meat": 6,
@@ -29097,7 +29097,7 @@
   },
   "stintaril": {
     "id": "stintaril",
-    "name": "Stintaril",
+    "name": "a stintaril",
     "type": "MOB_CARNIVORE",
     "level": 14,
     "meat": 5,
@@ -29329,7 +29329,7 @@
   },
   "tanc_mite": {
     "id": "tanc_mite",
-    "name": "tanc mite",
+    "name": "a tanc mite",
     "type": "MOB_HERBIVORE",
     "level": 9,
     "meat": 4,
@@ -29362,7 +29362,7 @@
   },
   "tybis": {
     "id": "tybis",
-    "name": "Tybis",
+    "name": "a tybis",
     "type": "MOB_HERBIVORE",
     "level": 24,
     "meat": 275,
@@ -29478,7 +29478,7 @@
   },
   "woolamander": {
     "id": "woolamander",
-    "name": "Woolamander",
+    "name": "a woolamander",
     "type": "MOB_HERBIVORE",
     "level": 27,
     "meat": 20,
