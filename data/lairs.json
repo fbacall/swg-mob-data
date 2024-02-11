@@ -1,0 +1,8222 @@
+{
+  "corellia_bageraset_lair_neutral_medium": {
+    "mobs": {
+      "bageraset": 1
+    }
+  },
+  "corellia_bageraset_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "bageraset": 1
+    }
+  },
+  "corellia_canoid_lair_neutral_medium": {
+    "mobs": {
+      "canoid": 1
+    }
+  },
+  "corellia_carrion_spat_lair_neutral_medium": {
+    "mobs": {
+      "carrion_spat": 1
+    }
+  },
+  "corellia_carrion_spat_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "carrion_spat": 1
+    }
+  },
+  "corellia_corellian_butterfly_hive_neutral_large": {
+    "mobs": {
+      "corellian_butterfly_monarch": 1,
+      "corellian_butterfly_warrior": 3
+    }
+  },
+  "corellia_corellian_butterfly_hive_neutral_large_boss_01": {
+    "mobs": {
+      "corellian_butterfly_warrior": 1
+    }
+  },
+  "corellia_corellian_butterfly_nest_neutral_large": {
+    "mobs": {
+      "corellian_butterfly": 1,
+      "corellian_butterfly_worker": 1
+    }
+  },
+  "corellia_corellian_butterfly_pod_neutral_small": {
+    "mobs": {
+      "corellian_butterfly_worker": 1
+    }
+  },
+  "corellia_crazed_durni_warren_neutral_none": {
+    "mobs": {
+      "crazed_durni": 1
+    }
+  },
+  "corellia_crazed_durni_warren_neutral_small": {
+    "mobs": {
+      "crazed_durni": 1
+    }
+  },
+  "corellia_crimson_sand_panther_pride_neutral_medium": {
+    "mobs": {
+      "crimson_razor_cat": 1
+    }
+  },
+  "corellia_dalyrake_lair_neutral_medium": {
+    "mobs": {
+      "dalyrake": 1
+    }
+  },
+  "corellia_dalyrake_nest_neutral_medium": {
+    "mobs": {
+      "dalyrake_harvester": 1,
+      "dalyrake_matriarch": 1
+    }
+  },
+  "corellia_deranged_wrix_lair_neutral_medium": {
+    "mobs": {
+      "deranged_wrix": 1
+    }
+  },
+  "corellia_devil_gulginaw_nest_neutral_medium": {
+    "mobs": {
+      "devil_gulginaw": 1
+    }
+  },
+  "corellia_dire_cat_lair_neutral_medium": {
+    "mobs": {
+      "dire_cat": 1
+    }
+  },
+  "corellia_dire_cat_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "dire_cat": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_boss_01": {
+    "mobs": {
+      "diseased_vrelt": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_boss_02": {
+    "mobs": {
+      "diseased_vrelt": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_boss_03": {
+    "mobs": {
+      "noxious_vrelt_scavenger": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_boss_04": {
+    "mobs": {
+      "noxious_vrelt_scavenger": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_small": {
+    "mobs": {
+      "diseased_vrelt": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_small_01": {
+    "mobs": {
+      "diseased_vrelt": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_small_02": {
+    "mobs": {
+      "diseased_vrelt": 1,
+      "noxious_vrelt_scavenger": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_small_03": {
+    "mobs": {
+      "noxious_vrelt_scavenger": 1
+    }
+  },
+  "corellia_diseased_vrelt_lair_neutral_small_04": {
+    "mobs": {
+      "noxious_vrelt_scavenger": 1
+    }
+  },
+  "corellia_durni_warren_neutral_small": {
+    "mobs": {
+      "durni": 1
+    }
+  },
+  "corellia_durni_warren_neutral_small_boss_01": {
+    "mobs": {
+      "durni": 1
+    }
+  },
+  "corellia_forest_murra_lair_neutral_medium": {
+    "mobs": {
+      "forest_murra": 1
+    }
+  },
+  "corellia_forest_slice_hound_lair_neutral_medium": {
+    "mobs": {
+      "forest_slice_hound": 1
+    }
+  },
+  "corellia_giant_carrion_spat_lair_neutral_medium": {
+    "mobs": {
+      "giant_carrion_spat": 1
+    }
+  },
+  "corellia_giant_dalyrake_lair_neutral_medium": {
+    "mobs": {
+      "giant_dalyrake": 1
+    }
+  },
+  "corellia_giant_gubbur_lair_neutral_medium": {
+    "mobs": {
+      "giant_gubbur": 1
+    }
+  },
+  "corellia_grand_wrix_lair_neutral_medium": {
+    "mobs": {
+      "grand_wrix": 1
+    }
+  },
+  "corellia_grassland_slice_hound_lair_neutral_medium": {
+    "mobs": {
+      "grassland_slice_hound": 1,
+      "female_grassland_slice_hound": 1
+    }
+  },
+  "corellia_greater_gulginaw_nest_neutral_medium": {
+    "mobs": {
+      "greater_gulginaw": 1
+    }
+  },
+  "corellia_gronda_lair_neutral_large": {
+    "mobs": {
+      "gronda": 1,
+      "dwarf_gronda": 1
+    }
+  },
+  "corellia_gubbur_lair_neutral_small": {
+    "mobs": {
+      "gubbur": 1
+    }
+  },
+  "corellia_gulginaw_nest_neutral_medium": {
+    "mobs": {
+      "gulginaw": 1
+    }
+  },
+  "corellia_gurrcat_lair_neutral_medium": {
+    "mobs": {
+      "gurrcat": 1
+    }
+  },
+  "corellia_humbaba_lair_neutral_medium": {
+    "mobs": {
+      "humbaba": 1
+    }
+  },
+  "corellia_krahbu_lair_neutral_medium": {
+    "mobs": {
+      "krahbu": 1
+    }
+  },
+  "corellia_mountain_murra_lair_neutral_medium": {
+    "mobs": {
+      "mountain_murra": 1
+    }
+  },
+  "corellia_murra_lair_neutral_medium": {
+    "mobs": {
+      "murra": 1
+    }
+  },
+  "corellia_murra_lair_neutral_none": {
+    "mobs": {
+      "murra": 1
+    }
+  },
+  "corellia_paralope_lair_neutral_medium": {
+    "mobs": {
+      "paralope": 1
+    }
+  },
+  "corellia_plumed_rasp_eyrie_neutral_medium": {
+    "mobs": {
+      "majestic_plumed_rasp": 1
+    }
+  },
+  "corellia_plumed_rasp_nest_neutral_small": {
+    "mobs": {
+      "plumed_rasp": 1
+    }
+  },
+  "corellia_razor_cat_pride_neutral_medium": {
+    "mobs": {
+      "razor_cat": 1,
+      "female_razor_cat": 1
+    }
+  },
+  "corellia_razor_cat_pride_neutral_medium_boss_01": {
+    "mobs": {
+      "razor_cat": 1,
+      "female_razor_cat": 1
+    }
+  },
+  "corellia_rogue_bageraset_neutral_none": {
+    "mobs": {
+      "rogue_bageraset": 1
+    }
+  },
+  "corellia_savage_humbaba_lair_neutral_medium": {
+    "mobs": {
+      "savage_humbaba": 1
+    }
+  },
+  "corellia_scavenger_rat_lair_neutral_small": {
+    "mobs": {
+      "scavenger_rat": 1
+    }
+  },
+  "corellia_sharnaff_lair_neutral_large": {
+    "mobs": {
+      "sharnaff": 1,
+      "sharnaff_bull": 1
+    }
+  },
+  "corellia_sharnaff_lair_neutral_large_boss_01": {
+    "mobs": {
+      "sharnaff": 1,
+      "sharnaff_bull": 1
+    }
+  },
+  "corellia_sharnaff_lair_neutral_none": {
+    "mobs": {
+      "sharnaff": 1
+    }
+  },
+  "corellia_slice_hound_lair_neutral_medium": {
+    "mobs": {
+      "slice_hound": 1,
+      "female_slice_hound": 1
+    }
+  },
+  "corellia_swamp_gurrcat_lair_neutral_medium": {
+    "mobs": {
+      "swamp_gurrcat": 1
+    }
+  },
+  "corellia_swamp_humbaba_lair_neutral_medium": {
+    "mobs": {
+      "swamp_humbaba": 1
+    }
+  },
+  "corellia_tabage_lair_neutral_medium": {
+    "mobs": {
+      "tabage": 1
+    }
+  },
+  "corellia_tabage_lair_neutral_none": {
+    "mobs": {
+      "tabage_scavenger": 1
+    }
+  },
+  "corellia_violent_krahbu_lair_neutral_medium": {
+    "mobs": {
+      "violent_krahbu": 1
+    }
+  },
+  "corellia_vrelt_lair_neutral_small": {
+    "mobs": {
+      "vrelt": 1
+    }
+  },
+  "corellia_vynock_lair_neutral_small": {
+    "mobs": {
+      "vynock": 1
+    }
+  },
+  "corellia_war_gronda_lair_neutral_large": {
+    "mobs": {
+      "war_gronda": 1
+    }
+  },
+  "corellia_wooded_paralope_lair_neutral_medium": {
+    "mobs": {
+      "wooded_paralope": 1
+    }
+  },
+  "corellia_wrix_lair_neutral_medium": {
+    "mobs": {
+      "wrix": 1
+    }
+  },
+  "corellia_afarathu_cult_outpost_neutral_medium": {
+    "mobs": {
+      "afarathu_cult_follower": 1,
+      "afarathu_ruffian": 1,
+      "afarathu_savage": 1
+    }
+  },
+  "corellia_afarathu_cult_outpost_neutral_medium_theater": {
+    "mobs": {
+      "afarathu_hellion": 2,
+      "afarathu_cult_bodyguard": 2,
+      "afarathu_cult_leader": 1
+    }
+  },
+  "corellia_beldonna_base_neutral_large_theater": {
+    "mobs": {
+      "beldonnas_league_enforcer": 2,
+      "beldonnas_league_marshal": 1
+    }
+  },
+  "corellia_corsec_base_neutral_large_theater": {
+    "mobs": {
+      "corsec_commissioner": 1,
+      "corsec_chief": 2
+    }
+  },
+  "corellia_corsec_base_neutral_theater": {
+    "mobs": {
+      "corsec_commissioner": 1,
+      "corsec_chief": 2
+    }
+  },
+  "corellia_corsec_camp_neutral_medium_theater": {
+    "mobs": {
+      "corsec_lieutenant": 1,
+      "corsec_master_sergeant": 1
+    }
+  },
+  "corellia_corsec_outpost_neutral_medium_theater": {
+    "mobs": {
+      "corsec_captain": 1,
+      "corsec_major": 1
+    }
+  },
+  "corellia_corsec_traitor_base_neutral_medium_theater": {
+    "mobs": {
+      "corsec_traitor": 1
+    }
+  },
+  "corellia_drall_camp_neutral_medium_theater": {
+    "mobs": {
+      "drall_abbot": 2,
+      "drall_chieftain": 1,
+      "drall_master": 1,
+      "drall_monk": 2
+    }
+  },
+  "corellia_drall_patriot_base_neutral_large_theater": {
+    "mobs": {
+      "drall_patriot_foot_soldier": 2,
+      "drall_patriot_conqueror": 1,
+      "drall_patriot_legionnaire": 2
+    }
+  },
+  "corellia_drall_patriot_camp_neutral_medium_theater": {
+    "mobs": {
+      "drall_patriot": 1,
+      "drall_sentry": 1,
+      "drall_guard": 1
+    }
+  },
+  "corellia_flail_cut_throat_outpost_neutral_medium_theater": {
+    "mobs": {
+      "flail_boss": 1,
+      "flail_butcher": 1,
+      "flail_executioner": 1
+    }
+  },
+  "corellia_greck_base_neutral_large_theater": {
+    "mobs": {
+      "grecks_assassin": 1,
+      "grecks_mugger": 1
+    }
+  },
+  "corellia_hidden_daggers_camp_neutral_medium_theater": {
+    "mobs": {
+      "hidden_daggers_dissident": 1,
+      "hidden_daggers_activist": 1
+    }
+  },
+  "corellia_hidden_daggers_outpost_neutral_medium_theater": {
+    "mobs": {
+      "hidden_daggers_extremist": 1,
+      "hidden_daggers_lieutenant": 1,
+      "hidden_daggers_leader": 1
+    }
+  },
+  "corellia_knights_of_solitude_rebel_large_theater": {
+    "mobs": {
+      "eye_of_solitude": 1,
+      "foot_of_solitude": 1,
+      "hand_of_solitude": 1,
+      "mind_of_solitude": 1,
+      "will_of_solitude": 1
+    }
+  },
+  "corellia_lord_nyax_chapel_neutral_medium_theater": {
+    "mobs": {
+      "servant_of_lord_nyax": 1,
+      "minion_of_lord_nyax": 1
+    }
+  },
+  "corellia_lord_nyax_church_neutral_medium_theater": {
+    "mobs": {
+      "fanatic_of_lord_nyax": 1,
+      "disciple_of_lord_nyax": 1
+    }
+  },
+  "corellia_lord_nyax_visionary_neutral_large_theater": {
+    "mobs": {
+      "visionary_of_lord_nyax": 1,
+      "zealot_of_lord_nyax": 1,
+      "fiend_of_lord_nyax": 1
+    }
+  },
+  "corellia_meatlump_camp_neutral_medium_theater": {
+    "mobs": {
+      "meatlump_buffoon": 1,
+      "meatlump_stooge": 1,
+      "meatlump_fool": 1
+    }
+  },
+  "corellia_meatlump_outpost_neutral_medium_theater": {
+    "mobs": {
+      "meatlump_clod": 1,
+      "meatlump_oaf": 1,
+      "meatlump_loon": 1,
+      "meatlump_cretin": 1
+    }
+  },
+  "corellia_monumenter_base_neutral_medium_theater": {
+    "mobs": {
+      "monumenter_bandit": 1,
+      "monumenter_smuggler": 1,
+      "monumenter_marauder": 1
+    }
+  },
+  "corellia_ragtag_camp_neutral_medium_theater": {
+    "mobs": {
+      "ragtag_kook": 2,
+      "ragtag_loon": 2
+    }
+  },
+  "corellia_selonian_base_neutral_large_theater": {
+    "mobs": {
+      "selonian_warlord": 1,
+      "selonian_champion": 2
+    }
+  },
+  "corellia_selonian_outpost_neutral_large_theater": {
+    "mobs": {
+      "selonian_raider": 1,
+      "selonian_warrior": 1,
+      "selonian_captain": 1
+    }
+  },
+  "corellia_swooper_camp_neutral_small_theater": {
+    "mobs": {
+      "swooper_gangmember": 2,
+      "swooper_corellia": 2,
+      "swooper_leader": 1
+    }
+  },
+  "corellia_bageraset_herd_neutral_none": {
+    "mobs": {
+      "bageraset": 1
+    }
+  },
+  "corellia_canoid_hunter_pack_neutral_none": {
+    "mobs": {
+      "canoid_hunter": 1
+    }
+  },
+  "corellia_canoid_pack_neutral_none": {
+    "mobs": {
+      "canoid_pack_leader": 1,
+      "canoid": 1
+    }
+  },
+  "corellia_carrion_spat_flock_neutral_none": {
+    "mobs": {
+      "carrion_spat": 1
+    }
+  },
+  "corellia_corellian_butterfly_drone_large_neutral_none": {
+    "mobs": {
+      "corellian_butterfly_drone": 1
+    }
+  },
+  "corellia_corellian_butterfly_flight_neutral_none": {
+    "mobs": {
+      "corellian_butterfly": 1
+    }
+  },
+  "corellia_corellian_butterfly_swarm_neutral_none": {
+    "mobs": {
+      "corellian_butterfly_monarch": 1,
+      "corellian_butterfly_defender": 2,
+      "corellian_butterfly_warrior": 3
+    }
+  },
+  "corellia_crazed_durni_herd_neutral_none": {
+    "mobs": {
+      "crazed_durni": 1
+    }
+  },
+  "corellia_crimson_sand_panther_hunt_neutral_none": {
+    "mobs": {
+      "crimson_razor_cat": 10,
+      "great_plains_stalker": 1
+    }
+  },
+  "corellia_dalyrake_pack_neutral_none": {
+    "mobs": {
+      "dalyrake": 1,
+      "dalyrake_harvester": 1,
+      "dalyrake_matriarch": 1
+    }
+  },
+  "corellia_deranged_wrix_pack_neutral_none": {
+    "mobs": {
+      "deranged_wrix": 1
+    }
+  },
+  "corellia_devil_gulginaw_flight_neutral_none": {
+    "mobs": {
+      "devil_gulginaw": 1
+    }
+  },
+  "corellia_dire_cat_pack_neutral_none": {
+    "mobs": {
+      "dire_cat": 1,
+      "female_dire_cat": 1
+    }
+  },
+  "corellia_diseased_vrelt_pack_neutral_none": {
+    "mobs": {
+      "diseased_vrelt": 1
+    }
+  },
+  "corellia_diseased_vrelt_pack_neutral_small": {
+    "mobs": {
+      "diseased_vrelt": 2
+    }
+  },
+  "corellia_durni_herd_neutral_none": {
+    "mobs": {
+      "durni": 1
+    }
+  },
+  "corellia_forest_murra_herd_neutral_none": {
+    "mobs": {
+      "forest_murra": 1
+    }
+  },
+  "corellia_forest_slice_hound_pack_neutral_none": {
+    "mobs": {
+      "female_forest_slice_hound": 1,
+      "forest_slice_hound": 1
+    }
+  },
+  "corellia_giant_carrion_spat_flock_neutral_none": {
+    "mobs": {
+      "giant_carrion_spat": 1
+    }
+  },
+  "corellia_giant_dalyrake_pack_neutral_none": {
+    "mobs": {
+      "giant_dalyrake": 1
+    }
+  },
+  "corellia_giant_gubbur_herd_neutral_none": {
+    "mobs": {
+      "giant_gubbur": 1
+    }
+  },
+  "corellia_grand_wrix_pack_neutral_none": {
+    "mobs": {
+      "grand_wrix": 1
+    }
+  },
+  "corellia_grassland_slice_hound_pack_neutral_none": {
+    "mobs": {
+      "grassland_slice_hound": 1,
+      "female_grassland_slice_hound": 1
+    }
+  },
+  "corellia_greater_gulginaw_flight_neutral_none": {
+    "mobs": {
+      "greater_gulginaw": 1
+    }
+  },
+  "corellia_gronda_juggernaut_neutral_none": {
+    "mobs": {
+      "gronda_juggernaut": 1
+    }
+  },
+  "corellia_gronda_pack_neutral_none": {
+    "mobs": {
+      "gronda_patriarch": 1,
+      "elder_gronda": 2
+    }
+  },
+  "corellia_gubbur_bloated_neutral_none": {
+    "mobs": {
+      "bloated_gubbur": 1
+    }
+  },
+  "corellia_gubbur_herd_neutral_none": {
+    "mobs": {
+      "minor_gubbur": 1,
+      "gubbur": 1
+    }
+  },
+  "corellia_gulginaw_flight_neutral_none": {
+    "mobs": {
+      "gulginaw": 1
+    }
+  },
+  "corellia_gurrcat_hunt_neutral_none": {
+    "mobs": {
+      "gurrcat": 1
+    }
+  },
+  "corellia_humbaba_herd_neutral_none": {
+    "mobs": {
+      "humbaba": 1
+    }
+  },
+  "corellia_krahbu_herd_neutral_none": {
+    "mobs": {
+      "krahbu": 1
+    }
+  },
+  "corellia_mountain_murra_herd_neutral_none": {
+    "mobs": {
+      "mountain_murra": 1
+    }
+  },
+  "corellia_murra_herd_neutral_none": {
+    "mobs": {
+      "murra": 1
+    }
+  },
+  "corellia_paralope_herd_neutral_none": {
+    "mobs": {
+      "paralope": 1
+    }
+  },
+  "corellia_plumed_rasp_flight_neutral_none": {
+    "mobs": {
+      "plumed_rasp": 1,
+      "agrilat_rasp": 1
+    }
+  },
+  "corellia_plumed_rasp_flock_neutral_none": {
+    "mobs": {
+      "plumed_rasp": 1,
+      "majestic_plumed_rasp": 1
+    }
+  },
+  "corellia_plumed_rasp_howling_large_neutral_none": {
+    "mobs": {
+      "howling_plumed_rasp": 1
+    }
+  },
+  "corellia_razor_cat_cub_hunt_neutral_none": {
+    "mobs": {
+      "razor_cat_cub": 1
+    }
+  },
+  "corellia_rogue_bageraset_herd_neutral_none": {
+    "mobs": {
+      "rogue_bageraset": 1
+    }
+  },
+  "corellia_savage_humbaba_herd_neutral_none": {
+    "mobs": {
+      "savage_humbaba": 1
+    }
+  },
+  "corellia_scavenger_rat_neutral_small": {
+    "mobs": {
+      "scavenger_rat": 1
+    }
+  },
+  "corellia_scavenger_rat_pack_neutral_none": {
+    "mobs": {
+      "scavenger_rat": 1
+    }
+  },
+  "corellia_sharnaff_herd_neutral_none": {
+    "mobs": {
+      "sharnaff": 1,
+      "sharnaff_bull": 1
+    }
+  },
+  "corellia_slice_hound_pack_neutral_none": {
+    "mobs": {
+      "slice_hound": 1,
+      "female_slice_hound": 1
+    }
+  },
+  "corellia_swamp_gurrcat_hunt_neutral_none": {
+    "mobs": {
+      "swamp_gurrcat": 1
+    }
+  },
+  "corellia_swamp_humbaba_herd_neutral_none": {
+    "mobs": {
+      "swamp_humbaba": 1
+    }
+  },
+  "corellia_tabage_pack_neutral_none": {
+    "mobs": {
+      "enraged_tabage_mother": 1,
+      "tabage_protector": 3
+    }
+  },
+  "corellia_violent_krahbu_herd_neutral_none": {
+    "mobs": {
+      "violent_krahbu": 1
+    }
+  },
+  "corellia_vrelt_pack_neutral_none": {
+    "mobs": {
+      "vrelt_mother": 1,
+      "vrelt": 3
+    }
+  },
+  "corellia_vynock_flight_neutral_none": {
+    "mobs": {
+      "vynock": 1
+    }
+  },
+  "corellia_war_gronda_pack_neutral_none": {
+    "mobs": {
+      "war_gronda": 1
+    }
+  },
+  "corellia_wooded_paralope_herd_neutral_none": {
+    "mobs": {
+      "wooded_paralope": 1
+    }
+  },
+  "corellia_wrix_pack_neutral_none": {
+    "mobs": {
+      "wrix": 1,
+      "mottled_wrix": 1
+    }
+  },
+  "corellia_afarathu_cult_patrol_neutral_none": {
+    "mobs": {
+      "afarathu_brute": 1,
+      "afarathu_cult_zealot": 1
+    }
+  },
+  "corellia_beldonna_patrol_neutral_none": {
+    "mobs": {
+      "beldonnas_league_scout": 1,
+      "beldonnas_league_soldier": 1
+    }
+  },
+  "corellia_corsec_patrol_neutral_none": {
+    "mobs": {
+      "corsec_cadet": 1
+    }
+  },
+  "corellia_corsec_platoon_neutral_none": {
+    "mobs": {
+      "corsec_trooper": 1,
+      "corsec_sergeant": 1
+    }
+  },
+  "corellia_corsec_truthfinder_neutral_none": {
+    "mobs": {
+      "corsec_detective": 1,
+      "corsec_inspector_sergeant": 1,
+      "corsec_investigator": 1,
+      "corsec_agent": 1
+    }
+  },
+  "corellia_flail_cut_throat_patrol_neutral_none": {
+    "mobs": {
+      "flail_cutthroat": 1
+    }
+  },
+  "corellia_flail_cut_throat_squad_neutral_none": {
+    "mobs": {
+      "flail_killer": 1,
+      "flail_slayer": 1,
+      "flail_enforcer": 1
+    }
+  },
+  "corellia_greck_patrol_neutral_none": {
+    "mobs": {
+      "grecks_henchman": 1,
+      "grecks_smuggler": 1
+    }
+  },
+  "corellia_monumenter_smuggler_patrol_neutral_none": {
+    "mobs": {
+      "monumenter_smuggler": 1
+    }
+  },
+  "corellia_selonian_assasin_neutral_none": {
+    "mobs": {
+      "selonian_assassin": 1,
+      "selonian_hunter": 1,
+      "selonian_sentinel": 1,
+      "domestic_bageraset": 1
+    }
+  },
+  "corellia_selonian_patrol_neutral_none": {
+    "mobs": {
+      "selonian_scout": 1,
+      "selonian_thief": 1,
+      "selonian_healer": 1,
+      "domestic_humbaba": 1,
+      "domestic_krahbu": 1
+    }
+  },
+  "corellia_selonian_squad_neutral_none": {
+    "mobs": {
+      "selonian_separatist": 3,
+      "selonian_separatist_general": 1,
+      "selonian_separatist_soldier": 3,
+      "selonian_separatist_recruit": 3,
+      "selonian_separatist_captain": 2
+    }
+  },
+  "corellia_smashball_ruffians_neutral_none": {
+    "mobs": {
+      "smashball_bully": 1,
+      "smashball_degenerate": 1,
+      "smashball_thug": 1
+    }
+  },
+  "dantooine_bol_lair_neutral_medium": {
+    "mobs": {
+      "bol": 2,
+      "bol_pack_runner": 1,
+      "baby_bol": 1
+    }
+  },
+  "dantooine_bol_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "bol": 1,
+      "bol_pack_runner": 1
+    }
+  },
+  "dantooine_bol_pigmy_neutral_small": {
+    "mobs": {
+      "lesser_plains_bol": 1
+    }
+  },
+  "dantooine_bol_seething_lair_neutral_medium": {
+    "mobs": {
+      "seething_bol_crusher": 1
+    }
+  },
+  "dantooine_graul_ancient_lair_neutral_large": {
+    "mobs": {
+      "ancient_graul": 1
+    }
+  },
+  "dantooine_graul_frenzied_lair_neutral_large": {
+    "mobs": {
+      "frenzied_graul": 1
+    }
+  },
+  "dantooine_graul_lair_neutral_medium": {
+    "mobs": {
+      "graul": 1
+    }
+  },
+  "dantooine_graul_mauler_lair_neutral_large": {
+    "mobs": {
+      "graul_mauler": 1
+    }
+  },
+  "dantooine_graul_mauler_lair_neutral_large_boss_01": {
+    "mobs": {
+      "graul_mauler": 1
+    }
+  },
+  "dantooine_huurton_howler_lair_neutral_medium": {
+    "mobs": {
+      "huurton_howler": 1
+    }
+  },
+  "dantooine_huurton_howler_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "huurton_howler": 1
+    }
+  },
+  "dantooine_huurton_matron_lair_neutral_medium": {
+    "mobs": {
+      "huurton_matron": 1
+    }
+  },
+  "dantooine_picket_protector_lair_neutral_medium": {
+    "mobs": {
+      "fierce_piket_protector": 1
+    }
+  },
+  "dantooine_piket_longhorn_lair_neutral_medium": {
+    "mobs": {
+      "piket_longhorn_female": 1,
+      "piket_longhorn": 1
+    }
+  },
+  "dantooine_piket_protector_herd_neutral_none_boss_01": {
+    "mobs": {
+      "fierce_piket_protector": 1,
+      "piket": 1
+    }
+  },
+  "dantooine_quenker_bile_drenched_lair_neutral_medium": {
+    "mobs": {
+      "bile_drenched_quenker": 1
+    }
+  },
+  "dantooine_quenker_lair_neutral_medium": {
+    "mobs": {
+      "quenker": 1
+    }
+  },
+  "dantooine_quenker_ravager_lair_neutral_medium": {
+    "mobs": {
+      "quenker_ravager": 1
+    }
+  },
+  "dantooine_quenker_relic_reaper_lair_neutral_medium": {
+    "mobs": {
+      "quenker_relic_reaper": 1
+    }
+  },
+  "dantooine_quenker_savage_lair_neutral_medium": {
+    "mobs": {
+      "savage_quenker": 1
+    }
+  },
+  "dantooine_quenker_savage_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "savage_quenker": 1
+    }
+  },
+  "dantooine_thune_lair_neutral_medium": {
+    "mobs": {
+      "thune": 1
+    }
+  },
+  "dantooine_voritor_hunter_lair_neutral_medium": {
+    "mobs": {
+      "slinking_voritor_hunter": 1
+    }
+  },
+  "dantooine_voritor_jungle_lair_neutral_medium": {
+    "mobs": {
+      "horned_voritor_lizard": 1
+    }
+  },
+  "dantooine_voritor_jungle_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "horned_voritor_lizard": 1
+    }
+  },
+  "dantooine_voritor_lair_neutral_medium": {
+    "mobs": {
+      "voritor_lizard": 1
+    }
+  },
+  "dantooine_voritor_tracker_lair_neutral_medium": {
+    "mobs": {
+      "grassland_voritor_tracker": 1
+    }
+  },
+  "dathomir_graul_mauler_lair_neutral_large": {
+    "mobs": {
+      "graul": 1
+    }
+  },
+  "dantooine_abandoned_rebel_camp_rebel_small_theater": {
+    "mobs": {
+      "abandoned_rebel_private": 1,
+      "stranded_rebel_scout": 1
+    }
+  },
+  "dantooine_dantari_raider_camp_neutral_large_theater": {
+    "mobs": {
+      "dantari_raider": 1
+    }
+  },
+  "dantooine_janta_leader_camp_neutral_large_theater": {
+    "mobs": {
+      "janta_clan_leader": 1,
+      "janta_harvester": 1,
+      "janta_tribesman": 1
+    }
+  },
+  "dantooine_janta_rockshaper_camp_neutral_medium_theater": {
+    "mobs": {
+      "janta_rockshaper": 1,
+      "janta_primalist": 1,
+      "janta_herbalist": 1
+    }
+  },
+  "dantooine_janta_shaman_camp_neutral_medium_theater": {
+    "mobs": {
+      "janta_shaman": 1,
+      "janta_loreweaver": 1
+    }
+  },
+  "dantooine_janta_warrior_camp_neutral_medium_theater": {
+    "mobs": {
+      "janta_warrior": 1,
+      "janta_soothsayer": 1
+    }
+  },
+  "dantooine_kunga_leader_camp_neutral_large_theater": {
+    "mobs": {
+      "kunga_clan_leader": 1,
+      "kunga_clan_primalist": 1,
+      "kunga_herbalist": 1,
+      "kunga_tribe_member": 1
+    }
+  },
+  "dantooine_kunga_rockshaper_camp_neutral_medium_theater": {
+    "mobs": {
+      "kunga_rockshaper": 1,
+      "kunga_shaman": 1,
+      "kunga_soothsayer": 1
+    }
+  },
+  "dantooine_kunga_warrior_camp_neutral_medium_theater": {
+    "mobs": {
+      "kunga_warrior": 1,
+      "kunga_loreweaver": 1,
+      "kunga_harvester": 1
+    }
+  },
+  "dantooine_mokk_leader_camp_neutral_large_theater": {
+    "mobs": {
+      "mokk_clan_leader": 1,
+      "mokk_clan_primalist": 1,
+      "mokk_herbalist": 1,
+      "mokk_tribesman": 1
+    }
+  },
+  "dantooine_mokk_shaman_camp_neutral_medium_theater": {
+    "mobs": {
+      "mokk_shaman": 1,
+      "mokk_loreweaver": 1
+    }
+  },
+  "dantooine_mokk_soothsayer_camp_neutral_medium_theater": {
+    "mobs": {
+      "mokk_soothsayer": 1
+    }
+  },
+  "dantooine_bol_herd_neutral_none": {
+    "mobs": {
+      "bol_pack_runner": 1,
+      "bol": 1,
+      "baby_bol": 1
+    }
+  },
+  "dantooine_bol_pigmy_neutral_none": {
+    "mobs": {
+      "lesser_plains_bol": 1
+    }
+  },
+  "dantooine_bol_seething_herd_neutral_none": {
+    "mobs": {
+      "seething_bol_crusher": 1
+    }
+  },
+  "dantooine_graul_ancient_pack_neutral_none": {
+    "mobs": {
+      "ancient_graul": 1
+    }
+  },
+  "dantooine_graul_frenzied_pack_neutral_none": {
+    "mobs": {
+      "frenzied_graul": 15,
+      "graul_marauder": 1
+    }
+  },
+  "dantooine_graul_mauler_pack_neutral_none": {
+    "mobs": {
+      "graul": 1,
+      "graul_mauler": 2
+    }
+  },
+  "dantooine_graul_pack_neutral_none": {
+    "mobs": {
+      "graul": 2,
+      "infant_graul": 1
+    }
+  },
+  "dantooine_huurton_howler_pack_neutral_none": {
+    "mobs": {
+      "huurton_howler": 1
+    }
+  },
+  "dantooine_huurton_huntress_pack_neutral_none": {
+    "mobs": {
+      "huurton_huntress": 1
+    }
+  },
+  "dantooine_huurton_matron_pack_neutral_none": {
+    "mobs": {
+      "huurton_matron": 2,
+      "huurton_pup": 1
+    }
+  },
+  "dantooine_huurton_pack_neutral_none": {
+    "mobs": {
+      "huurton": 1
+    }
+  },
+  "dantooine_huurton_stalker_pack_neutral_none": {
+    "mobs": {
+      "huurton_stalker": 10,
+      "huurton_reaper": 1
+    }
+  },
+  "dantooine_piket_longhorn_herd_neutral_none": {
+    "mobs": {
+      "piket_longhorn_female": 1,
+      "piket_longhorn": 1,
+      "piket": 1
+    }
+  },
+  "dantooine_piket_plains_walker_herd_neutral_none": {
+    "mobs": {
+      "piket_plains_walker": 1,
+      "piket": 1
+    }
+  },
+  "dantooine_piket_protector_herd_neutral_none": {
+    "mobs": {
+      "fierce_piket_protector": 1
+    }
+  },
+  "dantooine_quenker_bile_drenched_pack_neutral_none": {
+    "mobs": {
+      "bile_drenched_quenker": 1
+    }
+  },
+  "dantooine_quenker_pack_neutral_none": {
+    "mobs": {
+      "quenker": 1
+    }
+  },
+  "dantooine_quenker_ravager_pack_neutral_none": {
+    "mobs": {
+      "quenker_ravager": 1
+    }
+  },
+  "dantooine_quenker_relic_reaper_pack_neutral_none": {
+    "mobs": {
+      "quenker_relic_reaper": 1
+    }
+  },
+  "dantooine_quenker_savage_pack_neutral_none": {
+    "mobs": {
+      "savage_quenker": 1
+    }
+  },
+  "dantooine_thune_guardian_neutral_none": {
+    "mobs": {
+      "thune_grassland_guardian": 10,
+      "mammoth_thune": 1
+    }
+  },
+  "dantooine_thune_herd_neutral_none": {
+    "mobs": {
+      "hostile_thune_mother": 1,
+      "thune_herd_leader": 1,
+      "thune": 1
+    }
+  },
+  "dantooine_voritor_dasher_neutral_none": {
+    "mobs": {
+      "voritor_dasher": 1
+    }
+  },
+  "dantooine_voritor_hunter_neutral_none": {
+    "mobs": {
+      "slinking_voritor_hunter": 1
+    }
+  },
+  "dantooine_voritor_jungle_lizard_neutral_none": {
+    "mobs": {
+      "horned_voritor_lizard": 1
+    }
+  },
+  "dantooine_voritor_lizard_neutral_none": {
+    "mobs": {
+      "voritor_lizard": 1
+    }
+  },
+  "dantooine_voritor_tracker_neutral_none": {
+    "mobs": {
+      "grassland_voritor_tracker": 1
+    }
+  },
+  "dantooine_voritor_vexed_neutral_none": {
+    "mobs": {
+      "vexed_voritor_lizard": 1
+    }
+  },
+  "dantooine_dantari_battlelord_squad_neutral_none": {
+    "mobs": {
+      "dantari_battlelord": 2,
+      "dantari_strategist": 2,
+      "domestic_bol_mount": 1
+    }
+  },
+  "dantooine_dantari_chief_squad_neutral_none": {
+    "mobs": {
+      "dantari_chief": 1
+    }
+  },
+  "dantooine_dark_side_savage_neutral_none": {
+    "mobs": {
+      "dark_side_savage": 1
+    }
+  },
+  "dantooine_force_archaist_neutral_none": {
+    "mobs": {
+      "force_trained_archaist": 1
+    }
+  },
+  "dantooine_force_crypt_crawler_neutral_none": {
+    "mobs": {
+      "force_sensitive_crypt_crawler": 1
+    }
+  },
+  "dantooine_force_crystal_hunter_neutral_none": {
+    "mobs": {
+      "force_crystal_hunter": 1
+    }
+  },
+  "dantooine_force_mystic_neutral_none": {
+    "mobs": {
+      "novice_force_mystic": 1
+    }
+  },
+  "dantooine_force_renegade_neutral_none": {
+    "mobs": {
+      "force_sensitive_renegade": 1,
+      "forsaken_force_drifter": 1
+    }
+  },
+  "dantooine_force_wilder_neutral_none": {
+    "mobs": {
+      "feral_force_wielder": 1
+    }
+  },
+  "dantooine_janta_hunter_neutral_none": {
+    "mobs": {
+      "janta_hunter": 1
+    }
+  },
+  "dantooine_janta_scout_neutral_none": {
+    "mobs": {
+      "janta_scout": 1
+    }
+  },
+  "dantooine_janta_warrior_neutral_none": {
+    "mobs": {
+      "janta_warrior": 1
+    }
+  },
+  "dantooine_kunga_hunter_neutral_none": {
+    "mobs": {
+      "kunga_hunter": 1
+    }
+  },
+  "dantooine_kunga_scout_neutral_none": {
+    "mobs": {
+      "kunga_scout": 1
+    }
+  },
+  "dantooine_kunga_warrior_neutral_none": {
+    "mobs": {
+      "kunga_warrior": 1
+    }
+  },
+  "dantooine_mokk_hunter_neutral_none": {
+    "mobs": {
+      "mokk_hunter": 1
+    }
+  },
+  "dantooine_mokk_rockshaper_neutral_none": {
+    "mobs": {
+      "mokk_rockshaper": 1,
+      "mokk_harvester": 1
+    }
+  },
+  "dantooine_mokk_scout_neutral_none": {
+    "mobs": {
+      "mokk_scout": 1
+    }
+  },
+  "dantooine_mokk_shaman_neutral_none": {
+    "mobs": {
+      "mokk_shaman": 1
+    }
+  },
+  "dantooine_mokk_warrior_neutral_none": {
+    "mobs": {
+      "mokk_warrior": 1
+    }
+  },
+  "dantooine_untrained_dark_side_neutral_none": {
+    "mobs": {
+      "untrained_wielder_of_the_dark_side": 1
+    }
+  },
+  "dathomir_baz_nitch_kinad_neutral_small": {
+    "mobs": {
+      "kinad_baz_nitch": 1
+    }
+  },
+  "dathomir_baz_nitch_lair_neutral_small": {
+    "mobs": {
+      "baz_nitch": 1,
+      "young_baz_nitch": 1
+    }
+  },
+  "dathomir_bolma_craggy_lair_neutral_medium": {
+    "mobs": {
+      "craggy_bolma": 1
+    }
+  },
+  "dathomir_bolma_lair_neutral_medium": {
+    "mobs": {
+      "bolma_male": 1,
+      "bolma_female": 1,
+      "bolma_calf": 2,
+      "lumbering_bolma": 1
+    }
+  },
+  "dathomir_bolma_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "bolma_male": 1,
+      "bolma_female": 1,
+      "bolma_calf": 1,
+      "lumbering_bolma": 1
+    }
+  },
+  "dathomir_brackaset_family_lair_neutral_medium": {
+    "mobs": {
+      "brackaset_female": 2,
+      "brackaset_male": 2,
+      "infant_brackaset": 1
+    }
+  },
+  "dathomir_brackaset_lair_neutral_medium": {
+    "mobs": {
+      "brackaset": 1
+    }
+  },
+  "dathomir_brackaset_pigmy_neutral_small": {
+    "mobs": {
+      "lowland_brackaset": 1
+    }
+  },
+  "dathomir_brackaset_surefoot_lair_neutral_medium": {
+    "mobs": {
+      "surefoot_brackaset": 1
+    }
+  },
+  "dathomir_gaping_spider_lair_neutral_medium": {
+    "mobs": {
+      "gaping_spider": 1,
+      "gaping_spider_broodling": 1
+    }
+  },
+  "dathomir_gaping_spider_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "gaping_spider": 1
+    }
+  },
+  "dathomir_gaping_spider_queen_neutral_large": {
+    "mobs": {
+      "gaping_spider_queen": 1
+    }
+  },
+  "dathomir_gaping_spider_recluse_lair_neutral_medium": {
+    "mobs": {
+      "gaping_spider_recluse": 1
+    }
+  },
+  "dathomir_giant_baz_nitch_lair_neutral_medium": {
+    "mobs": {
+      "giant_baz_nitch": 1
+    }
+  },
+  "dathomir_kamurith_defiler_lair_neutral_medium": {
+    "mobs": {
+      "kamurith_defiler": 1
+    }
+  },
+  "dathomir_kamurith_defiler_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "kamurith_defiler": 1
+    }
+  },
+  "dathomir_kamurith_nocuous_lair_neutral_medium": {
+    "mobs": {
+      "nocuous_kamurith": 1
+    }
+  },
+  "dathomir_kamurith_snapper_lair_neutral_medium": {
+    "mobs": {
+      "kamurith_snapper": 1
+    }
+  },
+  "dathomir_kwi_lair_neutral_small": {
+    "mobs": {
+      "kwi": 1
+    }
+  },
+  "dathomir_malkloc_bull_lair_neutral_large": {
+    "mobs": {
+      "malkloc": 1,
+      "malkloc_bull": 1
+    }
+  },
+  "dathomir_malkloc_lair_neutral_large": {
+    "mobs": {
+      "malkloc": 2,
+      "young_malkloc": 1
+    }
+  },
+  "dathomir_mutant_baz_nitch_lair_neutral_small": {
+    "mobs": {
+      "mutant_baz_nitch": 1
+    }
+  },
+  "dathomir_purbole_elder_lair_neutral_medium": {
+    "mobs": {
+      "purbole_elder": 1
+    }
+  },
+  "dathomir_purbole_lair_neutral_medium": {
+    "mobs": {
+      "purbole": 2,
+      "purbole_youth": 1,
+      "injured_purbole": 1
+    }
+  },
+  "dathomir_purbole_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "purbole": 2,
+      "purbole_youth": 1
+    }
+  },
+  "dathomir_rancor_ancient_bull_lair_neutral_large": {
+    "mobs": {
+      "ancient_bull_rancor": 1
+    }
+  },
+  "dathomir_rancor_bull_lair_neutral_large": {
+    "mobs": {
+      "bull_rancor": 1
+    }
+  },
+  "dathomir_rancor_enraged_bull_lair_neutral_large": {
+    "mobs": {
+      "enraged_bull_rancor": 1
+    }
+  },
+  "dathomir_rancor_enraged_bull_lair_neutral_large_boss_01": {
+    "mobs": {
+      "enraged_bull_rancor": 1
+    }
+  },
+  "dathomir_rancor_enraged_lair_neutral_large": {
+    "mobs": {
+      "enraged_rancor": 1
+    }
+  },
+  "dathomir_rancor_lair_neutral_large": {
+    "mobs": {
+      "rancor": 1
+    }
+  },
+  "dathomir_reptilian_ancient_flyer_lair_neutral_large": {
+    "mobs": {
+      "ancient_reptilian_flier": 1
+    }
+  },
+  "dathomir_reptilian_mature_flyer_lair_neutral_large": {
+    "mobs": {
+      "mature_reptilian_flier": 1
+    }
+  },
+  "dathomir_rhoa_kwi_lair_neutral_medium": {
+    "mobs": {
+      "rhoa_kwi": 1
+    }
+  },
+  "dathomir_rhoa_kwi_pack_leader_lair_neutral_medium": {
+    "mobs": {
+      "rhoa_kwi_pack_leader": 1,
+      "rhoa_kwi_guardian": 1
+    }
+  },
+  "dathomir_shear_mite_queen_lair_neutral_large": {
+    "mobs": {
+      "shear_mite_queen": 1,
+      "shear_mite_soldier": 2
+    }
+  },
+  "dathomir_stallion_bolma_lair_neutral_medium": {
+    "mobs": {
+      "alpha_bolma": 1,
+      "bolma_male": 1
+    }
+  },
+  "dathomir_verne_bull_lair_neutral_large": {
+    "mobs": {
+      "verne_bull": 1,
+      "verne_calf": 1
+    }
+  },
+  "gaping_spider_recluse_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "gaping_spider_recluse": 2,
+      "gaping_spider_recluse_queen": 1
+    }
+  },
+  "dathomir_escaped_mtn_clan_slave_camp_neutral_medium_theater": {
+    "mobs": {
+      "escaped_singing_mountain_clan_slave": 1,
+      "domesticated_brackaset": 1
+    }
+  },
+  "dathomir_escaped_nightsister_slave_camp_neutral_medium_theater": {
+    "mobs": {
+      "escaped_nightsister_slave": 1,
+      "domesticated_brackaset": 1
+    }
+  },
+  "dathomir_mtn_clan_enclave_neutral_large_theater": {
+    "mobs": {
+      "singing_mountain_clan_guardian": 1,
+      "singing_mountain_clan_scout": 3,
+      "singing_mountain_clan_initiate": 3
+    }
+  },
+  "dathomir_mtn_clan_initiate_neutral_large_theater": {
+    "mobs": {
+      "singing_mountain_clan_initiate": 1
+    }
+  },
+  "dathomir_mtn_clan_outcast_camp_neutral_small_theater": {
+    "mobs": {
+      "singing_mountain_clan_outcast": 1
+    }
+  },
+  "dathomir_mtn_clan_outpost_neutral_large_theater": {
+    "mobs": {
+      "singing_mountain_clan_sentry": 1,
+      "singing_mountain_clan_slave": 2
+    }
+  },
+  "dathomir_mtn_clan_rancor_tamer_neutral_large_theater": {
+    "mobs": {
+      "singing_mountain_clan_rancor_tamer": 1,
+      "singing_mountain_clan_rancor": 1
+    }
+  },
+  "dathomir_nightsister_elder_enclave_neutral_large_theater": {
+    "mobs": {
+      "nightsister_elder": 1,
+      "nightsister_protector": 2,
+      "nightsister_sentinel": 4,
+      "nightsister_initiate": 4
+    }
+  },
+  "dathomir_nightsister_outcast_camp_neutral_small_theater": {
+    "mobs": {
+      "nightsister_outcast": 1
+    }
+  },
+  "dathomir_nightsister_slaver_camp_neutral_small_theater": {
+    "mobs": {
+      "nightsister_slave": 2,
+      "nightsister_sentry": 1
+    }
+  },
+  "dathomir_nightsister_spell_weaver_camp_neutral_large_theater": {
+    "mobs": {
+      "nightsister_spell_weaver": 1,
+      "nightsister_sentinel": 3,
+      "nightsister_initiate": 3
+    }
+  },
+  "dathomir_baz_nitch_herd_neutral_none": {
+    "mobs": {
+      "baz_nitch": 1,
+      "angry_baz_nitch_avenger": 1
+    }
+  },
+  "dathomir_baz_nitch_kinad_neutral_none": {
+    "mobs": {
+      "kinad_baz_nitch": 1
+    }
+  },
+  "dathomir_bolma_craggy_neutral_none": {
+    "mobs": {
+      "craggy_bolma": 1
+    }
+  },
+  "dathomir_bolma_herd_neutral_none": {
+    "mobs": {
+      "bolma": 1,
+      "bolma_pack_master": 1,
+      "bolma_youth": 1
+    }
+  },
+  "dathomir_brackaset_family_herd_neutral_none": {
+    "mobs": {
+      "brackaset_female": 2,
+      "brackaset_male": 2,
+      "infant_brackaset": 1
+    }
+  },
+  "dathomir_brackaset_herd_neutral_none": {
+    "mobs": {
+      "brackaset": 1
+    }
+  },
+  "dathomir_brackaset_pigmy_neutral_none": {
+    "mobs": {
+      "lowland_brackaset": 1
+    }
+  },
+  "dathomir_brackaset_surefoot_neutral_none": {
+    "mobs": {
+      "surefoot_brackaset": 1
+    }
+  },
+  "dathomir_gaping_spider_hunter_pack_neutral_none": {
+    "mobs": {
+      "gaping_spider_hunter": 1
+    }
+  },
+  "dathomir_gaping_spider_pack_neutral_none": {
+    "mobs": {
+      "gaping_spider": 1,
+      "gaping_spider_broodling": 1
+    }
+  },
+  "dathomir_gaping_spider_recluse_pack_neutral_none": {
+    "mobs": {
+      "gaping_spider_recluse": 2,
+      "gaping_spider_recluse_queen": 1
+    }
+  },
+  "dathomir_giant_baz_nitch_herd_neutral_none": {
+    "mobs": {
+      "giant_baz_nitch": 1
+    }
+  },
+  "dathomir_kamurith_defiler_neutral_none": {
+    "mobs": {
+      "kamurith_defiler": 1
+    }
+  },
+  "dathomir_kamurith_nocuous_neutral_none": {
+    "mobs": {
+      "nocuous_kamurith": 1
+    }
+  },
+  "dathomir_kamurith_snapper_neutral_none": {
+    "mobs": {
+      "kamurith_snapper": 1
+    }
+  },
+  "dathomir_kwi_pack_neutral_none": {
+    "mobs": {
+      "female_kwi": 2,
+      "injured_kwi": 1
+    }
+  },
+  "dathomir_malkloc_bull_herd_neutral_none": {
+    "mobs": {
+      "malkloc": 1,
+      "malkloc_bull": 1
+    }
+  },
+  "dathomir_malkloc_herd_neutral_none": {
+    "mobs": {
+      "malkloc": 2,
+      "young_malkloc": 1
+    }
+  },
+  "dathomir_malkloc_plainswalker_neutral_none": {
+    "mobs": {
+      "malkloc_plainswalker": 2,
+      "female_malkloc_plainswalker": 1,
+      "young_malkloc_plainswalker": 1
+    }
+  },
+  "dathomir_mutant_baz_nitch_herd_neutral_none": {
+    "mobs": {
+      "mutant_baz_nitch": 1
+    }
+  },
+  "dathomir_purbole_elder_escort_neutral_none": {
+    "mobs": {
+      "purbole_elder": 1,
+      "purbole": 1,
+      "injured_purbole": 1
+    }
+  },
+  "dathomir_purbole_hunter_pack_neutral_none": {
+    "mobs": {
+      "purbole_hunter": 1
+    }
+  },
+  "dathomir_purbole_scout_pack_neutral_none": {
+    "mobs": {
+      "purbole_scout": 1
+    }
+  },
+  "dathomir_purbole_stalker_pack_neutral_none": {
+    "mobs": {
+      "purbole_stalker": 1
+    }
+  },
+  "dathomir_rancor_ancient_bull_pack_neutral_none": {
+    "mobs": {
+      "ancient_bull_rancor": 1
+    }
+  },
+  "dathomir_rancor_enraged_pack_neutral_none": {
+    "mobs": {
+      "enraged_rancor": 1
+    }
+  },
+  "dathomir_rancor_gnarled_pack_neutral_none": {
+    "mobs": {
+      "gnarled_rancor": 1
+    }
+  },
+  "dathomir_rancor_mutant_pack_neutral_none": {
+    "mobs": {
+      "mutant_rancor": 1
+    }
+  },
+  "dathomir_rancor_pack_neutral_none": {
+    "mobs": {
+      "rancor": 1
+    }
+  },
+  "dathomir_rancor_young_pack_neutral_none": {
+    "mobs": {
+      "rancor_youth": 1
+    }
+  },
+  "dathomir_reptilian_ancient_flyer_flock_neutral_none": {
+    "mobs": {
+      "ancient_reptilian_flier": 1,
+      "reptilian_flier": 1
+    }
+  },
+  "dathomir_reptilian_enraged_flyer_flock_neutral_none": {
+    "mobs": {
+      "enraged_reptilian_flier": 15,
+      "reptilian_life_stealer": 1
+    }
+  },
+  "dathomir_reptilian_flyer_flock_neutral_none": {
+    "mobs": {
+      "reptilian_flier": 1,
+      "young_reptilian_flier": 1
+    }
+  },
+  "dathomir_reptilian_mature_flyer_flock_neutral_none": {
+    "mobs": {
+      "mature_reptilian_flier": 1,
+      "reptilian_flier": 1
+    }
+  },
+  "dathomir_rhoa_kwi_hunter_neutral_none": {
+    "mobs": {
+      "rhoa_kwi_hunter": 1
+    }
+  },
+  "dathomir_rhoa_kwi_neutral_none": {
+    "mobs": {
+      "rhoa_kwi": 1
+    }
+  },
+  "dathomir_rhoa_kwi_pack_leader_neutral_none": {
+    "mobs": {
+      "rhoa_kwi_pack_leader": 1,
+      "rhoa_kwi_guardian": 1
+    }
+  },
+  "dathomir_shear_mite_hunter_neutral_none": {
+    "mobs": {
+      "shear_mite_hunter": 1
+    }
+  },
+  "dathomir_shear_mite_lurking_neutral_none": {
+    "mobs": {
+      "lurking_shear_mite": 1
+    }
+  },
+  "dathomir_shear_mite_pack_neutral_none": {
+    "mobs": {
+      "shear_mite": 1,
+      "shear_mite_broodling": 1
+    }
+  },
+  "dathomir_shear_mite_reclusive_neutral_none": {
+    "mobs": {
+      "reclusive_shear_mite": 1
+    }
+  },
+  "dathomir_stallion_bolma_herd_neutral_none": {
+    "mobs": {
+      "alpha_bolma": 1,
+      "bolma_male": 1
+    }
+  },
+  "dathomir_verne_herd_neutral_none": {
+    "mobs": {
+      "verne": 1,
+      "injured_verne": 1
+    }
+  },
+  "dathomir_escaped_mtn_clan_slaves_neutral_none": {
+    "mobs": {
+      "escaped_singing_mountain_clan_slave": 1
+    }
+  },
+  "dathomir_escaped_nightsister_slaves_neutral_none": {
+    "mobs": {
+      "escaped_nightsister_slave": 1
+    }
+  },
+  "dathomir_mtn_clan_arch_witch_squad_neutral_none": {
+    "mobs": {
+      "singing_mountain_clan_arch_witch": 1,
+      "singing_mountain_clan_scout": 3
+    }
+  },
+  "dathomir_mtn_clan_councilwoman_escort_neutral_none": {
+    "mobs": {
+      "singing_mountain_clan_councilwoman": 1,
+      "singing_mountain_clan_guardian": 2,
+      "singing_mountain_clan_scout": 4
+    }
+  },
+  "dathomir_mtn_clan_dragoon_squad_neutral_none": {
+    "mobs": {
+      "singing_mountain_clan_dragoon": 1,
+      "singing_mountain_clan_scout": 3
+    }
+  },
+  "dathomir_mtn_clan_huntress_squad_neutral_none": {
+    "mobs": {
+      "singing_mountain_clan_huntress": 1
+    }
+  },
+  "dathomir_mtn_clan_initiate_squad_neutral_none": {
+    "mobs": {
+      "singing_mountain_clan_initiate": 1
+    }
+  },
+  "dathomir_mtn_clan_rancor_tamer_squad_neutral_none": {
+    "mobs": {
+      "singing_mountain_clan_rancor_tamer": 1,
+      "singing_mountain_clan_rancor": 1
+    }
+  },
+  "dathomir_nightsister_elder_escort_neutral_none": {
+    "mobs": {
+      "nightsister_elder": 1,
+      "nightsister_protector": 2,
+      "nightsister_sentinel": 4,
+      "nightsister_initiate": 4
+    }
+  },
+  "dathomir_nightsister_rancor_tamer_neutral_none": {
+    "mobs": {
+      "nightsister_enraged_rancor": 2,
+      "nightsister_enraged_bull_rancor": 1,
+      "nightsister_bull_rancor": 1,
+      "nightsister_rancor": 4,
+      "nightsister_rancor_tamer": 5
+    }
+  },
+  "dathomir_nightsister_rangers_neutral_none": {
+    "mobs": {
+      "nightsister_ranger": 1
+    }
+  },
+  "dathomir_nightsister_spell_weaver_escort_neutral_none": {
+    "mobs": {
+      "nightsister_spell_weaver": 1,
+      "nightsister_sentinel": 3,
+      "nightsister_initiate": 3
+    }
+  },
+  "dathomir_nightsister_stalker_neutral_none": {
+    "mobs": {
+      "nightsister_stalker": 1
+    }
+  },
+  "endor_arachne_drone_lair_neutral_small": {
+    "mobs": {
+      "arachne_drone": 1
+    }
+  },
+  "endor_arachne_drone_lair_neutral_small_01": {
+    "mobs": {
+      "arachne_drone": 1
+    }
+  },
+  "endor_arachne_hatchling_lair_neutral_small": {
+    "mobs": {
+      "arachne_hatchling": 1
+    }
+  },
+  "endor_arachne_lair_neutral_boss_01": {
+    "mobs": {
+      "arachne_hatchling": 1
+    }
+  },
+  "endor_arachne_lair_neutral_boss_02": {
+    "mobs": {
+      "arachne_drone": 1
+    }
+  },
+  "endor_arachne_lair_neutral_boss_03": {
+    "mobs": {
+      "arachne_warrior": 1
+    }
+  },
+  "endor_arachne_lair_neutral_boss_04": {
+    "mobs": {
+      "arachne_webmaster": 1
+    }
+  },
+  "endor_arachne_lair_neutral_small_01": {
+    "mobs": {
+      "arachne_drone": 1,
+      "arachne_hatchling": 1
+    }
+  },
+  "endor_arachne_lair_neutral_small_02": {
+    "mobs": {
+      "arachne_drone": 1,
+      "venom_filled_arachne": 1
+    }
+  },
+  "endor_arachne_lair_neutral_small_03": {
+    "mobs": {
+      "arachne_warrior": 1,
+      "venom_filled_arachne": 1
+    }
+  },
+  "endor_arachne_lair_neutral_small_04": {
+    "mobs": {
+      "arachne_warrior": 1,
+      "arachne_webmaster": 1
+    }
+  },
+  "endor_arachne_queen_lair_neutral_small": {
+    "mobs": {
+      "arachne_queen": 1,
+      "arachne_widow": 1
+    }
+  },
+  "endor_arachne_venom_filled_lair_neutral_small": {
+    "mobs": {
+      "venom_filled_arachne": 1
+    }
+  },
+  "endor_arachne_webmaster_lair_neutral_small": {
+    "mobs": {
+      "arachne_webmaster": 1
+    }
+  },
+  "endor_bark_mite_burrower_drone_lair_neutral_small": {
+    "mobs": {
+      "bark_mite_burrower_drone": 1
+    }
+  },
+  "endor_bark_mite_burrower_lair_neutral_small": {
+    "mobs": {
+      "bark_mite_burrower": 1
+    }
+  },
+  "endor_bark_mite_burrower_queen_lair_neutral_small": {
+    "mobs": {
+      "bark_mite_burrower_queen": 1
+    }
+  },
+  "endor_bark_mite_burrower_swarmling_lair_neutral_small": {
+    "mobs": {
+      "bark_mite_burrower_swarmling": 1
+    }
+  },
+  "endor_bark_mite_burrower_worker_lair_neutral_small": {
+    "mobs": {
+      "bark_mite_burrower_worker": 1
+    }
+  },
+  "endor_bloodseeker_mite_drone_lair_neutral_small": {
+    "mobs": {
+      "bloodseeker_mite_drone": 1
+    }
+  },
+  "endor_bloodseeker_mite_drone_lair_neutral_small_boss_01": {
+    "mobs": {
+      "bloodseeker_mite_drone": 1
+    }
+  },
+  "endor_bloodseeker_mite_lair_neutral_small": {
+    "mobs": {
+      "bloodseeker_mite": 1
+    }
+  },
+  "endor_bloodseeker_mite_queen_lair_neutral_small": {
+    "mobs": {
+      "bloodseeker_mite_queen": 1,
+      "bloodseeker_mite_guardian": 2
+    }
+  },
+  "endor_blooming_jax_lair_neutral_small": {
+    "mobs": {
+      "blooming_jax": 1
+    }
+  },
+  "endor_blurrg_crimson_neutral_small": {
+    "mobs": {
+      "crimson_blurrg": 1
+    }
+  },
+  "endor_blurrg_hunter_lair_neutral_small": {
+    "mobs": {
+      "blurrg_hunter": 1
+    }
+  },
+  "endor_blurrg_lair_neutral_small": {
+    "mobs": {
+      "blurrg": 1
+    }
+  },
+  "endor_blurrg_pup_lair_neutral_small": {
+    "mobs": {
+      "blurrg_pup": 1
+    }
+  },
+  "endor_blurrg_sand_crawler_lair_neutral_small": {
+    "mobs": {
+      "blurrg_sand_crawler": 1
+    }
+  },
+  "endor_blushing_jax_lair_neutral_small": {
+    "mobs": {
+      "blushing_jax": 1
+    }
+  },
+  "endor_boar_wolf_bloodfrenzied_lair_neutral_small": {
+    "mobs": {
+      "blood_frenzied_boar_wolf": 1
+    }
+  },
+  "endor_boar_wolf_cub_lair_neutral_small": {
+    "mobs": {
+      "boar_wolf_cub": 1
+    }
+  },
+  "endor_boar_wolf_lair_neutral_small": {
+    "mobs": {
+      "boar_wolf": 1
+    }
+  },
+  "endor_bolle_bol_colt_neutral_small": {
+    "mobs": {
+      "bolle_bol_colt": 1
+    }
+  },
+  "endor_bolle_bol_male_female_neutral_small": {
+    "mobs": {
+      "bolle_bol_female": 1,
+      "bolle_bol_male": 1,
+      "bolle_bol_calf": 1
+    }
+  },
+  "endor_bolle_bol_stomper_neutral_small": {
+    "mobs": {
+      "bolle_bol_stomper": 1
+    }
+  },
+  "endor_bordok_stud_mare_neutral_small": {
+    "mobs": {
+      "bordok_mare": 1,
+      "roaming_bordok_stud": 1
+    }
+  },
+  "endor_borgle_desert_roamer_neutral_small": {
+    "mobs": {
+      "roaming_desert_borgle": 1
+    }
+  },
+  "endor_borgle_fierce_neutral_small": {
+    "mobs": {
+      "fierce_borgle": 1
+    }
+  },
+  "endor_borgle_life_sapper_neutral_small": {
+    "mobs": {
+      "borgle_life_sapper": 1
+    }
+  },
+  "endor_borgle_putrid_neutral_small": {
+    "mobs": {
+      "putrid_borgle": 1
+    }
+  },
+  "endor_bounding_jax_lair_neutral_small": {
+    "mobs": {
+      "bounding_jax": 1
+    }
+  },
+  "endor_gurreck_cowardly_lair_neutral_small": {
+    "mobs": {
+      "cowardly_gurreck": 1
+    }
+  },
+  "endor_gurreck_crazed_neutral_small": {
+    "mobs": {
+      "crazed_gurreck": 1
+    }
+  },
+  "endor_gurreck_desert_charger_neutral_small": {
+    "mobs": {
+      "desert_gurreck_charger": 1
+    }
+  },
+  "endor_gurreck_hilltop_neutral_small": {
+    "mobs": {
+      "hilltop_gurreck_hunter": 1
+    }
+  },
+  "endor_gurreck_woodland_neutral_small": {
+    "mobs": {
+      "gurreck_forest_stalker": 1
+    }
+  },
+  "endor_hanadak_ancient_neutral_small": {
+    "mobs": {
+      "hanadak_ancient": 1
+    }
+  },
+  "endor_hanadak_matriarch_neutral_small": {
+    "mobs": {
+      "elder_hanadak_matriarch": 1
+    }
+  },
+  "endor_hanadak_mature_neutral_small": {
+    "mobs": {
+      "mature_hanadak": 1
+    }
+  },
+  "endor_hanadak_rock_smasher_neutral_small": {
+    "mobs": {
+      "mature_hanadak_rock_smasher": 1
+    }
+  },
+  "endor_hanadak_young_rock_crusher_neutral_small": {
+    "mobs": {
+      "young_hanadak_rock_crusher": 1
+    }
+  },
+  "endor_lantern_bird_gleaming_neutral_small": {
+    "mobs": {
+      "gleaming_lantern_bird": 1
+    }
+  },
+  "endor_lantern_bird_neutral_small": {
+    "mobs": {
+      "lantern_bird": 1
+    }
+  },
+  "endor_lantern_bird_shimmering_neutral_small": {
+    "mobs": {
+      "shimmering_lantern_bird": 1
+    }
+  },
+  "endor_mantigrue_deranged_neutral_none_boss_01": {
+    "mobs": {
+      "deranged_mantigrue": 1
+    }
+  },
+  "endor_mantigrue_night_stalker_lair_neutral_small": {
+    "mobs": {
+      "mantigrue_night_stalker": 1
+    }
+  },
+  "endor_mantigrue_reaper_lair_neutral_small": {
+    "mobs": {
+      "mantigrue_reaper": 1
+    }
+  },
+  "endor_mantigrue_screecher_lair_neutral_small": {
+    "mobs": {
+      "mantigrue_screecher": 1
+    }
+  },
+  "endor_merek_blood_king_neutral_small": {
+    "mobs": {
+      "blood_drenched_merek_king": 1
+    }
+  },
+  "endor_merek_bloodstained_neutral_small": {
+    "mobs": {
+      "blood_stained_merek": 1
+    }
+  },
+  "endor_merek_king_queen_neutral_small": {
+    "mobs": {
+      "king_merek_harvester": 1,
+      "queen_merek_harvester": 1
+    }
+  },
+  "endor_merek_lair_neutral_boss_01": {
+    "mobs": {
+      "merek_assassin": 1,
+      "blood_stained_merek": 1
+    }
+  },
+  "endor_merek_lair_neutral_boss_02": {
+    "mobs": {
+      "merek_cavern_creeper": 1,
+      "delirious_merek_avenger": 1
+    }
+  },
+  "endor_merek_lair_neutral_boss_03": {
+    "mobs": {
+      "toxic_merek_battlelord": 1
+    }
+  },
+  "endor_merek_lair_neutral_boss_04": {
+    "mobs": {
+      "merek_harvester": 1
+    }
+  },
+  "endor_merek_lair_neutral_medium_01": {
+    "mobs": {
+      "merek_assassin": 1,
+      "blood_stained_merek": 1
+    }
+  },
+  "endor_merek_lair_neutral_medium_02": {
+    "mobs": {
+      "merek_cavern_creeper": 1,
+      "delirious_merek_avenger": 1
+    }
+  },
+  "endor_merek_lair_neutral_medium_03": {
+    "mobs": {
+      "toxic_merek_battlelord": 1
+    }
+  },
+  "endor_merek_lair_neutral_medium_04": {
+    "mobs": {
+      "merek_harvester": 1
+    }
+  },
+  "endor_merek_toxic_battlelord_neutral_small": {
+    "mobs": {
+      "toxic_merek_battlelord": 1
+    }
+  },
+  "endor_pouncing_jax_lair_neutral_small": {
+    "mobs": {
+      "pouncing_jax": 1
+    }
+  },
+  "endor_pouncing_jax_lair_neutral_small_boss_01": {
+    "mobs": {
+      "pouncing_jax": 1
+    }
+  },
+  "endor_remmer_dune_scavenger_neutral_small": {
+    "mobs": {
+      "remmer_dune_scavenger": 1
+    }
+  },
+  "endor_remmer_highland_neutral_small": {
+    "mobs": {
+      "highland_remmer": 1
+    }
+  },
+  "endor_roba_neutral_small": {
+    "mobs": {
+      "roba": 1
+    }
+  },
+  "endor_roba_runt_neutral_small": {
+    "mobs": {
+      "roba_runt": 1
+    }
+  },
+  "endor_roba_young_elder_neutral_small": {
+    "mobs": {
+      "roba_boar": 1
+    }
+  },
+  "endor_roba_young_elder_neutral_small_boss_01": {
+    "mobs": {
+      "roba_boar": 1
+    }
+  },
+  "endor_squall_elder_neutral_small": {
+    "mobs": {
+      "elder_squall": 1,
+      "squall": 1
+    }
+  },
+  "endor_squall_rabid_neutral_small": {
+    "mobs": {
+      "rabid_squall": 1
+    }
+  },
+  "endor_squill_festering_neural_small": {
+    "mobs": {
+      "festering_squill": 1
+    }
+  },
+  "endor_squill_festering_neutral_small_boss_01": {
+    "mobs": {
+      "festering_squill": 1
+    }
+  },
+  "endor_squill_noxious_neutral_small": {
+    "mobs": {
+      "noxious_squill": 1
+    }
+  },
+  "endor_swirl_prong_impaler_neutral_small": {
+    "mobs": {
+      "swirl_prong_impaler": 1
+    }
+  },
+  "endor_swirl_prong_neutral_small": {
+    "mobs": {
+      "swirl_prong": 1
+    }
+  },
+  "endor_donkuwah_chieftan_neutral_medium_theater": {
+    "mobs": {
+      "donkuwah_chieftain": 1,
+      "donkuwah_laborer": 1,
+      "donkuwah_shaman": 1,
+      "shaggy_donkuwah_youth": 1,
+      "donkuwah_tribesman": 1
+    }
+  },
+  "endor_donkuwah_eerie_spiritmaster_neutral_medium_theater": {
+    "mobs": {
+      "eerie_donkuwah_spiritmaster": 1,
+      "donkuwah_shaman": 1
+    }
+  },
+  "endor_donkuwah_spooky_shaman_neutral_medium_theater": {
+    "mobs": {
+      "spooky_donkuwah_spiritmaster": 1,
+      "donkuwah_shaman": 1
+    }
+  },
+  "endor_donkuwah_tribesman_neutral_small_theater": {
+    "mobs": {
+      "donkuwah_tribesman": 1,
+      "donkuwah_laborer": 1
+    }
+  },
+  "endor_gondula_archaic_ritualist_neutral_small_theater": {
+    "mobs": {
+      "archaic_gondula_ritualist": 1,
+      "competent_gondula_ritualist": 1,
+      "wise_gondula_ritualist": 1,
+      "gondula_ritualist": 1,
+      "gondula_tribesman": 1
+    }
+  },
+  "endor_gondula_loremaster_neutral_small_theater": {
+    "mobs": {
+      "gondula_loremaster": 1,
+      "gifted_gondula_shaman": 1,
+      "gondula_shaman": 1,
+      "gondula_tribesman": 1
+    }
+  },
+  "endor_korga_chief_neutral_medium_theater": {
+    "mobs": {
+      "korga_chieftain": 1,
+      "korga_scout": 1,
+      "korga_laborer": 1,
+      "korga_elder": 1,
+      "korga_spiritmaster": 1,
+      "korga_cub": 1
+    }
+  },
+  "endor_korga_dark_shaman_neutral_small_theater": {
+    "mobs": {
+      "korga_dark_shaman": 1,
+      "tainted_korga_dark_shaman": 1,
+      "bewitching_korga_dark_shaman": 1
+    }
+  },
+  "endor_marauder_blood_crazed_plains_neutral_medium_theater": {
+    "mobs": {
+      "blood_crazed_plains_marauder": 1,
+      "berserk_marauder": 1
+    }
+  },
+  "endor_marauder_frenzied_neutral_medium_theater": {
+    "mobs": {
+      "frenzied_marauder": 1,
+      "feral_marauder": 1,
+      "marauder": 1
+    }
+  },
+  "endor_panshee_ritualist_neutral_small_theater": {
+    "mobs": {
+      "panshee_ritualist": 1,
+      "wise_panshee_ritualist": 1,
+      "competent_panshee_ritualist": 1,
+      "archaic_panshee_ritualist": 1
+    }
+  },
+  "endor_panshee_weathered_shaman_neutral_medium_theater": {
+    "mobs": {
+      "weathered_panshee_shaman": 1,
+      "panshee_shaman": 1,
+      "gifted_panshee_shaman": 1,
+      "adept_panshee_shaman": 1
+    }
+  },
+  "endor_pubam_dark_shaman_neutral_medium_theater": {
+    "mobs": {
+      "bewitching_pubam_dark_shaman": 1,
+      "tainted_pubam_dark_shaman": 1,
+      "pubam_dark_shaman": 1
+    }
+  },
+  "endor_arachne_drone_neutral_none": {
+    "mobs": {
+      "arachne_drone": 1
+    }
+  },
+  "endor_arachne_hatchling_neutral_none": {
+    "mobs": {
+      "arachne_hatchling": 1
+    }
+  },
+  "endor_arachne_venom_filled_neutral_none": {
+    "mobs": {
+      "venom_filled_arachne": 1
+    }
+  },
+  "endor_arachne_warrior_neutral_none": {
+    "mobs": {
+      "arachne_warrior": 1
+    }
+  },
+  "endor_bark_mite_burrower_collector_neutral_none": {
+    "mobs": {
+      "bark_mite_burrower_collector": 1
+    }
+  },
+  "endor_bark_mite_burrower_drone_neutral_none": {
+    "mobs": {
+      "bark_mite_burrower_drone": 1
+    }
+  },
+  "endor_bark_mite_burrower_swarmling_neutral_none": {
+    "mobs": {
+      "bark_mite_burrower_swarmling": 1
+    }
+  },
+  "endor_bloodseeker_mite_drone_neutral_none": {
+    "mobs": {
+      "bloodseeker_mite_drone": 1
+    }
+  },
+  "endor_bloodseeker_mite_hunter_neutral_none": {
+    "mobs": {
+      "bloodseeker_mite_hunter": 1
+    }
+  },
+  "endor_blooming_jax_neutral_none": {
+    "mobs": {
+      "blooming_jax": 1
+    }
+  },
+  "endor_blurrg_diseased_neutral_none": {
+    "mobs": {
+      "diseased_blurrg": 1
+    }
+  },
+  "endor_blurrg_hunter_neutral_none": {
+    "mobs": {
+      "blurrg_hunter": 1
+    }
+  },
+  "endor_blurrg_raptor_neutral_none": {
+    "mobs": {
+      "blurrg_raptor": 1
+    }
+  },
+  "endor_blurrg_sand_crawler_neutral_none": {
+    "mobs": {
+      "blurrg_sand_crawler": 1
+    }
+  },
+  "endor_blurrg_tracker_neutral_none": {
+    "mobs": {
+      "blurrg_tracker": 1
+    }
+  },
+  "endor_blushing_jax_neutral_none": {
+    "mobs": {
+      "blushing_jax": 1
+    }
+  },
+  "endor_boar_wolf_neutral_none": {
+    "mobs": {
+      "boar_wolf": 1
+    }
+  },
+  "endor_boar_wolf_ravager": {
+    "mobs": {
+      "boar_wolf_ravager": 1
+    }
+  },
+  "endor_bolle_bol_bark_biter_neutral_none": {
+    "mobs": {
+      "bolle_bol_bark_biter": 1
+    }
+  },
+  "endor_bolle_bol_herd_leader_neutral_none": {
+    "mobs": {
+      "bolle_bol_herd_leader": 1,
+      "bolle_bol_female": 1,
+      "bolle_bol_male": 1,
+      "bolle_bol_calf": 1
+    }
+  },
+  "endor_bolle_bol_stomper_neutral_none": {
+    "mobs": {
+      "bolle_bol_stomper": 1
+    }
+  },
+  "endor_bolle_bolle_colt_neutral_none": {
+    "mobs": {
+      "bolle_bol_colt": 1
+    }
+  },
+  "endor_bordok_ancient_neutral_none": {
+    "mobs": {
+      "bordok_ancient": 1
+    }
+  },
+  "endor_bordok_herd_master_neutral_none": {
+    "mobs": {
+      "bordok_herd_master": 1,
+      "bordok_mare": 1,
+      "bordok_foal": 1,
+      "roaming_bordok_stud": 1
+    }
+  },
+  "endor_borgle_desert_roamer_neutral_none": {
+    "mobs": {
+      "roaming_desert_borgle": 1
+    }
+  },
+  "endor_borgle_desert_runner_neutral_none": {
+    "mobs": {
+      "desert_scavenger": 1
+    }
+  },
+  "endor_borgle_fierce_neutral_none": {
+    "mobs": {
+      "fierce_borgle": 1
+    }
+  },
+  "endor_borgle_life_sapper_neutral_none": {
+    "mobs": {
+      "borgle_life_sapper": 1
+    }
+  },
+  "endor_bounding_jax_neutral_none": {
+    "mobs": {
+      "bounding_jax": 1,
+      "diminutive_bounding_jax": 1
+    }
+  },
+  "endor_gorax_neutral_none": {
+    "mobs": {
+      "gorax": 1,
+      "minor_gorax": 2
+    }
+  },
+  "endor_gurreck_cowardly_neutral_none": {
+    "mobs": {
+      "cowardly_gurreck": 1
+    }
+  },
+  "endor_gurreck_crazed_neutral_none": {
+    "mobs": {
+      "crazed_gurreck": 1
+    }
+  },
+  "endor_gurreck_desert_charger_neutral_none": {
+    "mobs": {
+      "desert_gurreck_charger": 1
+    }
+  },
+  "endor_gurreck_hilltop_neutral_none": {
+    "mobs": {
+      "hilltop_gurreck_hunter": 1
+    }
+  },
+  "endor_gurreck_neutral_none": {
+    "mobs": {
+      "gurreck": 1
+    }
+  },
+  "endor_gurreck_prowler_neutral_none": {
+    "mobs": {
+      "prowling_gurreck": 1
+    }
+  },
+  "endor_gurreck_woodland_neutral_none": {
+    "mobs": {
+      "gurreck_forest_stalker": 1
+    }
+  },
+  "endor_hanadak_drifter_neutral_none": {
+    "mobs": {
+      "hanadak_drifter": 1
+    }
+  },
+  "endor_hanadak_stoneskin_neutral_none": {
+    "mobs": {
+      "stoneskin_hanadak": 1
+    }
+  },
+  "endor_lantern_bird_aged_neutral_none": {
+    "mobs": {
+      "aged_lantern_bird": 1
+    }
+  },
+  "endor_lantern_bird_neutral_none": {
+    "mobs": {
+      "lantern_bird": 1
+    }
+  },
+  "endor_lantern_bird_radiant_neutral_none": {
+    "mobs": {
+      "radiant_lantern_bird": 1
+    }
+  },
+  "endor_lantern_bird_shimmering_neutral_none": {
+    "mobs": {
+      "shimmering_lantern_bird": 1
+    }
+  },
+  "endor_mantigrue_hunter_neutral_none": {
+    "mobs": {
+      "mantigrue_hunter": 1
+    }
+  },
+  "endor_mantigrue_night_stalker_neutral_none": {
+    "mobs": {
+      "mantigrue_night_stalker": 1
+    }
+  },
+  "endor_mantigrue_reaper_neutral_none": {
+    "mobs": {
+      "mantigrue_reaper": 1
+    }
+  },
+  "endor_mentigrue_deranged_neutral_none": {
+    "mobs": {
+      "deranged_mantigrue": 1
+    }
+  },
+  "endor_merek_assassin_neutral_none": {
+    "mobs": {
+      "merek_assassin": 1
+    }
+  },
+  "endor_merek_cavern_creaper_neutral_none": {
+    "mobs": {
+      "merek_cavern_creeper": 1
+    }
+  },
+  "endor_merek_delirious_avenger_neutral_none": {
+    "mobs": {
+      "delirious_merek_avenger": 1
+    }
+  },
+  "endor_pouncing_jax_neutral_none": {
+    "mobs": {
+      "pouncing_jax": 1
+    }
+  },
+  "endor_remmer_carrion_keeper_neutral_none": {
+    "mobs": {
+      "remmer_carrion_keeper": 1
+    }
+  },
+  "endor_remmer_dune_scavenger_neutral_none": {
+    "mobs": {
+      "remmer_dune_scavenger": 1
+    }
+  },
+  "endor_remmer_king_queen_neutral_none": {
+    "mobs": {
+      "rancid_remmer_warrior": 2,
+      "lice_ridden_remmer_queen": 1,
+      "rotten_gut_remmer_king": 1
+    }
+  },
+  "endor_roba_neutral_none": {
+    "mobs": {
+      "roba": 1
+    }
+  },
+  "endor_roba_pack_leader_neutral_none": {
+    "mobs": {
+      "roba_pack_leader": 1,
+      "roba": 1
+    }
+  },
+  "endor_roba_reclusive_neutral_none": {
+    "mobs": {
+      "reclusive_roba": 1
+    }
+  },
+  "endor_roba_stalker_neutral_none": {
+    "mobs": {
+      "ravenous_roba_stalker": 1
+    }
+  },
+  "endor_squill_festering_neutral_none": {
+    "mobs": {
+      "festering_squill": 1
+    }
+  },
+  "endor_squill_noxious_neutral_none": {
+    "mobs": {
+      "noxious_squill": 1
+    }
+  },
+  "endor_swirl_prong_erratic_neutral_none": {
+    "mobs": {
+      "erratic_swirl_prong": 1
+    }
+  },
+  "endor_swirl_prong_impaler_neutral_none": {
+    "mobs": {
+      "swirl_prong_impaler": 1
+    }
+  },
+  "endor_swirl_prong_neutral_none": {
+    "mobs": {
+      "swirl_prong": 1,
+      "swirl_prong_pack_leader": 1
+    }
+  },
+  "endor_donkuwah_haggard_battlelord_neutral_none": {
+    "mobs": {
+      "haggard_donkuwah_battlelord": 1,
+      "donkuwah_shaman": 1,
+      "donkuwah_tribesman": 1
+    }
+  },
+  "endor_donkuwah_scout_neutral_none": {
+    "mobs": {
+      "donkuwah_scout": 1,
+      "donkuwah_tribesman": 1
+    }
+  },
+  "endor_donkuwah_twisted_scout_neutral_none": {
+    "mobs": {
+      "twisted_donkuwah_scavenger": 1
+    }
+  },
+  "endor_gondual_seasoned_warrior_neutral_none": {
+    "mobs": {
+      "seasoned_gondula_warrior": 1,
+      "gondula_warrior": 1,
+      "gondula_veteran": 1,
+      "gondula_tribesman": 1
+    }
+  },
+  "endor_gondula_masterful_warrior_neutral_none": {
+    "mobs": {
+      "masterful_ewok_warrior": 1,
+      "hardened_gondula_warrior": 1,
+      "gondula_veteran": 1,
+      "gondula_warrior": 1,
+      "gondula_tribesman": 1
+    }
+  },
+  "endor_jinda_chief_neutral_none": {
+    "mobs": {
+      "jinda_chief": 1,
+      "jinda_elder": 2,
+      "jinda_loremaster": 1,
+      "jinda_ritualist": 1,
+      "jinda_shaman": 1,
+      "jinda_tribesman": 4
+    }
+  },
+  "endor_jinda_shaman_neutral_none": {
+    "mobs": {
+      "adept_jinda_shaman": 1,
+      "gifted_jinda_shaman": 1,
+      "weathered_jinda_shaman": 1,
+      "jinda_shaman": 4
+    }
+  },
+  "endor_jinda_tribesman_neutral_none": {
+    "mobs": {
+      "jinda_tribesman": 1
+    }
+  },
+  "endor_jinda_warrior_neutral_none": {
+    "mobs": {
+      "masterful_jinda_warrior": 2,
+      "hardened_jinda_warrior": 1,
+      "seasoned_jinda_warrior": 3,
+      "jinda_warrior": 4
+    }
+  },
+  "endor_korga_battlelord_neutral_none": {
+    "mobs": {
+      "vicious_korga_battlelord": 1,
+      "korga_battlelord": 1,
+      "enraged_korga": 1,
+      "frenzied_korga": 1,
+      "vile_korga_battlelord": 1
+    }
+  },
+  "endor_korga_scout_neutral_none": {
+    "mobs": {
+      "korga_scout": 1
+    }
+  },
+  "endor_korga_tricky_scout_neutral_none": {
+    "mobs": {
+      "tricky_korga_scout": 1,
+      "beguiling_korga_scout": 1,
+      "crafty_korga_scout": 1,
+      "korga_scout": 1
+    }
+  },
+  "endor_marauder_grassland_radier_neutral_none": {
+    "mobs": {
+      "grassland_raider": 1,
+      "grassland_blood_marauder": 1
+    }
+  },
+  "endor_marauder_wandering_desert_neutral_none": {
+    "mobs": {
+      "wandering_desert_marauder": 1
+    }
+  },
+  "endor_marauder_wasteland_neutral_none": {
+    "mobs": {
+      "wasteland_marauder": 1
+    }
+  },
+  "endor_panshee_tribesman_neutral_none": {
+    "mobs": {
+      "panshee_tribesman": 1,
+      "panshee_warrior": 1
+    }
+  },
+  "endor_pubam_beguiling_scout_neutral_none": {
+    "mobs": {
+      "beguiling_pubam_scout": 1,
+      "crafty_pubam_scout": 1,
+      "tricky_pubam_scout": 1,
+      "pubam_scout": 1
+    }
+  },
+  "endor_pubam_vicious_battlelord_neutral_none": {
+    "mobs": {
+      "vicious_pubam_battlelord": 1,
+      "frenzied_pubam": 1,
+      "enraged_pubam": 1,
+      "pubam_battlelord": 1,
+      "pubam_tribesman": 1
+    }
+  },
+  "lok_flit_lair2_neutral_medium": {
+    "mobs": {
+      "flit_bloodsucker": 1,
+      "flit_harasser": 1
+    }
+  },
+  "lok_flit_lair2_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_flit": 1
+    }
+  },
+  "lok_flit_lair_neutral_medium": {
+    "mobs": {
+      "flit": 1,
+      "flit_youth": 1
+    }
+  },
+  "lok_gurk_lair2_neutral_medium": {
+    "mobs": {
+      "crazed_gurk_destroyer": 1
+    }
+  },
+  "lok_gurk_lair2_neutral_medium_boss_01": {
+    "mobs": {
+      "crazed_gurk_destroyer": 1
+    }
+  },
+  "lok_gurk_lair_neutral_boss_01": {
+    "mobs": {
+      "gurk": 1,
+      "gurk_whelp": 1
+    }
+  },
+  "lok_gurk_lair_neutral_boss_02": {
+    "mobs": {
+      "gurk": 1
+    }
+  },
+  "lok_gurk_lair_neutral_boss_03": {
+    "mobs": {
+      "gurk_tracker": 1,
+      "gurk_gatherer": 1
+    }
+  },
+  "lok_gurk_lair_neutral_boss_04": {
+    "mobs": {
+      "feral_gurk": 1
+    }
+  },
+  "lok_gurk_lair_neutral_medium": {
+    "mobs": {
+      "feral_gurk": 1
+    }
+  },
+  "lok_gurk_lair_neutral_small": {
+    "mobs": {
+      "gurk": 1,
+      "gurk_whelp": 1,
+      "shaggy_gurk_youth": 1
+    }
+  },
+  "lok_gurk_lair_neutral_small_01": {
+    "mobs": {
+      "gurk": 1,
+      "gurk_whelp": 1
+    }
+  },
+  "lok_gurk_lair_neutral_small_02": {
+    "mobs": {
+      "gurk": 1
+    }
+  },
+  "lok_gurk_lair_neutral_small_03": {
+    "mobs": {
+      "gurk_gatherer": 1,
+      "gurk_tracker": 1
+    }
+  },
+  "lok_gurk_lair_neutral_small_04": {
+    "mobs": {
+      "gurk": 1,
+      "gurk_gatherer": 1,
+      "gurk_tracker": 1
+    }
+  },
+  "lok_gurnaset_lair_neutral_medium": {
+    "mobs": {
+      "gurnaset": 1
+    }
+  },
+  "lok_kimogilla_dune_lair_neutral_medium": {
+    "mobs": {
+      "dune_kimogila": 1
+    }
+  },
+  "lok_kimogilla_giant_dune_lair_neutral_medium": {
+    "mobs": {
+      "giant_dune_kimogila": 1,
+      "dune_kimogila": 2
+    }
+  },
+  "lok_kimogilla_lair2_neutral_medium": {
+    "mobs": {
+      "kimogila": 2,
+      "enraged_kimogila": 1,
+      "kimogila_hatchling": 2
+    }
+  },
+  "lok_kimogilla_lair_neutral_medium": {
+    "mobs": {
+      "kimogila": 2,
+      "giant_kimogila": 1,
+      "kimogila_hatchling": 2
+    }
+  },
+  "lok_kusak_lair2_neutral_medium": {
+    "mobs": {
+      "ferocious_kusak": 1,
+      "kusak_mauler": 1,
+      "kusak_stalker": 1
+    }
+  },
+  "lok_kusak_lair_neutral_medium": {
+    "mobs": {
+      "kusak": 1
+    }
+  },
+  "lok_langlatch_lair_neutral_medium": {
+    "mobs": {
+      "langlatch_hunter": 1
+    }
+  },
+  "lok_mynock_lair_neutral_medium": {
+    "mobs": {
+      "salt_mynock": 1,
+      "lowland_salt_mynock": 1
+    }
+  },
+  "lok_perlek_lair_neutral_medium": {
+    "mobs": {
+      "perlek": 1
+    }
+  },
+  "lok_pharple_lair_neutral_medium": {
+    "mobs": {
+      "pharple": 2,
+      "giant_pharple": 1
+    }
+  },
+  "lok_snorbal_lair_neutral_medium": {
+    "mobs": {
+      "snorbal": 1
+    }
+  },
+  "lok_snorbal_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "mature_snorbal_female": 1,
+      "mature_snorbal_male": 1
+    }
+  },
+  "lok_spinded_snake_lair2_neutral_medium": {
+    "mobs": {
+      "spined_snake": 1
+    }
+  },
+  "lok_spinded_snake_lair_neutral_medium": {
+    "mobs": {
+      "young_spined_snake": 1,
+      "sandy_spined_snake": 1
+    }
+  },
+  "lok_vesp_lair2_neutral_medium": {
+    "mobs": {
+      "gorge_vesp": 1,
+      "vesp_hunter": 1
+    }
+  },
+  "lok_vesp_lair_neutral_medium": {
+    "mobs": {
+      "vesp": 1,
+      "mountain_vesp": 1
+    }
+  },
+  "lok_blood_razor_camp_neutral_easy_theater": {
+    "mobs": {
+      "blood_razor_weak_pirate": 1
+    }
+  },
+  "lok_blood_razor_camp_neutral_medium_theater": {
+    "mobs": {
+      "blood_razor_captain": 1,
+      "blood_razor_officer": 1,
+      "blood_razor_guard": 1
+    }
+  },
+  "lok_canyon_corsair_camp2_neutral_medium_theater": {
+    "mobs": {
+      "canyon_corsair_captain": 1,
+      "elite_canyon_corsair": 1
+    }
+  },
+  "lok_canyon_corsair_camp_neutral_medium_theater": {
+    "mobs": {
+      "canyon_corsair_cutthroat": 1,
+      "canyon_corsair_strong_pirate": 1,
+      "canyon_corsair_guard": 1
+    }
+  },
+  "lok_marooned_pirate_camp_neutral_medium_theater": {
+    "mobs": {
+      "marooned_pirate": 1
+    }
+  },
+  "lok_mercenary_camp2_neutral_medium_theater": {
+    "mobs": {
+      "mercenary_destroyer": 1,
+      "mercenary_warlord": 1
+    }
+  },
+  "lok_mercenary_camp_neutral_medium_theater": {
+    "mobs": {
+      "strong_mercenary": 1,
+      "weak_mercenary": 1
+    }
+  },
+  "lok_nym_base2_neutral_large_theater": {
+    "mobs": {
+      "nym_destroyer": 1,
+      "nym_guard_elite": 1,
+      "nym_guard_strong": 1
+    }
+  },
+  "lok_nym_base_neutral_large_theater": {
+    "mobs": {
+      "nym_guard_weak": 1,
+      "nym_pirate_elite": 1
+    }
+  },
+  "lok_nym_camp2_neutral_medium_theater": {
+    "mobs": {
+      "nym_bodyguard": 1,
+      "nym_pirate_strong": 1
+    }
+  },
+  "lok_nym_camp_neutral_medium_theater": {
+    "mobs": {
+      "nym_pirate_weak": 1,
+      "nym_brawler": 1,
+      "nym_surveyor": 1
+    }
+  },
+  "lok_flit_pack2_neutral_none": {
+    "mobs": {
+      "giant_flit": 1
+    }
+  },
+  "lok_flit_pack_neutral_none": {
+    "mobs": {
+      "flit": 1,
+      "flit_youth": 1
+    }
+  },
+  "lok_gurk_herd_neutral_none": {
+    "mobs": {
+      "crazed_gurk_destroyer": 1,
+      "shaggy_gurk_youth": 1
+    }
+  },
+  "lok_gurk_pack2_neutral_none": {
+    "mobs": {
+      "gurk_tracker": 1,
+      "gurk_gatherer": 1
+    }
+  },
+  "lok_gurk_pack_neutral_none": {
+    "mobs": {
+      "gurk": 1,
+      "gurk_whelp": 1
+    }
+  },
+  "lok_gurnaset_herd_neutral_none": {
+    "mobs": {
+      "gurnaset": 1,
+      "gurnaset_hatchling": 1
+    }
+  },
+  "lok_kimogilla_dune_neutral_none": {
+    "mobs": {
+      "dune_kimogila": 1
+    }
+  },
+  "lok_kimogilla_enraged_dune_neutral_none": {
+    "mobs": {
+      "dune_kimogila": 1,
+      "enraged_dune_kimogila": 2
+    }
+  },
+  "lok_kimogilla_giant_dune_neutral_none": {
+    "mobs": {
+      "giant_dune_kimogila": 1,
+      "dune_kimogila": 2
+    }
+  },
+  "lok_kimogilla_pack2_neutral_none": {
+    "mobs": {
+      "kimogila": 1,
+      "enraged_kimogila": 1
+    }
+  },
+  "lok_kimogilla_pack3_neutral_none": {
+    "mobs": {
+      "kimogila": 1,
+      "kimogila_hatchling": 1
+    }
+  },
+  "lok_kimogilla_pack_neutral_none": {
+    "mobs": {
+      "kimogila": 1,
+      "giant_kimogila": 1
+    }
+  },
+  "lok_kusak_pack2_neutral_none": {
+    "mobs": {
+      "kusak_hunter": 1
+    }
+  },
+  "lok_kusak_pack_neutral_none": {
+    "mobs": {
+      "kusak": 1,
+      "kusak_pup": 1
+    }
+  },
+  "lok_langlatch_pack2_neutral_none": {
+    "mobs": {
+      "sharptooth_langlatch": 1,
+      "langlatch_destroyer": 1,
+      "langlatch_marauder": 1
+    }
+  },
+  "lok_langlatch_pack_neutral_none": {
+    "mobs": {
+      "male_langlatch": 1,
+      "female_langlatch": 1,
+      "langlatch_hatchling": 1,
+      "juvenile_langlatch": 1
+    }
+  },
+  "lok_mynock_pack2_neutral_none": {
+    "mobs": {
+      "sulfur_pool_mynock": 1,
+      "riverside_sulfur_mynock": 1
+    }
+  },
+  "lok_mynock_pack_neutral_none": {
+    "mobs": {
+      "salt_mynock": 1,
+      "lowland_salt_mynock": 1
+    }
+  },
+  "lok_perlek_pack_neutral_none": {
+    "mobs": {
+      "perlek": 1,
+      "perlek_scavenger": 2,
+      "perlek_ravager": 2
+    }
+  },
+  "lok_pharple_pack_neutral_none": {
+    "mobs": {
+      "pharple": 1,
+      "runty_pharple": 1
+    }
+  },
+  "lok_snorbal_pack2_neutral_none": {
+    "mobs": {
+      "mature_snorbal_male": 1,
+      "snorbal_matriarch": 1,
+      "mature_snorbal_female": 1
+    }
+  },
+  "lok_snorbal_pack3_neutral_none": {
+    "mobs": {
+      "elder_snorbal_male": 1,
+      "elder_snorbal_female": 1,
+      "snorbal_matriarch": 1
+    }
+  },
+  "lok_snorbal_pack_neutral_none": {
+    "mobs": {
+      "snorbal": 1,
+      "female_snorbal_calf": 1,
+      "male_snorbal_calf": 1
+    }
+  },
+  "lok_spined_snake_pack2_neutral_none": {
+    "mobs": {
+      "giant_spined_snake": 1
+    }
+  },
+  "lok_spined_snake_pack_neutral_none": {
+    "mobs": {
+      "spined_snake_recluse": 1
+    }
+  },
+  "lok_vesp_pack2_neutral_none": {
+    "mobs": {
+      "deadly_vesp": 1
+    }
+  },
+  "lok_vesp_pack_neutral_none": {
+    "mobs": {
+      "desert_vesp": 1,
+      "vesp_scavenger": 1
+    }
+  },
+  "lok_blood_razor_pack2_neutral_none": {
+    "mobs": {
+      "blood_razor_strong_pirate": 1,
+      "blood_razor_scout": 1
+    }
+  },
+  "lok_blood_razor_pack3_neutral_none": {
+    "mobs": {
+      "blood_razor_cutthroat": 1,
+      "blood_razor_elite_pirate": 1
+    }
+  },
+  "lok_blood_razor_pack_neutral_none": {
+    "mobs": {
+      "blood_razor_berzerker": 1,
+      "blood_razor_destroyer": 1
+    }
+  },
+  "lok_canyon_corsair_patrol2_neutral_none": {
+    "mobs": {
+      "canyon_corsair_elite_pirate": 1,
+      "canyon_corsair_destroyer": 1
+    }
+  },
+  "lok_canyon_corsair_patrol_neutral_none": {
+    "mobs": {
+      "canyon_corsair_scout": 1,
+      "canyon_corsair_weak_pirate": 1
+    }
+  },
+  "lok_droideka_patrol_neutral_none": {
+    "mobs": {
+      "droideka": 1
+    }
+  },
+  "lok_marooned_pirate_patrol2_neutral_none": {
+    "mobs": {
+      "marooned_pirate_captain": 1,
+      "marooned_pirate_first_mate": 1
+    }
+  },
+  "lok_marooned_pirate_patrol_neutral_none": {
+    "mobs": {
+      "marooned_pirate": 1,
+      "marooned_pirate_engineer": 1
+    }
+  },
+  "lok_mercenary_patrol2_neutral_none": {
+    "mobs": {
+      "mercenary_commander": 1,
+      "mercenary_elite": 1
+    }
+  },
+  "lok_mercenary_patrol_neutral_none": {
+    "mobs": {
+      "mercenary_messenger": 1
+    }
+  },
+  "lok_nym_patrol2_neutral_none": {
+    "mobs": {
+      "nym_patrol_strong": 1
+    }
+  },
+  "lok_nym_patrol3_neutral_none": {
+    "mobs": {
+      "nym_patrol_elite": 1
+    }
+  },
+  "lok_nym_patrol4_neutral_none": {
+    "mobs": {
+      "nym_droideka": 1
+    }
+  },
+  "lok_nym_patrol_neutral_none": {
+    "mobs": {
+      "nym_patrol_weak": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_boss_01": {
+    "mobs": {
+      "grizzled_bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_boss_02": {
+    "mobs": {
+      "bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_boss_03": {
+    "mobs": {
+      "bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_boss_04": {
+    "mobs": {
+      "grizzled_bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_small": {
+    "mobs": {
+      "bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_small_01": {
+    "mobs": {
+      "grizzled_bark_mite": 1,
+      "bark_mite": 1,
+      "bark_mite_hatchling": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_small_02": {
+    "mobs": {
+      "grizzled_bark_mite": 1,
+      "bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_small_03": {
+    "mobs": {
+      "grizzled_bark_mite": 1
+    }
+  },
+  "naboo_bark_mite_lair_neutral_small_04": {
+    "mobs": {
+      "bark_mite": 1,
+      "bark_mite_hatchling": 1
+    }
+  },
+  "naboo_bolle_bol_lair_neutral_large": {
+    "mobs": {
+      "bolle_bol": 1
+    }
+  },
+  "naboo_bolle_bol_lair_neutral_large_boss_01": {
+    "mobs": {
+      "bolle_bol": 1
+    }
+  },
+  "naboo_capper_spineflap_hive_neutral_large": {
+    "mobs": {
+      "spineflap_queen": 1,
+      "spineflap_handmaiden": 2,
+      "spineflap_guard": 3
+    }
+  },
+  "naboo_capper_spineflap_nest_neutral_large": {
+    "mobs": {
+      "spineflap_gatherer": 1,
+      "spineflap_soldier": 1
+    }
+  },
+  "naboo_capper_spineflap_pod_neutral_small": {
+    "mobs": {
+      "capper_spineflap": 1
+    }
+  },
+  "naboo_capper_spineflap_workerpod_neutral_medium": {
+    "mobs": {
+      "spineflap_gatherer": 1,
+      "capper_spineflap_drone": 1
+    }
+  },
+  "naboo_chuba_lair_neutral_small": {
+    "mobs": {
+      "chuba": 1
+    }
+  },
+  "naboo_diseased_nuna_lair_neutral_small": {
+    "mobs": {
+      "diseased_nuna": 1
+    }
+  },
+  "naboo_falumpaset_domesticated_neutral_medium": {
+    "mobs": {
+      "plodding_falumpaset": 1
+    }
+  },
+  "naboo_falumpaset_lair_neutral_large": {
+    "mobs": {
+      "falumpaset": 1
+    }
+  },
+  "naboo_fambaa_lair_neutral_large": {
+    "mobs": {
+      "fambaa": 1
+    }
+  },
+  "naboo_fambaa_lair_neutral_large_boss_01": {
+    "mobs": {
+      "fambaa": 1
+    }
+  },
+  "naboo_fanned_rawl_lair_neutral_small": {
+    "mobs": {
+      "spitting_rawl": 1
+    }
+  },
+  "naboo_fanned_rawl_lair_neutral_small_boss_01": {
+    "mobs": {
+      "fanned_rawl": 1
+    }
+  },
+  "naboo_flesh_eating_chuba_lair_neutral_small": {
+    "mobs": {
+      "flesh_eating_chuba": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_boss_01": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_boss_02": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_boss_03": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_boss_04": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_small": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_small_01": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_small_02": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_small_03": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_small_04": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_flewt_lair_neutral_small_boss_01": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_gnort_lair_neutral_small": {
+    "mobs": {
+      "gnort": 1
+    }
+  },
+  "naboo_gualama_large_lair_neutral_medium": {
+    "mobs": {
+      "maverick_gualama": 1
+    }
+  },
+  "naboo_gualama_small_lair_neutral_medium": {
+    "mobs": {
+      "bachelor_gualama": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_boss_01": {
+    "mobs": {
+      "hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_boss_02": {
+    "mobs": {
+      "sentry_hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_boss_03": {
+    "mobs": {
+      "hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_boss_04": {
+    "mobs": {
+      "sentry_hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_small": {
+    "mobs": {
+      "hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_small_01": {
+    "mobs": {
+      "hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_small_02": {
+    "mobs": {
+      "sentry_hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_small_03": {
+    "mobs": {
+      "hermit_spider": 1
+    }
+  },
+  "naboo_hermit_spider_lair_neutral_small_04": {
+    "mobs": {
+      "sentry_hermit_spider": 1
+    }
+  },
+  "naboo_ikopi_lair_neutral_medium": {
+    "mobs": {
+      "ikopi": 1
+    }
+  },
+  "naboo_kaadu_domesticated_neutral_small": {
+    "mobs": {
+      "motley_kaadu": 1
+    }
+  },
+  "naboo_kaadu_lair_neutral_medium": {
+    "mobs": {
+      "kaadu": 1
+    }
+  },
+  "naboo_kaadu_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "kaadu": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_boss_01": {
+    "mobs": {
+      "horned_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_boss_02": {
+    "mobs": {
+      "spiked_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_boss_03": {
+    "mobs": {
+      "giant_horned_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_boss_04": {
+    "mobs": {
+      "knotted_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_small": {
+    "mobs": {
+      "spiked_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_small_01": {
+    "mobs": {
+      "horned_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_small_02": {
+    "mobs": {
+      "horned_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_small_03": {
+    "mobs": {
+      "giant_horned_krevol": 1
+    }
+  },
+  "naboo_krevol_lair_neutral_small_04": {
+    "mobs": {
+      "knotted_krevol": 1
+    }
+  },
+  "naboo_mott_lair_neutral_medium": {
+    "mobs": {
+      "mott": 1
+    }
+  },
+  "naboo_mountain_ikopi_lair_neutral_medium": {
+    "mobs": {
+      "mountain_ikopi": 1
+    }
+  },
+  "naboo_mountain_krevol_lair_neutral_medium": {
+    "mobs": {
+      "mountain_krevol": 1
+    }
+  },
+  "naboo_narglatch_pride_neutral_medium": {
+    "mobs": {
+      "narglatch": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_boss_01": {
+    "mobs": {
+      "nightspider": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_boss_02": {
+    "mobs": {
+      "nightspider_aggressor": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_boss_03": {
+    "mobs": {
+      "nightspider_poison_spitter": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_boss_04": {
+    "mobs": {
+      "nightspider_aggressor": 1,
+      "nightspider_poison_spitter": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_small": {
+    "mobs": {
+      "nightspider": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_small_01": {
+    "mobs": {
+      "nightspider": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_small_02": {
+    "mobs": {
+      "nightspider_aggressor": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_small_03": {
+    "mobs": {
+      "nightspider_poison_spitter": 1
+    }
+  },
+  "naboo_nightspider_lair_neutral_small_04": {
+    "mobs": {
+      "nightspider_aggressor": 1,
+      "nightspider_poison_spitter": 1
+    }
+  },
+  "naboo_nuna_lair_neutral_medium": {
+    "mobs": {
+      "nuna": 1
+    }
+  },
+  "peko_peko": {
+    "mobs": {
+      "peko_peko": 1
+    }
+  },
+  "naboo_peko_peko_eyrie_neutral_large": {
+    "mobs": {
+      "peko_peko": 1
+    }
+  },
+  "naboo_plains_tusk_cat_pride_neutral_medium": {
+    "mobs": {
+      "female_plains_tusk_cat": 1,
+      "male_plains_tusk_cat": 1
+    }
+  },
+  "naboo_sharupat_family_diseased_neutral_medium": {
+    "mobs": {
+      "rabid_shaupaut": 1
+    }
+  },
+  "naboo_sharupat_family_neutral_medium": {
+    "mobs": {
+      "shaupaut_hunter": 1
+    }
+  },
+  "naboo_swamp_tusk_cat_pride_neutral_medium": {
+    "mobs": {
+      "female_swamp_tusk_cat": 1,
+      "male_swamp_tusk_cat": 1
+    }
+  },
+  "naboo_veermok_camp_neutral_medium": {
+    "mobs": {
+      "veermok_sentry": 1,
+      "veermok": 1
+    }
+  },
+  "naboo_veermok_holdfast_neutral_large": {
+    "mobs": {
+      "giant_veermok": 1,
+      "alpha_veermok": 1,
+      "veermok_hunter": 1,
+      "veermok_sentry": 1
+    }
+  },
+  "naboo_veermok_holdfast_neutral_medium": {
+    "mobs": {
+      "veermok_guard": 1,
+      "veermok_ravager": 1,
+      "veermok_scavenger": 1
+    }
+  },
+  "imperial_compforce_base": {
+    "mobs": {
+      "compforce_trooper": 3,
+      "veteran_compforce_trooper": 1
+    }
+  },
+  "mauler_gang": {
+    "mobs": {
+      "mauler": 1,
+      "mauler_acolyte": 1,
+      "mauler_apprentice": 1,
+      "mauler_master": 1
+    }
+  },
+  "naboo_ankura_gungan_camp_neutral_large_theater": {
+    "mobs": {
+      "ankura_gungan": 1
+    }
+  },
+  "naboo_borvos_camp_neutral_small_theater": {
+    "mobs": {
+      "borvos_bruiser": 1,
+      "borvos_soldier": 1,
+      "borvos_mercenary": 1
+    }
+  },
+  "naboo_borvos_fort_neutral_large_theater": {
+    "mobs": {
+      "borvos_champion": 1,
+      "borvos_thief": 1,
+      "borvos_thug": 1
+    }
+  },
+  "naboo_crossroad_neutral_large_theater": {
+    "mobs": {
+      "tusk_cat_rider": 1,
+      "domestic_tusk_cat": 1
+    }
+  },
+  "naboo_gungan_hermit_neutral_small_theater": {
+    "mobs": {
+      "gungan_hermit": 1
+    }
+  },
+  "naboo_gungan_mercenary_camp_neutral_large_theater": {
+    "mobs": {
+      "gungan_mercenary": 2,
+      "gungan_kaadu": 1,
+      "gungan_kaadu_rider": 1
+    }
+  },
+  "naboo_gungan_military_base_neutral_large_theater": {
+    "mobs": {
+      "gungan_captain": 1,
+      "gungan_grand_army_soldier": 2,
+      "gungan_bomber": 2
+    }
+  },
+  "naboo_gungan_war_base_neutral_large_theater": {
+    "mobs": {
+      "gungan_general": 1,
+      "gungan_leader": 1,
+      "gungan_falumpaset": 1
+    }
+  },
+  "naboo_mauler_conclave_neutral_large_theater": {
+    "mobs": {
+      "mauler_lord": 1,
+      "mauler": 2,
+      "mauler_veermok": 1
+    }
+  },
+  "naboo_mauler_sect_neutral_medium_theater": {
+    "mobs": {
+      "mauler_apprentice": 1
+    }
+  },
+  "naboo_mountain_outpost_rebel_large_theater": {
+    "mobs": {
+      "rebel_colonel": 1,
+      "rebel_first_lieutenant": 1,
+      "rebel_major": 1,
+      "rebel_medic": 1,
+      "rebel_scout": 2,
+      "rebel_sergeant": 2,
+      "rebel_trooper": 2
+    }
+  },
+  "naboo_otolla_gungan_camp_neutral_large_theater": {
+    "mobs": {
+      "otolla_gungan": 1
+    }
+  },
+  "naboo_philosopher_camp_mountain_neutral_large_theater": {
+    "mobs": {
+      "philosopher": 1,
+      "naboo_monk": 1,
+      "naboo_holy_man": 1,
+      "mountain_villager": 1
+    }
+  },
+  "naboo_philosopher_camp_neutral_large_theater": {
+    "mobs": {
+      "philosopher": 1,
+      "naboo_monk": 1,
+      "naboo_holy_man": 1
+    }
+  },
+  "naboo_plasma_thief_camp_neutral_large_theater": {
+    "mobs": {
+      "plasma_thief": 2,
+      "plasma_thief_leader": 1,
+      "plasma_bandit": 2
+    }
+  },
+  "naboo_rsf_camp_neutral_medium_theater": {
+    "mobs": {
+      "rsf_commando": 1
+    }
+  },
+  "naboo_rsf_outpost_neutral_large_theater": {
+    "mobs": {
+      "rsf_captain": 1,
+      "rsf_security_officer": 1
+    }
+  },
+  "naboo_swamp_rat_lair_neutral_small": {
+    "mobs": {
+      "swamp_rat": 1
+    }
+  },
+  "naboo_swamp_trooper_outpost_imperial_large_theater": {
+    "mobs": {
+      "swamp_trooper": 1
+    }
+  },
+  "naboo_trade_federation_camp_neutral_large_theater": {
+    "mobs": {
+      "trade_federation_loyalist": 1,
+      "trade_federation_pirate": 1
+    }
+  },
+  "gungan_kaadu": {
+    "mobs": {
+      "gungan_kaadu": 1,
+      "gungan_kaadu_rider": 1
+    }
+  },
+  "naboo_bolle_bol_herd_neutral_none": {
+    "mobs": {
+      "bolle_bol": 1
+    }
+  },
+  "naboo_capper_spineflap_drone_neutral_none": {
+    "mobs": {
+      "capper_spineflap_drone": 1
+    }
+  },
+  "naboo_capper_spineflap_escort_neutral_none": {
+    "mobs": {
+      "spineflap_queen": 1,
+      "spineflap_handmaiden": 2,
+      "spineflap_guard": 3
+    }
+  },
+  "naboo_capper_spineflap_flight_neutral_none": {
+    "mobs": {
+      "spineflap_soldier": 1
+    }
+  },
+  "naboo_capper_spineflap_swarm_neutral_none": {
+    "mobs": {
+      "capper_spineflap": 1
+    }
+  },
+  "naboo_chuba_herd_neutral_none": {
+    "mobs": {
+      "chuba": 1
+    }
+  },
+  "naboo_chuba_large_neutral_none": {
+    "mobs": {
+      "large_chuba": 1
+    }
+  },
+  "naboo_diseased_nuna_herd_neutral_small": {
+    "mobs": {
+      "diseased_nuna": 1
+    }
+  },
+  "naboo_falumpaset_domesticated_neutral_none": {
+    "mobs": {
+      "plodding_falumpaset": 1
+    }
+  },
+  "naboo_falumpaset_herd_neutral_large": {
+    "mobs": {
+      "falumpaset": 1
+    }
+  },
+  "naboo_fambaa_herd_neutral_none": {
+    "mobs": {
+      "fambaa": 1
+    }
+  },
+  "naboo_fanned_rawl_hunter_neutral_none": {
+    "mobs": {
+      "vine_rawl": 1
+    }
+  },
+  "naboo_flesh_eating_chuba_pack_neutral_none": {
+    "mobs": {
+      "flesh_eating_chuba": 1
+    }
+  },
+  "naboo_flewt_swarm_neutral_none": {
+    "mobs": {
+      "flewt": 1
+    }
+  },
+  "naboo_gnort_group_neutral_none": {
+    "mobs": {
+      "gnort": 1
+    }
+  },
+  "naboo_gnort_massive_neutral_none": {
+    "mobs": {
+      "massive_gnort": 1
+    }
+  },
+  "naboo_gualama_herd_neutral_none": {
+    "mobs": {
+      "gualama": 2,
+      "gualama_patriarch": 1
+    }
+  },
+  "naboo_gualama_troop_neutral_none": {
+    "mobs": {
+      "dappled_gualama": 2,
+      "gualama": 2,
+      "gualama_patriarch": 1,
+      "elder_gualama": 1
+    }
+  },
+  "naboo_gungan_camp": {
+    "mobs": {
+      "gungan_scout": 2,
+      "gungan_guard": 1,
+      "gungan_fambaa": 1
+    }
+  },
+  "naboo_hermit_spider_neutral_none": {
+    "mobs": {
+      "sentry_hermit_spider": 1,
+      "hermit_spider": 2
+    }
+  },
+  "naboo_ikopi_herd_neutral_none": {
+    "mobs": {
+      "ikopi": 1
+    }
+  },
+  "naboo_ikopi_stag_neutral_none": {
+    "mobs": {
+      "ikopi_stag": 1
+    }
+  },
+  "naboo_kaadu_domesticated_neutral_none": {
+    "mobs": {
+      "motley_kaadu": 1
+    }
+  },
+  "naboo_kaadu_herd_neutral_none": {
+    "mobs": {
+      "kaadu_male": 1,
+      "kaadu_female": 1
+    }
+  },
+  "naboo_krevol_click_neutral_none": {
+    "mobs": {
+      "spiked_krevol": 1
+    }
+  },
+  "naboo_mott_herd_neutral_none": {
+    "mobs": {
+      "mott": 1,
+      "mott_bull": 1,
+      "mott_calf": 1
+    }
+  },
+  "naboo_mountain_ikopi_herd_neutral_none": {
+    "mobs": {
+      "mountain_ikopi": 1
+    }
+  },
+  "naboo_mountain_krevol_click_neutral_none": {
+    "mobs": {
+      "mountain_krevol": 1
+    }
+  },
+  "naboo_narglatch_female_neutral_none": {
+    "mobs": {
+      "female_narglatch": 2,
+      "narglatch_matriarch": 1
+    }
+  },
+  "naboo_narglatch_male_neutral_none": {
+    "mobs": {
+      "narglatch_guardian": 1
+    }
+  },
+  "naboo_narglatch_youngling_neutral_none": {
+    "mobs": {
+      "narglatch_hunter": 1,
+      "narglatch_cub": 1
+    }
+  },
+  "naboo_nightspider_pack_neutral_none": {
+    "mobs": {
+      "nightspider": 1,
+      "nightspider_aggressor": 1,
+      "nightspider_poison_spitter": 1
+    }
+  },
+  "naboo_nuna_carnivor_event_neutral_none": {
+    "mobs": {
+      "carnivorous_nuna": 1
+    }
+  },
+  "naboo_nuna_herd_neutral_none": {
+    "mobs": {
+      "nuna": 1
+    }
+  },
+  "naboo_peko_peko_albatross_neutral_none": {
+    "mobs": {
+      "peko_peko_albatross": 1
+    }
+  },
+  "naboo_peko_peko_flight_neutral_none": {
+    "mobs": {
+      "peko_peko": 1
+    }
+  },
+  "naboo_peko_peko_giant_pair_neutral_none": {
+    "mobs": {
+      "giant_peko_peko": 1
+    }
+  },
+  "naboo_peko_peko_solitary_neutral_none": {
+    "mobs": {
+      "peko_peko": 1,
+      "giant_peko_peko": 1
+    }
+  },
+  "naboo_plains_tusk_cat_hunt_neutral_none": {
+    "mobs": {
+      "male_plains_tusk_cat": 1,
+      "female_plains_tusk_cat": 1
+    }
+  },
+  "naboo_plains_tusk_cat_stalker_neutral_none": {
+    "mobs": {
+      "plains_hunter": 1
+    }
+  },
+  "naboo_rogue_falumpaset_neutral_none": {
+    "mobs": {
+      "rogue_falumpaset": 1
+    }
+  },
+  "naboo_rogue_fambaa_neutral_none": {
+    "mobs": {
+      "rogue_fambaa": 1
+    }
+  },
+  "naboo_sharupat_pack_diseased_neutral_none": {
+    "mobs": {
+      "rabid_shaupaut": 1
+    }
+  },
+  "naboo_sharupat_pack_neutral_none": {
+    "mobs": {
+      "shaupaut": 1,
+      "greater_shaupaut": 1
+    }
+  },
+  "naboo_swamp_tusk_cat_hunt_neutral_none": {
+    "mobs": {
+      "female_swamp_tusk_cat": 1,
+      "male_swamp_tusk_cat": 1
+    }
+  },
+  "naboo_swamp_tusk_cat_stalker_neutral_none": {
+    "mobs": {
+      "swamp_stalker": 1
+    }
+  },
+  "naboo_veermok_marauder_neutral_none": {
+    "mobs": {
+      "veermok_cannibal": 1
+    }
+  },
+  "naboo_veermok_outpost_neutral_none": {
+    "mobs": {
+      "veermok_guard": 1,
+      "veermok_ravager": 1,
+      "veermok_hunter": 1
+    }
+  },
+  "naboo_veermok_rangers_neutral_none": {
+    "mobs": {
+      "veermok_scout": 1,
+      "veermok_scavenger": 1
+    }
+  },
+  "naboo_gungan_war_troop_neutral_none": {
+    "mobs": {
+      "gungan_scout": 2,
+      "gungan_war_chief": 1,
+      "gungan_guard": 2,
+      "gungan_fambaa": 1
+    }
+  },
+  "naboo_mauler_pilgrimage_neutral_none": {
+    "mobs": {
+      "mauler_acolyte": 1
+    }
+  },
+  "naboo_mauler_roamers_neutral_none": {
+    "mobs": {
+      "mauler": 1
+    }
+  },
+  "naboo_rsf_patrol_neutral_none": {
+    "mobs": {
+      "rsf_security_guard": 1
+    }
+  },
+  "naboo_swamp_rat_pack_neutral_none": {
+    "mobs": {
+      "swamp_rat": 1
+    }
+  },
+  "naboo_trade_federation_roamers_neutral_none": {
+    "mobs": {
+      "trade_federation_avenger": 1,
+      "trade_federation_zealot": 1
+    }
+  },
+  "rori_bearded_jax_lair_neutral_medium": {
+    "mobs": {
+      "bearded_jax": 1
+    }
+  },
+  "rori_borgal_young_lair_neutral_small": {
+    "mobs": {
+      "young_borgle": 1
+    }
+  },
+  "rori_borgle_lair_neutral_large": {
+    "mobs": {
+      "borgle": 1
+    }
+  },
+  "rori_capper_spineflap_hive_neutral_large": {
+    "mobs": {
+      "capper_spineflap": 1
+    }
+  },
+  "rori_capper_spineflap_nest_neutral_large": {
+    "mobs": {
+      "spineflap_gatherer": 1
+    }
+  },
+  "rori_capper_spineflap_pod_neutral_small": {
+    "mobs": {
+      "capper_spineflap": 1,
+      "capper_spineflap_drone": 1
+    }
+  },
+  "rori_capper_spineflap_workerpod_neutral_medium": {
+    "mobs": {
+      "capper_spineflap_drone": 1
+    }
+  },
+  "rori_chared_krevol_lair_neutral_medium": {
+    "mobs": {
+      "charred_krevol": 1
+    }
+  },
+  "rori_dashing_vir_vur_lair_neutral_small": {
+    "mobs": {
+      "dashing_vir_vur": 1
+    }
+  },
+  "rori_dashing_vir_vur_lair_neutral_small_boss_01": {
+    "mobs": {
+      "dashing_vir_vur": 1
+    }
+  },
+  "rori_deranged_squall_warren_neutral_medium": {
+    "mobs": {
+      "deranged_squall": 1
+    }
+  },
+  "rori_elder_pugoriss_lair_neutral_medium": {
+    "mobs": {
+      "elder_pugoriss": 1
+    }
+  },
+  "rori_elder_pugoriss_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "elder_pugoriss": 1
+    }
+  },
+  "rori_forest_mite_lair_neutral_small": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_boss_01": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_boss_02": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_boss_03": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_boss_04": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_small_01": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_small_02": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_small_03": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_forest_mite_neutral_small_04": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_fuzzy_jax_lair_neutral_medium": {
+    "mobs": {
+      "fuzzy_jax": 1
+    }
+  },
+  "rori_gualama_large_lair_neutral_medium": {
+    "mobs": {
+      "maverick_gualama": 1
+    }
+  },
+  "rori_gualama_small_lair_neutral_medium": {
+    "mobs": {
+      "bachelor_gualama": 1
+    }
+  },
+  "rori_ikopi_lair_neutral_medium": {
+    "mobs": {
+      "ikopi": 1
+    }
+  },
+  "rori_ikopi_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "ikopi": 1
+    }
+  },
+  "rori_kai_tok_lair_neutral_medium": {
+    "mobs": {
+      "screaming_kai_tok": 1
+    }
+  },
+  "rori_leviasquall_warren_neutral_medium": {
+    "mobs": {
+      "leviasquall": 1
+    }
+  },
+  "rori_mammoth_jax_lair_neutral_large": {
+    "mobs": {
+      "mammoth_bearded_jax": 1
+    }
+  },
+  "rori_midnight_vir_vur_lair_neutral_medium": {
+    "mobs": {
+      "midnight_vir_vur": 1
+    }
+  },
+  "rori_mountain_ikopi_lair_neutral_medium": {
+    "mobs": {
+      "mountain_ikopi": 1
+    }
+  },
+  "rori_mountain_torton_lair_neutral_large": {
+    "mobs": {
+      "mountain_torton": 1
+    }
+  },
+  "rori_nightspider_lair_neutral_small": {
+    "mobs": {
+      "nightspider": 1
+    }
+  },
+  "rori_nudfuh_lair_neutral_medium": {
+    "mobs": {
+      "nudfuh": 1
+    }
+  },
+  "rori_plains_tusk_cat_pride_neutral_medium": {
+    "mobs": {
+      "male_plains_tusk_cat": 1,
+      "female_plains_tusk_cat": 1
+    }
+  },
+  "rori_ravenous_torton_lair_neutral_large": {
+    "mobs": {
+      "ravenous_torton": 1
+    }
+  },
+  "rori_ravenous_torton_lair_neutral_large_boss_01": {
+    "mobs": {
+      "ravenous_torton": 1
+    }
+  },
+  "rori_savage_pugoriss_lair_neutral_medium": {
+    "mobs": {
+      "savage_pugoriss": 1
+    }
+  },
+  "rori_shallow_torton_lair_neutral_medium": {
+    "mobs": {
+      "shallow_torton": 1
+    }
+  },
+  "rori_sickle_rasp_nest_neutral_medium": {
+    "mobs": {
+      "sickle_rasp": 1
+    }
+  },
+  "rori_squall_warren_neutral_medium": {
+    "mobs": {
+      "male_squall": 1,
+      "female_squall": 1
+    }
+  },
+  "rori_swamp_tusk_cat_pride_neutral_medium": {
+    "mobs": {
+      "male_swamp_tusk_cat": 1,
+      "female_swamp_tusk_cat": 1
+    }
+  },
+  "rori_tattered_torton_lair_neutral_large": {
+    "mobs": {
+      "tattered_torton": 1
+    }
+  },
+  "rori_torton_lair_neutral_large": {
+    "mobs": {
+      "torton": 1
+    }
+  },
+  "rori_vrobal_bull_lair_neutral_medium": {
+    "mobs": {
+      "vrobal_bull": 1,
+      "vrobal_sow": 1
+    }
+  },
+  "rori_vrobal_lair_neutral_medium": {
+    "mobs": {
+      "vrobal": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_boss_01": {
+    "mobs": {
+      "wood_mite": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_boss_02": {
+    "mobs": {
+      "wood_mite": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_boss_03": {
+    "mobs": {
+      "wood_mite": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_boss_04": {
+    "mobs": {
+      "wood_mite": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_small": {
+    "mobs": {
+      "wood_mite": 2,
+      "wood_mite_matriarch": 1,
+      "confused_wood_mite_hatchling": 2
+    }
+  },
+  "rori_wood_mite_lair_neutral_small_01": {
+    "mobs": {
+      "wood_mite": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_small_02": {
+    "mobs": {
+      "wood_mite": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_small_03": {
+    "mobs": {
+      "wood_mite": 3,
+      "wood_mite_matriarch": 1
+    }
+  },
+  "rori_wood_mite_lair_neutral_small_04": {
+    "mobs": {
+      "wood_mite": 2,
+      "wood_mite_matriarch": 1,
+      "confused_wood_mite_hatchling": 3
+    }
+  },
+  "rori_wormed_vrobal_lair_neutral_medium": {
+    "mobs": {
+      "wormed_vrobal": 1
+    }
+  },
+  "rori_brigade_base_neutral_large_theater": {
+    "mobs": {
+      "first_brigade_general": 1,
+      "first_brigade_captain": 1
+    }
+  },
+  "rori_brigade_camp_neutral_large_theater": {
+    "mobs": {
+      "first_brigade_marine": 1,
+      "first_brigade_officer": 1
+    }
+  },
+  "rori_brigade_scout_camp_neutral_medium_theater": {
+    "mobs": {
+      "first_brigade_scout": 1,
+      "first_brigade_trooper": 1
+    }
+  },
+  "rori_cobral_boss_camp_neutral_large_theater": {
+    "mobs": {
+      "neo_cobral_boss": 1,
+      "neo_cobral_bandit": 1
+    }
+  },
+  "rori_cobral_mugger_camp_neutral_medium_theater": {
+    "mobs": {
+      "cobral_mugger": 1,
+      "cobral_hooligan": 1
+    }
+  },
+  "rori_cobral_overlord_camp_neutral_large_theater": {
+    "mobs": {
+      "neo_cobral_overlord": 1,
+      "neo_cobral_hitman": 1
+    }
+  },
+  "rori_garyn_raiders_camp_neutral_medium_theater": {
+    "mobs": {
+      "garyns_prowler": 1
+    }
+  },
+  "rori_garyn_raiders_outpost_neutral_large_theater": {
+    "mobs": {
+      "garyns_dragoon": 1,
+      "garyns_vigo": 1,
+      "garyns_lieutenant": 1
+    }
+  },
+  "rori_gundark_hooligan_camp_neutral_medium_theater": {
+    "mobs": {
+      "gundark_hooligan": 1,
+      "gundark_rogue": 1,
+      "gundark_crook": 1
+    }
+  },
+  "rori_gundark_raider_camp_neutral_medium_theater": {
+    "mobs": {
+      "gundark_raider": 1,
+      "gundark_desperado": 1,
+      "gundark_ruffian": 1
+    }
+  },
+  "rori_kobola_miner_base_neutral_large_theater": {
+    "mobs": {
+      "kobola_miner": 1,
+      "kobola_thief": 1
+    }
+  },
+  "rori_kobola_underboss_base_neutral_large_theater": {
+    "mobs": {
+      "kobola_underboss": 1,
+      "kobola_pitboss": 1
+    }
+  },
+  "rori_mauler_conclave_neutral_large_theater": {
+    "mobs": {
+      "mauler_lord": 1,
+      "mauler": 2,
+      "mauler_veermok": 1
+    }
+  },
+  "rori_mauler_sect_neutral_medium_theater": {
+    "mobs": {
+      "mauler_apprentice": 1
+    }
+  },
+  "rori_narmle_base_neutral_large_theater": {
+    "mobs": {
+      "narmle_militia_colonel": 1,
+      "narmle_militia_commander": 1
+    }
+  },
+  "rori_narmle_camp_neutral_large_theater": {
+    "mobs": {
+      "narmle_militia_lieutenant": 1,
+      "narmle_militia_grenadier": 1
+    }
+  },
+  "rori_narmle_guard_camp_neutral_medium_theater": {
+    "mobs": {
+      "narmle_militia_ensign": 1,
+      "narmle_militia_guard": 1
+    }
+  },
+  "rori_rorgungan_town_neutral_large_theater": {
+    "mobs": {
+      "rorgungan_commoner": 1
+    }
+  },
+  "rori_rorgungan_warcamp_neutral_large_theater": {
+    "mobs": {
+      "rorgungan_warchief": 1,
+      "rorgungan_warrior": 2
+    }
+  },
+  "rori_spice_collective_miner_base_neutral_large_theater": {
+    "mobs": {
+      "spice_collective_heavy_guard": 1,
+      "spice_collective_elite_guard": 1
+    }
+  },
+  "rori_trade_federation_camp_neutral_large_theater": {
+    "mobs": {
+      "trade_federation_loyalist": 1,
+      "trade_federation_pirate": 1
+    }
+  },
+  "rori_borgle_gruntling_neutral_none": {
+    "mobs": {
+      "young_borgle_gruntling": 1
+    }
+  },
+  "rori_borgle_pack_neutral_none": {
+    "mobs": {
+      "borgle": 1,
+      "great_borgle": 1
+    }
+  },
+  "rori_capper_spineflap_escort_neutral_none": {
+    "mobs": {
+      "spineflap_gatherer": 1,
+      "capper_spineflap": 1
+    }
+  },
+  "rori_capper_spineflap_flight_neutral_none": {
+    "mobs": {
+      "capper_spineflap": 1
+    }
+  },
+  "rori_chared_krevol_pack_neutral_none": {
+    "mobs": {
+      "charred_krevol": 1
+    }
+  },
+  "rori_dashing_vir_vur_pack_neutral_none": {
+    "mobs": {
+      "dashing_vir_vur": 1,
+      "vir_vur": 1
+    }
+  },
+  "rori_deranged_squall_pack_neutral_none": {
+    "mobs": {
+      "deranged_squall": 1
+    }
+  },
+  "rori_dreaded_vir_vur_neutral_none": {
+    "mobs": {
+      "dreaded_vir_vur": 1
+    }
+  },
+  "rori_elder_pugoriss_pack_neutral_none": {
+    "mobs": {
+      "elder_pugoriss": 1,
+      "pugoriss": 2
+    }
+  },
+  "rori_forest_mite_swarm_neutral_none": {
+    "mobs": {
+      "forest_mite": 1
+    }
+  },
+  "rori_fuzzy_jax_pack_neutral_none": {
+    "mobs": {
+      "fuzzy_jax": 1,
+      "bearded_jax": 1
+    }
+  },
+  "rori_gualama_herd_neutral_none": {
+    "mobs": {
+      "gualama": 2,
+      "gualama_patriarch": 1
+    }
+  },
+  "rori_gualama_troop_neutral_none": {
+    "mobs": {
+      "dappled_gualama": 2,
+      "gualama_patriarch": 1
+    }
+  },
+  "rori_hermit_spider_neutral_none": {
+    "mobs": {
+      "hermit_spider": 1
+    }
+  },
+  "rori_ikopi_herd_neutral_none": {
+    "mobs": {
+      "ikopi": 1
+    }
+  },
+  "rori_kai_tok_pack_neutral_none": {
+    "mobs": {
+      "female_kai_tok": 1,
+      "male_kai_tok": 1
+    }
+  },
+  "rori_leviasquall_pack_neutral_none": {
+    "mobs": {
+      "leviasquall": 1
+    }
+  },
+  "rori_mammoth_jax_pack_neutral_none": {
+    "mobs": {
+      "mammoth_bearded_jax": 1,
+      "bearded_jax": 1
+    }
+  },
+  "rori_midnight_vir_vur_pack_neutral_none": {
+    "mobs": {
+      "midnight_vir_vur": 1,
+      "dusk_vir_vur": 1,
+      "twilight_vir_vur": 1
+    }
+  },
+  "rori_mountain_ikopi_herd_neutral_none": {
+    "mobs": {
+      "mountain_ikopi": 1
+    }
+  },
+  "rori_mountain_torton_pack_neutral_none": {
+    "mobs": {
+      "mountain_torton": 1
+    }
+  },
+  "rori_nightspider_pack_neutral_none": {
+    "mobs": {
+      "nightspider": 2,
+      "nightspider_aggressor": 1,
+      "nightspider_poison_spitter": 1
+    }
+  },
+  "rori_nudfuh_pack_neutral_none": {
+    "mobs": {
+      "nudfuh": 1,
+      "pudgy_nudfuh": 2
+    }
+  },
+  "rori_plains_tusk_cat_hunt_neutral_none": {
+    "mobs": {
+      "male_plains_tusk_cat": 1,
+      "female_plains_tusk_cat": 1
+    }
+  },
+  "rori_ravenous_torton_pack_neutral_none": {
+    "mobs": {
+      "ravenous_torton": 1
+    }
+  },
+  "rori_savage_pugoriss_pack_neutral_none": {
+    "mobs": {
+      "savage_pugoriss": 1
+    }
+  },
+  "rori_shallow_torton_pack_neutral_none": {
+    "mobs": {
+      "shallow_torton": 1
+    }
+  },
+  "rori_sickle_rasp_pack_neutral_none": {
+    "mobs": {
+      "sickle_rasp": 1,
+      "horned_rasp": 1,
+      "crescent_rasp": 1
+    }
+  },
+  "rori_squall_meek_avenger_neutral_none": {
+    "mobs": {
+      "meek_avenging_squall": 1
+    }
+  },
+  "rori_squall_pack_neutral_none": {
+    "mobs": {
+      "vicious_squall": 1
+    }
+  },
+  "rori_swamp_tusk_cat_hunt_neutral_none": {
+    "mobs": {
+      "male_swamp_tusk_cat": 1,
+      "female_swamp_tusk_cat": 1
+    }
+  },
+  "rori_tattered_torton_pack_neutral_large": {
+    "mobs": {
+      "tattered_torton": 1
+    }
+  },
+  "rori_torton_pack_neutral_none": {
+    "mobs": {
+      "torton": 1
+    }
+  },
+  "rori_vrobal_bull_pack_neutral_none": {
+    "mobs": {
+      "vrobal_bull": 1,
+      "vrobal_sow": 1
+    }
+  },
+  "rori_vrobal_pack_neutral_none": {
+    "mobs": {
+      "vrobal": 1,
+      "potbellied_vrobal": 1
+    }
+  },
+  "rori_wood_mite_swarm_neutral_none": {
+    "mobs": {
+      "wood_mite": 2,
+      "wood_mite_matriarch": 1,
+      "confused_wood_mite_hatchling": 2
+    }
+  },
+  "rori_wormed_vrobal_pack_neutral_none": {
+    "mobs": {
+      "wormed_vrobal": 1
+    }
+  },
+  "rori_brigade_infiltrator_neutral_none": {
+    "mobs": {
+      "first_brigade_infiltrator": 1
+    }
+  },
+  "rori_brigade_squad_neutral_none": {
+    "mobs": {
+      "first_brigade_sergeant": 1,
+      "first_brigade_gunner": 1,
+      "first_brigade_technician": 1
+    }
+  },
+  "rori_cobral_assasin_neutral_none": {
+    "mobs": {
+      "neo_cobral_assassin": 1
+    }
+  },
+  "rori_cobral_runner_neutral_none": {
+    "mobs": {
+      "neo_cobral_runner": 1,
+      "neo_cobral_thief": 1,
+      "neo_cobral_thug": 1
+    }
+  },
+  "rori_garyn_raiders_platoon_neutral_none": {
+    "mobs": {
+      "garyns_marauder": 1,
+      "garyns_raider": 1
+    }
+  },
+  "rori_garyn_raiders_squad_neutral_none": {
+    "mobs": {
+      "garyns_mugger": 1,
+      "garyns_thief": 1,
+      "garyns_pirate": 1
+    }
+  },
+  "rori_kobola_assasin_neutral_none": {
+    "mobs": {
+      "kobola_assassin": 1,
+      "kobola_foreman": 1
+    }
+  },
+  "rori_kobola_smuggler_neutral_none": {
+    "mobs": {
+      "kobola_smuggler": 1,
+      "kobola_guard": 1
+    }
+  },
+  "rori_mauler_pilgrimage_neutral_none": {
+    "mobs": {
+      "mauler_acolyte": 1
+    }
+  },
+  "rori_mauler_roamers_neutral_none": {
+    "mobs": {
+      "mauler": 1
+    }
+  },
+  "rori_narmle_commando_patrol_neutral_none": {
+    "mobs": {
+      "narmle_militia_major": 1,
+      "narmle_militia_commando": 1
+    }
+  },
+  "rori_narmle_patrol_neutral_none": {
+    "mobs": {
+      "narmle_militia_captain": 1,
+      "narmle_militia_rifleman": 1
+    }
+  },
+  "rori_rorgungan_scouts_neutral_none": {
+    "mobs": {
+      "rorgungan_scout": 1
+    }
+  },
+  "rori_rorgungan_warband_neutral_none": {
+    "mobs": {
+      "rorgungan_warchief": 1,
+      "rorgungan_warrior": 2,
+      "rorgungan_boss": 1
+    }
+  },
+  "rori_spice_collective_courier_neutral_none": {
+    "mobs": {
+      "spice_collective_courier": 1,
+      "spice_collective_workchief": 1,
+      "spice_collective_miner": 1
+    }
+  },
+  "rori_spice_collective_mineral_scouts_neutral_none": {
+    "mobs": {
+      "spice_collective_foreman": 1,
+      "spice_collective_sentry": 1
+    }
+  },
+  "rori_trade_federation_roamers_neutral_none": {
+    "mobs": {
+      "trade_federation_avenger": 1,
+      "trade_federation_zealot": 1
+    }
+  },
+  "talus_beserk_kahmurra_lair_neutral_medium": {
+    "mobs": {
+      "berserk_kahmurra": 1
+    }
+  },
+  "talus_crazed_roba_lair_neutral_large": {
+    "mobs": {
+      "crazed_roba": 1
+    }
+  },
+  "talus_dalyrake_nest_neutral_medium": {
+    "mobs": {
+      "dalyrake": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_boss_01": {
+    "mobs": {
+      "decay_mite": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_boss_02": {
+    "mobs": {
+      "rotting_decay_mite_guard": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_boss_03": {
+    "mobs": {
+      "puss_covered_decay_mite_soldier": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_boss_04": {
+    "mobs": {
+      "rotting_decay_mite_guard": 1,
+      "puss_covered_decay_mite_soldier": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_small": {
+    "mobs": {
+      "decay_mite": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_small_01": {
+    "mobs": {
+      "decay_mite": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_small_02": {
+    "mobs": {
+      "rotting_decay_mite_guard": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_small_03": {
+    "mobs": {
+      "rotting_decay_mite_guard": 1
+    }
+  },
+  "talus_decay_mite_lair_neutral_small_04": {
+    "mobs": {
+      "puss_covered_decay_mite_soldier": 1
+    }
+  },
+  "talus_devil_gulginaw_nest_neutral_medium": {
+    "mobs": {
+      "devil_gulginaw": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_boss_01": {
+    "mobs": {
+      "repugnant_dung_mite_crawler": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_boss_02": {
+    "mobs": {
+      "dung_mite": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_boss_03": {
+    "mobs": {
+      "dung_mite_worker": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_boss_04": {
+    "mobs": {
+      "oozing_dung_mite_guardian": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_small": {
+    "mobs": {
+      "repugnant_dung_mite_crawler": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_small_01": {
+    "mobs": {
+      "dung_mite": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_small_02": {
+    "mobs": {
+      "dung_mite_worker": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_small_03": {
+    "mobs": {
+      "dung_mite": 1,
+      "dung_mite_worker": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_small_04": {
+    "mobs": {
+      "oozing_dung_mite_guardian": 1
+    }
+  },
+  "talus_dung_mite_lair_neutral_small_boss_01": {
+    "mobs": {
+      "dung_mite": 1,
+      "dung_mite_worker": 1
+    }
+  },
+  "talus_famished_sludge_panther_lair_neutral_mdium": {
+    "mobs": {
+      "famished_sludge_panther": 1
+    }
+  },
+  "talus_foaming_vynock_lair_neutral_medium": {
+    "mobs": {
+      "foaming_vynock": 1
+    }
+  },
+  "talus_fynock_lair_neutral_boss_01": {
+    "mobs": {
+      "fearful_fynock_youth": 1,
+      "feared_fynock_youth": 1
+    }
+  },
+  "talus_fynock_lair_neutral_boss_02": {
+    "mobs": {
+      "clipped_fynock": 1
+    }
+  },
+  "talus_fynock_lair_neutral_boss_03": {
+    "mobs": {
+      "fynock": 1
+    }
+  },
+  "talus_fynock_lair_neutral_boss_04": {
+    "mobs": {
+      "frenzied_fynock_guardian": 1
+    }
+  },
+  "talus_fynock_lair_neutral_small": {
+    "mobs": {
+      "fynock": 1
+    }
+  },
+  "talus_fynock_lair_neutral_small_01": {
+    "mobs": {
+      "feared_fynock_youth": 1
+    }
+  },
+  "talus_fynock_lair_neutral_small_02": {
+    "mobs": {
+      "clipped_fynock": 1
+    }
+  },
+  "talus_fynock_lair_neutral_small_03": {
+    "mobs": {
+      "fynock": 1
+    }
+  },
+  "talus_fynock_lair_neutral_small_04": {
+    "mobs": {
+      "frenzied_fynock_guardian": 1
+    }
+  },
+  "talus_fynock_youth_lair_neutral_small": {
+    "mobs": {
+      "fearful_fynock_youth": 1
+    }
+  },
+  "talus_giant_dalyrake_lair_neutral_medium": {
+    "mobs": {
+      "giant_dalyrake": 1
+    }
+  },
+  "talus_giant_gubbur_lair_neutral_medium": {
+    "mobs": {
+      "giant_gubbur": 1
+    }
+  },
+  "talus_grand_wrix_lair_neutral_medium": {
+    "mobs": {
+      "grand_wrix": 1
+    }
+  },
+  "talus_grand_wrix_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "grand_wrix": 1
+    }
+  },
+  "talus_greater_sludge_panther_lair_neutral_medium": {
+    "mobs": {
+      "greater_sludge_panther": 1
+    }
+  },
+  "talus_guf_drolg_lair_neutral_medium": {
+    "mobs": {
+      "guf_drolg": 1
+    }
+  },
+  "talus_guf_drolg_minor_lair_neutral_small": {
+    "mobs": {
+      "minor_guf_drolg": 1
+    }
+  },
+  "talus_gulginaw_nest_neutral_medium": {
+    "mobs": {
+      "gulginaw": 1
+    }
+  },
+  "talus_hilltop_kima_lair_neutral_medium": {
+    "mobs": {
+      "hilltop_kima": 1
+    }
+  },
+  "talus_huf_dun_lair_neutral_medium": {
+    "mobs": {
+      "huf_dun": 1,
+      "huf_dun_bull": 1
+    }
+  },
+  "talus_humbaba_lair_neutral_medium": {
+    "mobs": {
+      "humbaba": 1
+    }
+  },
+  "talus_jungle_fynock_lair_neutral_medium": {
+    "mobs": {
+      "jungle_fynock": 1
+    }
+  },
+  "talus_kahmurra_lair_neutral_medium": {
+    "mobs": {
+      "kahmurra": 1
+    }
+  },
+  "talus_kima_lair_neutral_medium": {
+    "mobs": {
+      "kima": 1
+    }
+  },
+  "talus_kima_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "kima": 1
+    }
+  },
+  "talus_mutated_kahmurra_lair_neutral_medium": {
+    "mobs": {
+      "mutated_kahmurra": 1
+    }
+  },
+  "talus_paralope_lair_neutral_medium": {
+    "mobs": {
+      "paralope": 1
+    }
+  },
+  "talus_paralope_lair_neutral_medium_boss_01": {
+    "mobs": {
+      "paralope": 1
+    }
+  },
+  "talus_percussive_rasp_lair_neutral_medium": {
+    "mobs": {
+      "percussive_rasp": 1
+    }
+  },
+  "talus_roba_lair_neutral_large": {
+    "mobs": {
+      "male_roba": 1,
+      "female_roba": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_boss_01": {
+    "mobs": {
+      "rot_mite": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_boss_02": {
+    "mobs": {
+      "rot_mite": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_boss_03": {
+    "mobs": {
+      "cyst_covered_rot_mite_guard": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_boss_04": {
+    "mobs": {
+      "cyst_covered_rot_mite_guard": 1,
+      "rot_mite": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_small": {
+    "mobs": {
+      "rot_mite": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_small_01": {
+    "mobs": {
+      "rot_mite": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_small_02": {
+    "mobs": {
+      "cyst_covered_rot_mite_guard": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_small_03": {
+    "mobs": {
+      "cyst_covered_rot_mite_guard": 1,
+      "rot_mite": 1
+    }
+  },
+  "talus_rot_mite_lair_neutral_small_04": {
+    "mobs": {
+      "cyst_covered_rot_mite_guard": 1,
+      "rot_mite": 1
+    }
+  },
+  "talus_savage_guf_drolg_lair_neutral_medium": {
+    "mobs": {
+      "savage_guf_drolg": 1
+    }
+  },
+  "talus_savage_humbaba_lair_neutral_medium": {
+    "mobs": {
+      "savage_humbaba": 1
+    }
+  },
+  "talus_sludge_panther_lair_neutral_medium": {
+    "mobs": {
+      "sludge_panther": 1
+    }
+  },
+  "talus_song_rasp_lair_neutral_medium": {
+    "mobs": {
+      "song_rasp": 1
+    }
+  },
+  "talus_tortur_lair_neutral_large": {
+    "mobs": {
+      "meager_tortur": 1
+    }
+  },
+  "talus_vicious_huf_dun_lair_neutral_medium": {
+    "mobs": {
+      "vicious_huf_dun": 1
+    }
+  },
+  "talus_vynock_lair_neutral_medium": {
+    "mobs": {
+      "vynock": 1
+    }
+  },
+  "talus_wolf_kima_lair_neutral_medium": {
+    "mobs": {
+      "wolf_kima": 1
+    }
+  },
+  "talus_woodland_kima_lair_neutral_medium": {
+    "mobs": {
+      "woodland_kima": 1
+    }
+  },
+  "talus_wrix_lair_neutral_medium": {
+    "mobs": {
+      "wrix": 1
+    }
+  },
+  "talus_aakuan_champion_camp_neutral_large_theater": {
+    "mobs": {
+      "aakuan_champion": 1,
+      "aakuan_anarchist": 1,
+      "aakuan_assassin": 1
+    }
+  },
+  "talus_aakuan_steward_camp_neutral_small_theater": {
+    "mobs": {
+      "aakuan_steward": 1,
+      "aakuan_follower": 1,
+      "aakuan_keeper": 1
+    }
+  },
+  "talus_beldonna_base_neutral_large_theater": {
+    "mobs": {
+      "beldonnas_league_enforcer": 1,
+      "beldonnas_league_marshal": 1
+    }
+  },
+  "talus_binayre_chief_camp_neutral_large_theater": {
+    "mobs": {
+      "binayre_chief": 1,
+      "binayre_swindler": 1
+    }
+  },
+  "talus_binayre_pirate_camp_neutral_medium_theater": {
+    "mobs": {
+      "binayre_pirate": 1
+    }
+  },
+  "talus_chunker_bruiser_camp_neutral_medium_theater": {
+    "mobs": {
+      "chunker_braggart": 1,
+      "chunker_bully": 1,
+      "chunker_bruiser": 1,
+      "chunker_creep": 1,
+      "chunker_swindler": 1
+    }
+  },
+  "talus_chunker_goon_camp_neutral_small_theater": {
+    "mobs": {
+      "chunker_goon": 1,
+      "chunker_mooch": 1,
+      "chunker_pest": 1,
+      "chunker_nitwit": 1,
+      "chunker_punk": 1
+    }
+  },
+  "talus_corsec_traitor_base_neutral_medium_theater": {
+    "mobs": {
+      "corsec_traitor": 1
+    }
+  },
+  "talus_drall_camp_neutral_medium_theater": {
+    "mobs": {
+      "drall_abbot": 2,
+      "drall_chieftain": 1,
+      "drall_master": 1,
+      "drall_monk": 2
+    }
+  },
+  "talus_drall_patriot_base_neutral_large_theater": {
+    "mobs": {
+      "drall_patriot_foot_soldier": 2,
+      "drall_patriot_conqueror": 1,
+      "drall_patriot_legionnaire": 2
+    }
+  },
+  "talus_drall_patriot_camp_neutral_medium_theater": {
+    "mobs": {
+      "drall_patriot": 1,
+      "drall_guard": 1,
+      "drall_sentry": 1
+    }
+  },
+  "talus_fed_dub_commander_camp_neutral_large_theater": {
+    "mobs": {
+      "fed_dub_commander": 1,
+      "fed_dub_captain": 1
+    }
+  },
+  "talus_fed_dub_constable_camp_neutral_large_theater": {
+    "mobs": {
+      "fed_dub_constable": 1
+    }
+  },
+  "talus_liberation_activist_camp_neutral_medium_theater": {
+    "mobs": {
+      "talus_liberation_party_activist": 1
+    }
+  },
+  "talus_liberation_loyalist_camp_neutral_medium_theater": {
+    "mobs": {
+      "talus_liberation_party_loyalist": 1,
+      "talus_liberation_party_volunteer": 1
+    }
+  },
+  "talus_liberation_patriot_camp_neutral_medium_theater": {
+    "mobs": {
+      "talus_liberation_party_patriot": 1
+    }
+  },
+  "talus_lost_aqualish_captain_camp_neutral_large_theater": {
+    "mobs": {
+      "lost_aqualish_captain": 1,
+      "lost_aqualish_bomber": 1
+    }
+  },
+  "talus_lost_aqualish_warchief_camp_neutral_large_theater": {
+    "mobs": {
+      "lost_aqualish_warchief": 1
+    }
+  },
+  "talus_meatlump_camp_neutral_medium_theater": {
+    "mobs": {
+      "meatlump_buffoon": 1,
+      "meatlump_stooge": 1,
+      "meatlump_fool": 1
+    }
+  },
+  "talus_meatlump_outpost_neutral_medium_theater": {
+    "mobs": {
+      "meatlump_clod": 1,
+      "meatlump_oaf": 1,
+      "meatlump_loon": 1,
+      "meatlump_cretin": 1
+    }
+  },
+  "talus_selonian_base_neutral_large_theater": {
+    "mobs": {
+      "selonian_warlord": 1,
+      "selonian_champion": 1
+    }
+  },
+  "talus_selonian_outpost_neutral_large_theater": {
+    "mobs": {
+      "selonian_raider": 1,
+      "selonian_warrior": 1,
+      "selonian_captain": 1
+    }
+  },
+  "talus_sleemo_delinquent_camp_neutral_medium_theater": {
+    "mobs": {
+      "sleemo_delinquent": 1,
+      "sleemo_punk": 1,
+      "sleemo_hoodlum": 1
+    }
+  },
+  "talus_sleemo_vandal_camp_neutral_medium_theater": {
+    "mobs": {
+      "sleemo_vandal": 1,
+      "sleemo_scamp": 1
+    }
+  },
+  "talus_beserk_kahmurra_pack_neutral_none": {
+    "mobs": {
+      "berserk_kahmurra": 1
+    }
+  },
+  "talus_crazed_roba_pack_neutral_none": {
+    "mobs": {
+      "crazed_roba": 1
+    }
+  },
+  "talus_dalyrake_pack_neutral_none": {
+    "mobs": {
+      "dalyrake": 1
+    }
+  },
+  "talus_devil_gulginaw_flight_neutral_none": {
+    "mobs": {
+      "devil_gulginaw": 1
+    }
+  },
+  "talus_dung_mite_pack_neutral_none": {
+    "mobs": {
+      "dung_mite": 1,
+      "dung_mite_worker": 1
+    }
+  },
+  "talus_famished_sludge_panther_pack_neutral_none": {
+    "mobs": {
+      "famished_sludge_panther": 1
+    }
+  },
+  "talus_foaming_vynock_pack_neutral_none": {
+    "mobs": {
+      "foaming_vynock": 1
+    }
+  },
+  "talus_fynock_feared_neutral_none": {
+    "mobs": {
+      "feared_fynock_youth": 1
+    }
+  },
+  "talus_fynock_pack_neutral_none": {
+    "mobs": {
+      "fynock": 1,
+      "clipped_fynock": 1
+    }
+  },
+  "talus_giant_dalyrake_pack_neutral_none": {
+    "mobs": {
+      "giant_dalyrake": 1
+    }
+  },
+  "talus_giant_gubbur_herd_neutral_none": {
+    "mobs": {
+      "giant_gubbur": 1
+    }
+  },
+  "talus_grand_wrix_pack_neutral_none": {
+    "mobs": {
+      "grand_wrix": 1
+    }
+  },
+  "talus_greater_sludge_panther_pack_neutral_none": {
+    "mobs": {
+      "greater_sludge_panther": 1
+    }
+  },
+  "talus_guf_drolg_pack_neutral_none": {
+    "mobs": {
+      "guf_drolg": 1,
+      "guf_drolg_female": 1
+    }
+  },
+  "talus_gulginaw_flight_neutral_none": {
+    "mobs": {
+      "gulginaw": 1
+    }
+  },
+  "talus_hilltop_kima_pack_neutral_none": {
+    "mobs": {
+      "hilltop_kima": 1
+    }
+  },
+  "talus_huf_dun_pack_neutral_none": {
+    "mobs": {
+      "huf_dun": 1,
+      "stunted_huf_dun": 1
+    }
+  },
+  "talus_humbaba_herd_neutral_none": {
+    "mobs": {
+      "humbaba": 1
+    }
+  },
+  "talus_jungle_fynock_pack_neutral_none": {
+    "mobs": {
+      "jungle_fynock": 1
+    }
+  },
+  "talus_kahmurra_pack_neutral_none": {
+    "mobs": {
+      "kahmurra": 1
+    }
+  },
+  "talus_kima_pack_neutral_none": {
+    "mobs": {
+      "kima": 1,
+      "feeble_kima": 2
+    }
+  },
+  "talus_mire_marauder_neutral_none": {
+    "mobs": {
+      "mire_marauder": 1
+    }
+  },
+  "talus_mutated_kahmurra_pack_neutral_none": {
+    "mobs": {
+      "mutated_kahmurra": 1
+    }
+  },
+  "talus_paralope_herd_neutral_none": {
+    "mobs": {
+      "paralope": 1
+    }
+  },
+  "talus_percussive_rasp_flock_neutral_none": {
+    "mobs": {
+      "percussive_rasp": 1
+    }
+  },
+  "talus_putrid_decay_mite_hatchling_neutral_none": {
+    "mobs": {
+      "putrid_decay_mite_hatchling": 1
+    }
+  },
+  "talus_rasp_flite_large_neutral_none": {
+    "mobs": {
+      "flite_rasp": 2,
+      "giga_flite_rasp": 1
+    }
+  },
+  "talus_roba_pack_neutral_none": {
+    "mobs": {
+      "male_roba": 1,
+      "female_roba": 1
+    }
+  },
+  "talus_rot_mite_pack_neutral_none": {
+    "mobs": {
+      "rot_mite": 1
+    }
+  },
+  "talus_savage_guf_drolg_pack_neutral_none": {
+    "mobs": {
+      "savage_guf_drolg": 1
+    }
+  },
+  "talus_savage_humbaba_herd_neutral_none": {
+    "mobs": {
+      "savage_humbaba": 1
+    }
+  },
+  "talus_sludge_panther_pack_neutral_none": {
+    "mobs": {
+      "sludge_panther": 1,
+      "minor_sludge_panther": 1
+    }
+  },
+  "talus_song_rasp_flock_neutral_none": {
+    "mobs": {
+      "song_rasp": 1
+    }
+  },
+  "talus_tortur_pack_neutral_none": {
+    "mobs": {
+      "tortur": 1,
+      "tortur_bull": 1
+    }
+  },
+  "talus_vicious_huf_dun_pack_neutral_none": {
+    "mobs": {
+      "vicious_huf_dun": 1
+    }
+  },
+  "talus_voracious_rasp_neutral_none": {
+    "mobs": {
+      "voracious_rasp": 1,
+      "ravenous_rasp": 2
+    }
+  },
+  "talus_vynock_pack_neutral_none": {
+    "mobs": {
+      "vynock": 1
+    }
+  },
+  "talus_wolf_kima_pack_neutral_none": {
+    "mobs": {
+      "wolf_kima": 1
+    }
+  },
+  "talus_woodland_kima_pack_neutral_none": {
+    "mobs": {
+      "woodland_kima": 1
+    }
+  },
+  "talus_wrix_pack_neutral_none": {
+    "mobs": {
+      "wrix": 1,
+      "mottled_wrix": 1
+    }
+  },
+  "talus_aakuan_sentinal_patrol_neutral_none": {
+    "mobs": {
+      "aakuan_sentinel": 1,
+      "aakuan_defender": 1
+    }
+  },
+  "talus_aakuan_warder_patrol_neutral_none": {
+    "mobs": {
+      "aakuan_warder": 1,
+      "aakuan_spice_guard": 1,
+      "aakuan_guardian": 1
+    }
+  },
+  "talus_beldonna_patrol_neutral_none": {
+    "mobs": {
+      "beldonnas_league_scout": 1,
+      "beldonnas_league_soldier": 1
+    }
+  },
+  "talus_binayre_ruffian_patrol_neutral_none": {
+    "mobs": {
+      "binayre_scalawag": 1,
+      "binayre_ruffian": 1,
+      "binayre_hooligan": 1
+    }
+  },
+  "talus_binayre_smuggler_patrol_neutral_none": {
+    "mobs": {
+      "binayre_smuggler": 1
+    }
+  },
+  "talus_corsec_truthfinder_neutral_none": {
+    "mobs": {
+      "corsec_detective": 1,
+      "corsec_inspector_sergeant": 1,
+      "corsec_investigator": 1,
+      "corsec_agent": 1
+    }
+  },
+  "talus_fed_dub_investigator_patrol_neutral_none": {
+    "mobs": {
+      "fed_dub_investigator": 1
+    }
+  },
+  "talus_fed_dub_patrolman_patrol_neutral_none": {
+    "mobs": {
+      "fed_dub_patrolman": 1,
+      "fed_dub_supporter": 1
+    }
+  },
+  "talus_liberation_fanatic_patrol_neutral_none": {
+    "mobs": {
+      "talus_liberation_party_fanatic": 1
+    }
+  },
+  "talus_liberation_partisan_patrol_neutral_none": {
+    "mobs": {
+      "talus_liberation_party_partisan": 1
+    }
+  },
+  "talus_liberation_reactionist_patrol_neutral_none": {
+    "mobs": {
+      "talus_liberation_party_reactionist": 1
+    }
+  },
+  "talus_lost_aqualish_commando_patrol_neutral_none": {
+    "mobs": {
+      "lost_aqualish_commando": 1,
+      "lost_aqualish_warrior": 1
+    }
+  },
+  "talus_lost_aqualish_infiltrator_patrol_neutral_none": {
+    "mobs": {
+      "lost_aqualish_infiltrator": 1,
+      "lost_aqualish_marksman": 1
+    }
+  },
+  "talus_lost_aqualish_lookout_patrol_neutral_none": {
+    "mobs": {
+      "lost_aqualish_lookout": 1,
+      "lost_aqualish_scout": 1
+    }
+  },
+  "talus_lost_aqualish_marshal_patrol_neutral_none": {
+    "mobs": {
+      "lost_aqualish_marshall": 1
+    }
+  },
+  "talus_lost_aqualish_outrider_patrol_neutral_none": {
+    "mobs": {
+      "lost_aqualish_outrider": 1,
+      "lost_aqualish_soldier": 1
+    }
+  },
+  "talus_selonian_assasin_neutral_none": {
+    "mobs": {
+      "selonian_assassin": 1,
+      "selonian_hunter": 1,
+      "selonian_sentinel": 1,
+      "domestic_bageraset": 1
+    }
+  },
+  "talus_selonian_patrol_neutral_none": {
+    "mobs": {
+      "selonian_scout": 1,
+      "selonian_thief": 1,
+      "selonian_healer": 1,
+      "domestic_humbaba": 1,
+      "domestic_krahbu": 1
+    }
+  },
+  "talus_selonian_squad_neutral_none": {
+    "mobs": {
+      "selonian_separatist": 3,
+      "selonian_separatist_general": 1,
+      "selonian_separatist_soldier": 3,
+      "selonian_separatist_recruit": 3,
+      "selonian_separatist_captain": 2
+    }
+  },
+  "tatooine_bantha_dune_bantha_neutral_medium_boss_01": {
+    "mobs": {
+      "dune_bantha": 1
+    }
+  },
+  "tatooine_bocatt_bocatt_neutral_medium_boss_01": {
+    "mobs": {
+      "bocatt": 1
+    }
+  },
+  "tatooine_bocatt_lair_neutral_medium": {
+    "mobs": {
+      "lesser_bocatt": 1
+    }
+  },
+  "tatooine_bull_bantha_lair_neutral_large": {
+    "mobs": {
+      "bull_bantha": 1
+    }
+  },
+  "tatooine_cannibal_dewback_lair_neutral_large": {
+    "mobs": {
+      "cannibal_dewback": 1
+    }
+  },
+  "tatooine_canyon_krayt_dragon_lair_neutral_large": {
+    "mobs": {
+      "canyon_krayt_dragon": 3,
+      "juvenile_canyon_krayt_dragon": 1
+    }
+  },
+  "tatooine_cu_pa_lair_neutral_medium": {
+    "mobs": {
+      "cu_pa": 1
+    }
+  },
+  "tatooine_cu_pa_wasteland_lair_neutral_medium": {
+    "mobs": {
+      "wasteland_cu_pa": 1
+    }
+  },
+  "tatooine_cupa_cupa_neutral_medium_boss_01": {
+    "mobs": {
+      "cu_pa": 1
+    }
+  },
+  "tatooine_desert_eopie_lair_neutral_small": {
+    "mobs": {
+      "desert_eopie": 1
+    }
+  },
+  "tatooine_desert_razorback_razorback_neutral_medium_boss_01": {
+    "mobs": {
+      "desert_razorback": 1
+    }
+  },
+  "tatooine_desert_squill_lair_neutral_small": {
+    "mobs": {
+      "desert_squill": 1
+    }
+  },
+  "tatooine_dewback_dewback_neutral_medium_boss_01": {
+    "mobs": {
+      "dewback": 1
+    }
+  },
+  "tatooine_dewback_lair_neutral_large": {
+    "mobs": {
+      "dewback": 1
+    }
+  },
+  "tatooine_dewback_lesser_lair_neutral_small": {
+    "mobs": {
+      "lesser_dewback": 1
+    }
+  },
+  "tatooine_diseased_bocatt_lair_neutral_medium": {
+    "mobs": {
+      "diseased_bocatt": 1
+    }
+  },
+  "tatooine_dragonet_dragonet_neutral_medium_boss_01": {
+    "mobs": {
+      "dragonet": 1
+    }
+  },
+  "tatooine_dragonet_lair_neutral_medium": {
+    "mobs": {
+      "dragonet": 1
+    }
+  },
+  "tatooine_dune_bantha_lair_neutral_large": {
+    "mobs": {
+      "dune_bantha": 1
+    }
+  },
+  "tatooine_dune_lizard_dune_lizard_neutral_medium_boss_01": {
+    "mobs": {
+      "dune_lizard": 1
+    }
+  },
+  "tatooine_dune_lizard_lair_neutral_medium": {
+    "mobs": {
+      "dune_lizard": 1
+    }
+  },
+  "tatooine_dwarf_nuna_lair_neutral_medium": {
+    "mobs": {
+      "dwarf_nuna": 1
+    }
+  },
+  "tatooine_dwarf_nuna_nuna_neutral_medium_boss_01": {
+    "mobs": {
+      "dwarf_nuna": 1
+    }
+  },
+  "tatooine_eopie_eopie_neutral_medium_boss_01": {
+    "mobs": {
+      "eopie": 1,
+      "dwarf_eopie": 1
+    }
+  },
+  "tatooine_eopie_lair_neutral_small": {
+    "mobs": {
+      "eopie": 1
+    }
+  },
+  "tatooine_feral_bantha_lair_neutral_large": {
+    "mobs": {
+      "feral_bantha": 1
+    }
+  },
+  "tatooine_giant_canyon_krayt_dragon_lair_neutral_large": {
+    "mobs": {
+      "giant_canyon_krayt_dragon": 1,
+      "canyon_krayt_dragon": 2
+    }
+  },
+  "tatooine_giant_sand_beetle_click_neutral_large": {
+    "mobs": {
+      "giant_sand_beetle": 1
+    }
+  },
+  "tatooine_giant_worrt_lair_neutral_medium": {
+    "mobs": {
+      "giant_worrt": 1
+    }
+  },
+  "tatooine_gorg_lair_neutral_small": {
+    "mobs": {
+      "gorg": 1
+    }
+  },
+  "tatooine_greater_desert_womprat": {
+    "mobs": {
+      "greater_desert_womp_rat": 1
+    }
+  },
+  "tatooine_greater_womprat_lair_neutral_medium": {
+    "mobs": {
+      "greater_desert_womp_rat": 1
+    }
+  },
+  "tatooine_grizzled_dewback_lair_neutral_large": {
+    "mobs": {
+      "grizzled_dewback": 1
+    }
+  },
+  "tatooine_jundland_eopie_lair_neutral_medium": {
+    "mobs": {
+      "jundland_eopie": 1
+    }
+  },
+  "tatooine_kreetle_lair_neutral_small": {
+    "mobs": {
+      "kreetle": 1
+    }
+  },
+  "tatooine_kreetle_over_death_neutral_medium_boss_01": {
+    "mobs": {
+      "kreetle": 1
+    }
+  },
+  "tatooine_kreetle_over_swarming_neutral_medium_boss_02": {
+    "mobs": {
+      "kreetle_swarmling": 1
+    }
+  },
+  "tatooine_lesser_desert_womprat": {
+    "mobs": {
+      "lesser_desert_womp_rat": 1
+    }
+  },
+  "tatooine_matriarch_bantha_lair_neutral_large": {
+    "mobs": {
+      "bantha_matriarch": 1
+    }
+  },
+  "tatooine_mound_mite_click_neutral_small": {
+    "mobs": {
+      "mound_mite": 1
+    }
+  },
+  "tatooine_mountain_dewback_lair_neutral_large": {
+    "mobs": {
+      "mountain_dewback": 1
+    }
+  },
+  "tatooine_mountain_squill_lair_neutral_medium": {
+    "mobs": {
+      "mountain_squill": 1,
+      "female_mountain_squill": 1
+    }
+  },
+  "tatooine_mountain_worrt_lair_neutral_large": {
+    "mobs": {
+      "mountain_worrt": 1
+    }
+  },
+  "tatooine_mutant_womprat_lair_neutral_small": {
+    "mobs": {
+      "mutant_womp_rat": 1,
+      "variegated_womp_rat": 1
+    }
+  },
+  "tatooine_rill_lair_neutral_small": {
+    "mobs": {
+      "rill": 1
+    }
+  },
+  "tatooine_rill_rill_neutral_medium_boss_01": {
+    "mobs": {
+      "rill": 1
+    }
+  },
+  "tatooine_rock_beetle_click_neutral_medium": {
+    "mobs": {
+      "rock_beetle": 1
+    }
+  },
+  "tatooine_rockmite_click_neutral_small": {
+    "mobs": {
+      "rockmite": 1
+    }
+  },
+  "tatooine_ronto_lair_neutral_large": {
+    "mobs": {
+      "ronto": 1
+    }
+  },
+  "tatooine_ronto_male_neutral_medium_boss_01": {
+    "mobs": {
+      "bull_ronto": 1
+    }
+  },
+  "tatooine_scyk_lair_neutral_medium": {
+    "mobs": {
+      "scyk": 1
+    }
+  },
+  "tatooine_scyk_scyk_neutral_medium_boss_01": {
+    "mobs": {
+      "scyk": 1
+    }
+  },
+  "tatooine_sevorrt_lair_neutral_medium": {
+    "mobs": {
+      "sevorrt": 1
+    }
+  },
+  "tatooine_squill_lair_neutral_small": {
+    "mobs": {
+      "squill": 1
+    }
+  },
+  "tatooine_squill_squill_neutral_medium_boss_01": {
+    "mobs": {
+      "squill": 1
+    }
+  },
+  "tatooine_swarming_lesser_dewback_lair_neutral_large": {
+    "mobs": {
+      "swarming_lesser_dewback": 1
+    }
+  },
+  "tatooine_tatooine_mynock_lair_neutral_small": {
+    "mobs": {
+      "tatooine_mynock": 1
+    }
+  },
+  "tatooine_womprat_lair_neutral_small": {
+    "mobs": {
+      "womp_rat": 1
+    }
+  },
+  "tatooine_womprat_womprat_neutral_medium_boss_01": {
+    "mobs": {
+      "womp_rat": 1
+    }
+  },
+  "tatooine_worrt_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_worrt": 1
+    }
+  },
+  "tatooine_worrt_lair_neutral_small": {
+    "mobs": {
+      "worrt": 1
+    }
+  },
+  "tatooine_zucca_boar_lair_neutral_medium": {
+    "mobs": {
+      "zucca_boar": 1
+    }
+  },
+  "tatooine_zucca_boar_zucca_neutral_medium_boss_01": {
+    "mobs": {
+      "zucca_boar": 1
+    }
+  },
+  "tatooine_alkahara_bandit_camp": {
+    "mobs": {
+      "alkhara_lieutenant": 1,
+      "alkhara_bandit": 1
+    }
+  },
+  "tatooine_alkhara_bandit_outpost_neutral_large_theater": {
+    "mobs": {
+      "alkhara_lieutenant": 1,
+      "alkhara_bandit": 1
+    }
+  },
+  "tatooine_desert_demon_outpost_neutral_large_theater": {
+    "mobs": {
+      "desert_demon_leader": 1,
+      "desert_demon_bodyguard": 2,
+      "desert_demon": 2
+    }
+  },
+  "tatooine_dim_u_chapel_neutral_small_theater": {
+    "mobs": {
+      "dim_u_preacher": 2,
+      "dim_u_monk": 2,
+      "dim_u_bantha": 1
+    }
+  },
+  "tatooine_dim_u_church_neutral_large_theater": {
+    "mobs": {
+      "dim_u_abbot": 1,
+      "dim_u_monastery_nun": 2,
+      "dim_u_priestess": 1,
+      "dim_u_monk": 2,
+      "dim_u_cleric": 2,
+      "dim_u_bantha": 1
+    }
+  },
+  "tatooine_dune_stalker_camp": {
+    "mobs": {
+      "dune_stalker_leader": 1,
+      "dune_stalker_brawler": 1,
+      "dune_stalker_enforcer": 1,
+      "dune_stalker_marksman": 1,
+      "dune_stalker_scavenger": 1,
+      "dune_stalker": 1
+    }
+  },
+  "tatooine_dune_stalker_camp_neutral_medium_theater": {
+    "mobs": {
+      "dune_stalker_leader": 1,
+      "dune_stalker_brawler": 1,
+      "dune_stalker_enforcer": 1,
+      "dune_stalker_marksman": 1,
+      "dune_stalker_scavenger": 1,
+      "dune_stalker": 1
+    }
+  },
+  "tatooine_evil_settlement_neutral_medium_theater": {
+    "mobs": {
+      "evil_settler": 4,
+      "domestic_eopie": 1
+    }
+  },
+  "tatooine_hermit_neutral_small_theater": {
+    "mobs": {
+      "hermit": 1
+    }
+  },
+  "tatooine_imperial_camp": {
+    "mobs": {
+      "sand_trooper": 3,
+      "stormtrooper_dewback": 1
+    }
+  },
+  "tatooine_jabba_assasin_camp_neutral_large_theater": {
+    "mobs": {
+      "jabba_assassin": 1
+    }
+  },
+  "tatooine_jabba_camp": {
+    "mobs": {
+      "jabba_enforcer": 1,
+      "jabba_swooper": 1,
+      "jabba_assassin": 1
+    }
+  },
+  "tatooine_jabba_enforcer_camp_neutral_medium_theater": {
+    "mobs": {
+      "jabba_enforcer": 1
+    }
+  },
+  "tatooine_jabba_swooper_camp_neutral_medium_theater": {
+    "mobs": {
+      "jabba_swooper": 1,
+      "jabba_swooper_leader": 1
+    }
+  },
+  "tatooine_jawa_outpost_neutral_medium_theater": {
+    "mobs": {
+      "jawa_leader": 1,
+      "jawa_engineer": 1
+    }
+  },
+  "tatooine_moisture_settler_neutral_medium_theater": {
+    "mobs": {
+      "domestic_eopie": 1,
+      "moisture_farmer": 3
+    }
+  },
+  "tatooine_moisture_thief_neutral_medium_theater": {
+    "mobs": {
+      "domestic_eopie": 1,
+      "moisture_thief": 2,
+      "water_bug": 1
+    }
+  },
+  "tatooine_nomad_neutral_small_theater": {
+    "mobs": {
+      "nomad": 1
+    }
+  },
+  "tatooine_outcast_camp_neutral_small_theater": {
+    "mobs": {
+      "squatter": 1
+    }
+  },
+  "tatooine_outlaw_camp_neutral_medium_theater": {
+    "mobs": {
+      "fugitive": 1,
+      "outlaw": 1
+    }
+  },
+  "tatooine_rodian_clan_outpost_neutral_large_theater": {
+    "mobs": {
+      "rodian_clan_warchief": 1,
+      "rodian_clan_captain": 1
+    }
+  },
+  "tatooine_spice_fiend_neutral_small_theater": {
+    "mobs": {
+      "spice_fiend": 1
+    }
+  },
+  "tatooine_trandosian_slaver_neutral_medium_theater": {
+    "mobs": {
+      "trandosian_slavemaster": 1,
+      "trandosian_slaver": 1
+    }
+  },
+  "tatooine_tusken_camp": {
+    "mobs": {
+      "tusken_raider": 2,
+      "tusken_commoner": 2,
+      "tusken_child": 1
+    }
+  },
+  "tatooine_tusken_raider_kingdom_neutral_large_theater": {
+    "mobs": {
+      "tusken_berserker": 3,
+      "tusken_blood_champion": 3,
+      "tusken_chief": 3,
+      "tusken_elite_guard": 3,
+      "tusken_gore_chief": 2,
+      "tusken_king": 1,
+      "tusken_torture_lord": 2
+    }
+  },
+  "tatooine_tusken_raider_village_neutral_large_theater": {
+    "mobs": {
+      "tusken_bantha": 1,
+      "tusken_woman": 1,
+      "tusken_commoner": 1,
+      "tusken_child": 1,
+      "tusken_raider": 2,
+      "tusken_guard": 2
+    }
+  },
+  "tatooine_valarian_assasin_neutral_large_theater": {
+    "mobs": {
+      "valarian_assassin": 1
+    }
+  },
+  "tatooine_valarian_camp": {
+    "mobs": {
+      "valarian_enforcer": 1,
+      "valarian_thief": 1,
+      "valarian_thug": 1,
+      "valarian_scout": 1
+    }
+  },
+  "tatooine_valarian_enforcer_neutral_medium_theater": {
+    "mobs": {
+      "valarian_enforcer": 1,
+      "valarian_thief": 1,
+      "valarian_thug": 1,
+      "valarian_henchman": 1,
+      "valarian_scout": 1
+    }
+  },
+  "valarian_swooper_camp": {
+    "mobs": {
+      "valarian_swooper_leader": 1,
+      "valarian_swooper": 2
+    }
+  },
+  "tatooine_valarian_swooper_neutral_small_theater": {
+    "mobs": {
+      "valarian_swooper_leader": 1,
+      "valarian_swooper": 2
+    }
+  },
+  "tatooine_weequay_outpost_neutral_large_theater": {
+    "mobs": {
+      "weequay_champion": 1,
+      "weequay_soldier": 1,
+      "weequay_thug": 1,
+      "weequay_zealot": 1
+    }
+  },
+  "tatooine_weequay_tribe_camp": {
+    "mobs": {
+      "weequay_thug": 1,
+      "weequay_zealot": 1
+    }
+  },
+  "tatooine_bantha": {
+    "mobs": {
+      "bantha": 1
+    }
+  },
+  "tatooine_bantha_herd": {
+    "mobs": {
+      "bantha_matriarch": 1,
+      "bantha": 2
+    }
+  },
+  "tatooine_bocatt_pack_neutral_medium": {
+    "mobs": {
+      "bocatt": 1,
+      "lesser_bocatt": 2
+    }
+  },
+  "tatooine_bocatt_pack_neutral_none": {
+    "mobs": {
+      "bocatt": 1
+    }
+  },
+  "tatooine_bull_bantha_herd_neutral_none": {
+    "mobs": {
+      "bull_bantha": 1
+    }
+  },
+  "tatooine_cannibal_dewback_herd_neutral_none": {
+    "mobs": {
+      "cannibal_dewback": 1
+    }
+  },
+  "tatooine_canyon_krayt_dragon_pack_neutral_none": {
+    "mobs": {
+      "canyon_krayt_dragon": 1,
+      "juvenile_canyon_krayt_dragon": 2
+    }
+  },
+  "tatooine_cu_pa_herd_neutral_none": {
+    "mobs": {
+      "cu_pa": 1
+    }
+  },
+  "tatooine_cu_pa_wasteland_neutral_none": {
+    "mobs": {
+      "wasteland_cu_pa": 1
+    }
+  },
+  "tatooine_desert_eopie_herd_neutral_none": {
+    "mobs": {
+      "desert_eopie": 1
+    }
+  },
+  "tatooine_desert_squill_pack_neutral_none": {
+    "mobs": {
+      "desert_squill": 1
+    }
+  },
+  "tatooine_dewback_herd_neutral_none": {
+    "mobs": {
+      "dewback": 1
+    }
+  },
+  "tatooine_dewback_lesser_neutral_none": {
+    "mobs": {
+      "lesser_dewback": 1
+    }
+  },
+  "tatooine_diseased_bocatt_pack_neutral_none": {
+    "mobs": {
+      "diseased_bocatt": 1
+    }
+  },
+  "tatooine_dragonet_pack_neutral_none": {
+    "mobs": {
+      "dragonet": 1
+    }
+  },
+  "tatooine_dune_bantha_herd_neutral_none": {
+    "mobs": {
+      "dune_bantha": 1
+    }
+  },
+  "tatooine_dune_lizard_pack_neutral_none": {
+    "mobs": {
+      "dune_lizard": 1
+    }
+  },
+  "tatooine_dwarf_eopie": {
+    "mobs": {
+      "dwarf_eopie": 1
+    }
+  },
+  "tatooine_dwarf_nuna_herd_neutral_none": {
+    "mobs": {
+      "dwarf_nuna": 1
+    }
+  },
+  "tatooine_eopie_herd_neutral_none": {
+    "mobs": {
+      "eopie": 1,
+      "dwarf_eopie": 1
+    }
+  },
+  "tatooine_feral_bantha_herd_neutral_none": {
+    "mobs": {
+      "feral_bantha": 1
+    }
+  },
+  "tatooine_giant_canyon_krayt_dragon_pack_neutral_none": {
+    "mobs": {
+      "giant_canyon_krayt_dragon": 1,
+      "canyon_krayt_dragon": 2
+    }
+  },
+  "tatooine_giant_sand_beetle_swarm_neutral_none": {
+    "mobs": {
+      "giant_sand_beetle": 1,
+      "large_sand_beetle": 2,
+      "sand_beetle": 4
+    }
+  },
+  "tatooine_giant_worrt_herd_neutral_none": {
+    "mobs": {
+      "giant_worrt": 1
+    }
+  },
+  "tatooine_gorg_glutton_neutral_none": {
+    "mobs": {
+      "gorg_glutton": 1
+    }
+  },
+  "tatooine_gorg_herd_neutral_none": {
+    "mobs": {
+      "gorg": 1
+    }
+  },
+  "tatooine_greater_womprat_herd_neutral_none": {
+    "mobs": {
+      "greater_desert_womp_rat": 1
+    }
+  },
+  "tatooine_grizzled_dewback_herd_neutral_none": {
+    "mobs": {
+      "grizzled_dewback": 1
+    }
+  },
+  "tatooine_jundland_eopie_herd_neutral_none": {
+    "mobs": {
+      "jundland_eopie": 1
+    }
+  },
+  "tatooine_krayt_dragon_ancient_neutral_none": {
+    "mobs": {
+      "krayt_dragon_ancient": 1
+    }
+  },
+  "tatooine_krayt_dragon_grand_neutral_none": {
+    "mobs": {
+      "krayt_dragon_grand": 1,
+      "krayt_dragon_adolescent": 1
+    }
+  },
+  "tatooine_kreetle_herd_neutral_none": {
+    "mobs": {
+      "kreetle": 1
+    }
+  },
+  "tatooine_kreetle_over_neutral_none": {
+    "mobs": {
+      "kreetle_swarmling": 10,
+      "overkreetle": 1
+    }
+  },
+  "tatooine_matriarch_bantha_herd_neutral_none": {
+    "mobs": {
+      "bantha_matriarch": 1,
+      "bantha": 1,
+      "dwarf_bantha": 1
+    }
+  },
+  "tatooine_mound_mite_swarm_neutral_none": {
+    "mobs": {
+      "mound_mite": 1
+    }
+  },
+  "tatooine_mountain_dewback_herd_neutral_none": {
+    "mobs": {
+      "mountain_dewback": 1
+    }
+  },
+  "tatooine_mountain_squill_pack_neutral_none": {
+    "mobs": {
+      "mountain_squill": 1,
+      "mountain_squill_hunter": 1,
+      "young_mountain_squill": 1
+    }
+  },
+  "tatooine_mountain_worrt_herd_neutral_none": {
+    "mobs": {
+      "mountain_worrt": 1
+    }
+  },
+  "tatooine_mutant_womprat_herd_neutral_none": {
+    "mobs": {
+      "mutant_womp_rat": 1,
+      "variegated_womp_rat": 1
+    }
+  },
+  "tatooine_rill_pack_neutral_none": {
+    "mobs": {
+      "rill": 1
+    }
+  },
+  "tatooine_rock_beetle_swarm_neutral_none": {
+    "mobs": {
+      "rock_beetle": 2,
+      "dune_beetle": 2,
+      "large_rock_beetle": 1
+    }
+  },
+  "tatooine_rockmite_swarm_neutral_none": {
+    "mobs": {
+      "rockmite": 1
+    }
+  },
+  "tatooine_rogue_bantha_neutral_none": {
+    "mobs": {
+      "rogue_bantha": 1
+    }
+  },
+  "tatooine_ronto_herd_neutral_none": {
+    "mobs": {
+      "ronto": 2,
+      "bull_ronto": 1
+    }
+  },
+  "tatooine_scyk_pack_neutral_none": {
+    "mobs": {
+      "scyk": 1
+    }
+  },
+  "tatooine_sevorrt_pack_neutral_none": {
+    "mobs": {
+      "sevorrt": 1
+    }
+  },
+  "tatooine_squill_malignant_neutral_none": {
+    "mobs": {
+      "malignant_squill": 1
+    }
+  },
+  "tatooine_squill_pack_neutral_none": {
+    "mobs": {
+      "squill": 1
+    }
+  },
+  "tatooine_swarming_lesser_dewback_herd_neutral_none": {
+    "mobs": {
+      "swarming_lesser_dewback": 1
+    }
+  },
+  "tatooine_tatooine_mynock_swarm_neutral_none": {
+    "mobs": {
+      "tatooine_mynock": 1
+    }
+  },
+  "tatooine_wild_dune_boar_neutral_none": {
+    "mobs": {
+      "wild_dune_boar": 1
+    }
+  },
+  "tatooine_womprat_herd_neutral_none": {
+    "mobs": {
+      "womp_rat": 1,
+      "lesser_desert_womp_rat": 1
+    }
+  },
+  "tatooine_womprat_slum_rat_neutral_none": {
+    "mobs": {
+      "slum_rat": 1
+    }
+  },
+  "tatooine_worrt_herd_neutral_none": {
+    "mobs": {
+      "worrt": 1,
+      "minor_worrt": 1
+    }
+  },
+  "tatooine_zucca_boar_pack_neutral_none": {
+    "mobs": {
+      "zucca_boar": 1
+    }
+  },
+  "tatooine_alkhara_bandit_patrol_neutral_none": {
+    "mobs": {
+      "alkhara_bandit_king": 1,
+      "alkhara_champion": 2,
+      "alkhara_lieutenant": 2,
+      "alkhara_bandit": 2
+    }
+  },
+  "tatooine_cannibal_neutral_none": {
+    "mobs": {
+      "cannibal": 1
+    }
+  },
+  "tatooine_desert_demon_outpost_neutral_large": {
+    "mobs": {
+      "desert_demon_leader": 1,
+      "desert_demon_bodyguard": 1,
+      "desert_demon": 2
+    }
+  },
+  "tatooine_desert_demon_patrol_neutral_none": {
+    "mobs": {
+      "desert_demon_brawler": 1,
+      "desert_demon_marksman": 1,
+      "desert_demon": 2
+    }
+  },
+  "tatooine_evil_hermit_neutral_none": {
+    "mobs": {
+      "evil_hermit": 1
+    }
+  },
+  "tatooine_insane_kitonak_neutral_none": {
+    "mobs": {
+      "insane_kitonak": 1
+    }
+  },
+  "tatooine_jawa_squad_neutral_none": {
+    "mobs": {
+      "jawa": 1,
+      "jawa_henchman": 1,
+      "jawa_smuggler": 1
+    }
+  },
+  "tatooine_jawa_troop_neutral_none": {
+    "mobs": {
+      "jawa_avenger": 1,
+      "jawa_protector": 1
+    }
+  },
+  "tatooine_jawa_warband_neutral_none": {
+    "mobs": {
+      "jawa_warlord": 1,
+      "jawa_healer": 1,
+      "jawa_thief": 1
+    }
+  },
+  "tatooine_tusken_raider_patrol_neutral_none": {
+    "mobs": {
+      "tusken_bantha": 1,
+      "tusken_flesh_hunter": 1,
+      "tusken_fighter": 1,
+      "tusken_raider": 1,
+      "tusken_savage": 1,
+      "tusken_sniper": 1,
+      "tusken_wanderer": 1
+    }
+  },
+  "tatooine_tusken_raider_warband_neutral_none": {
+    "mobs": {
+      "tusken_avenger": 2,
+      "tusken_brute": 3,
+      "tusken_captain": 3,
+      "tusken_death_hunter": 2,
+      "tusken_raid_champion": 1,
+      "tusken_raid_hunter": 2,
+      "tusken_raid_leader": 2,
+      "tusken_war_master": 2,
+      "tusken_warlord": 1,
+      "tusken_warrior": 3
+    }
+  },
+  "tatooine_wandering_kitonak_neutral_none": {
+    "mobs": {
+      "wandering_kitonak": 1
+    }
+  },
+  "yavin4_angler_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_angler": 1
+    }
+  },
+  "yavin4_angler_lair_neutral_medium": {
+    "mobs": {
+      "angler": 1
+    }
+  },
+  "yavin4_choku_frenzied_neutral_medium_boss_01": {
+    "mobs": {
+      "frenzied_choku": 1
+    }
+  },
+  "yavin4_choku_lair_neutral_medium": {
+    "mobs": {
+      "choku": 1
+    }
+  },
+  "yavin4_crystal_snake_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_crystal_snake": 1
+    }
+  },
+  "yavin4_crystal_snake_lair_neutral_medium": {
+    "mobs": {
+      "crystal_snake": 1
+    }
+  },
+  "yavin4_gackle_bat_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_gackle_bat": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_boss_01": {
+    "mobs": {
+      "gackle_bat": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_boss_02": {
+    "mobs": {
+      "gackle_bat_hunter": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_boss_03": {
+    "mobs": {
+      "blood_fanged_gackle_bat": 1,
+      "feral_mutant_gackle_stalker": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_boss_04": {
+    "mobs": {
+      "blood_fanged_gackle_bat": 1,
+      "feral_mutant_gackle_stalker": 1,
+      "gackle_bat_hunter": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_medium": {
+    "mobs": {
+      "giant_gackle_bat": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_small": {
+    "mobs": {
+      "gackle_bat": 1,
+      "puny_gackle_bat": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_small_01": {
+    "mobs": {
+      "gackle_bat_hunter": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_small_02": {
+    "mobs": {
+      "blood_fanged_gackle_bat": 1,
+      "feral_mutant_gackle_stalker": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_small_03": {
+    "mobs": {
+      "blood_fanged_gackle_bat": 1,
+      "gackle_bat": 1
+    }
+  },
+  "yavin4_gackle_bat_lair_neutral_small_04": {
+    "mobs": {
+      "gackle_bat": 1
+    }
+  },
+  "yavin4_kliknik_kliknik_neutral_medium_boss_01": {
+    "mobs": {
+      "kliknik": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_boss_01": {
+    "mobs": {
+      "kliknik_scout": 1,
+      "kliknik_defender": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_boss_02": {
+    "mobs": {
+      "kliknik_warrior": 1,
+      "kliknik_worker": 1,
+      "kliknik_hatchling": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_boss_03": {
+    "mobs": {
+      "kliknik_hunter": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_boss_04": {
+    "mobs": {
+      "kliknik_scout": 1,
+      "kliknik_defender": 1,
+      "kliknik_warrior": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_medium": {
+    "mobs": {
+      "kliknik_dark_hunter": 1,
+      "kliknik_dark_warrior": 1,
+      "kliknik_dark_queen": 1,
+      "kliknik_dark_worker": 1,
+      "kliknik_dark_defender": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_small": {
+    "mobs": {
+      "kliknik": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_small_01": {
+    "mobs": {
+      "kliknik_scout": 1,
+      "kliknik_defender": 1,
+      "kliknik_warrior": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_small_02": {
+    "mobs": {
+      "kliknik_scout": 1,
+      "kliknik_defender": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_small_03": {
+    "mobs": {
+      "kliknik_hunter": 1
+    }
+  },
+  "yavin4_kliknik_lair_neutral_small_04": {
+    "mobs": {
+      "kliknik_hatchling": 1,
+      "kliknik_worker": 1,
+      "kliknik_warrior": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_boss_01": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1,
+      "mamien_youth": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_boss_02": {
+    "mobs": {
+      "mamien_matriarch": 1,
+      "elder_mamien": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_boss_03": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_boss_04": {
+    "mobs": {
+      "mamien_matriarch": 1,
+      "elder_mamien": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_medium": {
+    "mobs": {
+      "mamien_matriarch": 1,
+      "elder_mamien": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_small": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1,
+      "mamien_youth": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_small_01": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1,
+      "mamien_matriarch": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_small_02": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1,
+      "mamien_youth": 1,
+      "elder_mamien": 1
+    }
+  },
+  "yavin4_mamien_lair_neutral_small_04": {
+    "mobs": {
+      "female_mamien": 1,
+      "mamien_youth": 1,
+      "mamien_matriarch": 1
+    }
+  },
+  "yavin4_mamien_male_neutral_medium_boss_01": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1
+    }
+  },
+  "yavin4_mawgax_lair_neutral_medium": {
+    "mobs": {
+      "giant_mawgax": 1
+    }
+  },
+  "yavin4_mawgax_male_neutral_medium_boss_01": {
+    "mobs": {
+      "female_mawgax": 1,
+      "male_mawgax": 1
+    }
+  },
+  "yavin4_qurvel_lair_neutral_medium": {
+    "mobs": {
+      "kai_tok_slayer": 1,
+      "kai_tok_bloodreaver": 1
+    }
+  },
+  "yavin4_skreeg_lair_neutral_hard": {
+    "mobs": {
+      "skreeg_hunter": 1,
+      "skreeg_male": 1
+    }
+  },
+  "yavin4_skreeg_lair_neutral_medium": {
+    "mobs": {
+      "skreeg_scout": 1,
+      "skreeg_gatherer": 1
+    }
+  },
+  "yavin4_skreeg_warrior_neutral_medium_boss_01": {
+    "mobs": {
+      "skreeg_warrior": 2,
+      "skreeg_warrior_elite": 1
+    }
+  },
+  "yavin4_spined_puc_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_spined_puc": 1
+    }
+  },
+  "yavin4_spined_puc_lair_neutral_medium": {
+    "mobs": {
+      "spined_puc": 1
+    }
+  },
+  "yavin4_stintaril_giant_neutral_medium_boss_01": {
+    "mobs": {
+      "giant_stintaril": 1
+    }
+  },
+  "yavin4_stintaril_lair_neutral_medium": {
+    "mobs": {
+      "stintaril": 1
+    }
+  },
+  "yavin4_tanc_mite_lair_neutral_medium": {
+    "mobs": {
+      "tanc_mite": 1
+    }
+  },
+  "yavin4_tanc_mite_warrior_neutral_medium_boss_01": {
+    "mobs": {
+      "tanc_mite_warrior": 1
+    }
+  },
+  "yavin4_tybis_lair_neutral_medium": {
+    "mobs": {
+      "tybis": 1
+    }
+  },
+  "yavin4_tybis_male_neutral_medium_boss_01": {
+    "mobs": {
+      "male_tybis": 1,
+      "female_tybis": 1
+    }
+  },
+  "yavin4_whisper_bird_lair2_neutral_medium": {
+    "mobs": {
+      "whisper_bird_female": 1,
+      "whisper_bird_male": 1
+    }
+  },
+  "yavin4_whisper_bird_lair_neutral_medium": {
+    "mobs": {
+      "whisper_bird_female": 1,
+      "whisper_bird_hatchling": 2
+    }
+  },
+  "yavin4_whisper_bird_male_neutral_medium_boss_01": {
+    "mobs": {
+      "whisper_bird_male": 1
+    }
+  },
+  "yavin4_hutt_expedition_force_camp_hutt_medium_theater": {
+    "mobs": {
+      "hutt_expeditonary_force_member": 1,
+      "hutt_expeditonary_force_leader": 1
+    }
+  },
+  "yavin4_hutt_expedition_force_patrl_hutt_medium_theater": {
+    "mobs": {
+      "hutt_expeditonary_force_member": 1,
+      "hutt_expeditionary_force_surveyor": 1
+    }
+  },
+  "yavin4_stranded_imperial_base_imperial_medium_theater": {
+    "mobs": {
+      "stranded_imperial_officer": 1,
+      "stranded_imperial_soldier": 1,
+      "stranded_imperial_pilot": 1
+    }
+  },
+  "yavin4_stranded_imperial_patrol_imperial_medium_theater": {
+    "mobs": {
+      "stranded_imperial_soldier": 1,
+      "stranded_imperial_pilot": 1
+    }
+  },
+  "yavin4_stranded_rebel_base_rebel_medium_theater": {
+    "mobs": {
+      "stranded_rebel_officer": 1,
+      "stranded_rebel_soldier": 1,
+      "stranded_rebel_pilot": 1
+    }
+  },
+  "yavin4_stranded_rebel_patrol_rebel_medium_theater": {
+    "mobs": {
+      "stranded_rebel_soldier": 1,
+      "stranded_rebel_pilot": 1
+    }
+  },
+  "yavin4_angler_herd_neutral_none": {
+    "mobs": {
+      "angler": 1,
+      "angler_hatchling": 3
+    }
+  },
+  "yavin4_angler_pack_neutral_none": {
+    "mobs": {
+      "lurking_angler": 1,
+      "bone_angler": 1,
+      "angler_recluse": 1
+    }
+  },
+  "yavin4_choku_herd_neutral_none": {
+    "mobs": {
+      "choku_female": 1,
+      "choku_male": 1,
+      "choku_pup": 2
+    }
+  },
+  "yavin4_choku_pack_neutral_none": {
+    "mobs": {
+      "choku": 1,
+      "choku_hunter": 1
+    }
+  },
+  "yavin4_crystal_snake_herd_neutral_none": {
+    "mobs": {
+      "crystal_snake": 1
+    }
+  },
+  "yavin4_crystal_snake_pack_neutral_none": {
+    "mobs": {
+      "crystal_snake": 2,
+      "giant_crystal_snake": 1
+    }
+  },
+  "yavin4_gackle_bat_herd_neutral_none": {
+    "mobs": {
+      "blood_fanged_gackle_bat": 1,
+      "feral_mutant_gackle_stalker": 1
+    }
+  },
+  "yavin4_gackle_bat_pack_neutral_none": {
+    "mobs": {
+      "blood_fanged_gackle_bat": 1,
+      "feral_mutant_gackle_stalker": 1,
+      "gackle_bat_hunter": 1
+    }
+  },
+  "yavin4_kliknik_herd_neutral_none": {
+    "mobs": {
+      "kliknik_warrior": 1,
+      "kliknik_scout": 1,
+      "kliknik_worker": 1,
+      "kliknik_defender": 1,
+      "kliknik_hatchling": 1
+    }
+  },
+  "yavin4_kliknik_pack2_neutral_none": {
+    "mobs": {
+      "kliknik_dark_hunter": 1,
+      "kliknik_dark_warrior": 1,
+      "kliknik_dark_queen": 1,
+      "kliknik_dark_worker": 1,
+      "kliknik_dark_defender": 1
+    }
+  },
+  "yavin4_mamien_herd_neutral_none": {
+    "mobs": {
+      "mamien_matriarch": 1,
+      "elder_mamien": 1
+    }
+  },
+  "yavin4_mamien_pack_neutral_none": {
+    "mobs": {
+      "female_mamien": 1,
+      "male_mamien": 1
+    }
+  },
+  "yavin4_mawgax_herd_neutral_none": {
+    "mobs": {
+      "female_mawgax": 1,
+      "male_mawgax": 1,
+      "mawgax_youth": 1
+    }
+  },
+  "yavin4_mawgax_pack_neutral_none": {
+    "mobs": {
+      "giant_mawgax": 1
+    }
+  },
+  "yavin4_qurvel_herd_neutral_none": {
+    "mobs": {
+      "kai_tok_prowler": 1
+    }
+  },
+  "yavin4_qurvel_pack2_neutral_none": {
+    "mobs": {
+      "kai_tok_slayer": 1,
+      "kai_tok_bloodreaver": 1
+    }
+  },
+  "yavin4_qurvel_pack_neutral_none": {
+    "mobs": {
+      "kai_tok_scavenger": 1
+    }
+  },
+  "yavin4_skreeg_pack2_neutral_none": {
+    "mobs": {
+      "skreeg_scout": 1,
+      "skreeg_gatherer": 1,
+      "skreeg_female": 1
+    }
+  },
+  "yavin4_skreeg_pack_neutral_none": {
+    "mobs": {
+      "skreeg_female": 1,
+      "skreeg_adolescent": 2,
+      "skreeg_infant": 2
+    }
+  },
+  "yavin4_spined_puc_pack_neutral_none": {
+    "mobs": {
+      "spined_puc": 1
+    }
+  },
+  "yavin4_stintaril_herd_neutral_none": {
+    "mobs": {
+      "stintaril_scavenger": 1,
+      "puny_stintaril": 1
+    }
+  },
+  "yavin4_stintaril_pack_neutral_none": {
+    "mobs": {
+      "stintaril_ravager": 1,
+      "stintaril_fleshripper": 1
+    }
+  },
+  "yavin4_stintaril_prowler_neutral_none": {
+    "mobs": {
+      "stintaril_prowler": 1
+    }
+  },
+  "yavin4_tanc_herd_neutral_none": {
+    "mobs": {
+      "tanc_mite": 1,
+      "puny_tanc_mite": 2
+    }
+  },
+  "yavin4_tanc_mite_pack_neutral_none": {
+    "mobs": {
+      "tanc_mite": 1,
+      "giant_tanc_mite": 1
+    }
+  },
+  "yavin4_tybis_herd_neutral_none": {
+    "mobs": {
+      "female_tybis": 1,
+      "male_tybis": 1,
+      "tybis_youth": 2
+    }
+  },
+  "yavin4_tybis_pack_neutral_none": {
+    "mobs": {
+      "enraged_tybis": 1,
+      "tybis": 1
+    }
+  },
+  "yavin4_whisper_bird_pack_neutral_none": {
+    "mobs": {
+      "whisper_bird_female": 1,
+      "whisper_bird_male": 1,
+      "whisper_bird_hatchling": 2
+    }
+  },
+  "global_assassin_camp_neutral_small_theater": {
+    "mobs": {
+      "assassin": 1
+    }
+  },
+  "global_bothan_diplomat_camp_neutral_small_theater": {
+    "mobs": {
+      "bothan_diplomat": 1
+    }
+  },
+  "global_bothan_information_broker_camp_neutral_small_theater": {
+    "mobs": {
+      "bothan_information_broker": 1
+    }
+  },
+  "global_bounty_hunter_camp_neutral_small_theater": {
+    "mobs": {
+      "bounty_hunter_thug": 1
+    }
+  },
+  "global_brigand_camp_neutral_small_theater": {
+    "mobs": {
+      "brigand": 1
+    }
+  },
+  "global_brigand_highwayman_camp_neutral_large_theater": {
+    "mobs": {
+      "highwayman": 1
+    }
+  },
+  "global_brigand_leader_camp_neutral_large_theater": {
+    "mobs": {
+      "brigand_leader": 1
+    }
+  },
+  "global_brigand_scout_camp_neutral_small_theater": {
+    "mobs": {
+      "brigand_scout": 1
+    }
+  },
+  "global_dark_jedi_camp_dark_jedi_theater": {
+    "mobs": {
+      "dark_jedi_knight": 1,
+      "dark_jedi_master": 1
+    }
+  },
+  "global_gambler_camp_neutral_small_theater": {
+    "mobs": {
+      "gambler": 1
+    }
+  },
+  "global_imperial_1st_lieutenant_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_first_lieutenant": 1,
+      "imperial_sergeant": 2,
+      "imperial_trooper": 3
+    }
+  },
+  "global_imperial_cadet_camp_imperial_small_theater": {
+    "mobs": {
+      "imperial_cadet": 1
+    }
+  },
+  "global_imperial_cadet_senior_camp_imperial_small_theater": {
+    "mobs": {
+      "imperial_senior_cadet": 1
+    }
+  },
+  "global_imperial_cadet_squadleader_camp_imperial_small_theater": {
+    "mobs": {
+      "imperial_cadet_squadleader": 1,
+      "imperial_senior_cadet": 1,
+      "imperial_cadet": 1
+    }
+  },
+  "global_imperial_civil_patrol_captain_camp_imperial_small_theater": {
+    "mobs": {
+      "civil_patrol_captain": 1,
+      "civil_patrol_sergeant": 2,
+      "civil_patrol_corporal": 3
+    }
+  },
+  "global_imperial_civil_patrol_commander_camp_imperial_small_theater": {
+    "mobs": {
+      "civil_patrol_commander": 1,
+      "civil_patrol_sergeant": 2,
+      "civil_patrol_corporal": 3
+    }
+  },
+  "global_imperial_civil_patrol_sergeant_camp_imperial_small_theater": {
+    "mobs": {
+      "civil_patrol_sergeant": 1,
+      "civil_patrol_corporal": 3
+    }
+  },
+  "global_imperial_civil_patrolman_camp_imperial_small_theater": {
+    "mobs": {
+      "civilian_patrolman": 1
+    }
+  },
+  "global_imperial_colonel_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_colonel": 1,
+      "imperial_major": 1,
+      "imperial_first_lieutenant": 2
+    }
+  },
+  "global_imperial_command_security_camp_imperial_medium_theater": {
+    "mobs": {
+      "command_security_guard": 1
+    }
+  },
+  "global_imperial_compforce_trooper_camp_imperial_medium_theater": {
+    "mobs": {
+      "compforce_trooper": 3,
+      "veteran_compforce_trooper": 1
+    }
+  },
+  "global_imperial_large2_base_imperial_large_theater": {
+    "mobs": {
+      "imperial_sergeant": 1,
+      "imperial_trooper": 2,
+      "imperial_private": 2
+    }
+  },
+  "global_imperial_large_base_imperial_large_theater": {
+    "mobs": {
+      "imperial_colonel": 1,
+      "imperial_major": 1,
+      "imperial_second_lieutenant": 2
+    }
+  },
+  "global_imperial_large_base_imperial_small_theater": {
+    "mobs": {
+      "imperial_master_sergeant": 1,
+      "imperial_sergeant": 2,
+      "imperial_corporal": 4
+    }
+  },
+  "global_imperial_major_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_major": 1,
+      "imperial_first_lieutenant": 1,
+      "imperial_sergeant": 2,
+      "imperial_corporal": 2
+    }
+  },
+  "global_imperial_mission_engineer_camp_imperial_medium_theater": {
+    "mobs": {
+      "special_missions_engineer": 1
+    }
+  },
+  "global_imperial_outpost_imperial_large_theater": {
+    "mobs": {
+      "imperial_first_lieutenant": 1,
+      "imperial_second_lieutenant": 2,
+      "imperial_private": 4
+    }
+  },
+  "global_imperial_outpost_imperial_small_theater": {
+    "mobs": {
+      "imperial_second_lieutenant": 1,
+      "imperial_private": 2
+    }
+  },
+  "global_imperial_probot_handler_drone_camp_imperial_small_theater": {
+    "mobs": {
+      "droid_corps_junior_technician": 1,
+      "imperial_probe_drone": 3
+    }
+  },
+  "global_imperial_scout_trooper_camp_imperial_medium_theater": {
+    "mobs": {
+      "scout_trooper": 1
+    }
+  },
+  "global_imperial_sergeant_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_sergeant": 1,
+      "imperial_corporal": 2,
+      "imperial_trooper": 2
+    }
+  },
+  "global_imperial_sgt_major_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_sergeant_major": 1,
+      "imperial_sergeant": 2,
+      "imperial_corporal": 3,
+      "imperial_trooper": 3
+    }
+  },
+  "global_imperial_small_base_imperial_small_theater": {
+    "mobs": {
+      "imperial_noncom": 1,
+      "imperial_trooper": 1
+    }
+  },
+  "global_imperial_spec_non_com_camp_imperial_small_theater": {
+    "mobs": {
+      "specialist_noncom": 1
+    }
+  },
+  "global_imperial_staff_cpl_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_staff_corporal": 1
+    }
+  },
+  "global_imperial_staff_sergeant_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_staff_sergeant": 1
+    }
+  },
+  "global_imperial_stormtrooper_camp2_imperial_large_theater": {
+    "mobs": {
+      "stormtrooper_major": 1,
+      "stormtrooper_groupleader": 1,
+      "stormtrooper_squad_leader": 2,
+      "stormtrooper": 4
+    }
+  },
+  "global_imperial_stormtrooper_camp2_imperial_small_theater": {
+    "mobs": {
+      "stormtrooper_commando": 1,
+      "stormtrooper_sniper": 1,
+      "stormtrooper": 2
+    }
+  },
+  "global_imperial_stormtrooper_camp_imperial_large_theater": {
+    "mobs": {
+      "stormtrooper_captain": 1,
+      "stormtrooper_colonel": 1,
+      "stormtrooper_groupleader": 2,
+      "stormtrooper": 4
+    }
+  },
+  "global_imperial_stormtrooper_camp_imperial_medium_theater": {
+    "mobs": {
+      "stormtrooper": 2,
+      "stormtrooper_rifleman": 1,
+      "stormtrooper_bombardier": 2
+    }
+  },
+  "global_imperial_stormtrooper_camp_imperial_small_theater": {
+    "mobs": {
+      "stormtrooper_squad_leader": 1,
+      "stormtrooper": 3
+    }
+  },
+  "global_imperial_warrant_officer_camp_imperial_medium_theater": {
+    "mobs": {
+      "imperial_warrant_officer_i": 1,
+      "imperial_warrant_officer_ii": 2
+    }
+  },
+  "global_miner_camp_neutral_small_theater": {
+    "mobs": {
+      "miner": 1
+    }
+  },
+  "global_pirate_camp_neutral_small_theater": {
+    "mobs": {
+      "pirate": 2,
+      "pirate_lieutenant": 1
+    }
+  },
+  "global_pirate_captain_camp_neutral_medium_theater": {
+    "mobs": {
+      "pirate_captain": 1,
+      "pirate_armsman": 2,
+      "pirate_crewman": 2,
+      "pirate_squab": 2
+    }
+  },
+  "global_pirate_cutthroat_camp_neutral_medium_theater": {
+    "mobs": {
+      "pirate_cutthroat": 1
+    }
+  },
+  "global_pirate_dread_camp_neutral_large_theater": {
+    "mobs": {
+      "dread_pirate": 1
+    }
+  },
+  "global_pirate_leader_camp_neutral_medium_theater": {
+    "mobs": {
+      "pirate_leader": 1
+    }
+  },
+  "global_rebel_army_captain_camp_rebel_medium_theater": {
+    "mobs": {
+      "rebel_army_captain": 1,
+      "rebel_first_lieutenant": 2,
+      "rebel_sergeant": 2,
+      "rebel_trooper": 4
+    }
+  },
+  "global_rebel_base2_rebel_large_theater": {
+    "mobs": {
+      "rebel_second_lieutenant": 1,
+      "rebel_corporal": 2,
+      "rebel_trooper": 2,
+      "rebel_medic": 1
+    }
+  },
+  "global_rebel_base3_rebel_large_theater": {
+    "mobs": {
+      "rebel_sergeant": 2,
+      "rebel_sergeant_major": 1,
+      "rebel_corporal": 2,
+      "rebel_trooper": 3
+    }
+  },
+  "global_rebel_base_rebel_large_theater": {
+    "mobs": {
+      "rebel_major": 1,
+      "rebel_first_lieutenant": 2,
+      "rebel_sergeant": 2,
+      "rebel_trooper": 4
+    }
+  },
+  "global_rebel_brigadier_general_camp_rebel_large_theater": {
+    "mobs": {
+      "rebel_brigadier_general": 1,
+      "rebel_major": 1,
+      "rebel_first_lieutenant": 2
+    }
+  },
+  "global_rebel_creature_handler_apprentice_huurton_camp_rebel_small_theater": {
+    "mobs": {
+      "apprentice_creature_handler": 1,
+      "tamed_huurton": 3
+    }
+  },
+  "global_rebel_creature_handler_apprentice_razor_cat_camp_rebel_small_theater": {
+    "mobs": {
+      "apprentice_creature_handler": 1,
+      "tamed_razor_cat": 3
+    }
+  },
+  "global_rebel_creature_handler_novice_gurrcat_camp_rebel_small_theater": {
+    "mobs": {
+      "novice_creature_handler": 1,
+      "tamed_gurrcat": 3
+    }
+  },
+  "global_rebel_creature_handler_novice_slice_hound_camp_rebel_small_theater": {
+    "mobs": {
+      "novice_creature_handler": 1,
+      "tamed_slice_hound": 3
+    }
+  },
+  "global_rebel_detachment": {
+    "mobs": {
+      "rebel_first_lieutenant": 1,
+      "rebel_sergeant": 2,
+      "rebel_trooper": 4
+    }
+  },
+  "global_rebel_network_leader_camp_rebel_medium_theater": {
+    "mobs": {
+      "rebel_network_leader": 1
+    }
+  },
+  "global_rebel_patrol_camp2_rebel_small_theater": {
+    "mobs": {
+      "rebel_commando": 1
+    }
+  },
+  "global_rebel_patrol_camp3_rebel_small_theater": {
+    "mobs": {
+      "rebel_sergeant": 1,
+      "rebel_trooper": 3
+    }
+  },
+  "global_rebel_patrol_camp_rebel_small_theater": {
+    "mobs": {
+      "rebel_scout": 1
+    }
+  },
+  "global_rebel_resistance_agitator_camp_rebel_small_theater": {
+    "mobs": {
+      "rebel_resistance_agitator": 1
+    }
+  },
+  "global_rebel_resistance_anarchist_camp_rebel_small_theater": {
+    "mobs": {
+      "rebel_resistance_anarchist": 1
+    }
+  },
+  "global_rebel_resistance_dissident_camp_rebel_small_theater": {
+    "mobs": {
+      "rebel_resistance_dissident": 1
+    }
+  },
+  "global_rebel_resistance_leader_camp_rebel_small_theater": {
+    "mobs": {
+      "rebel_resistance_leader": 1
+    }
+  },
+  "global_rebel_resistance_seperatist_camp_rebel_small_theater": {
+    "mobs": {
+      "rebel_resistance_separatist": 1
+    }
+  },
+  "global_rebel_sgt_major_camp_rebel_medium_theater": {
+    "mobs": {
+      "rebel_sergeant_major": 1,
+      "rebel_sergeant": 2,
+      "rebel_corporal": 4
+    }
+  },
+  "global_rebel_spaceforce_trooper_camp_rebel_medium_theater": {
+    "mobs": {
+      "rebel_sergeant_major": 1,
+      "rebel_sergeant": 1,
+      "rebel_corporal": 2
+    }
+  },
+  "global_rebel_specforce_base2_rebel_large_theater": {
+    "mobs": {
+      "specforce_procurement_specialist": 1,
+      "specforce_technician": 1,
+      "specforce_marine": 1
+    }
+  },
+  "global_rebel_specforce_base_rebel_large_theater": {
+    "mobs": {
+      "rebel_specforce_captain": 1,
+      "rebel_specforce_sergeant": 2,
+      "senior_specforce_urban_guerrilla": 2
+    }
+  },
+  "global_rebel_specforce_camp2_rebel_large_theater": {
+    "mobs": {
+      "specforce_marine": 4,
+      "specforce_heavy_weapons_specialist": 2,
+      "senior_specforce_heavy_weapons_specialist": 1,
+      "senior_specforce_marine": 1
+    }
+  },
+  "global_rebel_specforce_camp2_rebel_small_theater": {
+    "mobs": {
+      "specforce_infiltrator": 3,
+      "senior_specforce_infiltrator": 1
+    }
+  },
+  "global_rebel_specforce_camp_rebel_large_theater": {
+    "mobs": {
+      "rebel_specforce_pathfinder": 1,
+      "senior_specforce_pathfinder": 3
+    }
+  },
+  "global_rebel_specforce_camp_rebel_small_theater": {
+    "mobs": {
+      "specforce_wilderness_operative": 4,
+      "senior_specforce_wilderness_scout": 1,
+      "senior_specforce_wilderness_fighter": 1
+    }
+  },
+  "global_rebel_warrant_officer_camp_rebel_medium_theater": {
+    "mobs": {
+      "rebel_warrant_officer_i": 1,
+      "rebel_warrant_officer_ii": 1
+    }
+  },
+  "global_rodian_thug_camp_neutral_small_theater": {
+    "mobs": {
+      "rodian_thug": 1
+    }
+  },
+  "global_rodian_tribe_camp": {
+    "mobs": {
+      "rodian_thug": 1,
+      "tough_thug_male_rodian": 1
+    }
+  },
+  "global_slave_camp_neutral_small_theater": {
+    "mobs": {
+      "slave": 1
+    }
+  },
+  "global_slicer_camp_neutral_small_theater": {
+    "mobs": {
+      "slicer": 1
+    }
+  },
+  "global_spaceforce_lieutenant_squad_rebel_none": {
+    "mobs": {
+      "specforce_lieutenant": 1,
+      "specforce_technician": 1,
+      "specforce_wilderness_operative": 2
+    }
+  },
+  "global_spaceforce_major_rebel_none": {
+    "mobs": {
+      "specforce_major": 1,
+      "specforce_lieutenant": 1,
+      "specforce_procurement_specialist": 2
+    }
+  },
+  "global_spaceforce_marine_rebel_none": {
+    "mobs": {
+      "senior_specforce_marine": 1,
+      "senior_specforce_heavy_weapons_specialist": 1,
+      "specforce_marine": 1,
+      "specforce_heavy_weapons_specialist": 1
+    }
+  },
+  "global_spaceforce_pathfinder_rebel_none": {
+    "mobs": {
+      "senior_specforce_pathfinder": 1,
+      "rebel_specforce_pathfinder": 3
+    }
+  },
+  "global_specforce_garrison": {
+    "mobs": {
+      "senior_specforce_marine": 1,
+      "senior_specforce_heavy_weapons_specialist": 1,
+      "senior_specforce_wilderness_fighter": 1,
+      "senior_specforce_wilderness_scout": 1
+    }
+  },
+  "global_terrorist_camp_neutral_small_theater": {
+    "mobs": {
+      "terrorist": 1
+    }
+  },
+  "global_thief_camp2_neutral_small_theater": {
+    "mobs": {
+      "common_thief": 1,
+      "thief": 1
+    }
+  },
+  "global_thief_camp_neutral_small_theater": {
+    "mobs": {
+      "master_thief": 1,
+      "thief": 3
+    }
+  },
+  "global_wilder_frontiersman_camp_neutral_medium_theater": {
+    "mobs": {
+      "frontiersman": 1
+    }
+  },
+  "global_wookiee_brawler_camp_neutral_small_theater": {
+    "mobs": {
+      "wookiee_brawler": 1
+    }
+  },
+  "imperial_listening_post": {
+    "mobs": {
+      "imperial_warrant_officer_i": 1,
+      "imperial_warrant_officer_ii": 1
+    }
+  },
+  "rebel_listening_post": {
+    "mobs": {
+      "rebel_warrant_officer_i": 1,
+      "rebel_warrant_officer_ii": 1
+    }
+  },
+  "global_2nd_lieutenant_squad_rebel_none": {
+    "mobs": {
+      "rebel_second_lieutenant": 1,
+      "rebel_trooper": 3
+    }
+  },
+  "global_assault_trooper_imperial_none": {
+    "mobs": {
+      "assault_trooper": 3,
+      "assault_trooper_squad_leader": 1
+    }
+  },
+  "global_bandit_pack_neutral_none": {
+    "mobs": {
+      "bandit": 1
+    }
+  },
+  "global_black_sun_neutral_none": {
+    "mobs": {
+      "black_sun_assassin": 1,
+      "black_sun_guard": 2,
+      "black_sun_henchman": 2,
+      "black_sun_thug": 3
+    }
+  },
+  "global_bothan_diplomat_neutral_none": {
+    "mobs": {
+      "bothan_diplomat": 1
+    }
+  },
+  "global_brigand_assasin_squad_neutral_none": {
+    "mobs": {
+      "brigand_assassin": 1
+    }
+  },
+  "global_brigand_highwayman_squad_neutral_none": {
+    "mobs": {
+      "highwayman": 1
+    }
+  },
+  "global_brigand_leader_squad_neutral_none": {
+    "mobs": {
+      "brigand_leader": 1
+    }
+  },
+  "global_brigand_scout_squad_neutral_none": {
+    "mobs": {
+      "brigand_scout": 1
+    }
+  },
+  "global_brigand_squad_neutral_none": {
+    "mobs": {
+      "brigand": 1
+    }
+  },
+  "global_captain_patrol_imperial_none": {
+    "mobs": {
+      "imperial_army_captain": 1,
+      "imperial_major": 1,
+      "imperial_sergeant": 2,
+      "imperial_trooper": 3
+    }
+  },
+  "global_captain_squad_rebel_none": {
+    "mobs": {
+      "rebel_army_captain": 1,
+      "rebel_first_lieutenant": 1,
+      "rebel_sergeant": 2,
+      "rebel_trooper": 4
+    }
+  },
+  "global_commoner_neutral_none": {
+    "mobs": {
+    }
+  },
+  "global_corporal_patrol_rebel_none": {
+    "mobs": {
+      "rebel_corporal": 1
+    }
+  },
+  "global_criminal_neutral_none": {
+    "mobs": {
+      "criminal": 1
+    }
+  },
+  "global_dark_adept_neutral_none": {
+    "mobs": {
+      "dark_adept": 1
+    }
+  },
+  "global_dark_jedi_knight_neutral_none": {
+    "mobs": {
+      "dark_jedi_knight": 1
+    }
+  },
+  "global_dark_jedi_master_neutral_none": {
+    "mobs": {
+      "dark_jedi_master": 1
+    }
+  },
+  "global_dark_trooper_imperial_none": {
+    "mobs": {
+      "dark_trooper": 1
+    }
+  },
+  "global_explorer_neutral_none": {
+    "mobs": {
+      "explorer": 1
+    }
+  },
+  "global_high_general_imperial_none": {
+    "mobs": {
+      "imperial_high_general": 1,
+      "imperial_army_captain": 1,
+      "imperial_major": 2,
+      "imperial_first_lieutenant": 3
+    }
+  },
+  "global_hunter_neutral_none": {
+    "mobs": {
+      "hunter": 1
+    }
+  },
+  "global_information_broker_neutral_none": {
+    "mobs": {
+      "information_broker": 1
+    }
+  },
+  "global_outlaw_neutral_none": {
+    "mobs": {
+      "outlaw": 1
+    }
+  },
+  "global_pirate_privateer_squad_neutral_none": {
+    "mobs": {
+      "pirate_privateer": 1
+    }
+  },
+  "global_rodian_thug_neutral_none": {
+    "mobs": {
+      "rodian_thug": 1
+    }
+  },
+  "global_sgt_patrol_imperial_none": {
+    "mobs": {
+      "imperial_sergeant": 1,
+      "imperial_trooper": 3
+    }
+  },
+  "global_sharpshooter_patrol_imperial_none": {
+    "mobs": {
+      "imperial_sharpshooter": 1
+    }
+  },
+  "global_smuggler_neutral_none": {
+    "mobs": {
+      "smuggler": 1
+    }
+  },
+  "global_specops_agent_rebel_none": {
+    "mobs": {
+      "specops_agent": 1
+    }
+  },
+  "global_specops_rebel_none": {
+    "mobs": {
+      "specforce_marine": 1
+    }
+  },
+  "global_spynet_operative_neutral_none": {
+    "mobs": {
+      "spynet_operative": 1
+    }
+  },
+  "global_ssgt_patrol_rebel_none": {
+    "mobs": {
+      "rebel_staff_sergeant": 1,
+      "rebel_corporal": 3
+    }
+  },
+  "global_storm_commando_imperial_none": {
+    "mobs": {
+      "storm_commando": 1
+    }
+  },
+  "global_stormtrooper_rifleman_imperial_none": {
+    "mobs": {
+      "stormtrooper_rifleman": 1
+    }
+  },
+  "global_surface_marchal_imperial_none": {
+    "mobs": {
+      "imperial_surface_marshall": 1,
+      "imperial_army_captain": 2,
+      "imperial_major": 2,
+      "imperial_first_lieutenant": 3
+    }
+  },
+  "global_surface_marshal_rebel_none": {
+    "mobs": {
+      "rebel_surface_marshall": 1,
+      "rebel_colonel": 1,
+      "rebel_major": 2,
+      "rebel_commando": 4
+    }
+  },
+  "global_teras_kasi_master_neutral_none": {
+    "mobs": {
+      "teras_kasi_master": 1
+    }
+  },
+  "global_thug_neutral_none": {
+    "mobs": {
+      "thug": 1
+    }
+  },
+  "global_wilder_explorer_squad_neutral_none": {
+    "mobs": {
+      "explorer": 3,
+      "veteran_explorer": 1
+    }
+  },
+  "global_wilder_frontiersman_squad_neutral_none": {
+    "mobs": {
+      "frontiersman": 1
+    }
+  },
+  "global_wilder_outrider_squad_neutral_none": {
+    "mobs": {
+      "outrider": 1
+    }
+  },
+  "global_wilder_pathfinder_squad_neutral_none": {
+    "mobs": {
+      "pathfinder": 1
+    }
+  },
+  "global_wilder_trailblazer_squad_neutral_none": {
+    "mobs": {
+      "trailblazer": 1
+    }
+  },
+  "global_wilder_traveller_squad_neutral_none": {
+    "mobs": {
+      "traveller": 1
+    }
+  },
+  "global_wilder_warder_squad_neutral_none": {
+    "mobs": {
+      "warder": 1
+    }
+  },
+  "global_wookiee_brawler_neutral_none": {
+    "mobs": {
+      "wookiee_brawler": 1
+    }
+  }
+}

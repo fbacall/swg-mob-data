@@ -45,9 +45,12 @@ class Parser
       file = File.join(mission_base, "#{planet}_destroy_missions.lua")
       mission_data[planet] = parse_mission_lua(file)
     end
-    mission_data.each do |planet, lairs|
-      lairs.map! do |lair|
-        convert_mission(lair.merge(mobs: lair_data[lair[:lairTemplateName]][:mobs]))
+    mission_data.each do |planet, missions|
+      mission_data[planet] = {}
+      missions.each do |mission|
+        m = convert_mission(mission)
+        raise "Mission ID collision #{m[:id]}" if mission_data[planet][m[:id]]
+        mission_data[planet][m.delete(:id)] = m
       end
     end
     mission_data
@@ -63,7 +66,8 @@ class Parser
         files.each do |file|
           lair = parse_lair_lua(file)
           raise "Lair ID collision #{lair[:id]}" if @lair_data[lair[:id]]
-          @lair_data[lair[:id]] = lair
+          lair[:mobs] = Hash[lair[:mobs]]
+          @lair_data[lair.delete(:id)] = lair
           print '.'
         end
         puts
@@ -81,7 +85,7 @@ class Parser
       files.each do |file|
         spawn = convert_spawns(parse_spawn_lua(file))
         warn "Spawn id collision #{spawn[:id]}" if @spawn_data[spawn[:id]]
-        @spawn_data[spawn[:id]] = spawn.merge(mobs: spawn[:lairs].map { |l| lair_data[l[:id]][:mobs].map(&:first) }.flatten )
+        @spawn_data[spawn.delete(:id)] = spawn
         print '.'
       end
       puts
@@ -96,7 +100,7 @@ class Parser
       region_data[planet] = {}
       convert_regions(parse_region_lua(file)).each do |region|
         raise "Region ID collision #{region[:id]}" if region_data[planet][region[:id]]
-        region_data[planet][region[:id]] = region.merge(mobs: region[:spawns].map { |s| spawn_data[s][:mobs] }.flatten )
+        region_data[planet][region.delete(:id)] = region
       end
       print '.'
     end
@@ -404,8 +408,7 @@ class Parser
       output[:ham] = (mob[:baseHAM] + mob[:baseHAMmax]) / 2
       output[:xp] = mob[:baseXp]
       output[:armor] = mob[:armor]
-      output[:kinetic_resist] = parse_resist(mob[:resists][0])
-      output[:energy_resist] = parse_resist(mob[:resists][1])
+      output[:resists] = mob[:resists].map { |r| parse_resist(r) }
       convert(output)
     rescue Exception => e
       STDERR.puts "!!! ERROR converting"
@@ -422,7 +425,6 @@ class Parser
       output[:min_cl] = mission[:minDifficulty]
       output[:max_cl] = mission[:maxDifficulty]
       output[:size] = mission[:size]
-      output[:mobs] = mission[:mobs].map(&:first)
       convert(output)
     rescue Exception => e
       STDERR.puts "!!! ERROR converting"
@@ -432,25 +434,11 @@ class Parser
   end
 
   def convert_spawns(spawn)
-    s = []
-    total = 0
+    lh = {}
     spawn[:lairs].each do |lair|
-      begin
-        output = {}
-        output[:id] = lair[:lairTemplateName]
-        output[:min_cl] = lair[:minDifficulty]
-        output[:max_cl] = lair[:maxDifficulty]
-        output[:weighting] = lair[:weighting]
-        total += output[:weighting]
-        s << convert(output)
-      rescue Exception => e
-        STDERR.puts "!!! ERROR converting"
-        STDERR.puts lair.inspect
-        raise e
-      end
+      lh[lair[:lairTemplateName]] = lair[:weighting]
     end
-    s.each { |spawn| spawn[:chance] = spawn[:weighting].to_f / total }
-    spawn[:lairs] = s
+    spawn[:lairs] = lh
     spawn
   end
 
@@ -519,11 +507,26 @@ end
 parser = Parser.new(ARGV[0])
 mob_data = parser.mob_data
 mission_data = parser.mission_data
+lair_data = parser.lair_data
+spawn_data = parser.spawn_data
 region_data = parser.region_data
 static_spawn_data = parser.static_spawn_data
 
 FileUtils.mkdir_p('data')
-File.write(File.join('data', "mobs.json"), JSON.pretty_generate(mob_data))
-File.write(File.join('data', "missions.json"), JSON.pretty_generate(mission_data))
-File.write(File.join('data', "regions.json"), JSON.pretty_generate(region_data))
-File.write(File.join('data', "static_spawns.json"), JSON.pretty_generate(static_spawn_data))
+File.write(File.join('data', 'mobs.json'), JSON.pretty_generate(mob_data))
+File.write(File.join('data', 'missions.json'), JSON.pretty_generate(mission_data))
+File.write(File.join('data', 'lairs.json'), JSON.pretty_generate(lair_data))
+File.write(File.join('data', 'spawns.json'), JSON.pretty_generate(spawn_data))
+File.write(File.join('data', 'regions.json'), JSON.pretty_generate(region_data))
+File.write(File.join('data', 'static_spawns.json'), JSON.pretty_generate(static_spawn_data))
+
+combined = {
+  mobs: mob_data,
+  lairs: lair_data,
+  missions: mission_data,
+  spawns: spawn_data,
+  regions: region_data,
+  static_spawns: static_spawn_data
+}
+
+File.write(File.join('data', 'finalizer.json'), JSON.pretty_generate(combined))

@@ -491,98 +491,181 @@
     const missionRewardFactor = 375;
     const missionRandomRewardFactor = 15;
     const ijmFactor = 1.15;
-    let mobData = null;
-    let missionData = null;
-    let regionData = null;
-    let staticSpawnData = null;
+    let data = null;
     let planetData = {};
     let sort = 'level';
     let sortDir = 1;
 
     function init() {
         Promise.all([
-            fetch('data/mobs.json').then((r) => r.json()).then((d) => { mobData = d; }),
-            fetch('data/missions.json').then((r) => r.json()).then((d) => { missionData = d; }),
-            fetch('data/regions.json').then((r) => r.json()).then((d) => { regionData = d; }),
-            fetch('data/static_spawns.json').then((r) => r.json()).then((d) => { staticSpawnData = d; })
-        ]).then(combineData)
+            fetch('data/finalizer.json').then((r) => r.json()).then((d) => { data = d; }),
+        ]).then(parseData);
     }
 
-    function combineData() {
-        for (const [planet, missions] of Object.entries(missionData)) {
-            planetData[planet] = {};
-            missions.forEach(mission => {
-                mission.minReward = mission.min_cl * missionRewardFactor;
-                mission.maxReward = mission.max_cl * missionRewardFactor + mission.max_cl * missionRandomRewardFactor;
-                mission.mobs.forEach(mobName => {
-                    if (mobData[mobName]) {
-                        let planetMob = planetData[planet][mobName];
-                        if (planetMob) {
-                            planetMob.min_cl = Math.min(planetMob.min_cl, mission.min_cl);
-                            planetMob.minReward = Math.min(planetMob.minReward, mission.minReward);
-                            planetMob.max_cl = Math.max(planetMob.max_cl, mission.max_cl);
-                            planetMob.maxReward = Math.max(planetMob.maxReward, mission.maxReward);
-                            if (!planetMob.missions) {
-                                planetMob.missions = [];
-                            }
-                            planetMob.missions.push(mission);
-                        } else {
-                            planetMob = { ...mobData[mobName] };
-                            planetMob.min_cl = mission.min_cl;
-                            planetMob.max_cl = mission.max_cl;
-                            planetMob.minReward = mission.minReward;
-                            planetMob.maxReward = mission.maxReward;
-                            planetData[planet][mobName] = planetMob;
-                        }
-
-                    }
-                })
-            });
-        }
-
-        for (const [planet, regions] of Object.entries(regionData)) {
-            if (!planetData[planet]) {
-                planetData[planet] = {};
+    class Mob {
+        constructor (data = {}) {
+            Object.assign(this, data);
+            if (!this.lairs) {
+                this.lairs = [];
             }
-            for (const region of Object.values(regions)) {
-                region.mobs.forEach(mobName => {
-                    if (mobData[mobName]) {
-                        let planetMob = planetData[planet][mobName];
-                        if (planetMob) {
-                            if (!planetMob.regions) {
-                                planetMob.regions = [];
-                            }
-                            if (!planetMob.regions.find(r => r.id === region.id)) {
-                                planetMob.regions.push(region);
-                            }
-                        } else {
-                            planetMob = { ...mobData[mobName] };
-                            planetMob.regions = [region];
-                            planetData[planet][mobName] = planetMob;
-                        }
-                    }
-                })
+            if (!this.staticSpawns) {
+                this.staticSpawns = {};
             }
         }
 
-        for (const [planet, staticSpawns] of Object.entries(staticSpawnData)) {
-            if (!planetData[planet]) {
-                planetData[planet] = {};
-            }
-            for (const [mobName, spawns] of Object.entries(staticSpawns)) {
-                if (mobData[mobName]) {
-                    let planetMob = planetData[planet][mobName];
-                    if (planetMob) {
-                        if (!planetMob.staticSpawns) {
-                            planetMob.staticSpawns = [];
-                        }
-                        planetMob.staticSpawns = planetMob.staticSpawns.concat(spawns);
-                    } else {
-                        planetMob = { ...mobData[mobName] };
-                        planetMob.staticSpawns = spawns;
-                        planetData[planet][mobName] = planetMob;
+        spawns () {
+            return this.lairs.flatMap(l => l.spawns);
+        }
+
+        regions () {
+            const o = {};
+            this.spawns().forEach(s => {
+                for (const [planet, regions] of Object.entries(s.regions || {})) {
+                    if (!o[planet]) {
+                        o[planet] = [];
                     }
+                    o[planet] = o[planet].concat(regions);
                 }
+            })
+            return o;
+        }
+
+        missions () {
+            const o = {};
+            this.lairs.forEach(l => {
+                for (const [planet, missions] of Object.entries(l.missions)) {
+                    if (!o[planet]) {
+                        o[planet] = [];
+                    }
+                    o[planet] = o[planet].concat(missions);
+                }
+            })
+            return o;
+        }
+
+        min_cl (planet) {
+            return Math.min(this.missions()[planet].map(m => m.min_cl));
+        }
+
+        max_cl (planet) {
+            return Math.max(this.missions()[planet].map(m => m.max_cl));
+        }
+
+        minReward (planet) {
+            return this.min_cl(planet) * missionRewardFactor;
+        }
+
+        maxReward (planet) {
+            return this.max_cl(planet) * missionRewardFactor  + this.max_cl(planet) * missionRandomRewardFactor;
+        }
+
+        // Resists: kinetic, energy, blast, heat, cold, electric, acid, stun, lightsaber
+    }
+
+    class PlanetMob {
+        constructor (planet, mob) {
+            Object.assign(this, mob);
+            this.planet = planet;
+            this.regions = mob.regions()[planet];
+            this.missions = mob.missions()[planet];
+            if (this.missions) {
+                this.min_cl = mob.min_cl(planet);
+                this.max_cl = mob.max_cl(planet);
+                this.minReward = mob.minReward(planet);
+                this.maxReward = mob.maxReward(planet);
+            }
+            this.staticSpawns = mob.staticSpawns[planet];
+        }
+    }
+
+    function parseData() {
+        // Link spawns to lairs
+        for (const [sid, spawn] of Object.entries(data.spawns)) {
+            Object.keys(spawn['lairs']).forEach((lid) => {
+                const lair = data.lairs[lid];
+                if (!lair.spawns) {
+                    lair.spawns = [];
+                }
+                lair.spawns.push(spawn);
+            })
+        }
+
+        // Link regions to spawns
+        for (const [planet, regions] of Object.entries(data.regions)) {
+            for (const [key, region] of Object.entries(regions)) {
+                region.id = key;
+                region.spawns.forEach((sid) => {
+                    const spawn = data.spawns[sid];
+                    if (!spawn.regions) {
+                        spawn.regions = {};
+                    }
+                    if (!spawn.regions[planet]) {
+                        spawn.regions[planet] = [];
+                    }
+                    spawn.regions[planet].push(region);
+                });
+            }
+        }
+
+        // Link missions to lairs
+        for (const [planet, missions] of Object.entries(data.missions)) {
+            for (const [key, mission] of Object.entries(missions)) {
+                const lair = data.lairs[key];
+                if (!lair.missions) {
+                    lair.missions = {};
+                }
+                if (!lair.missions[planet]) {
+                    lair.missions[planet] = [];
+                }
+                lair.missions[planet].push(mission);
+            }
+        }
+
+        // Link lairs to mobs
+        for (const [lid, lair] of Object.entries(data.lairs)) {
+            if (!lair.missions) {
+                lair.missions = {};
+            }
+            if (!lair.spawns) {
+                lair.spawns = [];
+            }
+            Object.keys(lair['mobs']).forEach((mid) => {
+                const mob = data.mobs[mid];
+                if (mob) {
+                    if (!mob.lairs) {
+                        mob.lairs = [];
+                    }
+                    mob.lairs.push(lair);
+                }
+            })
+        }
+
+        // Link static spawns to mobs
+        for (const [planet, spawns] of Object.entries(data.static_spawns)) {
+            for (const [mid, locs] of Object.entries(spawns)) {
+                const mob = data.mobs[mid];
+                if (mob) {
+                    if (!mob.staticSpawns) {
+                        mob.staticSpawns = {};
+                    }
+                    mob.staticSpawns[planet] = locs;
+                }
+            }
+        }
+
+        for (const [key, mobData] of Object.entries(data.mobs)) {
+            const mob = new Mob(mobData);
+            for (const planet of Object.keys(mob.missions())) {
+                if (!planetData[planet]) {
+                    planetData[planet] = {};
+                }
+                planetData[planet][key] = new PlanetMob(planet, mob);
+            }
+            for (const planet of Object.keys(mob.regions())) {
+                if (!planetData[planet]) {
+                    planetData[planet] = {};
+                }
+                planetData[planet][key] = new PlanetMob(planet, mob);
             }
         }
 
@@ -654,9 +737,9 @@
                 });
 
                 // Kinetic
-                drawResist(row.insertCell(), mob.kinetic_resist);
+                drawResist(row.insertCell(), mob.resists[0]);
                 // Energy
-                drawResist(row.insertCell(), mob.energy_resist);
+                drawResist(row.insertCell(), mob.resists[1]);
                 // HAM
                 drawNum(row.insertCell(), mob.ham);
                 // XP
@@ -746,7 +829,7 @@
         const planetRow = tbody.insertRow();
         planetRow.classList.add('planet', planet);
         const planetCell = planetRow.insertCell();
-        planetCell.innerText = capitalize(planet);
+        planetCell.appendChild(document.createTextNode(capitalize(planet)));
         planetCell.colSpan = 11;
         return planetRow;
     }
@@ -756,7 +839,11 @@
         if (type) {
             cell.classList.add(type);
             const name = type.split('_')[1];
-            cell.innerHTML = '<div class="yield">' + qty +'</div>' + capitalize(name);
+            const qtyElement = document.createElement('div');
+            qtyElement.className = 'yield';
+            qtyElement.appendChild(document.createTextNode(qty));
+            cell.appendChild(qtyElement);
+            cell.appendChild(document.createTextNode(capitalize(name)));
         }
     }
 
@@ -919,11 +1006,13 @@
         document.documentElement.setAttribute('data-theme', enabled ? 'dark' : '');
         localStorage.setItem('dark-mode', enabled ? 'true' : 'false');
     });
+
     const darkMode = (localStorage.getItem('dark-mode') === 'true') || window.matchMedia("(prefers-color-scheme: dark)").matches;
     document.getElementById('dark-mode').checked = darkMode;
     if (darkMode) {
         document.documentElement.setAttribute('data-theme', 'dark');
     }
+
     let filterDebounce;
     document.getElementById('text-filter').addEventListener('keyup', function (e) {
         if (filterDebounce)

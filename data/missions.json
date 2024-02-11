@@ -1,3695 +1,2140 @@
 {
-  "corellia": [
-    {
-      "id": "corellia_gubbur_lair_neutral_small",
+  "corellia": {
+    "corellia_gubbur_lair_neutral_small": {
       "name": "a gubbur lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "gubbur"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_meatlump_camp_neutral_medium_theater",
+    "corellia_meatlump_camp_neutral_medium_theater": {
       "name": "a Meatlump gang camp",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "meatlump_buffoon",
-        "meatlump_stooge",
-        "meatlump_fool"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_paralope_lair_neutral_medium",
+    "corellia_paralope_lair_neutral_medium": {
       "name": "a paralope lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 25,
-      "mobs": [
-        "paralope"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_durni_warren_neutral_small_boss_01",
+    "corellia_durni_warren_neutral_small_boss_01": {
       "name": "a durni warren",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 20,
-      "mobs": [
-        "durni"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_plumed_rasp_nest_neutral_small",
+    "corellia_plumed_rasp_nest_neutral_small": {
       "name": "a plumed rasp nest",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 20,
-      "mobs": [
-        "plumed_rasp"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_diseased_vrelt_lair_neutral_boss_02",
+    "corellia_diseased_vrelt_lair_neutral_boss_02": {
       "name": "a diseased vrelt lair",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 25,
-      "mobs": [
-        "diseased_vrelt"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_scavenger_rat_lair_neutral_small",
+    "corellia_scavenger_rat_lair_neutral_small": {
       "name": "a scavenger rat lair",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 20,
-      "mobs": [
-        "scavenger_rat"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_corellian_butterfly_pod_neutral_small",
+    "corellia_corellian_butterfly_pod_neutral_small": {
       "name": "a Corellian butterfly pod's hive",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 20,
-      "mobs": [
-        "corellian_butterfly_worker"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_dalyrake_lair_neutral_medium",
+    "corellia_dalyrake_lair_neutral_medium": {
       "name": "a dalyrake lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "dalyrake"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_giant_gubbur_lair_neutral_medium",
+    "corellia_giant_gubbur_lair_neutral_medium": {
       "name": "a giant gubbur lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 20,
-      "mobs": [
-        "giant_gubbur"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_meatlump_outpost_neutral_medium_theater",
+    "corellia_meatlump_outpost_neutral_medium_theater": {
       "name": "a Meatlump gang outpost",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "meatlump_clod",
-        "meatlump_oaf",
-        "meatlump_loon",
-        "meatlump_cretin"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_slice_hound_lair_neutral_medium",
+    "corellia_slice_hound_lair_neutral_medium": {
       "name": "a Corellian slice hound lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "slice_hound",
-        "female_slice_hound"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_vynock_lair_neutral_small",
+    "corellia_vynock_lair_neutral_small": {
       "name": "a vynock lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 20,
-      "mobs": [
-        "vynock"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_bageraset_lair_neutral_medium_boss_01",
+    "corellia_bageraset_lair_neutral_medium_boss_01": {
       "name": "a bageraset lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 30,
-      "mobs": [
-        "bageraset"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_canoid_lair_neutral_medium",
+    "corellia_canoid_lair_neutral_medium": {
       "name": "a canoid lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "canoid"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_carrion_spat_lair_neutral_medium_boss_01",
+    "corellia_carrion_spat_lair_neutral_medium_boss_01": {
       "name": "a carrion spat lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "carrion_spat"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_drall_patriot_camp_neutral_medium_theater",
+    "corellia_drall_patriot_camp_neutral_medium_theater": {
       "name": "a Drall patriot camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "drall_patriot",
-        "drall_sentry",
-        "drall_guard"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_greck_base_neutral_large_theater",
+    "corellia_greck_base_neutral_large_theater": {
       "name": "a Greck base",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "grecks_assassin",
-        "grecks_mugger"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_gurrcat_lair_neutral_medium",
+    "corellia_gurrcat_lair_neutral_medium": {
       "name": "a gurrcat lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "gurrcat"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_hidden_daggers_camp_neutral_medium_theater",
+    "corellia_hidden_daggers_camp_neutral_medium_theater": {
       "name": "a Hidden Daggers camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "hidden_daggers_dissident",
-        "hidden_daggers_activist"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_krahbu_lair_neutral_medium",
+    "corellia_krahbu_lair_neutral_medium": {
       "name": "a krahbu lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "krahbu"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_lord_nyax_chapel_neutral_medium_theater",
+    "corellia_lord_nyax_chapel_neutral_medium_theater": {
       "name": "a Lord Nyax follower chapel",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "servant_of_lord_nyax",
-        "minion_of_lord_nyax"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_murra_lair_neutral_medium",
+    "corellia_murra_lair_neutral_medium": {
       "name": "a murra lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "murra"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_swooper_camp_neutral_small_theater",
+    "corellia_swooper_camp_neutral_small_theater": {
       "name": "a swooper camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "swooper_gangmember",
-        "swooper_corellia",
-        "swooper_leader"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_tabage_lair_neutral_medium",
+    "corellia_tabage_lair_neutral_medium": {
       "name": "a tabage lair",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "tabage"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_monumenter_base_neutral_medium_theater",
+    "corellia_monumenter_base_neutral_medium_theater": {
       "name": "a Monumenter base",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 20,
-      "mobs": [
-        "monumenter_bandit",
-        "monumenter_smuggler",
-        "monumenter_marauder"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_gulginaw_nest_neutral_medium",
+    "corellia_gulginaw_nest_neutral_medium": {
       "name": "a gulginaw nest",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "gulginaw"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_selonian_outpost_neutral_large_theater",
+    "corellia_selonian_outpost_neutral_large_theater": {
       "name": "a Selonian outpost",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "selonian_raider",
-        "selonian_warrior",
-        "selonian_captain"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_dire_cat_lair_neutral_medium",
+    "corellia_dire_cat_lair_neutral_medium": {
       "name": "a dire cat lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "dire_cat"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_dire_cat_lair_neutral_medium_boss_01",
+    "corellia_dire_cat_lair_neutral_medium_boss_01": {
       "name": "a dire cat lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "dire_cat"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_hidden_daggers_outpost_neutral_medium_theater",
+    "corellia_hidden_daggers_outpost_neutral_medium_theater": {
       "name": "a Hidden Daggers outpost",
       "min_cl": 13,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "hidden_daggers_extremist",
-        "hidden_daggers_lieutenant",
-        "hidden_daggers_leader"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_drall_patriot_base_neutral_large_theater",
+    "corellia_drall_patriot_base_neutral_large_theater": {
       "name": "a Drall patriot base",
       "min_cl": 13,
       "max_cl": 19,
-      "size": 30,
-      "mobs": [
-        "drall_patriot_foot_soldier",
-        "drall_patriot_conqueror",
-        "drall_patriot_legionnaire"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_gronda_lair_neutral_large",
+    "corellia_gronda_lair_neutral_large": {
       "name": "a gronda lair",
       "min_cl": 13,
       "max_cl": 19,
-      "size": 30,
-      "mobs": [
-        "gronda",
-        "dwarf_gronda"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_drall_camp_neutral_medium_theater",
+    "corellia_drall_camp_neutral_medium_theater": {
       "name": "a Drall camp",
       "min_cl": 13,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "drall_abbot",
-        "drall_chieftain",
-        "drall_master",
-        "drall_monk"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_corsec_traitor_base_neutral_medium_theater",
+    "corellia_corsec_traitor_base_neutral_medium_theater": {
       "name": "a CorSec traitor base",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 30,
-      "mobs": [
-        "corsec_traitor"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_humbaba_lair_neutral_medium",
+    "corellia_humbaba_lair_neutral_medium": {
       "name": "a humbaba lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 30,
-      "mobs": [
-        "humbaba"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_deranged_wrix_lair_neutral_medium",
+    "corellia_deranged_wrix_lair_neutral_medium": {
       "name": "a deranged wrix lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "deranged_wrix"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_giant_carrion_spat_lair_neutral_medium",
+    "corellia_giant_carrion_spat_lair_neutral_medium": {
       "name": "a giant carrion spat lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 30,
-      "mobs": [
-        "giant_carrion_spat"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_lord_nyax_church_neutral_medium_theater",
+    "corellia_lord_nyax_church_neutral_medium_theater": {
       "name": "a Lord Nyax follower church",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 30,
-      "mobs": [
-        "fanatic_of_lord_nyax",
-        "disciple_of_lord_nyax"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_selonian_base_neutral_large_theater",
+    "corellia_selonian_base_neutral_large_theater": {
       "name": "a Selonian base",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 20,
-      "mobs": [
-        "selonian_warlord",
-        "selonian_champion"
-      ]
+      "size": 20
     },
-    {
-      "id": "corellia_corsec_camp_neutral_medium_theater",
+    "corellia_corsec_camp_neutral_medium_theater": {
       "name": "a SorSec camp",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 30,
-      "mobs": [
-        "corsec_lieutenant",
-        "corsec_master_sergeant"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_razor_cat_pride_neutral_medium_boss_01",
+    "corellia_razor_cat_pride_neutral_medium_boss_01": {
       "name": "a pack of razor cats",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "razor_cat",
-        "female_razor_cat"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_corsec_outpost_neutral_medium_theater",
+    "corellia_corsec_outpost_neutral_medium_theater": {
       "name": "a CorSec outpost",
       "min_cl": 21,
       "max_cl": 25,
-      "size": 25,
-      "mobs": [
-        "corsec_captain",
-        "corsec_major"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_flail_cut_throat_outpost_neutral_medium_theater",
+    "corellia_flail_cut_throat_outpost_neutral_medium_theater": {
       "name": "a Flail cutthroat outpost",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 25,
-      "mobs": [
-        "flail_boss",
-        "flail_butcher",
-        "flail_executioner"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_savage_humbaba_lair_neutral_medium",
+    "corellia_savage_humbaba_lair_neutral_medium": {
       "name": "a savage humbaba lair",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 25,
-      "mobs": [
-        "savage_humbaba"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_beldonna_base_neutral_large_theater",
+    "corellia_beldonna_base_neutral_large_theater": {
       "name": "a Beldonna base",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 30,
-      "mobs": [
-        "beldonnas_league_enforcer",
-        "beldonnas_league_marshal"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_lord_nyax_visionary_neutral_large_theater",
+    "corellia_lord_nyax_visionary_neutral_large_theater": {
       "name": "a Lord Nyax visionary camp",
       "min_cl": 25,
       "max_cl": 31,
-      "size": 25,
-      "mobs": [
-        "visionary_of_lord_nyax",
-        "zealot_of_lord_nyax",
-        "fiend_of_lord_nyax"
-      ]
+      "size": 25
     },
-    {
-      "id": "corellia_corsec_base_neutral_large_theater",
+    "corellia_corsec_base_neutral_large_theater": {
       "name": "a CorSec base",
       "min_cl": 27,
       "max_cl": 31,
-      "size": 30,
-      "mobs": [
-        "corsec_commissioner",
-        "corsec_chief"
-      ]
+      "size": 30
     },
-    {
-      "id": "corellia_sharnaff_lair_neutral_large_boss_01",
+    "corellia_sharnaff_lair_neutral_large_boss_01": {
       "name": "a sharnaff lair",
       "min_cl": 29,
       "max_cl": 33,
-      "size": 35,
-      "mobs": [
-        "sharnaff",
-        "sharnaff_bull"
-      ]
+      "size": 35
     },
-    {
-      "id": "corellia_war_gronda_lair_neutral_large",
+    "corellia_war_gronda_lair_neutral_large": {
       "name": "a war gronda lair",
       "min_cl": 30,
       "max_cl": 34,
-      "size": 35,
-      "mobs": [
-        "war_gronda"
-      ]
+      "size": 35
     }
-  ],
-  "dantooine": [
-    {
-      "id": "dantooine_bol_pigmy_neutral_small",
+  },
+  "dantooine": {
+    "dantooine_bol_pigmy_neutral_small": {
       "name": "a lesser plains bol lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "lesser_plains_bol"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_voritor_lair_neutral_medium",
+    "dantooine_voritor_lair_neutral_medium": {
       "name": "a voritor lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "voritor_lizard"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_quenker_lair_neutral_medium",
+    "dantooine_quenker_lair_neutral_medium": {
       "name": "a quenker lair",
       "min_cl": 21,
       "max_cl": 25,
-      "size": 20,
-      "mobs": [
-        "quenker"
-      ]
+      "size": 20
     },
-    {
-      "id": "dantooine_dantari_raider_camp_neutral_large_theater",
+    "dantooine_dantari_raider_camp_neutral_large_theater": {
       "name": "a Dantari raider camp",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "dantari_raider"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_huurton_howler_lair_neutral_medium_boss_01",
+    "dantooine_huurton_howler_lair_neutral_medium_boss_01": {
       "name": "a huurton howler lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "huurton_howler"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_huurton_matron_lair_neutral_medium",
+    "dantooine_huurton_matron_lair_neutral_medium": {
       "name": "a huurton matron lair",
       "min_cl": 24,
       "max_cl": 28,
-      "size": 25,
-      "mobs": [
-        "huurton_matron"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_thune_lair_neutral_medium",
+    "dantooine_thune_lair_neutral_medium": {
       "name": "a thune lair",
       "min_cl": 24,
       "max_cl": 28,
-      "size": 25,
-      "mobs": [
-        "thune"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_bol_lair_neutral_medium_boss_01",
+    "dantooine_bol_lair_neutral_medium_boss_01": {
       "name": "a bol lair",
       "min_cl": 26,
       "max_cl": 30,
-      "size": 25,
-      "mobs": [
-        "bol",
-        "bol_pack_runner"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_quenker_savage_lair_neutral_medium_boss_01",
+    "dantooine_quenker_savage_lair_neutral_medium_boss_01": {
       "name": "a savage quenker lair",
       "min_cl": 26,
       "max_cl": 30,
-      "size": 35,
-      "mobs": [
-        "savage_quenker"
-      ]
+      "size": 35
     },
-    {
-      "id": "dantooine_graul_lair_neutral_medium",
+    "dantooine_graul_lair_neutral_medium": {
       "name": "a graul lair",
       "min_cl": 28,
       "max_cl": 32,
-      "size": 35,
-      "mobs": [
-        "graul"
-      ]
+      "size": 35
     },
-    {
-      "id": "dantooine_dantari_battlelord_squad_neutral_none",
+    "dantooine_dantari_battlelord_squad_neutral_none": {
       "name": "a Dantari battlelord outpost",
       "min_cl": 29,
       "max_cl": 36,
-      "size": 25,
-      "mobs": [
-        "dantari_battlelord",
-        "dantari_strategist",
-        "domestic_bol_mount"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_piket_longhorn_lair_neutral_medium",
+    "dantooine_piket_longhorn_lair_neutral_medium": {
       "name": "a piket longhorn lair",
       "min_cl": 30,
       "max_cl": 37,
-      "size": 30,
-      "mobs": [
-        "piket_longhorn_female",
-        "piket_longhorn"
-      ]
+      "size": 30
     },
-    {
-      "id": "dantooine_quenker_bile_drenched_lair_neutral_medium",
+    "dantooine_quenker_bile_drenched_lair_neutral_medium": {
       "name": "a quenker lair",
       "min_cl": 32,
       "max_cl": 36,
-      "size": 25,
-      "mobs": [
-        "bile_drenched_quenker"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_graul_mauler_lair_neutral_large_boss_01",
+    "dantooine_graul_mauler_lair_neutral_large_boss_01": {
       "name": "a graul mauler lair",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 35,
-      "mobs": [
-        "graul_mauler"
-      ]
+      "size": 35
     },
-    {
-      "id": "dantooine_kunga_hunter_neutral_none",
+    "dantooine_kunga_hunter_neutral_none": {
       "name": "a Kunga hunter lean-to",
       "min_cl": 35,
       "max_cl": 39,
-      "size": 25,
-      "mobs": [
-        "kunga_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_quenker_ravager_lair_neutral_medium",
+    "dantooine_quenker_ravager_lair_neutral_medium": {
       "name": "a quenker lair",
       "min_cl": 36,
       "max_cl": 40,
-      "size": 25,
-      "mobs": [
-        "quenker_ravager"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_dantari_chief_squad_neutral_none",
+    "dantooine_dantari_chief_squad_neutral_none": {
       "name": "a Dantari chief outpost",
       "min_cl": 40,
       "max_cl": 44,
-      "size": 25,
-      "mobs": [
-        "dantari_chief"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_mokk_hunter_neutral_none",
+    "dantooine_mokk_hunter_neutral_none": {
       "name": "a Mokk hunter lean-to",
       "min_cl": 40,
       "max_cl": 44,
-      "size": 25,
-      "mobs": [
-        "mokk_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_mokk_soothsayer_camp_neutral_medium_theater",
+    "dantooine_mokk_soothsayer_camp_neutral_medium_theater": {
       "name": "a Mokk soothsayer camp",
       "min_cl": 41,
       "max_cl": 45,
-      "size": 25,
-      "mobs": [
-        "mokk_soothsayer"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_bol_seething_lair_neutral_medium",
+    "dantooine_bol_seething_lair_neutral_medium": {
       "name": "a seething bol lair",
       "min_cl": 42,
       "max_cl": 46,
-      "size": 25,
-      "mobs": [
-        "seething_bol_crusher"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_quenker_relic_reaper_lair_neutral_medium",
+    "dantooine_quenker_relic_reaper_lair_neutral_medium": {
       "name": "a quenker lair",
       "min_cl": 43,
       "max_cl": 47,
-      "size": 25,
-      "mobs": [
-        "quenker_relic_reaper"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_voritor_tracker_lair_neutral_medium",
+    "dantooine_voritor_tracker_lair_neutral_medium": {
       "name": "a voritor tracker lair",
       "min_cl": 43,
       "max_cl": 47,
-      "size": 25,
-      "mobs": [
-        "grassland_voritor_tracker"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_mokk_scout_neutral_none",
+    "dantooine_mokk_scout_neutral_none": {
       "name": "a Mokk scout outpost",
       "min_cl": 45,
       "max_cl": 49,
-      "size": 25,
-      "mobs": [
-        "mokk_scout"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_kunga_scout_neutral_none",
+    "dantooine_kunga_scout_neutral_none": {
       "name": "a Kunga scout outpost",
       "min_cl": 46,
       "max_cl": 50,
-      "size": 25,
-      "mobs": [
-        "kunga_scout"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_janta_hunter_neutral_none",
+    "dantooine_janta_hunter_neutral_none": {
       "name": "a Janta hunter lean-to",
       "min_cl": 48,
       "max_cl": 52,
-      "size": 25,
-      "mobs": [
-        "janta_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_janta_scout_neutral_none",
+    "dantooine_janta_scout_neutral_none": {
       "name": "a Janta scout outpost",
       "min_cl": 49,
       "max_cl": 53,
-      "size": 25,
-      "mobs": [
-        "janta_scout"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_voritor_jungle_lair_neutral_medium_boss_01",
+    "dantooine_voritor_jungle_lair_neutral_medium_boss_01": {
       "name": "a jungle voritor lair",
       "min_cl": 51,
       "max_cl": 55,
-      "size": 25,
-      "mobs": [
-        "horned_voritor_lizard"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_voritor_hunter_lair_neutral_medium",
+    "dantooine_voritor_hunter_lair_neutral_medium": {
       "name": "a voritor hunter lair",
       "min_cl": 55,
       "max_cl": 59,
-      "size": 25,
-      "mobs": [
-        "slinking_voritor_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_janta_shaman_camp_neutral_medium_theater",
+    "dantooine_janta_shaman_camp_neutral_medium_theater": {
       "name": "A Janta shaman camp",
       "min_cl": 55,
       "max_cl": 60,
-      "size": 25,
-      "mobs": [
-        "janta_shaman",
-        "janta_loreweaver"
-      ]
+      "size": 25
     },
-    {
-      "id": "dantooine_mokk_shaman_neutral_none",
+    "dantooine_mokk_shaman_neutral_none": {
       "name": "a Mokk shaman outpost",
       "min_cl": 58,
       "max_cl": 62,
-      "size": 25,
-      "mobs": [
-        "mokk_shaman"
-      ]
+      "size": 25
     }
-  ],
-  "dathomir": [
-    {
-      "id": "dathomir_brackaset_pigmy_neutral_small",
+  },
+  "dathomir": {
+    "dathomir_brackaset_pigmy_neutral_small": {
       "name": "a lowland brackaset lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "lowland_brackaset"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_kwi_lair_neutral_small",
+    "dathomir_kwi_lair_neutral_small": {
       "name": "a kwi lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "kwi"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_purbole_lair_neutral_medium_boss_01",
+    "dathomir_purbole_lair_neutral_medium_boss_01": {
       "name": "a purbole lair",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "purbole",
-        "purbole_youth"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_verne_bull_lair_neutral_large",
+    "dathomir_verne_bull_lair_neutral_large": {
       "name": "a verne bull lair",
       "min_cl": 14,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "verne_bull",
-        "verne_calf"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_baz_nitch_lair_neutral_small",
+    "dathomir_baz_nitch_lair_neutral_small": {
       "name": "a baz nitch lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 20,
-      "mobs": [
-        "baz_nitch",
-        "young_baz_nitch"
-      ]
+      "size": 20
     },
-    {
-      "id": "dathomir_reptilian_mature_flyer_lair_neutral_large",
+    "dathomir_reptilian_mature_flyer_lair_neutral_large": {
       "name": "a mature reptilian flier nest",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 30,
-      "mobs": [
-        "mature_reptilian_flier"
-      ]
+      "size": 30
     },
-    {
-      "id": "dathomir_malkloc_lair_neutral_large",
+    "dathomir_malkloc_lair_neutral_large": {
       "name": "a malkloc lair",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 35,
-      "mobs": [
-        "malkloc",
-        "young_malkloc"
-      ]
+      "size": 35
     },
-    {
-      "id": "dathomir_bolma_lair_neutral_medium_boss_01",
+    "dathomir_bolma_lair_neutral_medium_boss_01": {
       "name": "a bolma lair",
       "min_cl": 19,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "bolma_male",
-        "bolma_female",
-        "bolma_calf",
-        "lumbering_bolma"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_malkloc_bull_lair_neutral_large",
+    "dathomir_malkloc_bull_lair_neutral_large": {
       "name": "a malkloc bull lair",
       "min_cl": 22,
       "max_cl": 28,
-      "size": 30,
-      "mobs": [
-        "malkloc",
-        "malkloc_bull"
-      ]
+      "size": 30
     },
-    {
-      "id": "dathomir_reptilian_ancient_flyer_lair_neutral_large",
+    "dathomir_reptilian_ancient_flyer_lair_neutral_large": {
       "name": "an ancient reptilian flier nest",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 30,
-      "mobs": [
-        "ancient_reptilian_flier"
-      ]
+      "size": 30
     },
-    {
-      "id": "dathomir_brackaset_lair_neutral_medium",
+    "dathomir_brackaset_lair_neutral_medium": {
       "name": "a brackaset lair",
       "min_cl": 24,
       "max_cl": 28,
-      "size": 25,
-      "mobs": [
-        "brackaset"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_gaping_spider_lair_neutral_medium_boss_01",
+    "dathomir_gaping_spider_lair_neutral_medium_boss_01": {
       "name": "a gaping spider lair",
       "min_cl": 24,
       "max_cl": 28,
-      "size": 25,
-      "mobs": [
-        "gaping_spider"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_stallion_bolma_lair_neutral_medium",
+    "dathomir_stallion_bolma_lair_neutral_medium": {
       "name": "a bolma stallion lair",
       "min_cl": 27,
       "max_cl": 33,
-      "size": 25,
-      "mobs": [
-        "alpha_bolma",
-        "bolma_male"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_mutant_baz_nitch_lair_neutral_small",
+    "dathomir_mutant_baz_nitch_lair_neutral_small": {
       "name": "a mutant baz nitch lair",
       "min_cl": 28,
       "max_cl": 32,
-      "size": 25,
-      "mobs": [
-        "mutant_baz_nitch"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_giant_baz_nitch_lair_neutral_medium",
+    "dathomir_giant_baz_nitch_lair_neutral_medium": {
       "name": "a giant baz nitch lair",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 25,
-      "mobs": [
-        "giant_baz_nitch"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_rhoa_kwi_lair_neutral_medium",
+    "dathomir_rhoa_kwi_lair_neutral_medium": {
       "name": "a rhoa kwi lair",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 25,
-      "mobs": [
-        "rhoa_kwi"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_gaping_spider_recluse_lair_neutral_medium",
+    "dathomir_gaping_spider_recluse_lair_neutral_medium": {
       "name": "a gaping spider recluse lair",
       "min_cl": 42,
       "max_cl": 46,
-      "size": 25,
-      "mobs": [
-        "gaping_spider_recluse"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_kamurith_snapper_lair_neutral_medium",
+    "dathomir_kamurith_snapper_lair_neutral_medium": {
       "name": "a kamurith snapper lair",
       "min_cl": 42,
       "max_cl": 46,
-      "size": 25,
-      "mobs": [
-        "kamurith_snapper"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_brackaset_surefoot_lair_neutral_medium",
+    "dathomir_brackaset_surefoot_lair_neutral_medium": {
       "name": "a surefoot brackaset lair",
       "min_cl": 44,
       "max_cl": 48,
-      "size": 35,
-      "mobs": [
-        "surefoot_brackaset"
-      ]
+      "size": 35
     },
-    {
-      "id": "dathomir_kamurith_nocuous_lair_neutral_medium",
+    "dathomir_kamurith_nocuous_lair_neutral_medium": {
       "name": "a nocuous kamurith lair",
       "min_cl": 44,
       "max_cl": 48,
-      "size": 25,
-      "mobs": [
-        "nocuous_kamurith"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_bolma_craggy_lair_neutral_medium",
+    "dathomir_bolma_craggy_lair_neutral_medium": {
       "name": "a craggy bolma lair",
       "min_cl": 45,
       "max_cl": 49,
-      "size": 25,
-      "mobs": [
-        "craggy_bolma"
-      ]
+      "size": 25
     },
-    {
-      "id": "dathomir_kamurith_defiler_lair_neutral_medium_boss_01",
+    "dathomir_kamurith_defiler_lair_neutral_medium_boss_01": {
       "name": "a kamurith defiler lair",
       "min_cl": 48,
       "max_cl": 52,
-      "size": 35,
-      "mobs": [
-        "kamurith_defiler"
-      ]
+      "size": 35
     },
-    {
-      "id": "dathomir_rancor_lair_neutral_large",
+    "dathomir_rancor_lair_neutral_large": {
       "name": "a rancor lair",
       "min_cl": 48,
       "max_cl": 52,
-      "size": 35,
-      "mobs": [
-        "rancor"
-      ]
+      "size": 35
     },
-    {
-      "id": "dathomir_rancor_bull_lair_neutral_large",
+    "dathomir_rancor_bull_lair_neutral_large": {
       "name": "a bull rancor lair",
       "min_cl": 63,
       "max_cl": 67,
-      "size": 35,
-      "mobs": [
-        "bull_rancor"
-      ]
+      "size": 35
     },
-    {
-      "id": "dathomir_rancor_enraged_lair_neutral_large",
+    "dathomir_rancor_enraged_lair_neutral_large": {
       "name": "an enraged rancor lair",
       "min_cl": 78,
       "max_cl": 82,
-      "size": 35,
-      "mobs": [
-        "enraged_rancor"
-      ]
+      "size": 35
     },
-    {
-      "id": "dathomir_rancor_enraged_bull_lair_neutral_large_boss_01",
+    "dathomir_rancor_enraged_bull_lair_neutral_large_boss_01": {
       "name": "an enraged rancor lair",
       "min_cl": 87,
       "max_cl": 91,
-      "size": 35,
-      "mobs": [
-        "enraged_bull_rancor"
-      ]
+      "size": 35
     }
-  ],
-  "endor": [
-    {
-      "id": "endor_squall_rabid_neutral_small",
+  },
+  "endor": {
+    "endor_squall_rabid_neutral_small": {
       "name": "a rabid squall lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "rabid_squall"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_pouncing_jax_lair_neutral_small_boss_01",
+    "endor_pouncing_jax_lair_neutral_small_boss_01": {
       "name": "a pouncing jax lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "pouncing_jax"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_gurreck_cowardly_lair_neutral_small",
+    "endor_gurreck_cowardly_lair_neutral_small": {
       "name": "a cowardly curreck lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "cowardly_gurreck"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_bolle_bol_colt_neutral_small",
+    "endor_bolle_bol_colt_neutral_small": {
       "name": "a bolle bol colt lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "bolle_bol_colt"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_arachne_hatchling_lair_neutral_small",
+    "endor_arachne_hatchling_lair_neutral_small": {
       "name": "an arachne hatchling lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "arachne_hatchling"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_boar_wolf_cub_lair_neutral_small",
+    "endor_boar_wolf_cub_lair_neutral_small": {
       "name": "a boar wolf cub lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "boar_wolf_cub"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_borgle_putrid_neutral_small",
+    "endor_borgle_putrid_neutral_small": {
       "name": "a putrid borgle lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "putrid_borgle"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_squill_noxious_neutral_small",
+    "endor_squill_noxious_neutral_small": {
       "name": "a noxious squill lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "noxious_squill"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_swirl_prong_neutral_small",
+    "endor_swirl_prong_neutral_small": {
       "name": "a swirl prong lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "swirl_prong"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_bark_mite_burrower_swarmling_lair_neutral_small",
+    "endor_bark_mite_burrower_swarmling_lair_neutral_small": {
       "name": "a bark mite burrower lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "bark_mite_burrower_swarmling"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_bloodseeker_mite_drone_lair_neutral_small_boss_01",
+    "endor_bloodseeker_mite_drone_lair_neutral_small_boss_01": {
       "name": "a bloodseeker mite lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "bloodseeker_mite_drone"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_remmer_dune_scavenger_neutral_small",
+    "endor_remmer_dune_scavenger_neutral_small": {
       "name": "a remmer dune scavenger lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "remmer_dune_scavenger"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_lantern_bird_neutral_small",
+    "endor_lantern_bird_neutral_small": {
       "name": "a lantern bird lair",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 25,
-      "mobs": [
-        "lantern_bird"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_hanadak_young_rock_crusher_neutral_small",
+    "endor_hanadak_young_rock_crusher_neutral_small": {
       "name": "a young hanadak rock crusher lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 30,
-      "mobs": [
-        "young_hanadak_rock_crusher"
-      ]
+      "size": 30
     },
-    {
-      "id": "endor_bolle_bol_stomper_neutral_small",
+    "endor_bolle_bol_stomper_neutral_small": {
       "name": "a bolle bol stomper lair",
       "min_cl": 21,
       "max_cl": 25,
-      "size": 30,
-      "mobs": [
-        "bolle_bol_stomper"
-      ]
+      "size": 30
     },
-    {
-      "id": "endor_boar_wolf_lair_neutral_small",
+    "endor_boar_wolf_lair_neutral_small": {
       "name": "a boar wolf lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "boar_wolf"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_borgle_life_sapper_neutral_small",
+    "endor_borgle_life_sapper_neutral_small": {
       "name": "a borgle life sapper lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "borgle_life_sapper"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_gurreck_crazed_neutral_small",
+    "endor_gurreck_crazed_neutral_small": {
       "name": "a crazed gurreck lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "crazed_gurreck"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_roba_neutral_small",
+    "endor_roba_neutral_small": {
       "name": "a roba lair",
       "min_cl": 24,
       "max_cl": 28,
-      "size": 25,
-      "mobs": [
-        "roba"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_arachne_drone_lair_neutral_small_01",
+    "endor_arachne_drone_lair_neutral_small_01": {
       "name": "an arachne drone lair",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 25,
-      "mobs": [
-        "arachne_drone"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_blooming_jax_lair_neutral_small",
+    "endor_blooming_jax_lair_neutral_small": {
       "name": "a blooming jax lair",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 25,
-      "mobs": [
-        "blooming_jax"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_blushing_jax_lair_neutral_small",
+    "endor_blushing_jax_lair_neutral_small": {
       "name": "a blushing jax lair",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 20,
-      "mobs": [
-        "blushing_jax"
-      ]
+      "size": 20
     },
-    {
-      "id": "endor_mantigrue_night_stalker_lair_neutral_small",
+    "endor_mantigrue_night_stalker_lair_neutral_small": {
       "name": "a mantigrue night stalker lair",
       "min_cl": 26,
       "max_cl": 30,
-      "size": 25,
-      "mobs": [
-        "mantigrue_night_stalker"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_bark_mite_burrower_drone_lair_neutral_small",
+    "endor_bark_mite_burrower_drone_lair_neutral_small": {
       "name": "a bark mite burrower lair",
       "min_cl": 27,
       "max_cl": 31,
-      "size": 25,
-      "mobs": [
-        "bark_mite_burrower_drone"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_swirl_prong_impaler_neutral_small",
+    "endor_swirl_prong_impaler_neutral_small": {
       "name": "a swirl prong impaler lair",
       "min_cl": 28,
       "max_cl": 32,
-      "size": 25,
-      "mobs": [
-        "swirl_prong_impaler"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_hanadak_mature_neutral_small",
+    "endor_hanadak_mature_neutral_small": {
       "name": "a mature hanadak lair",
       "min_cl": 29,
       "max_cl": 33,
-      "size": 25,
-      "mobs": [
-        "mature_hanadak"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_borgle_fierce_neutral_small",
+    "endor_borgle_fierce_neutral_small": {
       "name": "a fierce borgle lair",
       "min_cl": 30,
       "max_cl": 34,
-      "size": 25,
-      "mobs": [
-        "fierce_borgle"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_merek_bloodstained_neutral_small",
+    "endor_merek_bloodstained_neutral_small": {
       "name": "a bloodstained merek lair",
       "min_cl": 30,
       "max_cl": 34,
-      "size": 25,
-      "mobs": [
-        "blood_stained_merek"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_bordok_stud_mare_neutral_small",
+    "endor_bordok_stud_mare_neutral_small": {
       "name": "a bordok lair",
       "min_cl": 32,
       "max_cl": 36,
-      "size": 25,
-      "mobs": [
-        "bordok_mare",
-        "roaming_bordok_stud"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_blurrg_crimson_neutral_small",
+    "endor_blurrg_crimson_neutral_small": {
       "name": "a crimson blurrg lair",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 25,
-      "mobs": [
-        "crimson_blurrg"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_hanadak_rock_smasher_neutral_small",
+    "endor_hanadak_rock_smasher_neutral_small": {
       "name": "a hanadak rock smasher lair",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 25,
-      "mobs": [
-        "mature_hanadak_rock_smasher"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_arachne_venom_filled_lair_neutral_small",
+    "endor_arachne_venom_filled_lair_neutral_small": {
       "name": "a venom filled arachne lair",
       "min_cl": 34,
       "max_cl": 38,
-      "size": 25,
-      "mobs": [
-        "venom_filled_arachne"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_gurreck_hilltop_neutral_small",
+    "endor_gurreck_hilltop_neutral_small": {
       "name": "a hilltop gurreck lair",
       "min_cl": 39,
       "max_cl": 43,
-      "size": 25,
-      "mobs": [
-        "hilltop_gurreck_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_arachne_lair_neutral_boss_03",
+    "endor_arachne_lair_neutral_boss_03": {
       "name": "an arachne lair",
       "min_cl": 40,
       "max_cl": 44,
-      "size": 25,
-      "mobs": [
-        "arachne_warrior"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_merek_toxic_battlelord_neutral_small",
+    "endor_merek_toxic_battlelord_neutral_small": {
       "name": "a toxic merek battlelord lair",
       "min_cl": 43,
       "max_cl": 47,
-      "size": 25,
-      "mobs": [
-        "toxic_merek_battlelord"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_mantigrue_deranged_neutral_none_boss_01",
+    "endor_mantigrue_deranged_neutral_none_boss_01": {
       "name": "a flock of deranged mantigrue",
       "min_cl": 43,
       "max_cl": 47,
-      "size": 25,
-      "mobs": [
-        "deranged_mantigrue"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_marauder_frenzied_neutral_medium_theater",
+    "endor_marauder_frenzied_neutral_medium_theater": {
       "name": "a frenzied marauder camp",
       "min_cl": 44,
       "max_cl": 50,
-      "size": 25,
-      "mobs": [
-        "frenzied_marauder",
-        "feral_marauder",
-        "marauder"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_blurrg_lair_neutral_small",
+    "endor_blurrg_lair_neutral_small": {
       "name": "a blurrg lair",
       "min_cl": 48,
       "max_cl": 52,
-      "size": 25,
-      "mobs": [
-        "blurrg"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_mantigrue_reaper_lair_neutral_small",
+    "endor_mantigrue_reaper_lair_neutral_small": {
       "name": "a mantigrue reaper lair",
       "min_cl": 48,
       "max_cl": 52,
-      "size": 25,
-      "mobs": [
-        "mantigrue_reaper"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_mantigrue_screecher_lair_neutral_small",
+    "endor_mantigrue_screecher_lair_neutral_small": {
       "name": "a mantigrue screecher lair",
       "min_cl": 53,
       "max_cl": 57,
-      "size": 25,
-      "mobs": [
-        "mantigrue_screecher"
-      ]
+      "size": 25
     },
-    {
-      "id": "endor_marauder_blood_crazed_plains_neutral_medium_theater",
+    "endor_marauder_blood_crazed_plains_neutral_medium_theater": {
       "name": "a blood crazed plains marauder camp",
       "min_cl": 54,
       "max_cl": 58,
-      "size": 25,
-      "mobs": [
-        "blood_crazed_plains_marauder",
-        "berserk_marauder"
-      ]
+      "size": 25
     }
-  ],
-  "lok": [
-    {
-      "id": "lok_pharple_lair_neutral_medium",
+  },
+  "lok": {
+    "lok_pharple_lair_neutral_medium": {
       "name": "a pharple lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 25,
-      "mobs": [
-        "pharple",
-        "giant_pharple"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_flit_lair_neutral_medium",
+    "lok_flit_lair_neutral_medium": {
       "name": "a flit lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "flit",
-        "flit_youth"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_spinded_snake_lair_neutral_medium",
+    "lok_spinded_snake_lair_neutral_medium": {
       "name": "a spined snake den",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "young_spined_snake",
-        "sandy_spined_snake"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_perlek_lair_neutral_medium",
+    "lok_perlek_lair_neutral_medium": {
       "name": "a perlek lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "perlek"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_gurnaset_lair_neutral_medium",
+    "lok_gurnaset_lair_neutral_medium": {
       "name": "a gurnaset lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "gurnaset"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_langlatch_lair_neutral_medium",
+    "lok_langlatch_lair_neutral_medium": {
       "name": "a langlatch lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "langlatch_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_spinded_snake_lair2_neutral_medium",
+    "lok_spinded_snake_lair2_neutral_medium": {
       "name": "a spined snake den",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "spined_snake"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_kusak_lair_neutral_medium",
+    "lok_kusak_lair_neutral_medium": {
       "name": "a medium kusak lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "kusak"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_flit_lair2_neutral_medium_boss_01",
+    "lok_flit_lair2_neutral_medium_boss_01": {
       "name": "a flit lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "giant_flit"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_marooned_pirate_camp_neutral_medium_theater",
+    "lok_marooned_pirate_camp_neutral_medium_theater": {
       "name": "a medium marooned pirate camp",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "marooned_pirate"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_blood_razor_camp_neutral_easy_theater",
+    "lok_blood_razor_camp_neutral_easy_theater": {
       "name": "a Blood Razor camp",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 25,
-      "mobs": [
-        "blood_razor_weak_pirate"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_nym_camp_neutral_medium_theater",
+    "lok_nym_camp_neutral_medium_theater": {
       "name": "a Nym camp",
       "min_cl": 21,
       "max_cl": 25,
-      "size": 25,
-      "mobs": [
-        "nym_pirate_weak",
-        "nym_brawler",
-        "nym_surveyor"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_mynock_lair_neutral_medium",
+    "lok_mynock_lair_neutral_medium": {
       "name": "a mynock lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "salt_mynock",
-        "lowland_salt_mynock"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_vesp_lair_neutral_medium",
+    "lok_vesp_lair_neutral_medium": {
       "name": "a vesp lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "vesp",
-        "mountain_vesp"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_nym_camp2_neutral_medium_theater",
+    "lok_nym_camp2_neutral_medium_theater": {
       "name": "a Nym camp",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 25,
-      "mobs": [
-        "nym_bodyguard",
-        "nym_pirate_strong"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_gurk_lair_neutral_boss_02",
+    "lok_gurk_lair_neutral_boss_02": {
       "name": "a gurk lair",
       "min_cl": 28,
       "max_cl": 32,
-      "size": 25,
-      "mobs": [
-        "gurk"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_snorbal_lair_neutral_medium",
+    "lok_snorbal_lair_neutral_medium": {
       "name": "a snorbal pack's lair",
       "min_cl": 28,
       "max_cl": 32,
-      "size": 25,
-      "mobs": [
-        "snorbal"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_nym_base_neutral_large_theater",
+    "lok_nym_base_neutral_large_theater": {
       "name": "a large Nym base",
       "min_cl": 29,
       "max_cl": 33,
-      "size": 25,
-      "mobs": [
-        "nym_guard_weak",
-        "nym_pirate_elite"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_mercenary_camp_neutral_medium_theater",
+    "lok_mercenary_camp_neutral_medium_theater": {
       "name": "a mercenary camp",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 25,
-      "mobs": [
-        "strong_mercenary",
-        "weak_mercenary"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_canyon_corsair_camp_neutral_medium_theater",
+    "lok_canyon_corsair_camp_neutral_medium_theater": {
       "name": "a Canyon Corsair camp",
       "min_cl": 34,
       "max_cl": 38,
-      "size": 25,
-      "mobs": [
-        "canyon_corsair_cutthroat",
-        "canyon_corsair_strong_pirate",
-        "canyon_corsair_guard"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_nym_base2_neutral_large_theater",
+    "lok_nym_base2_neutral_large_theater": {
       "name": "a large Nym base",
       "min_cl": 36,
       "max_cl": 40,
-      "size": 25,
-      "mobs": [
-        "nym_destroyer",
-        "nym_guard_elite",
-        "nym_guard_strong"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_blood_razor_camp_neutral_medium_theater",
+    "lok_blood_razor_camp_neutral_medium_theater": {
       "name": "a Blood Razor encampment",
       "min_cl": 39,
       "max_cl": 43,
-      "size": 25,
-      "mobs": [
-        "blood_razor_captain",
-        "blood_razor_officer",
-        "blood_razor_guard"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_mercenary_camp2_neutral_medium_theater",
+    "lok_mercenary_camp2_neutral_medium_theater": {
       "name": "a mercenary camp",
       "min_cl": 40,
       "max_cl": 44,
-      "size": 25,
-      "mobs": [
-        "mercenary_destroyer",
-        "mercenary_warlord"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_gurk_lair2_neutral_medium_boss_01",
+    "lok_gurk_lair2_neutral_medium_boss_01": {
       "name": "a gurk lair",
       "min_cl": 41,
       "max_cl": 45,
-      "size": 25,
-      "mobs": [
-        "crazed_gurk_destroyer"
-      ]
+      "size": 25
     },
-    {
-      "id": "lok_canyon_corsair_camp2_neutral_medium_theater",
+    "lok_canyon_corsair_camp2_neutral_medium_theater": {
       "name": "a Canyon Corsair camp",
       "min_cl": 45,
       "max_cl": 50,
-      "size": 25,
-      "mobs": [
-        "canyon_corsair_captain",
-        "elite_canyon_corsair"
-      ]
+      "size": 25
     }
-  ],
-  "naboo": [
-    {
-      "id": "naboo_gnort_lair_neutral_small",
+  },
+  "naboo": {
+    "naboo_gnort_lair_neutral_small": {
       "name": "a gnort lair",
       "min_cl": 2,
       "max_cl": 6,
-      "size": 20,
-      "mobs": [
-        "gnort"
-      ]
+      "size": 20
     },
-    {
-      "id": "naboo_chuba_lair_neutral_small",
+    "naboo_chuba_lair_neutral_small": {
       "name": "a chuba lair",
       "min_cl": 3,
       "max_cl": 7,
-      "size": 20,
-      "mobs": [
-        "chuba"
-      ]
+      "size": 20
     },
-    {
-      "id": "naboo_capper_spineflap_pod_neutral_small",
+    "naboo_capper_spineflap_pod_neutral_small": {
       "name": "a capper spineflap nest",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "capper_spineflap"
-      ]
+      "size": 20
     },
-    {
-      "id": "naboo_diseased_nuna_lair_neutral_small",
+    "naboo_diseased_nuna_lair_neutral_small": {
       "name": "a diseased nuna lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "diseased_nuna"
-      ]
+      "size": 20
     },
-    {
-      "id": "naboo_flesh_eating_chuba_lair_neutral_small",
+    "naboo_flesh_eating_chuba_lair_neutral_small": {
       "name": "a flesh-eating chuba lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "flesh_eating_chuba"
-      ]
+      "size": 20
     },
-    {
-      "id": "naboo_flewt_lair_neutral_boss_02",
+    "naboo_flewt_lair_neutral_boss_02": {
       "name": "a flewt lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 20,
-      "mobs": [
-        "flewt"
-      ]
+      "size": 20
     },
-    {
-      "id": "naboo_hermit_spider_lair_neutral_boss_01",
+    "naboo_hermit_spider_lair_neutral_boss_01": {
       "name": "a hermit spider lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "hermit_spider"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_ikopi_lair_neutral_medium",
+    "naboo_ikopi_lair_neutral_medium": {
       "name": "an ikopi lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "ikopi"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_nightspider_lair_neutral_boss_01",
+    "naboo_nightspider_lair_neutral_boss_01": {
       "name": "a nightspider lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "nightspider"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_ankura_gungan_camp_neutral_large_theater",
+    "naboo_ankura_gungan_camp_neutral_large_theater": {
       "name": "an Ankura Gungan camp",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 25,
-      "mobs": [
-        "ankura_gungan"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_mott_lair_neutral_medium",
+    "naboo_mott_lair_neutral_medium": {
       "name": "a mott lair",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 25,
-      "mobs": [
-        "mott"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_plasma_thief_camp_neutral_large_theater",
+    "naboo_plasma_thief_camp_neutral_large_theater": {
       "name": "a plasma thief camp",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 30,
-      "mobs": [
-        "plasma_thief",
-        "plasma_thief_leader",
-        "plasma_bandit"
-      ]
+      "size": 30
     },
-    {
-      "id": "naboo_sharupat_family_diseased_neutral_medium",
+    "naboo_sharupat_family_diseased_neutral_medium": {
       "name": "a diseased sharupat family lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "rabid_shaupaut"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_kaadu_lair_neutral_medium_boss_01",
+    "naboo_kaadu_lair_neutral_medium_boss_01": {
       "name": "a kaadu lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "kaadu"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_krevol_lair_neutral_boss_02",
+    "naboo_krevol_lair_neutral_boss_02": {
       "name": "a krevol lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "spiked_krevol"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_nuna_lair_neutral_medium",
+    "naboo_nuna_lair_neutral_medium": {
       "name": "a nuna lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "nuna"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_otolla_gungan_camp_neutral_large_theater",
+    "naboo_otolla_gungan_camp_neutral_large_theater": {
       "name": "an Otolla Gungan camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "otolla_gungan"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_trade_federation_camp_neutral_large_theater",
+    "naboo_trade_federation_camp_neutral_large_theater": {
       "name": "a Trade Federation camp",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "trade_federation_loyalist",
-        "trade_federation_pirate"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_veermok_camp_neutral_medium",
+    "naboo_veermok_camp_neutral_medium": {
       "name": "a Veermok camp",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "veermok_sentry",
-        "veermok"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_borvos_camp_neutral_small_theater",
+    "naboo_borvos_camp_neutral_small_theater": {
       "name": "a Borvos camp",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "borvos_bruiser",
-        "borvos_soldier",
-        "borvos_mercenary"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_mauler_sect_neutral_medium_theater",
+    "naboo_mauler_sect_neutral_medium_theater": {
       "name": "a Mauler sect",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "mauler_apprentice"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_gualama_small_lair_neutral_medium",
+    "naboo_gualama_small_lair_neutral_medium": {
       "name": "a small gualama lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "bachelor_gualama"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_gualama_large_lair_neutral_medium",
+    "naboo_gualama_large_lair_neutral_medium": {
       "name": "a large gualama lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "maverick_gualama"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_gungan_mercenary_camp_neutral_large_theater",
+    "naboo_gungan_mercenary_camp_neutral_large_theater": {
       "name": "a Gungan mercenary camp",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "gungan_mercenary",
-        "gungan_kaadu",
-        "gungan_kaadu_rider"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_peko_peko_eyrie_neutral_large",
+    "naboo_peko_peko_eyrie_neutral_large": {
       "name": "a peko peko eyrie",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "peko_peko"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_rsf_camp_neutral_medium_theater",
+    "naboo_rsf_camp_neutral_medium_theater": {
       "name": "a RSF camp",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "rsf_commando"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_plains_tusk_cat_pride_neutral_medium",
+    "naboo_plains_tusk_cat_pride_neutral_medium": {
       "name": "a plains tusk cat lair",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "female_plains_tusk_cat",
-        "male_plains_tusk_cat"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_rsf_outpost_neutral_large_theater",
+    "naboo_rsf_outpost_neutral_large_theater": {
       "name": "a large RSF outpost",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "rsf_captain",
-        "rsf_security_officer"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_borvos_fort_neutral_large_theater",
+    "naboo_borvos_fort_neutral_large_theater": {
       "name": "a large Borvos fort",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "borvos_champion",
-        "borvos_thief",
-        "borvos_thug"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_falumpaset_lair_neutral_large",
+    "naboo_falumpaset_lair_neutral_large": {
       "name": "a falumpaset lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "falumpaset"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_narglatch_pride_neutral_medium",
+    "naboo_narglatch_pride_neutral_medium": {
       "name": "a narglatch lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "narglatch"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_sharupat_family_neutral_medium",
+    "naboo_sharupat_family_neutral_medium": {
       "name": "a sharupat family lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "shaupaut_hunter"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_fanned_rawl_lair_neutral_small_boss_01",
+    "naboo_fanned_rawl_lair_neutral_small_boss_01": {
       "name": "a fanned rawl lair",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 25,
-      "mobs": [
-        "fanned_rawl"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_gungan_war_base_neutral_large_theater",
+    "naboo_gungan_war_base_neutral_large_theater": {
       "name": "a Gungan military base",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "gungan_general",
-        "gungan_leader",
-        "gungan_falumpaset"
-      ]
+      "size": 25
     },
-    {
-      "id": "naboo_bolle_bol_lair_neutral_large_boss_01",
+    "naboo_bolle_bol_lair_neutral_large_boss_01": {
       "name": "a bolle bol lair",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 30,
-      "mobs": [
-        "bolle_bol"
-      ]
+      "size": 30
     },
-    {
-      "id": "naboo_fambaa_lair_neutral_large_boss_01",
+    "naboo_fambaa_lair_neutral_large_boss_01": {
       "name": "a fambaa lair",
       "min_cl": 32,
       "max_cl": 36,
-      "size": 35,
-      "mobs": [
-        "fambaa"
-      ]
+      "size": 35
     }
-  ],
-  "rori": [
-    {
-      "id": "rori_borgal_young_lair_neutral_small",
+  },
+  "rori": {
+    "rori_borgal_young_lair_neutral_small": {
       "name": "a borgle lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "young_borgle"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_capper_spineflap_hive_neutral_large",
+    "rori_capper_spineflap_hive_neutral_large": {
       "name": "a large capper spineflap hive",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "capper_spineflap"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_gundark_hooligan_camp_neutral_medium_theater",
+    "rori_gundark_hooligan_camp_neutral_medium_theater": {
       "name": "a Gundark camp",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 20,
-      "mobs": [
-        "gundark_hooligan",
-        "gundark_rogue",
-        "gundark_crook"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_brigade_scout_camp_neutral_medium_theater",
+    "rori_brigade_scout_camp_neutral_medium_theater": {
       "name": "a Brigade camp",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 20,
-      "mobs": [
-        "first_brigade_scout",
-        "first_brigade_trooper"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_ikopi_lair_neutral_medium_boss_01",
+    "rori_ikopi_lair_neutral_medium_boss_01": {
       "name": "an ikopi lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "ikopi"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_nightspider_lair_neutral_small",
+    "rori_nightspider_lair_neutral_small": {
       "name": "a nightspider lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "nightspider"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_sickle_rasp_nest_neutral_medium",
+    "rori_sickle_rasp_nest_neutral_medium": {
       "name": "a sickle rasp nest",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 20,
-      "mobs": [
-        "sickle_rasp"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_kobola_miner_base_neutral_large_theater",
+    "rori_kobola_miner_base_neutral_large_theater": {
       "name": "a Kobola miner base",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 20,
-      "mobs": [
-        "kobola_miner",
-        "kobola_thief"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_gundark_raider_camp_neutral_medium_theater",
+    "rori_gundark_raider_camp_neutral_medium_theater": {
       "name": "a Gundark camp",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 20,
-      "mobs": [
-        "gundark_raider",
-        "gundark_desperado",
-        "gundark_ruffian"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_cobral_mugger_camp_neutral_medium_theater",
+    "rori_cobral_mugger_camp_neutral_medium_theater": {
       "name": "a Neo-Cobral camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 20,
-      "mobs": [
-        "cobral_mugger",
-        "cobral_hooligan"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_narmle_camp_neutral_large_theater",
+    "rori_narmle_camp_neutral_large_theater": {
       "name": "a Narmle military camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "narmle_militia_lieutenant",
-        "narmle_militia_grenadier"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_garyn_raiders_camp_neutral_medium_theater",
+    "rori_garyn_raiders_camp_neutral_medium_theater": {
       "name": "a medium Garyn raider camp",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "garyns_prowler"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_squall_warren_neutral_medium",
+    "rori_squall_warren_neutral_medium": {
       "name": "a squall warren",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 20,
-      "mobs": [
-        "male_squall",
-        "female_squall"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_borgle_lair_neutral_large",
+    "rori_borgle_lair_neutral_large": {
       "name": "a large borgle lair",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "borgle"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_dashing_vir_vur_lair_neutral_small_boss_01",
+    "rori_dashing_vir_vur_lair_neutral_small_boss_01": {
       "name": "a small vir vur lair",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 20,
-      "mobs": [
-        "dashing_vir_vur"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_mauler_sect_neutral_medium_theater",
+    "rori_mauler_sect_neutral_medium_theater": {
       "name": "a Mauler sect building",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 20,
-      "mobs": [
-        "mauler_apprentice"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_nudfuh_lair_neutral_medium",
+    "rori_nudfuh_lair_neutral_medium": {
       "name": "a nudfuh lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 30,
-      "mobs": [
-        "nudfuh"
-      ]
+      "size": 30
     },
-    {
-      "id": "rori_fuzzy_jax_lair_neutral_medium",
+    "rori_fuzzy_jax_lair_neutral_medium": {
       "name": "a fuzzy jax lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 20,
-      "mobs": [
-        "fuzzy_jax"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_gualama_small_lair_neutral_medium",
+    "rori_gualama_small_lair_neutral_medium": {
       "name": "a small gualama lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "bachelor_gualama"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_forest_mite_neutral_boss_03",
+    "rori_forest_mite_neutral_boss_03": {
       "name": "a forest mite lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "forest_mite"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_vrobal_lair_neutral_medium",
+    "rori_vrobal_lair_neutral_medium": {
       "name": "a vrobal lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "vrobal"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_chared_krevol_lair_neutral_medium",
+    "rori_chared_krevol_lair_neutral_medium": {
       "name": "a charred krevol lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "charred_krevol"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_savage_pugoriss_lair_neutral_medium",
+    "rori_savage_pugoriss_lair_neutral_medium": {
       "name": "a savage pugoriss lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "savage_pugoriss"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_brigade_camp_neutral_large_theater",
+    "rori_brigade_camp_neutral_large_theater": {
       "name": "a large Brigade camp",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 20,
-      "mobs": [
-        "first_brigade_marine",
-        "first_brigade_officer"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_elder_pugoriss_lair_neutral_medium_boss_01",
+    "rori_elder_pugoriss_lair_neutral_medium_boss_01": {
       "name": "an elder pugoriss lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "elder_pugoriss"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_swamp_tusk_cat_pride_neutral_medium",
+    "rori_swamp_tusk_cat_pride_neutral_medium": {
       "name": "a swamp tusk cat pride's lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "male_swamp_tusk_cat",
-        "female_swamp_tusk_cat"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_tattered_torton_lair_neutral_large",
+    "rori_tattered_torton_lair_neutral_large": {
       "name": "a tattered torton lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 30,
-      "mobs": [
-        "tattered_torton"
-      ]
+      "size": 30
     },
-    {
-      "id": "rori_rorgungan_warcamp_neutral_large_theater",
+    "rori_rorgungan_warcamp_neutral_large_theater": {
       "name": "a large Rorgungan warcamp",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "rorgungan_warchief",
-        "rorgungan_warrior"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_leviasquall_warren_neutral_medium",
+    "rori_leviasquall_warren_neutral_medium": {
       "name": "a leviasquall warren",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "leviasquall"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_kai_tok_lair_neutral_medium",
+    "rori_kai_tok_lair_neutral_medium": {
       "name": "a kai tok lair",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 25,
-      "mobs": [
-        "screaming_kai_tok"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_cobral_boss_camp_neutral_large_theater",
+    "rori_cobral_boss_camp_neutral_large_theater": {
       "name": "a large Neo-Cobral camp",
       "min_cl": 20,
       "max_cl": 30,
-      "size": 30,
-      "mobs": [
-        "neo_cobral_boss",
-        "neo_cobral_bandit"
-      ]
+      "size": 30
     },
-    {
-      "id": "rori_narmle_base_neutral_large_theater",
+    "rori_narmle_base_neutral_large_theater": {
       "name": "a Narmle military base",
       "min_cl": 21,
       "max_cl": 25,
-      "size": 20,
-      "mobs": [
-        "narmle_militia_colonel",
-        "narmle_militia_commander"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_cobral_overlord_camp_neutral_large_theater",
+    "rori_cobral_overlord_camp_neutral_large_theater": {
       "name": "a Neo-Cobral overlord camp",
       "min_cl": 21,
       "max_cl": 33,
-      "size": 30,
-      "mobs": [
-        "neo_cobral_overlord",
-        "neo_cobral_hitman"
-      ]
+      "size": 30
     },
-    {
-      "id": "rori_spice_collective_miner_base_neutral_large_theater",
+    "rori_spice_collective_miner_base_neutral_large_theater": {
       "name": "a Spice Collective mining base",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 20,
-      "mobs": [
-        "spice_collective_heavy_guard",
-        "spice_collective_elite_guard"
-      ]
+      "size": 20
     },
-    {
-      "id": "rori_torton_lair_neutral_large",
+    "rori_torton_lair_neutral_large": {
       "name": "a torton lair",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 30,
-      "mobs": [
-        "torton"
-      ]
+      "size": 30
     },
-    {
-      "id": "rori_brigade_base_neutral_large_theater",
+    "rori_brigade_base_neutral_large_theater": {
       "name": "a large Brigade base",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "first_brigade_general",
-        "first_brigade_captain"
-      ]
+      "size": 25
     },
-    {
-      "id": "rori_garyn_raiders_outpost_neutral_large_theater",
+    "rori_garyn_raiders_outpost_neutral_large_theater": {
       "name": "a large Garyn raider base",
       "min_cl": 26,
       "max_cl": 32,
-      "size": 30,
-      "mobs": [
-        "garyns_dragoon",
-        "garyns_vigo",
-        "garyns_lieutenant"
-      ]
+      "size": 30
     },
-    {
-      "id": "rori_ravenous_torton_lair_neutral_large_boss_01",
+    "rori_ravenous_torton_lair_neutral_large_boss_01": {
       "name": "a ravenous torton lair",
       "min_cl": 32,
       "max_cl": 36,
-      "size": 30,
-      "mobs": [
-        "ravenous_torton"
-      ]
+      "size": 30
     }
-  ],
-  "talus": [
-    {
-      "id": "talus_fynock_youth_lair_neutral_small",
+  },
+  "talus": {
+    "talus_fynock_youth_lair_neutral_small": {
       "name": "a fynock youth lair",
       "min_cl": 3,
       "max_cl": 7,
-      "size": 25,
-      "mobs": [
-        "fearful_fynock_youth"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_chunker_goon_camp_neutral_small_theater",
+    "talus_chunker_goon_camp_neutral_small_theater": {
       "name": "a Chunker camp",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 25,
-      "mobs": [
-        "chunker_goon",
-        "chunker_mooch",
-        "chunker_pest",
-        "chunker_nitwit",
-        "chunker_punk"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_paralope_lair_neutral_medium_boss_01",
+    "talus_paralope_lair_neutral_medium_boss_01": {
       "name": "a paralope lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 25,
-      "mobs": [
-        "paralope"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_sleemo_delinquent_camp_neutral_medium_theater",
+    "talus_sleemo_delinquent_camp_neutral_medium_theater": {
       "name": "a Sleemo delinquent camp",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "sleemo_delinquent",
-        "sleemo_punk",
-        "sleemo_hoodlum"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_dalyrake_nest_neutral_medium",
+    "talus_dalyrake_nest_neutral_medium": {
       "name": "a dalyrake nest",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "dalyrake"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_decay_mite_lair_neutral_boss_01",
+    "talus_decay_mite_lair_neutral_boss_01": {
       "name": "a decay mite lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "decay_mite"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_liberation_loyalist_camp_neutral_medium_theater",
+    "talus_liberation_loyalist_camp_neutral_medium_theater": {
       "name": "a Liberation loyalist camp",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "talus_liberation_party_loyalist",
-        "talus_liberation_party_volunteer"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_sleemo_vandal_camp_neutral_medium_theater",
+    "talus_sleemo_vandal_camp_neutral_medium_theater": {
       "name": "a Sleemo vandal camp",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "sleemo_vandal",
-        "sleemo_scamp"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_vynock_lair_neutral_medium",
+    "talus_vynock_lair_neutral_medium": {
       "name": "a vynock lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "vynock"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_chunker_bruiser_camp_neutral_medium_theater",
+    "talus_chunker_bruiser_camp_neutral_medium_theater": {
       "name": "a Chunker camp",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "chunker_braggart",
-        "chunker_bully",
-        "chunker_bruiser",
-        "chunker_creep",
-        "chunker_swindler"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_song_rasp_lair_neutral_medium",
+    "talus_song_rasp_lair_neutral_medium": {
       "name": "a song rasp nest",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 20,
-      "mobs": [
-        "song_rasp"
-      ]
+      "size": 20
     },
-    {
-      "id": "talus_rot_mite_lair_neutral_boss_02",
+    "talus_rot_mite_lair_neutral_boss_02": {
       "name": "a rot mite lair",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "rot_mite"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_fed_dub_constable_camp_neutral_large_theater",
+    "talus_fed_dub_constable_camp_neutral_large_theater": {
       "name": "a Fed-Dub constable station",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "fed_dub_constable"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_fynock_lair_neutral_boss_03",
+    "talus_fynock_lair_neutral_boss_03": {
       "name": "a fynock lair",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "fynock"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_percussive_rasp_lair_neutral_medium",
+    "talus_percussive_rasp_lair_neutral_medium": {
       "name": "a percussive rasp nest",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 20,
-      "mobs": [
-        "percussive_rasp"
-      ]
+      "size": 20
     },
-    {
-      "id": "talus_wrix_lair_neutral_medium",
+    "talus_wrix_lair_neutral_medium": {
       "name": "a wrix lair",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "wrix"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_aakuan_steward_camp_neutral_small_theater",
+    "talus_aakuan_steward_camp_neutral_small_theater": {
       "name": "an Aa'kuan steward camp",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "aakuan_steward",
-        "aakuan_follower",
-        "aakuan_keeper"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_dung_mite_lair_neutral_boss_02",
+    "talus_dung_mite_lair_neutral_boss_02": {
       "name": "a dung mite pack's lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "dung_mite"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_guf_drolg_lair_neutral_medium",
+    "talus_guf_drolg_lair_neutral_medium": {
       "name": "a guf drolg lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 30,
-      "mobs": [
-        "guf_drolg"
-      ]
+      "size": 30
     },
-    {
-      "id": "talus_liberation_patriot_camp_neutral_medium_theater",
+    "talus_liberation_patriot_camp_neutral_medium_theater": {
       "name": "a Liberation patriot camp",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "talus_liberation_party_patriot"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_tortur_lair_neutral_large",
+    "talus_tortur_lair_neutral_large": {
       "name": "a tortur lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 35,
-      "mobs": [
-        "meager_tortur"
-      ]
+      "size": 35
     },
-    {
-      "id": "talus_binayre_pirate_camp_neutral_medium_theater",
+    "talus_binayre_pirate_camp_neutral_medium_theater": {
       "name": "a medium Binayre pirate camp",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "binayre_pirate"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_kahmurra_lair_neutral_medium",
+    "talus_kahmurra_lair_neutral_medium": {
       "name": "a kahmurra lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "kahmurra"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_savage_guf_drolg_lair_neutral_medium",
+    "talus_savage_guf_drolg_lair_neutral_medium": {
       "name": "a savage guf drolg lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "savage_guf_drolg"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_drall_patriot_base_neutral_large_theater",
+    "talus_drall_patriot_base_neutral_large_theater": {
       "name": "a large Drall patriot base",
       "min_cl": 13,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "drall_patriot_foot_soldier",
-        "drall_patriot_conqueror",
-        "drall_patriot_legionnaire"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_roba_lair_neutral_large",
+    "talus_roba_lair_neutral_large": {
       "name": "a roba lair",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "male_roba",
-        "female_roba"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_sludge_panther_lair_neutral_medium",
+    "talus_sludge_panther_lair_neutral_medium": {
       "name": "a sludge panther lair",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "sludge_panther"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_humbaba_lair_neutral_medium",
+    "talus_humbaba_lair_neutral_medium": {
       "name": "a humbaba lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "humbaba"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_lost_aqualish_captain_camp_neutral_large_theater",
+    "talus_lost_aqualish_captain_camp_neutral_large_theater": {
       "name": "a lost Aqualish Captain's camp",
       "min_cl": 15,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "lost_aqualish_captain",
-        "lost_aqualish_bomber"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_devil_gulginaw_nest_neutral_medium",
+    "talus_devil_gulginaw_nest_neutral_medium": {
       "name": "a devil gulginaw nest",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "devil_gulginaw"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_kima_lair_neutral_medium_boss_01",
+    "talus_kima_lair_neutral_medium_boss_01": {
       "name": "a kima lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 20,
-      "mobs": [
-        "kima"
-      ]
+      "size": 20
     },
-    {
-      "id": "talus_woodland_kima_lair_neutral_medium",
+    "talus_woodland_kima_lair_neutral_medium": {
       "name": "a woodland kima lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 20,
-      "mobs": [
-        "woodland_kima"
-      ]
+      "size": 20
     },
-    {
-      "id": "talus_vicious_huf_dun_lair_neutral_medium",
+    "talus_vicious_huf_dun_lair_neutral_medium": {
       "name": "a vicious huf dun's lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 30,
-      "mobs": [
-        "vicious_huf_dun"
-      ]
+      "size": 30
     },
-    {
-      "id": "talus_wolf_kima_lair_neutral_medium",
+    "talus_wolf_kima_lair_neutral_medium": {
       "name": "a wolf kima lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 30,
-      "mobs": [
-        "wolf_kima"
-      ]
+      "size": 30
     },
-    {
-      "id": "talus_binayre_chief_camp_neutral_large_theater",
+    "talus_binayre_chief_camp_neutral_large_theater": {
       "name": "a large Binayre chief camp",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 25,
-      "mobs": [
-        "binayre_chief",
-        "binayre_swindler"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_liberation_activist_camp_neutral_medium_theater",
+    "talus_liberation_activist_camp_neutral_medium_theater": {
       "name": "a Liberaction activist camp",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 25,
-      "mobs": [
-        "talus_liberation_party_activist"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_huf_dun_lair_neutral_medium",
+    "talus_huf_dun_lair_neutral_medium": {
       "name": "a huf dun lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 30,
-      "mobs": [
-        "huf_dun",
-        "huf_dun_bull"
-      ]
+      "size": 30
     },
-    {
-      "id": "talus_beldonna_base_neutral_large_theater",
+    "talus_beldonna_base_neutral_large_theater": {
       "name": "a large Beldonna base",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "beldonnas_league_enforcer",
-        "beldonnas_league_marshal"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_grand_wrix_lair_neutral_medium_boss_01",
+    "talus_grand_wrix_lair_neutral_medium_boss_01": {
       "name": "a grand wrix lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "grand_wrix"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_greater_sludge_panther_lair_neutral_medium",
+    "talus_greater_sludge_panther_lair_neutral_medium": {
       "name": "a greater sludge panther lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "greater_sludge_panther"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_mutated_kahmurra_lair_neutral_medium",
+    "talus_mutated_kahmurra_lair_neutral_medium": {
       "name": "a mutated kahmurra lair",
       "min_cl": 24,
       "max_cl": 28,
-      "size": 25,
-      "mobs": [
-        "mutated_kahmurra"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_lost_aqualish_warchief_camp_neutral_large_theater",
+    "talus_lost_aqualish_warchief_camp_neutral_large_theater": {
       "name": "a large lost Aqualish encampment",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 25,
-      "mobs": [
-        "lost_aqualish_warchief"
-      ]
+      "size": 25
     },
-    {
-      "id": "talus_aakuan_champion_camp_neutral_large_theater",
+    "talus_aakuan_champion_camp_neutral_large_theater": {
       "name": "a large Aa'kuan champion camp",
       "min_cl": 29,
       "max_cl": 33,
-      "size": 25,
-      "mobs": [
-        "aakuan_champion",
-        "aakuan_anarchist",
-        "aakuan_assassin"
-      ]
+      "size": 25
     }
-  ],
-  "tatooine": [
-    {
-      "id": "tatooine_kreetle_over_death_neutral_medium_boss_01",
+  },
+  "tatooine": {
+    "tatooine_kreetle_over_death_neutral_medium_boss_01": {
       "name": "a kreetle lair",
       "min_cl": 1,
       "max_cl": 5,
-      "size": 25,
-      "mobs": [
-        "kreetle"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_kreetle_lair_neutral_small",
+    "tatooine_kreetle_lair_neutral_small": {
       "name": "a kreetle lair",
       "min_cl": 1,
       "max_cl": 5,
-      "size": 25,
-      "mobs": [
-        "kreetle"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_tatooine_mynock_lair_neutral_small",
+    "tatooine_tatooine_mynock_lair_neutral_small": {
       "name": "a Tatooine mynock lair",
       "min_cl": 1,
       "max_cl": 5,
-      "size": 25,
-      "mobs": [
-        "tatooine_mynock"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_womprat_womprat_neutral_medium_boss_01",
+    "tatooine_womprat_womprat_neutral_medium_boss_01": {
       "name": "a womprat lair",
       "min_cl": 1,
       "max_cl": 5,
-      "size": 25,
-      "mobs": [
-        "womp_rat"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_dwarf_nuna_nuna_neutral_medium_boss_01",
+    "tatooine_dwarf_nuna_nuna_neutral_medium_boss_01": {
       "name": "a dwarf nuna lair",
       "min_cl": 3,
       "max_cl": 7,
-      "size": 25,
-      "mobs": [
-        "dwarf_nuna"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_trandosian_slaver_neutral_medium_theater",
+    "tatooine_trandosian_slaver_neutral_medium_theater": {
       "name": "a Trandosian slaver camp",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 25,
-      "mobs": [
-        "trandosian_slavemaster",
-        "trandosian_slaver"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_gorg_lair_neutral_small",
+    "tatooine_gorg_lair_neutral_small": {
       "name": "a gorg lair",
       "min_cl": 4,
       "max_cl": 8,
-      "size": 25,
-      "mobs": [
-        "gorg"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_eopie_lair_neutral_small",
+    "tatooine_eopie_lair_neutral_small": {
       "name": "an eopie lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "eopie"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_sevorrt_lair_neutral_medium",
+    "tatooine_sevorrt_lair_neutral_medium": {
       "name": "a sevorrt lair",
       "min_cl": 5,
       "max_cl": 9,
-      "size": 25,
-      "mobs": [
-        "sevorrt"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_diseased_bocatt_lair_neutral_medium",
+    "tatooine_diseased_bocatt_lair_neutral_medium": {
       "name": "a diseased bocatt lair",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 25,
-      "mobs": [
-        "diseased_bocatt"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_rockmite_click_neutral_small",
+    "tatooine_rockmite_click_neutral_small": {
       "name": "a rockmite lair",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 25,
-      "mobs": [
-        "rockmite"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_spice_fiend_neutral_small_theater",
+    "tatooine_spice_fiend_neutral_small_theater": {
       "name": "a spice fiend camp",
       "min_cl": 6,
       "max_cl": 10,
-      "size": 25,
-      "mobs": [
-        "spice_fiend"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_jawa_outpost_neutral_medium_theater",
+    "tatooine_jawa_outpost_neutral_medium_theater": {
       "name": "a Jawa outpost",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "jawa_leader",
-        "jawa_engineer"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_jundland_eopie_lair_neutral_medium",
+    "tatooine_jundland_eopie_lair_neutral_medium": {
       "name": "a Jundland eopie lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "jundland_eopie"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_zucca_boar_zucca_neutral_medium_boss_01",
+    "tatooine_zucca_boar_zucca_neutral_medium_boss_01": {
       "name": "a zucca boar lair",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "zucca_boar"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_cupa_cupa_neutral_medium_boss_01",
+    "tatooine_cupa_cupa_neutral_medium_boss_01": {
       "name": "a cu pa lair",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "cu_pa"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_weequay_outpost_neutral_large_theater",
+    "tatooine_weequay_outpost_neutral_large_theater": {
       "name": "a Weequay settlement",
       "min_cl": 9,
       "max_cl": 13,
-      "size": 25,
-      "mobs": [
-        "weequay_champion",
-        "weequay_soldier",
-        "weequay_thug",
-        "weequay_zealot"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_rodian_clan_outpost_neutral_large_theater",
+    "tatooine_rodian_clan_outpost_neutral_large_theater": {
       "name": "a Rodian clan camp",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "rodian_clan_warchief",
-        "rodian_clan_captain"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_scyk_scyk_neutral_medium_boss_01",
+    "tatooine_scyk_scyk_neutral_medium_boss_01": {
       "name": "a scyk lair",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "scyk"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_valarian_swooper_neutral_small_theater",
+    "tatooine_valarian_swooper_neutral_small_theater": {
       "name": "a Valarian swooper outpost",
       "min_cl": 10,
       "max_cl": 14,
-      "size": 25,
-      "mobs": [
-        "valarian_swooper_leader",
-        "valarian_swooper"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_worrt_giant_neutral_medium_boss_01",
+    "tatooine_worrt_giant_neutral_medium_boss_01": {
       "name": "a giant worrt lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "giant_worrt"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_rock_beetle_click_neutral_medium",
+    "tatooine_rock_beetle_click_neutral_medium": {
       "name": "a rock beetle lair",
       "min_cl": 11,
       "max_cl": 15,
-      "size": 25,
-      "mobs": [
-        "rock_beetle"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_mutant_womprat_lair_neutral_small",
+    "tatooine_mutant_womprat_lair_neutral_small": {
       "name": "a mutant womp rat lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "mutant_womp_rat",
-        "variegated_womp_rat"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_alkhara_bandit_outpost_neutral_large_theater",
+    "tatooine_alkhara_bandit_outpost_neutral_large_theater": {
       "name": "an Alkhara bandit settlement",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "alkhara_lieutenant",
-        "alkhara_bandit"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_swarming_lesser_dewback_lair_neutral_large",
+    "tatooine_swarming_lesser_dewback_lair_neutral_large": {
       "name": "a swarming lesser dewback lair",
       "min_cl": 13,
       "max_cl": 17,
-      "size": 25,
-      "mobs": [
-        "swarming_lesser_dewback"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_desert_eopie_lair_neutral_small",
+    "tatooine_desert_eopie_lair_neutral_small": {
       "name": "a desert eopie lair",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "desert_eopie"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_jabba_enforcer_camp_neutral_medium_theater",
+    "tatooine_jabba_enforcer_camp_neutral_medium_theater": {
       "name": "a Jabba enforcer camp",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "jabba_enforcer"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_valarian_assasin_neutral_large_theater",
+    "tatooine_valarian_assasin_neutral_large_theater": {
       "name": "a Valarian assassin hideout",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "valarian_assassin"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_bantha_dune_bantha_neutral_medium_boss_01",
+    "tatooine_bantha_dune_bantha_neutral_medium_boss_01": {
       "name": "a dune bantha lair",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "dune_bantha"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_jabba_assasin_camp_neutral_large_theater",
+    "tatooine_jabba_assasin_camp_neutral_large_theater": {
       "name": "a Jabba assassin hideout",
       "min_cl": 15,
       "max_cl": 19,
-      "size": 25,
-      "mobs": [
-        "jabba_assassin"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_dune_lizard_dune_lizard_neutral_medium_boss_01",
+    "tatooine_dune_lizard_dune_lizard_neutral_medium_boss_01": {
       "name": "a dune lizard lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "dune_lizard"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_ronto_lair_neutral_large",
+    "tatooine_ronto_lair_neutral_large": {
       "name": "a ronto lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 30,
-      "mobs": [
-        "ronto"
-      ]
+      "size": 30
     },
-    {
-      "id": "tatooine_squill_squill_neutral_medium_boss_01",
+    "tatooine_squill_squill_neutral_medium_boss_01": {
       "name": "a squill lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "squill"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_cu_pa_lair_neutral_medium",
+    "tatooine_cu_pa_lair_neutral_medium": {
       "name": "a cu pa lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "cu_pa"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_dewback_dewback_neutral_medium_boss_01",
+    "tatooine_dewback_dewback_neutral_medium_boss_01": {
       "name": "a dewback lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 30,
-      "mobs": [
-        "dewback"
-      ]
+      "size": 30
     },
-    {
-      "id": "tatooine_bull_bantha_lair_neutral_large",
+    "tatooine_bull_bantha_lair_neutral_large": {
       "name": "a bull bantha lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "bull_bantha"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_desert_squill_lair_neutral_small",
+    "tatooine_desert_squill_lair_neutral_small": {
       "name": "a desert squill lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "desert_squill"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_mountain_dewback_lair_neutral_large",
+    "tatooine_mountain_dewback_lair_neutral_large": {
       "name": "a mountain dewback lair",
       "min_cl": 18,
       "max_cl": 22,
-      "size": 25,
-      "mobs": [
-        "mountain_dewback"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_cannibal_dewback_lair_neutral_large",
+    "tatooine_cannibal_dewback_lair_neutral_large": {
       "name": "a cannibal dewback lair",
       "min_cl": 19,
       "max_cl": 23,
-      "size": 25,
-      "mobs": [
-        "cannibal_dewback"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_bocatt_bocatt_neutral_medium_boss_01",
+    "tatooine_bocatt_bocatt_neutral_medium_boss_01": {
       "name": "a bocatt pack's lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "bocatt"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_greater_womprat_lair_neutral_medium",
+    "tatooine_greater_womprat_lair_neutral_medium": {
       "name": "a greater womp rat lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "greater_desert_womp_rat"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_mountain_worrt_lair_neutral_large",
+    "tatooine_mountain_worrt_lair_neutral_large": {
       "name": "a mountain worrt lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "mountain_worrt"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_matriarch_bantha_lair_neutral_large",
+    "tatooine_matriarch_bantha_lair_neutral_large": {
       "name": "a matriarch bantha lair",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "bantha_matriarch"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_grizzled_dewback_lair_neutral_large",
+    "tatooine_grizzled_dewback_lair_neutral_large": {
       "name": "a grizzled dewback lair",
       "min_cl": 25,
       "max_cl": 29,
-      "size": 25,
-      "mobs": [
-        "grizzled_dewback"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_dragonet_dragonet_neutral_medium_boss_01",
+    "tatooine_dragonet_dragonet_neutral_medium_boss_01": {
       "name": "a dragonet lair",
       "min_cl": 27,
       "max_cl": 31,
-      "size": 25,
-      "mobs": [
-        "dragonet"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_giant_sand_beetle_click_neutral_large",
+    "tatooine_giant_sand_beetle_click_neutral_large": {
       "name": "a giant sand beetle lair",
       "min_cl": 28,
       "max_cl": 32,
-      "size": 25,
-      "mobs": [
-        "giant_sand_beetle"
-      ]
+      "size": 25
     },
-    {
-      "id": "tatooine_mountain_squill_lair_neutral_medium",
+    "tatooine_mountain_squill_lair_neutral_medium": {
       "name": "a mountain squill lair",
       "min_cl": 32,
       "max_cl": 36,
-      "size": 25,
-      "mobs": [
-        "mountain_squill",
-        "female_mountain_squill"
-      ]
+      "size": 25
     }
-  ],
-  "yavin4": [
-    {
-      "id": "yavin4_tanc_mite_lair_neutral_medium",
+  },
+  "yavin4": {
+    "yavin4_tanc_mite_lair_neutral_medium": {
       "name": "a tanc mite lair",
       "min_cl": 7,
       "max_cl": 11,
-      "size": 25,
-      "mobs": [
-        "tanc_mite"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_gackle_bat_lair_neutral_boss_01",
+    "yavin4_gackle_bat_lair_neutral_boss_01": {
       "name": "a gackle bat nest",
       "min_cl": 8,
       "max_cl": 12,
-      "size": 25,
-      "mobs": [
-        "gackle_bat"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_spined_puc_lair_neutral_medium",
+    "yavin4_spined_puc_lair_neutral_medium": {
       "name": "a spined puc lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 25,
-      "mobs": [
-        "spined_puc"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_stintaril_lair_neutral_medium",
+    "yavin4_stintaril_lair_neutral_medium": {
       "name": "a stintaril lair",
       "min_cl": 12,
       "max_cl": 16,
-      "size": 20,
-      "mobs": [
-        "stintaril"
-      ]
+      "size": 20
     },
-    {
-      "id": "yavin4_choku_lair_neutral_medium",
+    "yavin4_choku_lair_neutral_medium": {
       "name": "a choku lair",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "choku"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_whisper_bird_male_neutral_medium_boss_01",
+    "yavin4_whisper_bird_male_neutral_medium_boss_01": {
       "name": "a whisper bird nest",
       "min_cl": 14,
       "max_cl": 18,
-      "size": 25,
-      "mobs": [
-        "whisper_bird_male"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_kliknik_kliknik_neutral_medium_boss_01",
+    "yavin4_kliknik_kliknik_neutral_medium_boss_01": {
       "name": "a kliknik lair",
       "min_cl": 16,
       "max_cl": 20,
-      "size": 25,
-      "mobs": [
-        "kliknik"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_hutt_expedition_force_camp_hutt_medium_theater",
+    "yavin4_hutt_expedition_force_camp_hutt_medium_theater": {
       "name": "a Hutt Expeditionary Force camp",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "hutt_expeditonary_force_member",
-        "hutt_expeditonary_force_leader"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_mamien_lair_neutral_boss_03",
+    "yavin4_mamien_lair_neutral_boss_03": {
       "name": "a mamien lair",
       "min_cl": 17,
       "max_cl": 21,
-      "size": 25,
-      "mobs": [
-        "female_mamien",
-        "male_mamien"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_skreeg_lair_neutral_hard",
+    "yavin4_skreeg_lair_neutral_hard": {
       "name": "a skreeg lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "skreeg_hunter",
-        "skreeg_male"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_angler_lair_neutral_medium",
+    "yavin4_angler_lair_neutral_medium": {
       "name": "an angler lair",
       "min_cl": 20,
       "max_cl": 24,
-      "size": 25,
-      "mobs": [
-        "angler"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_mawgax_male_neutral_medium_boss_01",
+    "yavin4_mawgax_male_neutral_medium_boss_01": {
       "name": "a mawgax lair",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 25,
-      "mobs": [
-        "female_mawgax",
-        "male_mawgax"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_tybis_lair_neutral_medium",
+    "yavin4_tybis_lair_neutral_medium": {
       "name": "a tybis lair",
       "min_cl": 22,
       "max_cl": 26,
-      "size": 25,
-      "mobs": [
-        "tybis"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_crystal_snake_lair_neutral_medium",
+    "yavin4_crystal_snake_lair_neutral_medium": {
       "name": "a crystal snake den",
       "min_cl": 23,
       "max_cl": 27,
-      "size": 25,
-      "mobs": [
-        "crystal_snake"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_crystal_snake_giant_neutral_medium_boss_01",
+    "yavin4_crystal_snake_giant_neutral_medium_boss_01": {
       "name": "a crystal snake den",
       "min_cl": 29,
       "max_cl": 33,
-      "size": 25,
-      "mobs": [
-        "giant_crystal_snake"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_mawgax_lair_neutral_medium",
+    "yavin4_mawgax_lair_neutral_medium": {
       "name": "a mawgax lair",
       "min_cl": 30,
       "max_cl": 34,
-      "size": 25,
-      "mobs": [
-        "giant_mawgax"
-      ]
+      "size": 25
     },
-    {
-      "id": "yavin4_angler_giant_neutral_medium_boss_01",
+    "yavin4_angler_giant_neutral_medium_boss_01": {
       "name": "an angler lair",
       "min_cl": 33,
       "max_cl": 37,
-      "size": 25,
-      "mobs": [
-        "giant_angler"
-      ]
+      "size": 25
     }
-  ]
+  }
 }
