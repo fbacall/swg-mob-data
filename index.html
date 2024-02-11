@@ -123,10 +123,10 @@
             border-style: solid;
             border-color: var(--border);
             margin: 0 -1px;
+            display: flex;
         }
 
         #controls div {
-            display: inline-block;
             margin-right: 1em;
             padding-right: 1em;
             border-right: 2px solid var(--border);
@@ -134,6 +134,21 @@
 
         #open-controls {
             display: none !important;
+        }
+
+        #text-filter {
+            padding-right: 20px;
+        }
+
+        #clear-text-filter {
+            position: absolute;
+            margin-left: -18px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #666;
+            display: none;
+            cursor: pointer;
         }
 
         @media screen and (max-width: 992px) {
@@ -337,9 +352,11 @@
         }
 
         .spawns.static-spawns:after {
-            content: '*';
+            content: '•';
+            color: yellow;
             position: absolute;
             vertical-align: super;
+            font-weight: bold;
         }
 
         .no-missions:after {
@@ -451,9 +468,10 @@
         </div>
         <div class="collapsed">
             <input type="text" id="text-filter" placeholder="Filter..."/>
+            <span id="clear-text-filter">×</span>
         </div>
         <div class="collapsed">
-            * - Static spawns available
+            <span style="color: yellow; font-weight: bold;">•</span> - Static spawns available
         </div>
         <div class="collapsed">
             † - No missions available
@@ -763,6 +781,12 @@
         const includeSpawns = document.getElementById('spawn-filter').checked;
         const includeNpcs = document.getElementById('npc-filter').checked;
         const textFilter = (document.getElementById('text-filter').value || '').trim().toLowerCase();
+        const clearTextFilter = document.getElementById('clear-text-filter');
+        if (textFilter.length) {
+            clearTextFilter.style.display = 'inline';
+        } else {
+            clearTextFilter.style.display = 'none';
+        }
         return mobs.filter(function (mob) {
             if (planetFilter && (planetFilter !== planet)) {
                 return false;
@@ -1006,6 +1030,11 @@
         if (filterDebounce)
             clearTimeout(filterDebounce);
         filterDebounce = setTimeout(redraw, 100);
+    });
+
+    document.getElementById('clear-text-filter').addEventListener('click', function (e) {
+        document.getElementById('text-filter').value = '';
+        redraw();
     });
 
     document.getElementById('overlay').addEventListener('mousemove', function (e) {
