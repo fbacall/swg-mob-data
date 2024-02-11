@@ -542,23 +542,6 @@
             })
             return o;
         }
-
-        min_cl (planet) {
-            return Math.min(this.missions()[planet].map(m => m.min_cl));
-        }
-
-        max_cl (planet) {
-            return Math.max(this.missions()[planet].map(m => m.max_cl));
-        }
-
-        minReward (planet) {
-            return this.min_cl(planet) * missionRewardFactor;
-        }
-
-        maxReward (planet) {
-            return this.max_cl(planet) * missionRewardFactor  + this.max_cl(planet) * missionRandomRewardFactor;
-        }
-
         // Resists: kinetic, energy, blast, heat, cold, electric, acid, stun, lightsaber
     }
 
@@ -569,12 +552,17 @@
             this.regions = mob.regions()[planet];
             this.missions = mob.missions()[planet];
             if (this.missions) {
-                this.min_cl = mob.min_cl(planet);
-                this.max_cl = mob.max_cl(planet);
-                this.minReward = mob.minReward(planet);
-                this.maxReward = mob.maxReward(planet);
+                this.missions = this.missions.sort((a,b) => a.min_cl - b.min_cl);
+                this.min_cl = Math.min(...this.missions.map(m => m.min_cl));
+                this.max_cl = Math.max(...this.missions.map(m => m.max_cl));
+                this.minReward = this.min_cl * missionRewardFactor;
+                this.maxReward = this.max_cl * missionRewardFactor  + this.max_cl * missionRandomRewardFactor;
             }
             this.staticSpawns = mob.staticSpawns[planet];
+        }
+
+        missionNames () {
+            return (this.missions || []).map(m => m.name + ' (' + m.min_cl + '-' + m.max_cl + ')');
         }
     }
 
@@ -700,7 +688,7 @@
                 if (mob.min_cl) {
                     cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
                     cl.title = 'Reward: ' + mob.minReward + '-' + mob.maxReward +
-                            ' (IJM: ' + Math.round(mob.minReward * ijmFactor) + '-' + Math.round(mob.maxReward * ijmFactor) + ')';
+                            ' (IJM: ' + Math.round(mob.minReward * ijmFactor) + '-' + Math.round(mob.maxReward * ijmFactor) + '):\n  ' + mob.missionNames().join("\n  ");
                     cl.classList.add('missions');
                 } else {
                     cl.classList.add('no-missions');
