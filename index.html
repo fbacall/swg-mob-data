@@ -542,7 +542,7 @@
                     if (!o[planet]) {
                         o[planet] = [];
                     }
-                    o[planet] = o[planet].concat(regions);
+                    o[planet] = [...new Set([...o[planet], ...regions])];
                 }
             })
             return o;
