@@ -515,9 +515,7 @@
     let sortDir = 1;
 
     function init() {
-        Promise.all([
-            fetch('data/finalizer.json').then((r) => r.json()).then((d) => { data = d; }),
-        ]).then(parseData);
+        fetch('data/finalizer.json').then(r => r.json()).then(d => { data = d; }).then(parseData);
     }
 
     class Mob {
@@ -544,7 +542,7 @@
                     }
                     o[planet] = [...new Set([...o[planet], ...regions])];
                 }
-            })
+            });
             return o;
         }
 
@@ -557,7 +555,7 @@
                     }
                     o[planet] = o[planet].concat(missions);
                 }
-            })
+            });
             return o;
         }
         // Resists: kinetic, energy, blast, heat, cold, electric, acid, stun, lightsaber
@@ -661,13 +659,10 @@
 
         for (const [key, mobData] of Object.entries(data.mobs)) {
             const mob = new Mob(mobData);
-            for (const planet of Object.keys(mob.missions())) {
-                if (!planetData[planet]) {
-                    planetData[planet] = {};
-                }
-                planetData[planet][key] = new PlanetMob(planet, mob);
-            }
-            for (const planet of Object.keys(mob.regions())) {
+            const planets = [...Object.keys(mob.missions()),
+                ...Object.keys(mob.regions()),
+                ...Object.keys(mob.staticSpawns)];
+            for (const planet of planets) {
                 if (!planetData[planet]) {
                     planetData[planet] = {};
                 }
