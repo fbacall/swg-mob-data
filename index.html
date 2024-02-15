@@ -279,7 +279,11 @@
             z-index: 90;
         }
 
-        th.resource {
+        th.name-column {
+            min-width: 16em;
+        }
+
+        th.resource-column {
             width: 8em;
         }
 
@@ -483,19 +487,6 @@
     </div>
     <table id="mobs" style="visibility: hidden;">
         <thead>
-            <tr>
-                <th style="min-width: 16em" data-sort="name">Creature</th>
-                <th data-sort="level" class="sort-asc">CL</th>
-                <th class="resource" data-sort="meat">Meat</th>
-                <th class="resource" data-sort="hide">Hide</th>
-                <th class="resource" data-sort="bone">Bone</th>
-                <th class="resource" data-sort="milk">Milk</th>
-                <th>Info</th>
-                <th data-sort="kinetic_resist">Kin</th>
-                <th data-sort="energy_resist">Ene</th>
-                <th data-sort="ham">HAM</th>
-                <th data-sort="xp">XP</th>
-            </tr>
         </thead>
         <tbody>
         </tbody>
@@ -527,6 +518,9 @@
             if (!this.staticSpawns) {
                 this.staticSpawns = {};
             }
+            ['kinetic', 'energy', 'blast', 'heat', 'cold', 'electric', 'acid', 'stun', 'lightsaber'].forEach((res, i) => {
+                this[res + '_resist'] = this.resists[i];
+            });
         }
 
         spawns () {
@@ -558,7 +552,6 @@
             });
             return o;
         }
-        // Resists: kinetic, energy, blast, heat, cold, electric, acid, stun, lightsaber
     }
 
     class PlanetMob {
@@ -581,6 +574,195 @@
             return (this.missions || []).map(m => m.name + ' (' + m.min_cl + '-' + m.max_cl + ')');
         }
     }
+
+    class Column {
+        constructor (name, attribute, opts = {}) {
+            this.name = name;
+            this.attribute = attribute;
+            this.sortable = true;
+        }
+
+        sort (dir) {
+            return (a, b) => (a[this.attribute] - b[this.attribute]) * dir;
+        }
+
+        draw (cell, mob) {
+            cell.appendChild(document.createTextNode(mob[this.attribute]));
+        }
+    }
+
+    class NameColumn extends Column {
+        constructor (name, attribute) {
+            super(name, attribute);
+            this.columnClasses = 'name-column';
+        }
+
+        sort (dir) {
+            return (a, b) => {
+                if (a.displayName.toUpperCase() > b.displayName.toUpperCase()) {
+                    return dir;
+                }
+                if (a.displayName.toUpperCase() < b.displayName.toUpperCase()) {
+                    return -dir;
+                }
+                return 0;
+            };
+        }
+
+        draw (cell, mob) {
+            mob.displayName = mob.name.replace(/^an? /, '').split(' ').map(s => capitalize(s)).join(' ');
+            cell.classList.add('left');
+            cell.appendChild(document.createTextNode(mob.displayName));
+            if (mob.regions || mob.staticSpawns) {
+                const spawns = document.createElement('span');
+                spawns.classList.add('spawns', 'clickable');
+                if (mob.staticSpawns) {
+                    spawns.classList.add('static-spawns');
+                }
+                spawns.dataset.mob = mob.id;
+                spawns.dataset.planet = mob.planet;
+                spawns.appendChild(document.createTextNode('Map'));
+                cell.appendChild(spawns);
+            }
+        }
+    }
+
+    class LevelColumn extends Column {
+        sort (dir) {
+            return (a, b) => ((a.min_cl || a.level) - (b.min_cl || b.level)) * dir;
+        }
+
+        draw (cell, mob) {
+            if (mob.min_cl) {
+                cell.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
+                cell.title = 'Reward: ' + mob.minReward + '-' + mob.maxReward +
+                    ' (IJM: ' + Math.round(mob.minReward * ijmFactor) + '-' + Math.round(mob.maxReward * ijmFactor) + '):\n  ' +
+                    mob.missionNames().join("\n  ");
+                cell.classList.add('missions');
+            } else {
+                cell.classList.add('no-missions');
+                cell.appendChild(document.createTextNode('' + mob.level));
+            }
+        }
+    }
+
+    class ResourceColumn extends Column {
+        constructor (name, attribute) {
+            super(name, attribute);
+            this.columnClasses = 'resource-column';
+        }
+
+        sort (dir) {
+            const typeVar = this.attribute + '_type';
+            return (a, b) => {
+                const aType = a[typeVar] || '0';
+                const bType = b[typeVar] || '0';
+                if (aType.toUpperCase() > bType.toUpperCase()) {
+                    return dir;
+                }
+                if (aType.toUpperCase() < bType.toUpperCase()) {
+                    return -dir;
+                }
+                return (a[this.attribute] - b[this.attribute]) * dir;
+            };
+        }
+
+        draw (cell, mob) {
+            cell.classList.add('creature-resource');
+            const type = mob[this.attribute + '_type'];
+            const qty = mob[this.attribute];
+            if (type) {
+                cell.classList.add(type);
+                const name = type.split('_')[1];
+                const qtyElement = document.createElement('div');
+                qtyElement.className = 'yield';
+                qtyElement.appendChild(document.createTextNode(qty));
+                cell.appendChild(qtyElement);
+                cell.appendChild(document.createTextNode(capitalize(name)));
+            }
+        }
+    }
+
+    class InfoColumn extends Column {
+        constructor (name, attributes) {
+            super(name, attributes);
+            this.sortable = false;
+        }
+
+        draw (cell, mob) {
+            cell.classList.add('info');
+            // AR
+            if (mob.armor && mob.armor > 0) {
+                const ar = document.createElement('span');
+                ar.classList.add('tag', 'armor', 'armor-' + mob.armor);
+                ar.appendChild(document.createTextNode('AR:' + mob.armor));
+                cell.appendChild(ar);
+            }
+            mob.attacks.sort().forEach(attack => {
+                const tag = document.createElement('span');
+                tag.classList.add('tag', attack.split(' ')[0]);
+                let tagText = attack.replace('creaturearea', 'AoE ');
+                tagText = tagText.replace('attack', '');
+                tagText = tagText.replace('mild', '');
+                tagText = tagText.replace('medium', '');
+                tagText = tagText.replace('strong', '');
+                tag.appendChild(document.createTextNode(tagText));
+                cell.appendChild(tag);
+            });
+        }
+    }
+
+    class ResistColumn extends Column {
+        draw (cell, mob) {
+            const resist = mob[this.attribute];
+            if (resist === 0) {
+                cell.classList.add('no-resist');
+            } else if (resist === 'Vul') {
+                cell.classList.add('vulnerable');
+            }
+
+            cell.appendChild(document.createTextNode(resist));
+        }
+    }
+
+    class NumberColumn extends Column {
+        draw (cell, mob) {
+            const num = mob[this.attribute];
+            let text = num;
+            if (num > 1000) {
+                text = (num / 1000).toString().substr(0, 3);
+                text = text.replace('.0', '');
+                if (text[text.length - 1] === '.') // Strip trailing .
+                    text = text.substring(0, text.length - 1);
+                text += 'K';
+                if (num > 50000) {
+                    cell.classList.add('omg');
+                } else if (num > 10000) {
+                    cell.classList.add('gold');
+                } else if (num > 5000) {
+                    cell.classList.add('silver');
+                } else {
+                    cell.classList.add('bronze');
+                }
+            }
+
+            cell.appendChild(document.createTextNode(text));
+        }
+    }
+
+    const columns = [
+        new NameColumn('Creature', 'name'),
+        new LevelColumn('CL', 'level'),
+        new ResourceColumn('Meat', 'meat'),
+        new ResourceColumn('Hide', 'hide'),
+        new ResourceColumn('Bone', 'bone'),
+        new ResourceColumn('Milk', 'milk'),
+        new InfoColumn('Info', 'info'),
+        new ResistColumn('Kin', 'kinetic_resist'),
+        new ResistColumn('Ene', 'energy_resist'),
+        new NumberColumn('HAM', 'ham'),
+        new NumberColumn('XP', 'xp')
+    ];
 
     function parseData() {
         // Link spawns to lairs
@@ -670,9 +852,26 @@
             }
         }
 
+        createCols();
         createRows();
         document.getElementById('mobs').style.visibility = '';
         redraw();
+    }
+
+    function createCols() {
+        const thead = document.getElementById('mobs').getElementsByTagName('thead')[0];
+        const row = thead.insertRow();
+        columns.forEach(column => {
+            const heading = document.createElement('th');
+            if (column.columnClasses) {
+                heading.className = column.columnClasses;
+            }
+            if (column.sortable) {
+                heading.dataset.sort = column.attribute;
+            }
+            heading.appendChild(document.createTextNode(column.name));
+            row.appendChild(heading);
+        });
     }
 
     function createRows() {
@@ -680,73 +879,10 @@
         for (const [planet, mobs] of Object.entries(planetData)) {
             for (const mob of Object.values(mobs)) {
                 const row = tbody.insertRow();
-                // Name
-                const name = row.insertCell();
-                mob.displayName = mob.name.replace(/^an? /, '').split(' ').map(s => capitalize(s)).join(' ');
-                name.classList.add('left');
-                name.appendChild(document.createTextNode(mob.displayName));
-                if (mob.regions || mob.staticSpawns) {
-                    const spawns = document.createElement('span');
-                    spawns.classList.add('spawns', 'clickable');
-                    if (mob.staticSpawns) {
-                        spawns.classList.add('static-spawns');
-                    }
-                    spawns.dataset.mob = mob.id;
-                    spawns.dataset.planet = planet;
-                    spawns.appendChild(document.createTextNode('Map'));
-                    name.appendChild(spawns);
-                }
-                // CL
-                const cl = row.insertCell();
-                if (mob.min_cl) {
-                    cl.appendChild(document.createTextNode('' + mob.min_cl + '-' + mob.max_cl));
-                    cl.title = 'Reward: ' + mob.minReward + '-' + mob.maxReward +
-                            ' (IJM: ' + Math.round(mob.minReward * ijmFactor) + '-' + Math.round(mob.maxReward * ijmFactor) + '):\n  ' + mob.missionNames().join("\n  ");
-                    cl.classList.add('missions');
-                } else {
-                    cl.classList.add('no-missions');
-                    cl.appendChild(document.createTextNode('' + mob.level));
-                }
-                // Meat
-                drawResource(row.insertCell(), mob.meat_type, mob.meat);
-                // Hide
-                drawResource(row.insertCell(), mob.hide_type, mob.hide);
-                // Bone
-                drawResource(row.insertCell(), mob.bone_type, mob.bone);
-                // Milk
-                drawResource(row.insertCell(), mob.milk_type, mob.milk);
-                // Info
-                const info = row.insertCell();
-                info.classList.add('info');
-                // AR
-                if (mob.armor && mob.armor > 0) {
-                    const ar = document.createElement('span');
-                    ar.classList.add('tag', 'armor', 'armor-' + mob.armor);
-                    ar.appendChild(document.createTextNode('AR:' + mob.armor));
-                    info.appendChild(ar);
-                }
-                mob.attacks.sort().forEach(attack => {
-                    const tag = document.createElement('span');
-                    tag.classList.add('tag', attack.split(' ')[0]);
-                    let tagText = attack.replace('creaturearea', 'AoE ');
-                    tagText = tagText.replace('attack', '');
-                    tagText = tagText.replace('mild', '');
-                    tagText = tagText.replace('medium', '');
-                    tagText = tagText.replace('strong', '');
-                    tag.appendChild(document.createTextNode(tagText));
-                    info.appendChild(tag);
-                });
-
-                // Kinetic
-                drawResist(row.insertCell(), mob.resists[0]);
-                // Energy
-                drawResist(row.insertCell(), mob.resists[1]);
-                // HAM
-                drawNum(row.insertCell(), mob.ham);
-                // XP
-                drawNum(row.insertCell(), mob.xp);
-
                 mob.row = row;
+                columns.forEach(column => {
+                    column.draw(row.insertCell(), mob);
+                });
             }
         }
     }
@@ -800,36 +936,8 @@
     }
 
     function applySort(mobs) {
-        let f;
-        if (sort === 'name') {
-            f = (a, b) => {
-                if (a.displayName.toUpperCase() > b.displayName.toUpperCase()) {
-                    return sortDir;
-                }
-                if (a.displayName.toUpperCase() < b.displayName.toUpperCase()) {
-                    return -sortDir;
-                }
-                return 0;
-            }
-        } else if (sort === 'meat' || sort === 'bone' || sort === 'hide' || sort === 'milk') {
-            const typeVar = sort + '_type';
-            f = (a, b) => {
-                const aType = a[typeVar] || '0';
-                const bType = b[typeVar] || '0';
-                if (aType.toUpperCase() > bType.toUpperCase()) {
-                    return sortDir;
-                }
-                if (aType.toUpperCase() < bType.toUpperCase()) {
-                    return -sortDir;
-                }
-                return (a[sort] - b[sort]) * sortDir;
-            }
-        } else if (sort === 'level') {
-            f = (a, b) => ((a.min_cl || a.level) - (b.min_cl || b.level)) * sortDir;
-        }else {
-            f = (a, b) => (a[sort] - b[sort]) * sortDir;
-        }
-        mobs.sort(f);
+        const column = columns.find(c => c.attribute === sort);
+        mobs.sort(column.sort(sortDir));
     }
 
     function drawPlanetRow(tbody, planet) {
@@ -839,51 +947,6 @@
         planetCell.appendChild(document.createTextNode(capitalize(planet)));
         planetCell.colSpan = 11;
         return planetRow;
-    }
-
-    function drawResource(cell, type, qty) {
-        cell.classList.add('creature-resource');
-        if (type) {
-            cell.classList.add(type);
-            const name = type.split('_')[1];
-            const qtyElement = document.createElement('div');
-            qtyElement.className = 'yield';
-            qtyElement.appendChild(document.createTextNode(qty));
-            cell.appendChild(qtyElement);
-            cell.appendChild(document.createTextNode(capitalize(name)));
-        }
-    }
-
-    function drawResist(cell, resist) {
-        if (resist === 0) {
-            cell.classList.add('no-resist');
-        } else if (resist === 'Vul') {
-            cell.classList.add('vulnerable');
-        }
-
-        cell.appendChild(document.createTextNode(resist));
-    }
-
-    function drawNum(cell, num) {
-        let text = num;
-        if (num > 1000) {
-            text = (num / 1000).toString().substr(0, 3);
-            text = text.replace('.0', '');
-            if (text[text.length - 1] === '.') // Strip trailing .
-                text = text.substring(0, text.length - 1);
-            text += 'K';
-            if (num > 50000) {
-                cell.classList.add('omg');
-            } else if (num > 10000) {
-                cell.classList.add('gold');
-            } else if (num > 5000) {
-                cell.classList.add('silver');
-            } else {
-                cell.classList.add('bronze');
-            }
-        }
-
-        cell.appendChild(document.createTextNode(text));
     }
 
     function drawMap(element) {
