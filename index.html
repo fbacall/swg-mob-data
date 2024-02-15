@@ -715,13 +715,15 @@
     class ResistColumn extends Column {
         draw (cell, mob) {
             const resist = mob[this.attribute];
+            let text = resist;
             if (resist === 0) {
                 cell.classList.add('no-resist');
-            } else if (resist === 'Vul') {
+            } else if (resist === -1) {
+                text = 'Vul';
                 cell.classList.add('vulnerable');
             }
 
-            cell.appendChild(document.createTextNode(resist));
+            cell.appendChild(document.createTextNode(text));
         }
     }
 

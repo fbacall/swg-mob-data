@@ -456,8 +456,6 @@ class Parser
   end
 
   def parse_resist(resist)
-    return 'Vul' if resist == -1
-    return 0 if resist == 0
     resist -= 100 if resist > 100
     resist
   end
