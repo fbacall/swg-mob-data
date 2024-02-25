@@ -24,6 +24,8 @@
             --row-odd: #eee;
             --armor: #ccc;
 
+            --static-spawns: #eeb80a;
+
             --tag: #ddd;
             --medium-strength: #e8af27;
             --strong-strength: #a90a0a;
@@ -66,6 +68,8 @@
             --row: #222;
             --row-odd: #111;
             --armor: #777;
+
+            --static-spawns: #ffee00;
 
             --tag: #444;
             --medium-strength: #9c7324;
@@ -372,10 +376,16 @@
 
         .spawns.static-spawns:after {
             content: '•';
-            color: yellow;
+            color: var(--static-spawns);
             position: absolute;
             vertical-align: super;
             font-weight: bold;
+        }
+
+        .static-spawns-key {
+            color: var(--static-spawns);
+            font-weight: bold;
+            font-size: large;
         }
 
         .no-missions:after {
@@ -426,15 +436,15 @@
             color: #333 !important;
         }
         .corellia { background-color: #b7e9e7 !important; }
-        .dantooine { background-color: #ff00ff !important; }
-        .dathomir { background-color: #8634ea !important; }
-        .endor { background-color: #358216 !important; }
-        .lok { background-color: #e9c43b !important; }
-        .naboo { background-color: #84c267 !important; }
-        .rori { background-color: #ea8050 !important; }
+        .dantooine { background-color: #ff9cef !important; }
+        .dathomir { background-color: #ae81ea !important; }
+        .endor { background-color: #49c53b !important; }
+        .lok { background-color: #e2a044 !important; }
+        .naboo { background-color: #83e144 !important; }
+        .rori { background-color: #eaa071 !important; }
         .talus { background-color: #4aeecb !important; }
         .tatooine { background-color: #ffe100 !important; }
-        .yavin4 { background-color: #6aff00 !important; }
+        .yavin4 { background-color: #aac292 !important; }
 
         .map-corellia { background-image: url('img/corellia.jpg'); }
         .map-dantooine { background-image: url('img/dantooine.jpg'); }
@@ -492,7 +502,7 @@
             <span id="clear-text-filter">×</span>
         </div>
         <div class="collapsed control">
-            <span style="color: yellow; font-weight: bold;">•</span> - Static spawns available
+            <span class="static-spawns-key">•</span> - Static spawns available
         </div>
         <div class="collapsed control">
             † - No missions available
@@ -1016,7 +1026,7 @@
                 const y = 8000 - spawn[1];
                 const text = '/waypoint ' + spawn[0] + ' ' + spawn[1] + ' ' + mob.name;
                 svg.appendChild(svgNode('circle', {
-                    cx: x, cy: y, r: 100, fill: '#ffff00', stroke: '#000000', 'stroke-width': 20, title: text }));
+                    cx: x, cy: y, r: 100, fill: '#ffee00', stroke: '#000000', 'stroke-width': 20, title: text }));
                 staticSpawnList.appendChild(document.createTextNode(text + "\n"));
             });
         } else {
