@@ -158,44 +158,6 @@
             cursor: pointer;
         }
 
-        @media screen and (max-width: 992px) {
-            div.control {
-                display: block;
-                border-right: none;
-                width: 100%;
-                margin-right: 0;
-                padding-right: 0;
-            }
-
-            #controls.open div.collapsed {
-                display: block;
-            }
-
-            #controls div.collapsed {
-                display: none;
-            }
-
-            #open-controls {
-                display: block !important;
-                float: right;
-                margin-right: 0 !important;
-                padding-right: 0 !important;
-            }
-
-            #open-controls .btn:after {
-                content: '↓';
-            }
-
-            #controls.open #open-controls .btn:after {
-                content: '↑';
-            }
-
-            #controls.open {
-                flex-flow: column;
-                align-items: flex-start;
-            }
-        }
-
         .btn {
             padding: 0 10px !important;
             text-align: center;
@@ -397,6 +359,63 @@
 
         .clickable:hover {
             color: var(--link-hover);
+        }
+
+        @media screen and (max-width: 992px) {
+            div.control {
+                display: block;
+                border-right: none;
+                width: 100%;
+                margin-right: 0;
+                padding-right: 0;
+            }
+
+            #controls.open div.collapsed {
+                display: block;
+            }
+
+            #controls div.collapsed {
+                display: none;
+            }
+
+            #open-controls {
+                display: block !important;
+                float: right;
+                margin-right: 0 !important;
+                padding-right: 0 !important;
+            }
+
+            #open-controls .btn:after {
+                content: '↓';
+            }
+
+            #controls.open #open-controls .btn:after {
+                content: '↑';
+            }
+
+            #controls.open {
+                flex-flow: column;
+                align-items: flex-start;
+            }
+
+            .creature-resource {
+                white-space: inherit;
+                overflow: inherit;
+                text-overflow: unset;
+                text-align: center;
+            }
+
+            .creature-resource .yield {
+                font-size: small;
+                font-weight: bold;
+                float: none;
+                margin: 3px 0 -4px 0;
+            }
+
+            .creature-resource .type {
+                display: inline-block;
+                font-size: 8px;
+            }
         }
 
         .armor { background: var(--armor); }
@@ -705,7 +724,10 @@
                 qtyElement.className = 'yield';
                 qtyElement.appendChild(document.createTextNode(qty));
                 cell.appendChild(qtyElement);
-                cell.appendChild(document.createTextNode(capitalize(name)));
+                const typeElement = document.createElement('span');
+                typeElement.className = 'type';
+                typeElement.appendChild(document.createTextNode(capitalize(name)));
+                cell.appendChild(typeElement);
             }
         }
     }
