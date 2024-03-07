@@ -546,6 +546,11 @@
     const missionRewardFactor = 375;
     const missionRandomRewardFactor = 15;
     const ijmFactor = 1.15;
+    const ignoredTags = [
+        /marksman/, /pistoleer/, /carbineer/, /rifleman/,
+        /brawler/, /tka/, /fencer/, /swordsman/, /pikeman/,
+        /commando/, /bountyhunter/
+    ];
     let data = null;
     let planetData = {};
     let sort = 'level';
@@ -748,15 +753,17 @@
                 cell.appendChild(ar);
             }
             mob.attacks.sort().forEach(attack => {
-                const tag = document.createElement('span');
-                tag.classList.add('tag', attack.split(' ')[0]);
-                let tagText = attack.replace('creaturearea', 'AoE ');
-                tagText = tagText.replace('attack', '');
-                tagText = tagText.replace('mild', '');
-                tagText = tagText.replace('medium', '');
-                tagText = tagText.replace('strong', '');
-                tag.appendChild(document.createTextNode(tagText));
-                cell.appendChild(tag);
+                if (!ignoredTags.some(t => t.test(attack))) {
+                    const tag = document.createElement('span');
+                    tag.classList.add('tag', attack.split(' ')[0]);
+                    let tagText = attack.replace('creaturearea', 'AoE ');
+                    tagText = tagText.replace('attack', '');
+                    tagText = tagText.replace('mild', '');
+                    tagText = tagText.replace('medium', '');
+                    tagText = tagText.replace('strong', '');
+                    tag.appendChild(document.createTextNode(tagText));
+                    cell.appendChild(tag);
+                }
             });
         }
     }
