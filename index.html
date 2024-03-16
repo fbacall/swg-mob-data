@@ -81,7 +81,7 @@
             --bronze: #ca7914;
             --silver: #a5a5b6;
             --gold: #ccb046;
-            --omg: #ec1515;
+            --omg: #ff2b2b;
 
             --bone_avian: #314c58;
             --bone_mammal: #898989;
@@ -315,6 +315,12 @@
             font-size: small;
         }
 
+        .creature-resource .short-type {
+            display: none;
+            font-size: smaller;
+            opacity: 0.6;
+        }
+
         .tag {
             border-radius: 2px;
             background: var(--tag);
@@ -398,23 +404,16 @@
                 align-items: flex-start;
             }
 
-            .creature-resource {
-                white-space: inherit;
-                overflow: inherit;
-                text-overflow: unset;
-                text-align: center;
+            .creature-resource .yield {
+                font-weight: bold;
             }
 
-            .creature-resource .yield {
-                font-size: small;
-                font-weight: bold;
-                float: none;
-                margin: 3px 0 -4px 0;
+            .creature-resource .short-type {
+                display: inline;
             }
 
             .creature-resource .type {
-                display: inline-block;
-                font-size: 8px;
+                display: none;
             }
         }
 
@@ -732,7 +731,11 @@
                 const typeElement = document.createElement('span');
                 typeElement.className = 'type';
                 typeElement.appendChild(document.createTextNode(capitalize(name)));
+                const shortTypeElement = document.createElement('span');
+                shortTypeElement.className = 'short-type';
+                shortTypeElement.appendChild(document.createTextNode(capitalize(name).substr(0,3) + '.'));
                 cell.appendChild(typeElement);
+                cell.appendChild(shortTypeElement);
             }
         }
     }
