@@ -9498,6 +9498,8 @@
       "level": 15,
       "meat": 15,
       "meat_type": "meat_insect",
+      "hide": 12,
+      "hide_type": "hide_scaley",
       "attacks": [
         "intimidationattack",
         "ranged"
@@ -46848,7 +46850,9 @@
     },
     "endor_merek_blood_king_neutral_small": {
       "mobs": {
-        "blood_drenched_merek_king": 1
+        "blood_drenched_merek_king": 1,
+        "merek_deaths_head": 1,
+        "merek_harvester": 6
       }
     },
     "endor_merek_bloodstained_neutral_small": {
@@ -46858,6 +46862,7 @@
     },
     "endor_merek_king_queen_neutral_small": {
       "mobs": {
+        "delirious_merek_avenger": 5,
         "king_merek_harvester": 1,
         "queen_merek_harvester": 1
       }
@@ -46865,50 +46870,88 @@
     "endor_merek_lair_neutral_boss_01": {
       "mobs": {
         "merek_assassin": 1,
-        "blood_stained_merek": 1
+        "blood_stained_merek": 1,
+        "merek_cavern_creeper": 1,
+        "delirious_merek_avenger": 1,
+        "merek_harvester": 1,
+        "merek_deaths_head": 1
       }
     },
     "endor_merek_lair_neutral_boss_02": {
       "mobs": {
-        "merek_cavern_creeper": 1,
-        "delirious_merek_avenger": 1
+        "merek_assassin": 1,
+        "delirious_merek_avenger": 3,
+        "merek_cavern_creeper": 3,
+        "merek_deaths_head": 2,
+        "merek_harvester": 4,
+        "blood_stained_merek": 1
       }
     },
     "endor_merek_lair_neutral_boss_03": {
       "mobs": {
-        "toxic_merek_battlelord": 1
+        "merek_assassin": 1,
+        "delirious_merek_avenger": 2,
+        "merek_cavern_creeper": 2,
+        "merek_deaths_head": 2,
+        "merek_harvester": 2,
+        "blood_stained_merek": 2
       }
     },
     "endor_merek_lair_neutral_boss_04": {
       "mobs": {
-        "merek_harvester": 1
+        "merek_assassin": 1,
+        "delirious_merek_avenger": 1,
+        "merek_cavern_creeper": 1,
+        "merek_deaths_head": 1,
+        "merek_harvester": 1,
+        "blood_stained_merek": 1
       }
     },
     "endor_merek_lair_neutral_medium_01": {
       "mobs": {
         "merek_assassin": 1,
+        "delirious_merek_avenger": 1,
+        "merek_cavern_creeper": 1,
+        "merek_deaths_head": 1,
+        "merek_harvester": 1,
         "blood_stained_merek": 1
       }
     },
     "endor_merek_lair_neutral_medium_02": {
       "mobs": {
+        "merek_assassin": 1,
+        "delirious_merek_avenger": 1,
         "merek_cavern_creeper": 1,
-        "delirious_merek_avenger": 1
+        "merek_deaths_head": 1,
+        "merek_harvester": 1,
+        "blood_stained_merek": 1
       }
     },
     "endor_merek_lair_neutral_medium_03": {
       "mobs": {
-        "toxic_merek_battlelord": 1
+        "merek_assassin": 1,
+        "delirious_merek_avenger": 1,
+        "merek_cavern_creeper": 1,
+        "merek_deaths_head": 1,
+        "merek_harvester": 1,
+        "blood_stained_merek": 1
       }
     },
     "endor_merek_lair_neutral_medium_04": {
       "mobs": {
-        "merek_harvester": 1
+        "merek_assassin": 1,
+        "delirious_merek_avenger": 1,
+        "merek_cavern_creeper": 1,
+        "merek_deaths_head": 1,
+        "merek_harvester": 1,
+        "blood_stained_merek": 1
       }
     },
     "endor_merek_toxic_battlelord_neutral_small": {
       "mobs": {
-        "toxic_merek_battlelord": 1
+        "toxic_merek_battlelord": 2,
+        "delirious_merek_avenger": 1,
+        "merek_cavern_creeper": 1
       }
     },
     "endor_pouncing_jax_lair_neutral_small": {
@@ -47329,7 +47372,9 @@
     },
     "endor_merek_assassin_neutral_none": {
       "mobs": {
-        "merek_assassin": 1
+        "merek_assassin": 3,
+        "delirious_merek_avenger": 1,
+        "merek_cavern_creeper": 2
       }
     },
     "endor_merek_cavern_creaper_neutral_none": {

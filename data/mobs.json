@@ -9497,6 +9497,8 @@
     "level": 15,
     "meat": 15,
     "meat_type": "meat_insect",
+    "hide": 12,
+    "hide_type": "hide_scaley",
     "attacks": [
       "intimidationattack",
       "ranged"
