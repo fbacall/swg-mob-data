@@ -301,7 +301,7 @@
 
         td.info {
             text-align: left;
-            max-width: 20em;
+            white-space: nowrap;
         }
 
         [data-sort] {
@@ -508,15 +508,39 @@
         </div>
         <pre id="static-spawns" data-overlay="map"></pre>
         <div id="info" class="popup-window" data-overlay="info">
-            <div class="box">
-                <div>
+            <div class="box" style="overflow: auto;">
+                <div style="float: right;">
+                    Table columns
+                    <table>
+                        <tbody>
+                        <tr><td><input type="checkbox" data-toggle-column="level"></td><td>CL</td><td>Combat Level</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="meat"></td><td>Meat</td><td>Meat type and amount</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="hide"></td><td>Hide</td><td>Hide type and amount</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="bone"></td><td>Bone</td><td>Bone type and amount</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="milk"></td><td>Milk</td><td>Milk type and amount</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="info"></td><td>Info</td><td>Combat abilities, armor and other info</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="kinetic_resist"></td><td>Kin</td><td>Kinetic resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="energy_resist"></td><td>Ene</td><td>Energy resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="blast_resist"></td><td>Bla</td><td>Blast resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="heat_resist"></td><td>Hea</td><td>Heat resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="cold_resist"></td><td>Col</td><td>Cold resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="electric_resist"></td><td>Ele</td><td>Electric resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="acid_resist"></td><td>Aci</td><td>Acid resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="stun_resist"></td><td>Stu</td><td>Stun resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="lightsaber_resist"></td><td>Lig</td><td>Lightsaber resistance</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="ham"></td><td>HAM</td><td>Health, Action and Mind pools</td></tr>
+                        <tr><td><input type="checkbox" data-toggle-column="xp"></td><td>XP</td><td>Experience granted</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div style="float: left">
                     <span class="static-spawns-key">•</span> - Static spawns available<br/>
                     † - No missions available<br/>
-                </div>
-                <br/>
-                <div class="btn">
-                    <label for="dark-mode">Dark mode?</label>
-                    <input type="checkbox" id="dark-mode"/>
+                    <br/>
+                    <div class="btn">
+                        <label for="dark-mode">Dark mode?</label>
+                        <input type="checkbox" id="dark-mode"/>
+                    </div>
                 </div>
             </div>
         </div>
@@ -573,6 +597,7 @@
     document.addEventListener("DOMContentLoaded", init);
     const cities = {"corellia":[["Bela Vistal",6766,-5692,370],["Coronet",-178,-4504,581],["Doaba Guerfel",3240,5391,516],["Kor Vella",-3420,3146,620],["Tyrena",-5217,-2456,619],["Vreni Island",-5399,-6296,359]],"dantooine":[["Dantooine Mining Outpost",-640,2486,135],["Dantooine Agro Outpost",1588,-6399,135],["Dantooine Imperial Outpost",-4224,-2400,250]],"dathomir":[["Trade Outpost",599,3046,110],["Science Outpost",-85,-1600,125]],"endor":[["Smuggler Outpost",-905,1584,130],["Research Outpost",3221,-3471,100]],"lok":[["Nym's Stronghold",450,5214,501]],"naboo":[["Theed",-5262,4252,836],["Keren",1616,2736,822],["Moenia",4786,-4729,379],["The Lake Retreat",-5494,-21,190],["Deeja Peak",5003,-1458,542],["Kaadara",5190,6700,324]],"rori":[["Narmle",-5267,-2258,378],["Restuss",5318,5680,325],["Rebel Outpost",3677,-6447,80]],"talus":[["Dearic",422,-3004,435],["Nashal",4348,5245,390],["Talus Imperial Outpost",-2178,2300,150]],"tatooine":[["Bestine",-1204,-3692,375],["Mos Espa",-2878,2226,435],["Mos Eisley",3693,-4788,688],["Mos Entha",1344,3149,516],["Mos Taike",3847,2336,150],["Anchorhead",40,-5348,330],["Wayfar",-5176,-6574,165]],"yavin4":[["Yavin IV Mining Outpost",-312,4865,100],["Yavin IV Labor Outpost",-6925,-5707,130]]};
     const textFilterable = ['name', 'meat_type', 'hide_type', 'bone_type', 'milk_type'];
+    const resists = ['kinetic', 'energy', 'blast', 'heat', 'cold', 'electric', 'acid', 'stun', 'lightsaber'];
     const missionRewardFactor = 375;
     const missionRandomRewardFactor = 15;
     const ijmFactor = 1.15;
@@ -599,7 +624,7 @@
             if (!this.staticSpawns) {
                 this.staticSpawns = {};
             }
-            ['kinetic', 'energy', 'blast', 'heat', 'cold', 'electric', 'acid', 'stun', 'lightsaber'].forEach((res, i) => {
+            resists.forEach((res, i) => {
                 this[res + '_resist'] = this.resists[i];
             });
         }
@@ -849,12 +874,12 @@
         new ResourceColumn('Hide', 'hide'),
         new ResourceColumn('Bone', 'bone'),
         new ResourceColumn('Milk', 'milk'),
-        new InfoColumn('Info', 'info'),
-        new ResistColumn('Kin', 'kinetic_resist'),
-        new ResistColumn('Ene', 'energy_resist'),
-        new NumberColumn('HAM', 'ham'),
-        new NumberColumn('XP', 'xp')
+        new InfoColumn('Info', 'info')
     ];
+    resists.forEach(r => columns.push(new ResistColumn(capitalize(r.substr(0, 3)), r + '_resist')));
+    columns.push(new NumberColumn('HAM', 'ham'));
+    columns.push(new NumberColumn('XP', 'xp'));
+    const enabledColumnDefaults = ['name', 'level', 'meat', 'hide', 'bone', 'milk', 'info', 'kinetic_resist', 'energy_resist', 'ham', 'xp'];
 
     function parseData() {
         // Link spawns to lairs
@@ -961,6 +986,7 @@
             if (column.sortable) {
                 heading.dataset.sort = column.attribute;
             }
+            heading.dataset.column = column.attribute;
             heading.appendChild(document.createTextNode(column.name));
             row.appendChild(heading);
         });
@@ -973,7 +999,9 @@
                 const row = tbody.insertRow();
                 mob.row = row;
                 columns.forEach(column => {
-                    column.draw(row.insertCell(), mob);
+                    const cell = row.insertCell();
+                    column.draw(cell, mob);
+                    cell.dataset.column = column.attribute;
                 });
             }
         }
@@ -997,6 +1025,8 @@
                 tbody.appendChild(mob.row);
             });
         }
+
+        setColumnVisibility();
     }
 
     function applyFilter(mobs, planet) {
@@ -1037,7 +1067,7 @@
         planetRow.classList.add('planet', planet);
         const planetCell = planetRow.insertCell();
         planetCell.appendChild(document.createTextNode(capitalize(planet)));
-        planetCell.colSpan = 11;
+        planetCell.colSpan = 420;
         return planetRow;
     }
 
@@ -1179,7 +1209,7 @@
     });
 
     document.getElementById('dark-mode').addEventListener('change', function (e) {
-        const enabled = document.getElementById('dark-mode').checked;
+        const enabled = this.checked;
         document.documentElement.setAttribute('data-theme', enabled ? 'dark' : '');
         localStorage.setItem('dark-mode', enabled ? 'true' : 'false');
     });
@@ -1188,6 +1218,36 @@
     document.getElementById('dark-mode').checked = darkMode;
     if (darkMode) {
         document.documentElement.setAttribute('data-theme', 'dark');
+    }
+
+    const enabledColumns = JSON.parse(localStorage.getItem('enabled-columns') || JSON.stringify(enabledColumnDefaults));
+    document.querySelectorAll('[data-toggle-column]').forEach(n => n.checked = false);
+    enabledColumns.forEach(c => {
+        const checkbox = document.querySelector('[data-toggle-column="' + c + '"]');
+        if (checkbox) {
+            checkbox.checked = true;
+        }
+    });
+    document.querySelectorAll('[data-toggle-column]').forEach(n => {
+        n.addEventListener('change', function (e) {
+            const col = n.dataset.toggleColumn;
+            if (this.checked) {
+                enabledColumns.push(col);
+            } else {
+                const index = enabledColumns.indexOf(col);
+                if (index > -1) {
+                    enabledColumns.splice(index, 1);
+                }
+            }
+            localStorage.setItem('enabled-columns', JSON.stringify(enabledColumns));
+            setColumnVisibility();
+        });
+    });
+    function setColumnVisibility() {
+        columns.forEach(c => {
+            const display = (enabledColumns.indexOf(c.attribute) === -1) ? 'none' : '';
+            document.querySelectorAll('[data-column="' + c.attribute + '"]').forEach(cell => cell.style.display = display);
+        });
     }
 
     let filterDebounce;
