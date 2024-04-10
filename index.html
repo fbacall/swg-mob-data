@@ -123,15 +123,14 @@
             width: 100%;
             line-height: 2em;
             z-index: 100;
-            /*margin: 0 -1px;*/
-            display: flex;
-            /*justify-content: space-between;*/
-            align-items: center;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
 
         div.control {
-            flex-shrink: 1;
             padding: 5px;
+            display: inline-block;
         }
 
         #open-controls {
@@ -387,15 +386,7 @@
             color: var(--link-hover);
         }
 
-        @media screen and (max-width: 992px) {
-            #controls.open div.collapsed {
-                display: block;
-            }
-
-            #controls div.collapsed {
-                display: none;
-            }
-
+        @media screen and (max-width: 720px) {
             #open-controls {
                 display: block !important;
                 position: absolute;
@@ -413,8 +404,8 @@
             }
 
             #controls.open {
-                align-items: flex-start;
-                flex-flow: row wrap;
+                overflow: unset;
+                white-space: unset;
             }
 
             .creature-resource {
@@ -515,21 +506,21 @@
     </div>
     <div class="control">
         <div class="btn">
-            <label for="spawn-filter">Include spawns?</label>
+            <label for="spawn-filter">Spawns?</label>
             <input type="checkbox" id="spawn-filter"/>
         </div>
     </div>
     <div class="control">
         <div class="btn">
-            <label for="npc-filter">Include NPCs?</label>
+            <label for="npc-filter">NPCs?</label>
             <input type="checkbox" id="npc-filter"/>
         </div>
     </div>
-    <div class="collapsed control">
+    <div class="control">
         <input class="input" type="text" id="text-filter" placeholder="Filter..."/>
         <span id="clear-text-filter">×</span>
     </div>
-    <div class="collapsed control">
+    <div class="control">
         <button class="btn" onclick="openOverlay('info')">Info & Settings</button>
     </div>
 </div>
