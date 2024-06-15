@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SWG Mob Data</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="fbacall">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        :root {
+            --text: #333;
+            --bg: #fff;
+            --link: #1854ff;
+            --link-hover: #6076ff;
+            --muted: #bbb;
+            --controls: #ddd;
+            --hover: #eee;
+            --border: #aaa;
+            --btn: #ccc;
+
+            --row: #fff;
+            --row-odd: #eee;
+            --armor: #ccc;
+
+            --static-spawns: #eeb80a;
+
+            --tag: #ddd;
+            --medium-strength: #ffdc56;
+            --strong-strength: #ff694b;
+            --ranged: #a5edff;
+            --no-resist: #bbb;
+            --vulnerable: #55a632;
+
+            --bronze: #8d5213;
+            --silver: #778;
+            --gold: #907a33;
+            --omg: #c91414;
+
+            --bone_avian: #80c4d7;
+            --bone_mammal: #cccccc;
+            --hide_bristley: #f9b660;
+            --hide_leathery: #ffd516;
+            --hide_scaley: #7ed52c;
+            --hide_wooly: #b9906b;
+            --meat_avian: #80c4d7;
+            --meat_carnivore: #ff9d93;
+            --meat_domesticated: #c6a90f;
+            --meat_herbivore: #aae798;
+            --meat_insect: #cd9ced;
+            --meat_reptilian: #f79f23;
+            --meat_wild: #d89558;
+            --milk_wild: #cafffe;
+            --milk_domesticated: #f5efb8;
+        }
+
+        :root[data-theme=dark] {
+            --text: #fff;
+            --bg: #000;
+            --link: #5d83ff;
+            --link-hover: #9fb8ff;
+            --muted: #bbb;
+            --controls: #444;
+            --hover: #666;
+            --border: #111;
+            --btn: #666;
+
+            --row: #222;
+            --row-odd: #111;
+            --armor: #777;
+
+            --static-spawns: #ffee00;
+
+            --tag: #444;
+            --medium-strength: #9c7324;
+            --strong-strength: #7c0a0a;
+            --ranged: #235265;
+            --no-resist: #bbb;
+            --vulnerable: #55a632;
+
+            --bronze: #ca7914;
+            --silver: #a5a5b6;
+            --gold: #ccb046;
+            --omg: #ff2b2b;
+
+            --bone_avian: #314c58;
+            --bone_mammal: #898989;
+            --hide_bristley: #a97c43;
+            --hide_leathery: #b59714;
+            --hide_scaley: #386314;
+            --hide_wooly: #513d2c;
+            --meat_avian: #314c58;
+            --meat_carnivore: #704340;
+            --meat_domesticated: #564708;
+            --meat_herbivore: #465d3c;
+            --meat_insect: #503b5c;
+            --meat_reptilian: #815411;
+            --meat_wild: #7e5934;
+            --milk_wild: #5f7b7a;
+            --milk_domesticated: #7b755c;
+        }
+
+        body {
+            font-family: sans-serif;
+            font-size: 14px;
+            margin: 0;
+            background: var(--bg);
+            color: var(--text);
+        }
+
+        .container {
+            max-width: 1800px;
+            margin: 0 auto;
+        }
+
+        #controls {
+            position: fixed;
+            top: 0;
+            background-color: var(--controls);
+            width: 100%;
+            line-height: 2em;
+            z-index: 100;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+        }
+
+        div.control {
+            padding: 5px;
+            display: inline-block;
+        }
+
+        #open-controls {
+            display: none !important;
+        }
+
+        #text-filter {
+            padding-right: 20px;
+        }
+
+        #clear-text-filter {
+            position: absolute;
+            margin-left: -18px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #666;
+            display: none;
+            cursor: pointer;
+        }
+
+        .input, .btn {
+            border: none;
+            line-height: 2em;
+            padding: 0 10px;
+        }
+
+        .input { }
+
+        .btn {
+            text-align: center;
+            background-color: var(--btn);
+            cursor: pointer;
+            color: var(--text);
+            user-select: none;
+            display: inline-block;
+        }
+
+        .btn * {
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: var(--hover);
+        }
+
+        #mobs {
+            position: relative;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #overlay {
+            display: none;
+            position: fixed;
+            z-index: 120;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+
+        #overlay.open {
+            display: block;
+        }
+
+        #close-overlay {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 64px;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        #map .image {
+            background-size: cover;
+            border: 2px solid var(--border);
+            position: relative;
+        }
+
+        #map .image svg {
+            width: 100%;
+            height: 100%;
+        }
+
+        #map .world-spawn {
+            position: absolute;
+            color: white;
+            width: 100%;
+            text-align: center;
+            top: 50px;
+            font-weight: bold;
+        }
+
+        .popup-window {
+            margin: 30px auto 0;
+            width: 80vmin;
+            position: relative;
+        }
+
+        .box {
+            width: 90vmin;
+            margin: 3em auto 0;
+        }
+
+        #coords {
+            font-size: large;
+            font-family: monospace;
+            text-align: right;
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            color: #fff;
+            text-shadow: 1px 1px #000;
+        }
+
+        #static-spawns {
+            margin: 20px auto;
+            background: var(--controls);
+            padding: 1em;
+            border: 2px solid var(--border);
+        }
+
+        tr {
+            height: 1.7em;
+            background-color: var(--row);
+        }
+
+        tr:nth-child(odd) {
+            background-color: var(--row-odd);
+        }
+
+        th {
+            position: sticky;
+            top: 0;
+            height: 4.5em;
+            padding-top: 3em;
+            background-color: var(--row-odd);
+            z-index: 90;
+        }
+
+        th.name-column {
+            min-width: 16em;
+        }
+
+        th.resource-column {
+            width: 8em;
+        }
+
+        td {
+            text-align: center;
+            padding: 0 0.5em;
+        }
+
+        td.left {
+            text-align: left;
+        }
+
+        td.info {
+            text-align: left;
+            white-space: nowrap;
+        }
+
+        [data-sort] {
+            user-select: none;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        [data-sort]:hover {
+            background: var(--hover);
+        }
+
+        .sort-desc:after {
+            content: '↑';
+            display: inline-block;
+        }
+
+        .sort-asc:after {
+            content: '↓';
+            display: inline-block;
+        }
+
+        .creature-resource {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            text-align: left;
+            font-size: smaller;
+            line-height: 100%;
+        }
+
+        .creature-resource .yield {
+            float: right;
+            font-size: small;
+        }
+
+        .creature-resource .short-type {
+            display: none;
+            font-size: smaller;
+            opacity: 0.6;
+        }
+
+        .tag {
+            border-radius: 2px;
+            background: var(--tag);
+            padding: 2px 5px;
+            margin-right: 2px;
+            font-size: smaller;
+            display: inline-block;
+        }
+
+        .clickable {
+            cursor: pointer;
+            color: var(--link);
+            text-decoration: underline;
+        }
+
+        .spawns {
+            display: inline-block;
+            float: right;
+            font-size: small;
+        }
+
+        .spawns.static-spawns:after {
+            content: '•';
+            color: var(--static-spawns);
+            position: absolute;
+            vertical-align: super;
+            font-weight: bold;
+        }
+
+        .static-spawns-key {
+            color: var(--static-spawns);
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .no-missions:after {
+            content: '†';
+            position: absolute;
+            font-size: 10px;
+            vertical-align: super;
+        }
+
+        .clickable:hover {
+            color: var(--link-hover);
+        }
+
+        @media screen and (max-width: 720px) {
+            #open-controls {
+                display: block !important;
+                position: absolute;
+                right: 5px;
+                top: 5px;
+                line-height: 2em;
+            }
+
+            #open-controls .btn:after {
+                content: '↓';
+            }
+
+            #controls.open #open-controls .btn:after {
+                content: '↑';
+            }
+
+            #controls.open {
+                overflow: unset;
+                white-space: unset;
+            }
+
+            .creature-resource {
+                text-overflow: unset;
+            }
+
+            .creature-resource .yield {
+                font-weight: bold;
+            }
+
+            .creature-resource .short-type {
+                display: inline;
+            }
+
+            .creature-resource .type {
+                display: none;
+            }
+        }
+
+        .armor { background: var(--armor); }
+        .armor-2 { background: var(--medium-strength); }
+        .armor-3 { background: var(--strong-strength); }
+        .mediumdisease, .mediumpoison { background-color: var(--medium-strength); }
+        .strongdisease, .strongpoison { background-color: var(--strong-strength); }
+        .ranged { background: var(--ranged); }
+        .no-resist { color: var(--muted); }
+        .vulnerable { color: var(--vulnerable); }
+
+        .bronze { color: var(--bronze); }
+        .silver { color: var(--silver); }
+        .gold { color: var(--gold); }
+        .omg { color: var(--omg); }
+
+        .bone_avian { background-color: var(--bone_avian); }
+        .bone_mammal { background-color: var(--bone_mammal); }
+        .hide_bristley { background-color: var(--hide_bristley); }
+        .hide_leathery { background-color: var(--hide_leathery); }
+        .hide_scaley { background-color: var(--hide_scaley); }
+        .hide_wooly { background-color: var(--hide_wooly); }
+        .meat_avian { background-color: var(--meat_avian); }
+        .meat_carnivore { background-color: var(--meat_carnivore); }
+        .meat_domesticated { background-color: var(--meat_domesticated); }
+        .meat_herbivore { background-color: var(--meat_herbivore); }
+        .meat_insect { background-color: var(--meat_insect); }
+        .meat_reptilian { background-color: var(--meat_reptilian); }
+        .meat_wild { background-color: var(--meat_wild); }
+        .milk_wild { background-color: var(--milk_wild); }
+        .milk_domesticated { background-color: var(--milk_domesticated); }
+
+        tr.planet {
+            text-align: center;
+            font-weight: bold;
+            padding: 0.5em;
+            color: #333 !important;
+        }
+        .corellia { background-color: #b7e9e7 !important; }
+        .dantooine { background-color: #ff9cef !important; }
+        .dathomir { background-color: #ae81ea !important; }
+        .endor { background-color: #49c53b !important; }
+        .lok { background-color: #e2a044 !important; }
+        .naboo { background-color: #83e144 !important; }
+        .rori { background-color: #eaa071 !important; }
+        .talus { background-color: #4aeecb !important; }
+        .tatooine { background-color: #ffe100 !important; }
+        .yavin4 { background-color: #aac292 !important; }
+
+        .map-corellia { background-image: url('img/corellia.jpg'); }
+        .map-dantooine { background-image: url('img/dantooine.jpg'); }
+        .map-dathomir { background-image: url('img/dathomir.jpg'); }
+        .map-endor { background-image: url('img/endor.jpg'); }
+        .map-lok { background-image: url('img/lok.jpg'); }
+        .map-naboo { background-image: url('img/naboo.jpg'); }
+        .map-rori { background-image: url('img/rori.jpg'); }
+        .map-talus { background-image: url('img/talus.jpg'); }
+        .map-tatooine { background-image: url('img/tatooine.jpg'); }
+        .map-yavin4 { background-image: url('img/yavin4.jpg'); }
+    </style>
+</head>
+<body>
+<div id="controls">
+    <div id="open-controls">
+        <div class="btn"> </div>
+    </div>
+    <div class="control">
+        <select id="planet-filter">
+            <option value="corellia">Corellia</option>
+            <option value="dantooine">Dantooine</option>
+            <option value="dathomir">Dathomir</option>
+            <option value="endor">Endor</option>
+            <option value="lok">Lok</option>
+            <option value="naboo">Naboo</option>
+            <option value="rori">Rori</option>
+            <option value="talus">Talus</option>
+            <option value="tatooine">Tatooine</option>
+            <option value="yavin4">Yavin IV</option>
+        </select>
+    </div>
+    <div class="control">
+        <input class="input" type="text" id="text-filter" placeholder="Filter..."/>
+        <span id="clear-text-filter">×</span>
+    </div>
+    <div class="control">
+        <span id="clipboard-msg"></span>
+    </div>
+</div>
+
+<div class="container">
+    <div id="map">
+        <div class="box">
+            <div style="position: relative">
+                <div class="image"></div>
+                <div id="coords"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", init);
+    const cities = {"corellia":[["Bela Vistal",6766,-5692,370],["Coronet",-178,-4504,581],["Doaba Guerfel",3240,5391,516],["Kor Vella",-3420,3146,620],["Tyrena",-5217,-2456,619],["Vreni Island",-5399,-6296,359]],"dantooine":[["Dantooine Mining Outpost",-640,2486,135],["Dantooine Agro Outpost",1588,-6399,135],["Dantooine Imperial Outpost",-4224,-2400,250]],"dathomir":[["Trade Outpost",599,3046,110],["Science Outpost",-85,-1600,125]],"endor":[["Smuggler Outpost",-905,1584,130],["Research Outpost",3221,-3471,100]],"lok":[["Nym's Stronghold",450,5214,501]],"naboo":[["Theed",-5262,4252,836],["Keren",1616,2736,822],["Moenia",4786,-4729,379],["The Lake Retreat",-5494,-21,190],["Deeja Peak",5003,-1458,542],["Kaadara",5190,6700,324]],"rori":[["Narmle",-5267,-2258,378],["Restuss",5318,5680,325],["Rebel Outpost",3677,-6447,80]],"talus":[["Dearic",422,-3004,435],["Nashal",4348,5245,390],["Talus Imperial Outpost",-2178,2300,150]],"tatooine":[["Bestine",-1204,-3692,375],["Mos Espa",-2878,2226,435],["Mos Eisley",3693,-4788,688],["Mos Entha",1344,3149,516],["Mos Taike",3847,2336,150],["Anchorhead",40,-5348,330],["Wayfar",-5176,-6574,165]],"yavin4":[["Yavin IV Mining Outpost",-312,4865,100],["Yavin IV Labor Outpost",-6925,-5707,130]]};
+    const textFilterable = ['name', 'meat_type', 'hide_type', 'bone_type', 'milk_type'];
+    const resists = ['kinetic', 'energy', 'blast', 'heat', 'cold', 'electric', 'acid', 'stun', 'lightsaber'];
+    const missionRewardFactor = 375;
+    const missionRandomRewardFactor = 15;
+    const ijmFactor = 1.15;
+    const ignoredTags = [
+        /marksman/, /pistoleer/, /carbineer/, /rifleman/,
+        /brawler/, /tka/, /fencer/, /swordsman/, /pikeman/,
+        /commando/, /bountyhunter/
+    ];
+    let data = null;
+    let planetData = {};
+    let sort = 'level';
+    let sortDir = 1;
+    function init() {
+        fetch('data/finalizer.json').then(r => r.json()).then(d => { data = d; }).then(parseData);
+    }
+
+    class Mob {
+        constructor (data = {}) {
+            Object.assign(this, data);
+            if (!this.lairs) {
+                this.lairs = [];
+            }
+            if (!this.staticSpawns) {
+                this.staticSpawns = {};
+            }
+            resists.forEach((res, i) => {
+                this[res + '_resist'] = this.resists[i];
+            });
+        }
+
+        spawns () {
+            return this.lairs.flatMap(l => l.spawns);
+        }
+
+        regions () {
+            const o = {};
+            this.spawns().forEach(s => {
+                for (const [planet, regions] of Object.entries(s.regions || {})) {
+                    if (!o[planet]) {
+                        o[planet] = [];
+                    }
+                    o[planet] = [...new Set([...o[planet], ...regions])];
+                }
+            });
+            return o;
+        }
+
+        missions () {
+            const o = {};
+            this.lairs.forEach(l => {
+                for (const [planet, missions] of Object.entries(l.missions)) {
+                    if (!o[planet]) {
+                        o[planet] = [];
+                    }
+                    o[planet] = o[planet].concat(missions);
+                }
+            });
+            return o;
+        }
+    }
+
+    class PlanetMob {
+        constructor (planet, mob) {
+            Object.assign(this, mob);
+            this.planet = planet;
+            this.regions = mob.regions()[planet];
+            this.missions = mob.missions()[planet];
+            if (this.missions) {
+                this.missions = this.missions.sort((a,b) => a.min_cl - b.min_cl);
+                this.min_cl = Math.min(...this.missions.map(m => m.min_cl));
+                this.max_cl = Math.max(...this.missions.map(m => m.max_cl));
+                this.minReward = this.min_cl * missionRewardFactor;
+                this.maxReward = this.max_cl * missionRewardFactor  + this.max_cl * missionRandomRewardFactor;
+            }
+            this.staticSpawns = mob.staticSpawns[planet];
+        }
+
+        missionNames () {
+            return (this.missions || []).map(m => m.name + ' (' + m.min_cl + '-' + m.max_cl + ')');
+        }
+    }
+
+    function parseData() {
+        // Link spawns to lairs
+        for (const [sid, spawn] of Object.entries(data.spawns)) {
+            Object.keys(spawn['lairs']).forEach((lid) => {
+                const lair = data.lairs[lid];
+                if (!lair.spawns) {
+                    lair.spawns = [];
+                }
+                lair.spawns.push(spawn);
+            })
+        }
+
+        // Link regions to spawns
+        for (const [planet, regions] of Object.entries(data.regions)) {
+            for (const [key, region] of Object.entries(regions)) {
+                region.id = key;
+                region.spawns.forEach((sid) => {
+                    const spawn = data.spawns[sid];
+                    if (!spawn.regions) {
+                        spawn.regions = {};
+                    }
+                    if (!spawn.regions[planet]) {
+                        spawn.regions[planet] = [];
+                    }
+                    spawn.regions[planet].push(region);
+                });
+            }
+        }
+
+        // Link missions to lairs
+        for (const [planet, missions] of Object.entries(data.missions)) {
+            for (const [key, mission] of Object.entries(missions)) {
+                const lair = data.lairs[key];
+                if (!lair.missions) {
+                    lair.missions = {};
+                }
+                if (!lair.missions[planet]) {
+                    lair.missions[planet] = [];
+                }
+                lair.missions[planet].push(mission);
+            }
+        }
+
+        // Link lairs to mobs
+        for (const [lid, lair] of Object.entries(data.lairs)) {
+            if (!lair.missions) {
+                lair.missions = {};
+            }
+            if (!lair.spawns) {
+                lair.spawns = [];
+            }
+            Object.keys(lair['mobs']).forEach((mid) => {
+                const mob = data.mobs[mid];
+                if (mob) {
+                    if (!mob.lairs) {
+                        mob.lairs = [];
+                    }
+                    mob.lairs.push(lair);
+                }
+            })
+        }
+
+        // Link static spawns to mobs
+        for (const [planet, spawns] of Object.entries(data.static_spawns)) {
+            for (const [mid, locs] of Object.entries(spawns)) {
+                const mob = data.mobs[mid];
+                if (mob) {
+                    if (!mob.staticSpawns) {
+                        mob.staticSpawns = {};
+                    }
+                    mob.staticSpawns[planet] = locs;
+                }
+            }
+        }
+
+        for (const [key, mobData] of Object.entries(data.mobs)) {
+            const mob = new Mob(mobData);
+            mob.displayName = mob.name.replace(/^an? /, '').split(' ').map(s => capitalize(s)).join(' ');
+            const planets = [...Object.keys(mob.missions()),
+                ...Object.keys(mob.regions()),
+                ...Object.keys(mob.staticSpawns)];
+            for (const planet of planets) {
+                if (!planetData[planet]) {
+                    planetData[planet] = {};
+                }
+                planetData[planet][key] = new PlanetMob(planet, mob);
+            }
+        }
+
+        redraw();
+    }
+
+    function redraw() {
+        const planet = document.getElementById('planet-filter').value;
+        const mobs = Object.values(planetData[planet]);
+        applySort(mobs);
+        const filteredMobs = applyFilter(mobs, planet);
+        drawMap(planet, filteredMobs);
+    }
+
+    function applyFilter(mobs, planet) {
+        const planetFilter = document.getElementById('planet-filter').value;
+        const textFilter = (document.getElementById('text-filter').value || '').trim().toLowerCase();
+        const clearTextFilter = document.getElementById('clear-text-filter');
+        if (textFilter.length) {
+            clearTextFilter.style.display = 'inline';
+        } else {
+            clearTextFilter.style.display = 'none';
+        }
+        return mobs.filter(function (mob) {
+            if (planetFilter && (planetFilter !== planet)) {
+                return false;
+            }
+            if (textFilter && !textFilterable.some(k => mob[k] && mob[k].toLowerCase().includes(textFilter))) {
+                return false;
+            }
+            return true;
+        });
+    }
+
+    function applySort(mobs) {
+        const dir = 1;
+        mobs.sort((a, b) => {
+            if (a.displayName.toUpperCase() > b.displayName.toUpperCase()) {
+                return dir;
+            }
+            if (a.displayName.toUpperCase() < b.displayName.toUpperCase()) {
+                return -dir;
+            }
+            return 0;
+        });
+    }
+
+    class Cluster {
+        constructor () {
+            this.mobNames = new Set();
+            this.spawns = [];
+        }
+
+        add(coords, mob) {
+            this.mobNames.add(mob.displayName);
+            this.spawns.push(coords);
+            let xTotal = 0, yTotal = 0;
+            this.spawns.forEach(coord => {
+                xTotal += coord[0];
+                yTotal += coord[1];
+            });
+            this.midpoint = [xTotal / coords.length, yTotal / coords.length];
+            this[0] = this.midpoint[0];
+            this[1] = this.midpoint[1];
+        }
+    }
+
+    function shouldCluster(a, b) {
+        const dist = Math.sqrt(Math.pow(a[0] - b[0], 2) + Math.pow(a[1] - b[1], 2));
+        return dist < 200;
+    }
+
+    function drawMap(planet, mobs) {
+        const map = document.querySelector('#map .image');
+        map.className = 'image map-' + planet;
+        map.innerHTML = '';
+        const svg = svgNode('svg', { viewBox: '0 0 16000 16000' });
+        map.appendChild(svg);
+        //document.querySelector('#planet-name').innerText = capitalize(planet);
+        (cities[planet] || []).forEach(city => {
+            const x = city[1] + 8000;
+            const y = 8000 - city[2];
+            svg.appendChild(svgNode('circle', {
+                cx: x, cy: y, r: 100, fill: '#77ffff99', 'stroke-width': 80 }));
+            const txt = svgNode('text', { x: x, y: y - 250, 'text-anchor': 'middle', style: 'fill: #ffffff; font-size: 300px', 'pointer-events': 'none' });
+            txt.appendChild(document.createTextNode(city[0]));
+            svg.appendChild(txt);
+        });
+
+        const spawns = [];
+        const toDraw = [];
+        mobs.forEach((mob) => {
+            if (mob.staticSpawns) {
+                mob.staticSpawns.forEach(spawn => {
+                    spawns.push([spawn, mob]);
+                });
+            }
+        });
+        while (spawns.length) {
+            const spawn = spawns.pop();
+            if (spawn) {
+                const cluster = new Cluster();
+                cluster.add(...spawn);
+                for (let i = 0; i < spawns.length; i++) {
+                    const other = spawns[i];
+                    if (other) {
+                        if (shouldCluster(spawn[0], other[0])) {
+                            cluster.add(...other);
+                            spawns[i] = null;
+                        }
+                    }
+                }
+
+                if (cluster.mobNames.size > 1) {
+                    toDraw.push(cluster);
+                } else {
+                    toDraw.push(spawn);
+                }
+            }
+        }
+
+        toDraw.forEach((drawable) => {
+            if (drawable instanceof Cluster) {
+                const spawn = drawable;
+                const x = spawn[0] + 8000;
+                const y = 8000 - spawn[1];
+                console.log(spawn);
+                console.log(x, y);
+                //const wpText = '/waypoint ' + spawn[0] + ' ' + spawn[1] + ' ' + mob.name;
+                let text = '';
+                for (const mobName of drawable.mobNames) {
+                    text += mobName + "\n";
+                }
+                const marker = svgNode('circle', {
+                    cx: x, cy: y, r: 200, fill: '#ff0000', stroke: '#000000', 'stroke-width': 20, title: text });
+                const title = svgNode('title');
+                title.appendChild(document.createTextNode(text));
+                marker.appendChild(title);
+                const txt = svgNode('text', { x: x, y: y, 'text-anchor': 'middle', 'dominant-baseline': 'central', style: 'fill: #ffffff; font-size: 300px', 'pointer-events': 'none' });
+                txt.appendChild(document.createTextNode(drawable.mobNames.size));
+                svg.appendChild(marker);
+                svg.appendChild(txt);
+            } else {
+                const spawn = drawable[0];
+                const mob = drawable[1];
+                const x = spawn[0] + 8000;
+                const y = 8000 - spawn[1];
+                const wpText = '/waypoint ' + spawn[0] + ' ' + spawn[1] + ' ' + mob.name;
+                const marker = svgNode('circle', {
+                    cx: x, cy: y, r: 100, fill: '#ffee00', stroke: '#000000', 'stroke-width': 20, title: mob.displayName });
+                const title = svgNode('title');
+                title.appendChild(document.createTextNode(mob.displayName));
+                marker.appendChild(title);
+                svg.appendChild(marker);
+            }
+        });
+    }
+
+    function capitalize(string) {
+        if (!string) {
+            return '';
+        }
+        return string[0].toUpperCase() + string.slice(1);
+    }
+
+    function svgNode(node, props) {
+        const n = document.createElementNS("http://www.w3.org/2000/svg", node);
+        if (props) {
+            for (const [key, value] of Object.entries(props)) {
+                n.setAttributeNS(null, key, value);
+            }
+        }
+        return n;
+    }
+
+    document.getElementById('planet-filter').addEventListener('change', function (e) {
+        setTimeout(redraw, 5);
+    });
+
+    document.documentElement.setAttribute('data-theme', 'dark');
+
+    let filterDebounce;
+    document.getElementById('text-filter').addEventListener('keyup', function (e) {
+        if (filterDebounce)
+            clearTimeout(filterDebounce);
+        filterDebounce = setTimeout(redraw, 100);
+    });
+
+    document.getElementById('clear-text-filter').addEventListener('click', function (e) {
+        document.getElementById('text-filter').value = '';
+        redraw();
+    });
+
+    document.getElementById('map').addEventListener('mousemove', function (e) {
+        const svg = this.querySelector('svg');
+        if (svg) {
+            const domPoint = new DOMPointReadOnly(e.clientX, e.clientY);
+            const pt = domPoint.matrixTransform(svg.getScreenCTM().inverse());
+            const coords = document.getElementById('coords');
+            if (pt.x < 0 || pt.y < 0 || pt.x > 16000 || pt.y > 16000) {
+                coords.innerText = '';
+            } else {
+                coords.innerText = '' + Math.round(pt.x - 8000) + ' ' + Math.round(8000 - pt.y);
+                // coords.style.left = e.clientX + 'px';
+                // coords.style.top = e.clientY + 20 + 'px';
+            }
+        }
+    });
+
+    const canCopy = navigator && navigator.clipboard && navigator.clipboard.writeText;
+    const clipboardMsg = document.getElementById('clipboard-msg');
+    let clickedOnce = false;
+    if (canCopy) {
+        clipboardMsg.innerText = "Double click to copy waypoint at cursor";
+    }
+    document.getElementById('map').addEventListener('click', function (e) {
+        if (!canCopy)
+            return;
+        if (clickedOnce) {
+            navigator.clipboard.writeText("/waypoint " + coords.innerText);
+            const t = clipboardMsg.innerText;
+            setTimeout(() => { clipboardMsg.innerText = t }, 2000);
+            clipboardMsg.innerText = "Copied!"
+        } else {
+            clickedOnce = true;
+            setTimeout(() => { clickedOnce = false }, 200);
+        }
+    });
+</script>
+</body>
+</html>
